@@ -22,7 +22,7 @@
 
 | Codigo     | Apellidos y Nombres                |
 |------------|------------------------------------|
-| codigo1    | integrante 1                       |
+| U20241B645 | Linares Rodríguez Franco Orlando   |
 | codigo2    | integrante 2                       | 
 | codigo3    | integrante 3                       | 
 | codigo4    | integrante 4                       | 
