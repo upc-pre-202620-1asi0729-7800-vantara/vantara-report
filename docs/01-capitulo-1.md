@@ -15,7 +15,7 @@ En este capítulo se presenta la información general de AgroCare como startup, 
 ### 1.1.2. Perfiles de integrantes del equipo
 |                                                                                     |Integrantes del equipo|Código de estudiante| Carrera | Conocimientos/Habilidades                                                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------| --- | --- | --- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../assets/Franchutec_avatar_drops.png"> | Franco Orlando Linares Rodríguez | U20241B645 | Ingeniería de Software |  |
+|  | Franco Orlando Linares Rodríguez | U20241B645 | Ingeniería de Software |  |
 | imagen | nombre2| codigo2 | Ingeniería de Software |  |
 | imagen | nomnbre3 | codigo3 | Ingeniería de Software |        |
 | imagen | nombre4 | codigo4 | Ingeniería de Software |                                                                                           |
