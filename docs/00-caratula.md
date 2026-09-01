@@ -24,7 +24,7 @@
 |------------|------------------------------------|
 | U20241B645 | Linares Rodríguez Franco Orlando   |
 | codigo2    | integrante 2                       | 
-| codigo3    | integrante 3                       | 
+| u20241D483 | Taza Curay,Eduardo Miguel          | 
 | codigo4    | integrante 4                       | 
 | u202516291 | Meza Tataje, David                 | 
 
