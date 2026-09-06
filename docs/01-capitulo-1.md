@@ -42,19 +42,19 @@ Aplicando la técnica de las 5W's y 2H's, se identificaron los siguientes aspect
 
 ### 1.2.1. Antecedentes y problemática
 
-> What(¿Qué?):
+> What(¿Qué?): Los productores ganaderos y médicos veterinarios en el Perú carecen de una plataforma web centralizada e integrada que les permita gestionar, analizar y consultar en tiempo real el historial clínico, reproducción, vacunación y trazabilidad de sus hatos. Esta ausencia de herramientas digitales accesibles provoca un manejo fragmentado de la información, usualmente relegado a cuadernos de notas o archivos dispersos, lo que obstaculiza la toma de decisiones oportunas y estratégicas sobre el rendimiento productivo y la salud animal.
 
-> Who (¿Quién?): 
+> Who (¿Quién?): Los principales afectados son, por un lado, los productores ganaderos independientes y empresas agropecuarias que requieren supervisar indicadores de producción, ciclos reproductivos y trazabilidad de su ganado desde paneles informativos, y por otro lado, los médicos veterinarios especializados que necesitan un portal de trabajo accesible para consultar historiales clínicos detallados, registrar diagnósticos y auditar campañas de vacunación.
 
-> Where (¿Dónde?): 
+> Where (¿Dónde?): La problemática se sitúa en las regiones ganaderas y zonas rurales productivas del Perú. Sin embargo, con la expansión sostenida de la infraestructura de conectividad rural, la cual alcanzó una penetración de internet en cerca del 83 % de hogares rurales según OSIPTEL (2024), existe el escenario idóneo para implementar una plataforma web responsive accesible desde computadoras de escritorio, laptops y tabletas a través de cualquier navegador estándar.
 
-> When (¿Cuándo?):
+> When (¿Cuándo?): Se trata de una necesidad continua que se presenta durante todo el ciclo productivo anual, manifestándose diariamente al momento de registrar eventos biológicos como partos, secados y destetes, durante las inspecciones sanitarias periódicas de los veterinarios y al momento de realizar consolidaciones de datos o reportes de producción.
 
-> Why (¿Por qué?): 
+> Why (¿Por qué?): La dependencia de métodos manuales o no centralizados incrementa el margen de error en el registro de datos, propicia la pérdida de historiales veterinarios críticos y retrasa el diagnóstico de afecciones reproductivas o epidemias. Esta falta de visibilidad analítica genera pérdidas económicas sustanciales, reduce la rentabilidad del negocio ganadero y compromete la sostenibilidad del sector en el país.
 
-> How (¿Cómo?): 
+> How (¿Cómo?): Se aborda mediante el diseño e implementación de una plataforma web abierta (Open Source) construida con una arquitectura orientada al dominio (Domain-Driven Design), la cual integra paneles de administración para analítica de datos, módulos de gestión de registros ganaderos, seguimiento de historiales clínicos y herramientas de interacción fluida entre el ganadero y el veterinario a través de navegadores web.
 
-> How Much (¿Cuánto?): 
+> How Much (¿Cuánto?): Para los usuarios representa una reducción significativa de las pérdidas económicas provocadas por errores de trazabilidad o diagnósticos tardíos, optimizando los tiempos de gestión administrativa y mejorando la productividad del hato, mientras que para la solución se plantea un modelo de sostenibilidad escalable basado en un esquema SaaS web de bajo costo adaptado al sector agropecuario regional.
 
 ### 1.2.2. Lean UX Process
 
