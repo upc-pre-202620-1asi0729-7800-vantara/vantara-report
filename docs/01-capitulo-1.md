@@ -24,7 +24,7 @@ eficiente, trazable y sostenible.
 | imagen | nombre2| codigo2 | Ingeniería de Software |  |
 | <img src="../assets/img_edu.png"> | Taza Curay, Eduardo Miguel| U20241D483 | Ingeniería de Software |  Soy estudiante de ingenieria de software, tengo 19 años, lso lenguajes que domino son c++, phyton, html y css. Me considero una persona responsable, justa y imperactiva.    |
 | imagen | nombre4 | codigo4 | Ingeniería de Software |                                                                                           |
-| imagen | Meza Tataje, David | U202516291 | Ingeniería de Software | Soy David Meza estudiante de Ingeniería de Software, tengo 21 años, con conocimientos en C++, Java y C# a nivel intermedio, además de experiencia básica en el desarrollo de aplicaciones web con HTML, CSS, JavaScript y SQL. Me considero una persona colaboradora y responsable, siempre dispuesto a aprender y a trabajar en equipo para lograr los objetivos del proyecto.                                                                                                                                                                                                                                                                               |
+| <img src="../Assets/Foto-David.jpg" width="100%" alt="Imagen de David"> | Meza Tataje, David | U202516291 | Ingeniería de Software | Soy David Meza estudiante de Ingeniería de Software, tengo 21 años, con conocimientos en C++, Java y C# a nivel intermedio, además de experiencia básica en el desarrollo de aplicaciones web con HTML, CSS, JavaScript y SQL. Me considero una persona colaboradora y responsable, siempre dispuesto a aprender y a trabajar en equipo para lograr los objetivos del proyecto.                                                                                                                                                                                                                                                                               |
 
 
 ## 1.2. Solution Profile
@@ -61,85 +61,106 @@ Aplicando la técnica de las 5W's y 2H's, se identificaron los siguientes aspect
 ### 1.2.2.1. Lean UX Problem Statements
 **Domain:** Gestión tecnológica del sector ganadero peruano.
 
-**Customer Segments:** Productores ganaderos peruanos (independientes y empresariales) que buscan digitalizar
-y optimizar la gestión de su ganado, y veterinarios especializados que requieren herramientas para brindar
-seguimiento clínico remoto y oportuno a sus pacientes.
+**Customer Segments:** Productores ganaderos peruanos (independientes y empresariales) que buscan digitalizar y optimizar la gestión de su ganado desde una plataforma web centralizada, y veterinarios especializados que requieren herramientas para brindar seguimiento clínico remoto y oportuno a sus pacientes.
 
 **Pain points:** 
-* Los ganaderos independientes llevan registros manuales dispersos en cuadernos o Excel, lo que genera
-pérdida de información, desorganización y demoras en la atención animal.
-*  Las empresas ganaderas enfrentan dificultades para coordinar personal, gestionar grandes volúmenes de
-datos y mantener trazabilidad del ganado de manera eficiente.
-* Ambos segmentos tienen acceso limitado o tardío a servicios veterinarios, lo que incrementa las pérdidas
-por enfermedades prevenibles.
-* La baja conectividad en zonas rurales limita el uso de soluciones digitales convencionales.
+* Los ganaderos independientes llevan registros manuales dispersos en cuadernos o Excel, lo que genera pérdida de información, desorganización y demoras en la atención animal.
+* Las empresas ganaderas enfrentan dificultades para coordinar personal, gestionar grandes volúmenes de datos y mantener la trazabilidad del ganado de manera eficiente a través de sistemas no centralizados.
+* Ambos segmentos sufren por la falta de un canal unificado y accesible para intercambiar historiales clínicos y coordinar atención veterinaria oportuna.
+* La reducida disponibilidad de software especializado accesible vía web limita el análisis avanzado de datos productivos y de salud en el sector.
 
+**Gap:** Existe una brecha significativa entre las necesidades de gestión del sector ganadero peruano y la oferta de plataformas web abiertas, accesibles, adaptadas al navegador y orientadas a la sostenibilidad y el bienestar animal.
 
-**Gap:** Existe una brecha significativa entre las necesidades de gestión del sector ganadero peruano y la oferta de
-soluciones tecnológicas accesibles, adaptadas al contexto rural local y orientadas a la sostenibilidad y el
-bienestar animal.
+**Visión / Strategy:** Desarrollar una plataforma web intuitiva y *responsive*, que centralice la gestión ganadera, optimice el trabajo del veterinario y empodere a los productores con paneles de analítica en tiempo real para tomar decisiones fundamentadas.
 
+**Initial Segment:** Productores ganaderos y médicos veterinarios del Perú, mayores de 18 años, ubicados en zonas rurales o periurbanas, que buscan mejorar la organización y control de sus operaciones con herramientas digitales accesibles desde cualquier navegador.
 
-
-**Visión / Strategy:** Desarrollar una plataforma web intuitiva, funcional en condiciones de baja
-conectividad, que centralice la gestión ganadera y empodere a los productores con información en tiempo real
-para tomar decisiones fundamentadas.
-
-
-**Initial Segment:** Productores ganaderos del Perú, mayores de 18 años, ubicados en zonas rurales o
-periurbanas, que manejan diversas especies y buscan mejorar la organización y control de sus operaciones con
-herramientas digitales accesibles desde cualquier navegador.
+---
 
 ### 1.2.2.2. Lean UX Assumptions
-### User Assumptions:
-1. Los ganaderos, independientemente de su nivel tecnológico, adoptarán una aplicación si es fácil de usar,
-intuitiva y les resuelve problemas concretos de su día a día.
+#### User Assumptions:
+1. Los ganaderos, independientemente de su nivel tecnológico, adoptarán una plataforma web si es fácil de usar, intuitiva y les resuelve problemas concretos de su día a día.
 
-2. Los usuarios están dispuestos a incorporar tecnología si perciben beneficios tangibles en ahorro de
-tiempo, reducción de pérdidas y mejora en la salud de sus animales.
+2. Los usuarios están dispuestos a incorporar tecnología si perciben beneficios tangibles en ahorro de tiempo, reducción de pérdidas y mejora en la salud de sus animales.
 
 3. Los ganaderos y veterinarios utilizarán la plataforma web si esta es compatible con los dispositivos que poseen actualmente (computadoras, tablets o smartphones) y permite acceder fácilmente a la información almacenada.
 
-4. Los usuarios confiarán en la plataforma si garantiza la privacidad de su información productiva y
-veterinaria.
+4. Los usuarios confiarán en la plataforma si garantiza la privacidad e integridad de su información productiva y veterinaria.
 
-5. Las funciones más utilizadas deben estar accesibles en pocos pasos, ya que los ganaderos priorizan
-soluciones prácticas y rápidas.
+5. Las funciones más utilizadas deben estar accesibles en pocos clics, ya que los ganaderos priorizan soluciones prácticas y rápidas.
 
-6. Los veterinarios especializados adoptarán la plataforma si les permite hacer seguimiento clínico de sus
-pacientes de forma remota, registrar tratamientos y coordinar citas de manera organizada.
+6. Los veterinarios especializados adoptarán la plataforma si les permite hacer seguimiento clínico de sus pacientes de forma remota, registrar tratamientos y coordinar citas de manera organizada.
 
-### Business Assumptions:
-1. Si digitalizamos los registros del ganado, los usuarios mejorarán significativamente la organización y
-trazabilidad de su inventario animal.
+#### Business Assumptions:
+1. Si digitalizamos los registros del ganado en una plataforma web centralizada, los usuarios mejorarán significativamente la organización y trazabilidad de su inventario animal.
 
 2. Si proporcionamos herramientas de seguimiento sanitario y registro de controles veterinarios, los ganaderos podrán detectar oportunamente problemas de salud en sus animales y reducir pérdidas económicas asociadas a enfermedades prevenibles.
 
-3. Si proporcionamos herramientas de planificación alimentaria, los productores optimizarán el uso de
-recursos y reducirán desperdicios.
+3. Si proporcionamos herramientas de planificación alimentaria, los productores optimizarán el uso de recursos y reducirán desperdicios.
 
-4. Si permitimos el seguimiento reproductivo eficiente, los ganaderos incrementarán la productividad de sus
-hatos.
+4. Si permitimos el seguimiento reproductivo eficiente, los ganaderos incrementarán la productividad de sus hatos.
 
 5. Si desarrollamos una plataforma web accesible desde distintos dispositivos y con una interfaz sencilla, los ganaderos y veterinarios podrán gestionar la información del ganado de manera eficiente, favoreciendo su adopción tecnológica.
 
-6. Si aseguramos la privacidad y seguridad de los datos, los usuarios confiarán en la plataforma y estarán
-dispuestos a almacenar información crítica en ella.
+6. Si aseguramos la privacidad y seguridad de los datos mediante buenas prácticas de desarrollo web, los usuarios confiarán en la plataforma y estarán dispuestos a almacenar información crítica en ella.
 
-7. Si integramos un módulo para veterinarios que les permita gestionar historiales clínicos y coordinar
-atención, incrementaremos la confianza de los ganaderos en la plataforma y fidelizaremos a ambos
-segmentos simultáneamente
+7. Si integramos un módulo para veterinarios que les permita gestionar historiales clínicos y coordinar atención, incrementaremos la confianza de los ganaderos en la plataforma y fidelizaremos a ambos segmentos simultáneamente.
 
+---
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
+1. **Creemos que** los usuarios (ganaderos y veterinarios) valorarán un portal web con navegación clara y diseño *responsive* porque podrán consultar y registrar información en tiempo real desde cualquier dispositivo con navegador. **Sabremos que tuvimos éxito cuando** al menos el 75% de los nuevos usuarios registrados cree su cuenta y registre su primer hato o ficha clínica en su primera sesión sin requerir asistencia técnica.
+
+2. **Creemos que** la implementación de paneles de administración (*dashboards*) para analítica de datos acelerará la gestión administrativa de las empresas y productores ganaderos. **Sabremos que tuvimos éxito cuando** el tiempo promedio invertido en la generación de reportes de producción y salud se reduzca en un 40% en comparación con los métodos manuales.
+
+3. **Creemos que** al ofrecer un módulo web exclusivo para médicos veterinarios, estos adoptarán la plataforma para el seguimiento de sus clientes. **Sabremos que tuvimos éxito cuando** al menos el 60% de los veterinarios registrados emita diagnósticos o valide historiales sanitarios dentro del portal de manera mensual.
+
+4. **Creemos que** la visibilidad centralizada del historial clínico en la web reducirá las pérdidas por tratamientos tardíos o mal aplicados. **Sabremos que tuvimos éxito cuando** los productores usando la plataforma reporten una disminución del 25% en incidencias sanitarias no controladas tras seis meses de uso.
+
+5. **Creemos que** la garantía de una plataforma web transparente y segura incentivará la migración de datos desde métodos tradicionales a la nube. **Sabremos que tuvimos éxito cuando** menos del 5% de los usuarios manifieste inquietudes sobre la privacidad o pérdida de sus datos en las evaluaciones de usabilidad y encuestas.
 
 
 
 ### 1.2.2.4. Lean UX Canvas
 
-
+![LeanUXCanvas](../Assets/Lean%20UX%20Canvas.jpg)
 
 ## 1.3. Segmentos objetivo
 
+Hatarium ha sido diseñada considerando la diversidad del ecosistema ganadero peruano. A partir del análisis del dominio del problema, se identificaron dos segmentos objetivo con necesidades, motivaciones y características diferenciadas.
 
+### Segmento 1: Productores Ganaderos (Independientes y Empresariales)
+Este segmento agrupa a los actores del sector ganadero peruano que se dedican a la crianza, manejo y comercialización de animales, abarcando desde pequeños productores independientes con rebaños reducidos hasta empresas ganaderas de mediana y gran escala.
+
+**Características demográficas:**
+* **País:** Perú, con foco principal en zonas rurales y periurbanas de la sierra, selva y costa.
+* **Género:** Femenino y masculino.
+* **Edad:** Mayores de 18 años, en etapa productiva activa.
+* **Ocupación:** Ganaderos independientes, administradores o gestores de empresas ganaderas.
+* **Estado civil:** Todos los estados civiles.
+* **Nivel socioeconómico:** Todos los niveles, con mayor concentración en NSE C y D para productores independientes, y NSE B y C para empresas ganaderas.
+
+**Datos estadísticos de sustento:**
+* Se estima que al menos el 15% de las muertes animales en granjas peruanas se relaciona con la falta de acceso oportuno a atención veterinaria, generando pérdidas equivalentes a aproximadamente el 20% de los ingresos anuales del productor.
+* Alrededor del 60% de las operaciones ganaderas empresariales en el Perú enfrenta deficiencias en el seguimiento constante de estándares de bienestar animal.
+* Cerca del 70% de los establecimientos ganaderos presenta una gestión inadecuada de registros e inventarios físicos, dificultando la trazabilidad y la toma de decisiones oportunas.
+* La expansión sostenida del acceso a internet en zonas rurales del Perú (alcanzando cerca del 83% de hogares según OSIPTEL) habilita el uso de aplicaciones web *responsive* ejecutables desde navegadores en computadoras, tablets y smartphones.
+
+---
+
+### Segmento 2: Veterinarios Especializados
+Este segmento comprende a profesionales de la medicina veterinaria con especialización o experiencia en ganado bovino, ovino, caprino u otras especies de producción, que brindan servicios de atención clínica, preventiva y reproductiva a productores del sector.
+
+**Características demográficas:**
+* **País:** Perú, con presencia tanto en zonas urbanas (clínicas, laboratorios y consultorios) como en zonas rurales (atención técnica y veterinaria en campo).
+* **Género:** Femenino y masculino.
+* **Edad:** Entre 23 y 55 años, en etapa profesional activa.
+* **Ocupación:** Médicos veterinarios independientes o adscritos a empresas ganaderas, clínicas veterinarias e instituciones del agro.
+* **Nivel de educación:** Educación superior completa, con título profesional en Medicina Veterinaria o Zootecnia.
+* **Nivel socioeconómico:** NSE B y C.
+
+**Datos estadísticos de sustento:**
+* Según el Colegio Médico Veterinario del Perú, el país cuenta con miles de profesionales colegiados, de los cuales una parte relevante se orienta a la producción pecuaria y medicina de grandes animales.
+* La escasa presencia continua de veterinarios en zonas rurales explica gran parte de la mortalidad animal evitable, demostrando la necesidad de un portal web que organice y centralice el contacto y la gestión remota con los productores.
+* La digitalización de historiales clínicos y registros de tratamientos es aún incipiente en el país, lo que representa una oportunidad directa para que **Hatarium** se posicione como la herramienta web de referencia para este segmento.
 
