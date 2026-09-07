@@ -24,7 +24,7 @@ eficiente, trazable y sostenible.
 | imagen | nombre2| codigo2 | Ingeniería de Software |  |
 | <img src="../assets/img_edu.png"> | Taza Curay, Eduardo Miguel| U20241D483 | Ingeniería de Software |  Soy estudiante de ingenieria de software, tengo 19 años, lso lenguajes que domino son c++, phyton, html y css. Me considero una persona responsable, justa y imperactiva.    |
 | imagen | nombre4 | codigo4 | Ingeniería de Software |                                                                                           |
-| <img src="../Assets/Foto-David.jpg" width="100%" alt="Imagen de David"> | Meza Tataje, David | U202516291 | Ingeniería de Software | Soy David Meza estudiante de Ingeniería de Software, tengo 21 años, con conocimientos en C++, Java y C# a nivel intermedio, además de experiencia básica en el desarrollo de aplicaciones web con HTML, CSS, JavaScript y SQL. Me considero una persona colaboradora y responsable, siempre dispuesto a aprender y a trabajar en equipo para lograr los objetivos del proyecto.                                                                                                                                                                                                                                                                               |
+| <img src="../assets/Foto-David.jpg" width="100%" alt="Imagen de David"> | Meza Tataje, David | U202516291 | Ingeniería de Software | Soy David Meza estudiante de Ingeniería de Software, tengo 21 años, con conocimientos en C++, Java y C# a nivel intermedio, además de experiencia básica en el desarrollo de aplicaciones web con HTML, CSS, JavaScript y SQL. Me considero una persona colaboradora y responsable, siempre dispuesto a aprender y a trabajar en equipo para lograr los objetivos del proyecto.                                                                                                                                                                                                                                                                               |
 
 
 ## 1.2. Solution Profile
@@ -123,7 +123,7 @@ Aplicando la técnica de las 5W's y 2H's, se identificaron los siguientes aspect
 
 ### 1.2.2.4. Lean UX Canvas
 
-![LeanUXCanvas](../Assets/Lean%20UX%20Canvas.jpg)
+![LeanUXCanvas](../assets/Lean%20UX%20Canvas.jpg)
 
 ## 1.3. Segmentos objetivo
 
