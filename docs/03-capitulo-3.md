@@ -17,7 +17,7 @@
   <tr>
     <td><strong>EP001</strong></td>
     <td>Informarse sobre el Producto</td>
-    <td>Como visitante, deseo explorar la landing page de Bovix para conocer las funcionalidades, beneficios y servicios que ofrece la plataforma para la gestión ganadera.</td>
+    <td>Como visitante, deseo explorar la landing page de Hatarium para conocer las funcionalidades, beneficios y servicios que ofrece la plataforma para la gestión ganadera.</td>
     <td></td>
     <td></td>
   </tr>
@@ -25,15 +25,15 @@
   <tr>
     <td><strong>US001</strong></td>
     <td>Explorar Landing Page</td>
-    <td>Como visitante, quiero explorar la landing page para conocer las funcionalidades, características y beneficios que ofrece Bovix.</td>
+    <td>Como visitante, quiero explorar la landing page para conocer las funcionalidades, características y beneficios que ofrece Hatarium.</td>
     <td>
       <strong>E01: Visualización de contenido principal</strong><br>
       Dado que el visitante accede a la landing page.<br>
       Cuando navega por las diferentes secciones.<br>
-      Entonces el sistema muestra información clara y organizada sobre Bovix.
+      Entonces el sistema muestra información clara y organizada sobre Hatarium.
       <p></p>
       <strong>E02: Navegación responsiva</strong><br>
-      Dado que el visitante utiliza distintos dispositivos.<br>
+      Dado que el visitante utiliza distintos dispositivos.<br> 
       Cuando accede a la landing page.<br>
       Entonces el contenido se adapta correctamente al tamaño de pantalla.
       <p></p>
@@ -55,12 +55,12 @@
   <tr>
     <td><strong>US002</strong></td>
     <td>Visualización de Funcionalidades y Servicios</td>
-    <td>Como visitante, quiero visualizar las funcionalidades y servicios de Bovix para comprender cómo la plataforma puede ayudar en la gestión ganadera.</td>
+    <td>Como visitante, quiero visualizar las funcionalidades y servicios de Hatarium para comprender cómo la plataforma puede ayudar en la gestión ganadera.</td>
     <td>
       <strong>E01: Visualización de funcionalidades</strong><br>
       Dado que el visitante accede a la sección de funcionalidades.<br>
       Cuando revisa el contenido disponible.<br>
-      Entonces el sistema muestra información detallada sobre los servicios de Bovix.
+      Entonces el sistema muestra información detallada sobre los servicios de Hatarium.
       <p></p>
       <strong>E02: Información organizada</strong><br>
       Dado que el visitante navega por la sección informativa.<br>
@@ -72,8 +72,8 @@
 
   <tr>
     <td><strong>US003</strong></td>
-    <td>Contacto con Bovix</td>
-    <td>Como visitante, quiero acceder a información de contacto para comunicarme con el equipo de Bovix y resolver dudas sobre la plataforma.</td>
+    <td>Contacto con Hatarium</td>
+    <td>Como visitante, quiero acceder a información de contacto para comunicarme con el equipo de Hatarium y resolver dudas sobre la plataforma.</td>
     <td>
       <strong>E01: Visualización de información de contacto</strong><br>
       Dado que el visitante accede a la sección de contacto.<br>
@@ -91,7 +91,7 @@
   <tr>
     <td><strong>TS001</strong></td>
     <td>Desarrollo de Landing Page Responsiva</td>
-    <td>Como developer, necesito implementar la landing page responsiva de Bovix para mostrar información del producto y permitir la navegación entre secciones.</td>
+    <td>Como developer, necesito implementar la landing page responsiva de Hatarium para mostrar información del producto y permitir la navegación entre secciones.</td>
     <td>
       <strong>E01: Implementación de estructura visual</strong><br>
       Dado que el desarrollo de la landing page ha iniciado.<br>
@@ -114,7 +114,7 @@
   <tr>
     <td><strong>TS002</strong></td>
     <td>Desarrollo de Formulario de Contacto</td>
-    <td>Como developer, necesito implementar el formulario de contacto para permitir que los visitantes envíen consultas al equipo de Bovix.</td>
+    <td>Como developer, necesito implementar el formulario de contacto para permitir que los visitantes envíen consultas al equipo de Hatarium.</td>
     <td>
       <strong>E01: Validación de campos</strong><br>
       Dado que el visitante completa el formulario.<br>
@@ -133,7 +133,7 @@
   <tr>
     <td><strong>EP002</strong></td>
     <td>Gestión de Acceso y Autenticación</td>
-    <td>Como ganadero, deseo registrarme e iniciar sesión en la plataforma Bovix para acceder de manera segura a las funcionalidades del sistema.</td>
+    <td>Como ganadero, deseo registrarme e iniciar sesión en la plataforma Hatarium para acceder de manera segura a las funcionalidades del sistema.</td>
     <td></td>
     <td></td>
   </tr>
@@ -141,7 +141,7 @@
   <tr>
     <td><strong>US004</strong></td>
     <td>Registro de Usuario</td>
-    <td>Como ganadero, quiero crear una cuenta en Bovix para acceder a las funcionalidades de gestión ganadera.</td>
+    <td>Como ganadero, quiero crear una cuenta en Hatarium para acceder a las funcionalidades de gestión ganadera.</td>
     <td>
       <strong>E01: Registro exitoso</strong><br>
       Dado que el ganadero completa correctamente el formulario de registro.<br>
@@ -228,7 +228,7 @@
   <tr>
     <td><strong>TS004</strong></td>
     <td>Sistema de Autenticación JWT</td>
-    <td>Como developer, necesito implementar autenticación basada en JWT para gestionar sesiones seguras dentro de Bovix.</td>
+    <td>Como developer, necesito implementar autenticación basada en JWT para gestionar sesiones seguras dentro de Hatarium.</td>
     <td>
       <strong>E01: Generación de token</strong><br>
       Dado que el usuario inicia sesión correctamente.<br>
@@ -378,6 +378,281 @@
       Entonces el endpoint devuelve mensajes de error apropiados.
     </td>
     <td>EP003 (Gestión de Ganado)</td>
+  </tr>
+
+  <tr>
+    <td><strong>TS007</strong></td>
+    <td>Implementación de Gestión de Lotes</td>
+    <td>Como developer, necesito implementar funcionalidades para la creación y administración de lotes de ganado.</td>
+    <td>
+      <strong>E01: Creación de lotes</strong><br>
+      Dado que el usuario registra información válida.<br>
+      Cuando solicita crear un lote.<br>
+      Entonces el sistema almacena correctamente el lote.
+      <p></p>
+      <strong>E02: Asociación de animales</strong><br>
+      Dado que existen animales registrados.<br>
+      Cuando el usuario asigna animales a un lote.<br>
+      Entonces el sistema actualiza correctamente las relaciones correspondientes.
+    </td>
+    <td>EP003 (Gestión de Ganado)</td>
+  </tr>
+
+  <!-- ======================= EP004 ======================= -->
+  <tr>
+    <td><strong>EP004</strong></td>
+    <td>Gestión de Alimentación y Salud Animal</td>
+    <td>Como ganadero, deseo gestionar la alimentación y monitorear la salud de mis animales para mantener un mejor control sanitario y productivo dentro de Hatarium.</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US011</strong></td>
+    <td>Registro de Alimentación</td>
+    <td>Como ganadero, quiero registrar la alimentación de mis animales para controlar su consumo y mejorar su productividad.</td>
+    <td>
+      <strong>E01: Registro exitoso de alimentación</strong><br>
+      Dado que el ganadero accede al módulo de alimentación.<br>
+      Cuando registra correctamente la información alimentaria.<br>
+      Entonces el sistema almacena el registro y confirma la operación.
+      <p></p>
+      <strong>E02: Datos inválidos</strong><br>
+      Dado que el ganadero registra información alimentaria.<br>
+      Cuando existen campos vacíos o datos incorrectos.<br>
+      Entonces el sistema muestra un mensaje de validación.
+    </td>
+    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US012</strong></td>
+    <td>Monitoreo y Consulta de Historial Sanitario</td>
+    <td>Como ganadero, quiero visualizar el estado sanitario e historial de salud de mis animales para supervisar su evolución general y revisar las indicaciones o diagnósticos previos del veterinario.</td>
+    <td>
+      <strong>E01: Consulta de estado sanitario</strong><br>
+      Dado que existen registros médicos o notas preventivas del animal.<br>
+      Cuando el ganadero consulta la información sanitaria.<br>
+      Entonces el sistema muestra el historial cronológico y el estado de salud actualizado.
+      <p></p>
+      <strong>E02: Historial no disponible</strong><br>
+      Dado que el animal no tiene registros sanitarios asociados.<br>
+      Cuando el usuario consulta la información.<br>
+      Entonces el sistema informa que no existen datos registrados.
+    </td>
+    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US013</strong></td>
+    <td>Visualización de Vacunas y Controles Preventivos</td>
+    <td>Como ganadero, quiero visualizar el calendario y las vacunas aplicadas a mis animales por el médico veterinario para verificar el cumplimiento del plan sanitario.</td>
+    <td>
+      <strong>E01: Visualización de vacunas aplicadas</strong><br>
+      Dado que el médico veterinario ha registrado la aplicación de una vacuna.<br>
+      Cuando el ganadero accede al módulo sanitario de Hatarium.<br>
+      Entonces el sistema despliega el detalle de la vacuna, fecha de aplicación y lote administrado.
+      <p></p>
+      <strong>E02: Consulta de próximas vacunaciones</strong><br>
+      Dado que existen vacunas programadas en el calendario sanitario.<br>
+      Cuando el ganadero revisa el módulo de prevención.<br>
+      Entonces el sistema muestra las fechas proyectadas para las siguientes dosis.
+    </td>
+    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US014</strong></td>
+    <td>Procesamiento de Eventos y Alertas Sanitarias</td>
+    <td>Como ganadero, quiero que el sistema procese automáticamente las condiciones médicas y plazos preventivos para identificar oportunamente riesgos de salud o vacunaciones pendientes.</td>
+    <td>
+      <strong>E01: Evaluación automática de eventos sanitarios</strong><br>
+      Dado que el backend procesa las reglas de negocio del hato.<br>
+      Cuando el sistema detecta de forma interna un riesgo médico latente o evento próximo.<br>
+      Entonces el sistema registra y dispara la regla de alerta sanitaria correspondiente.
+      <p></p>
+      <strong>E02: Procesamiento de vacunación pendiente</strong><br>
+      Dado que existe una vacuna próxima a cumplir su plazo de vigencia.<br>
+      Cuando el motor del sistema evalúa la fecha programada frente al calendario actual.<br>
+      Entonces el sistema marca internamente el evento pendiente para ser visualizado en los paneles de notificación.
+    </td>
+    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+  </tr>
+
+  <!-- ======================= EP005 ======================= -->
+  <tr>
+    <td><strong>EP005</strong></td>
+    <td>Reportes y Seguimiento Ganadero</td>
+    <td>Como ganadero, deseo visualizar reportes, estadísticas y seguimiento sanitario del ganado para mejorar la toma de decisiones y mantener un mejor control productivo y de salud animal.</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US015</strong></td>
+    <td>Visualización de Reportes Productivos</td>
+    <td>Como ganadero, quiero visualizar reportes productivos para analizar el rendimiento y estado general de mi ganado.</td>
+    <td>
+      <strong>E01: Generación de reportes</strong><br>
+      Dado que existen registros productivos almacenados.<br>
+      Cuando el ganadero solicita un reporte.<br>
+      Entonces el sistema genera información consolidada del ganado.
+      <p></p>
+      <strong>E02: Reporte sin información disponible</strong><br>
+      Dado que el usuario solicita un reporte.<br>
+      Cuando no existen registros suficientes.<br>
+      Entonces el sistema informa que no es posible generar el reporte.
+    </td>
+    <td>EP005 (Reportes y Seguimiento Ganadero)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US016</strong></td>
+    <td>Consulta de Historial Sanitario Completo</td>
+    <td>Como ganadero, quiero consultar el historial sanitario detallado de mis animales para realizar seguimiento de vacunas, tratamientos anteriores y estado clínico de cada ejemplar.</td>
+    <td>
+      <strong>E01: Consulta exitosa del historial</strong><br>
+      Dado que el animal posee registros sanitarios.<br>
+      Cuando el ganadero consulta la información.<br>
+      Entonces el sistema muestra el historial actualizado del animal.
+      <p></p>
+      <strong>E02: Historial no disponible</strong><br>
+      Dado que el usuario consulta un animal sin registros.<br>
+      Cuando el sistema procesa la solicitud.<br>
+      Entonces el sistema informa que no existen datos sanitarios registrados.
+    </td>
+    <td>EP005 (Reportes y Seguimiento Ganadero)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US017</strong></td>
+    <td>Visualización de Alertas y Estadísticas Sanitarias</td>
+    <td>Como ganadero, quiero visualizar alertas y estadísticas sanitarias para identificar riesgos y eventos importantes relacionados con la salud del ganado.</td>
+    <td>
+      <strong>E01: Visualización de estadísticas sanitarias</strong><br>
+      Dado que existen registros sanitarios almacenados.<br>
+      Cuando el usuario accede al módulo estadístico.<br>
+      Entonces el sistema muestra información consolidada y actualizada.
+      <p></p>
+      <strong>E02: Generación de alertas sanitarias</strong><br>
+      Dado que existe una condición de riesgo o vacunación pendiente.<br>
+      Cuando el sistema detecta un evento importante.<br>
+      Entonces el sistema genera una alerta para el ganadero.
+    </td>
+    <td>EP005 (Reportes y Seguimiento Ganadero)</td>
+  </tr>
+
+  <!-- ======================= EP006 ======================= -->
+  <tr>
+    <td><strong>EP006</strong></td>
+    <td>APIs y Servicios Backend</td>
+    <td>Como developer, deseo implementar APIs REST, servicios backend y mecanismos de persistencia para soportar las funcionalidades principales de la plataforma Hatarium.</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>TS008</strong></td>
+    <td>Implementación de Endpoints para Alimentación y Control Sanitario</td>
+    <td>Como developer, necesito implementar endpoints sanitarios y alimentarios para registrar consumos, consultar el historial clínico y permitir la lectura del calendario de vacunas.</td>
+    <td>
+      <strong>E01: Registro alimentario exitoso</strong><br>
+      Dado que el endpoint de alimentación está disponible.<br>
+      Cuando se envía información válida.<br>
+      Entonces el sistema almacena correctamente el registro.
+      <p></p>
+      <strong>E02: Consulta de historial sanitario</strong><br>
+      Dado que existen registros sanitarios.<br>
+      Cuando el usuario consulta el historial del animal.<br>
+      Entonces el sistema devuelve la información actualizada.
+    </td>
+    <td>EP006 (APIs y Servicios Backend)</td>
+  </tr>
+
+  <tr>
+    <td><strong>TS009</strong></td>
+    <td>Implementación de Generación de Reportes y Estadísticas</td>
+    <td>Como developer, necesito implementar servicios backend para consolidar reportes productivos y estadísticas sanitarias del ganado.</td>
+    <td>
+      <strong>E01: Generación de reportes</strong><br>
+      Dado que existen registros almacenados.<br>
+      Cuando el usuario solicita un reporte.<br>
+      Entonces el sistema genera información consolidada correctamente.
+      <p></p>
+      <strong>E02: Generación de estadísticas sanitarias</strong><br>
+      Dado que existen datos sanitarios registrados.<br>
+      Cuando el sistema procesa la información.<br>
+      Entonces se generan estadísticas actualizadas.
+    </td>
+    <td>EP006 (APIs y Servicios Backend)</td>
+  </tr>
+
+  <!-- ======================= EP007 ======================= -->
+  <tr>
+    <td><strong>EP007</strong></td>
+    <td>Atención Veterinaria Especializada e Integración IoT</td>
+    <td>Como Médico Veterinario Especializado, deseo acceder a herramientas avanzadas para registrar visitas técnicas, prescribir tratamientos y monitorear constantes vitales mediante sensores IoT.</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US018</strong></td>
+    <td>Registro de Visita Técnica y Diagnósticos en Campo</td>
+    <td>Como médico veterinario, quiero registrar los detalles de mi visita técnica y los diagnósticos clínicos encontrados en el portal web de Hatarium para formalizar la atención médica del animal.</td>
+    <td>
+      <strong>E01: Registro de visita exitoso</strong><br>
+      Dado que el veterinario accede a la plataforma web.<br>
+      Cuando completa la evaluación clínica y guarda el diagnóstico con su severidad.<br>
+      Entonces el sistema registra la atención médica y actualiza el estado del paciente.
+      <p></p>
+      <strong>E02: Validación de campos obligatorios</strong><br>
+      Dado que se está registrando un diagnóstico clínico.<br>
+      Cuando el veterinario no especifica la severidad o la descripción del cuadro clínico.<br>
+      Entonces el sistema bloquea la acción y solicita completar la información requerida.
+    </td>
+    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US019</strong></td>
+    <td>Monitoreo con Sensores IoT y Control de Tratamientos Médicos</td>
+    <td>Como médico veterinario, quiero prescribir tratamientos y monitorear la telemetría de sensores IoT (temperatura corporal, pulso y nivel de actividad) para evaluar en tiempo real la recuperación del animal.</td>
+    <td>
+      <strong>E01: Prescripción de tratamiento médico</strong><br>
+      Dado que existe un diagnóstico registrado en la plataforma web.<br>
+      Cuando el veterinario especifica el medicamento, la dosificación y la duración en días.<br>
+      Entonces el sistema anexa la receta al historial médico del animal.
+      <p></p>
+      <strong>E02: Visualización de lecturas de sensores IoT (Plan Premium)</strong><br>
+      Dado que el animal cuenta con un collar de monitoreo IoT vinculado.<br>
+      Cuando el veterinario consulta el panel de constantes vitales.<br>
+      Entonces el sistema despliega gráficos de temperatura corporal y frecuencia cardíaca en tiempo real.
+      <p></p>
+      <strong>E03: Alerta por anomalía en signos vitales</strong><br>
+      Dado que el sensor IoT registra una temperatura superior a los parámetros normales.<br>
+      Cuando la plataforma procesa la lectura de telemetría.<br>
+      Entonces genera una alerta crítica en el panel del veterinario y del ganadero.
+    </td>
+    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+  </tr>
+
+  <tr>
+    <td><strong>TS010</strong></td>
+    <td>API REST para Gestión Veterinaria y Telemetría IoT</td>
+    <td>Como developer, necesito exponer los endpoints para el registro de visitas médicas, prescripciones y la ingesta de telemetría proveniente de dispositivos IoT.</td>
+    <td>
+      <strong>E01: Ingesta de datos de sensores IoT</strong><br>
+      Dado que un dispositivo collar IoT transmite lecturas de temperatura y pulso.<br>
+      Cuando el endpoint de telemetría procesa el paquete de datos.<br>
+      Entonces valida los identificadores del sensor y almacena las lecturas en la base de datos.
+      <p></p>
+      <strong>E02: Validación de seguridad por JWT y Roles</strong><br>
+      Dado que se envía una petición para prescribir un tratamiento médico.<br>
+      Cuando la API evalúa el token JWT del usuario.<br>
+      Entonces permite la operación únicamente si el rol corresponde a VETERINARIO.
+    </td>
+    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
   </tr>
 
 </table>
