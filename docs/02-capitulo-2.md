@@ -507,4 +507,15 @@ Pasos del proceso:
   2. Ordenar Eventos: Organizar los eventos cronológicamente de izquierda a derecha, eliminando duplicados.
   <img src="../assets/EventStorming_2.jpg">
 
+  3.  Identificar Comandos (Acciones): Añadir notas azules que representan acciones que provocan los eventos.
+  <img src="../assets/EventStorming_3.jpg">
+
+  4. Actores y Sistemas: Determinar quién realiza la acción (persona) o qué sistema externo (API, pago) participa.
+  <img src="../assets/EventStorming_4.jpg">
+
+  5. Políticas (Reglas de Negocio): Identificar reacciones automáticas o reglas que siguen a un evento, usando notas moradas.
+  <img src="../assets/EventStorming_5.jpg">
+
+  6. Agregados y Contextos Delimitados: Agrupar comandos y eventos relacionados para definir límites lógicos o microservicios.
+
 ## 2.5. Ubiquitous Language
