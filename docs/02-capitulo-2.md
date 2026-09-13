@@ -502,5 +502,6 @@ Con el fin de plantear una aproximación del modelado de nivel general para el d
 
 Pasos del proceso:
   1. Eventos de Dominio (Tormenta de ideas): Identificar qué ha sucedido en el negocio, usando notas adhesivas naranjas escritas en pasado.
+  <img src="../assets/DDD - VANTARA1.pdf">
 
 ## 2.5. Ubiquitous Language
