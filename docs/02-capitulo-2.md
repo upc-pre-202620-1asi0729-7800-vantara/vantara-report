@@ -498,4 +498,9 @@ Hatarium ha formulado un conjunto de preguntas orientadas a comprender los méto
 
 ## 2.4. Big Picture Event Storming
 
+Con el fin de plantear una aproximación del modelado de nivel general para el dominio del problema, se aplicó la técnica de EventStorming. Este proceso permitió al equipo comprender el flujo de eventos que ocurren dentro del dominio y definir las interacciones principales entre los actores, comandos y políticas del sistema.
+
+Pasos del proceso:
+  1. Eventos de Dominio (Tormenta de ideas): Identificar qué ha sucedido en el negocio, usando notas adhesivas naranjas escritas en pasado.
+
 ## 2.5. Ubiquitous Language
