@@ -656,6 +656,54 @@
   </tr>
 
 </table>
+
 ## 3.2. Impact Mapping
 
+A continuación se presentan los dos Impact Maps elaborados para los principales objetivos de negocio de
+Hatarium. Esta técnica permite visualizar la relación entre los goals del negocio, los actores involucrados, los
+impactos esperados en su comportamiento y las funcionalidades del producto necesarias para alcanzarlos. Los
+mapas guiaron la priorización del Product Backlog y aseguraron que cada funcionalidad responda a un objetivo
+de valor concreto.
+
+#### Impact Map 1
+![Impact Map 1](../assets/Impact-Map-1.png)
+
+#### Impact Map 2
+![Impact Map 2](../assets/Impact-map-2.png)
+
+
 ## 3.3. Product Backlog
+
+El Product Backlog es un elemento esencial en la gestión ágil de proyectos, ya que representa una lista priorizada de funcionalidades, mejoras y tareas necesarias para el desarrollo del producto. Este backlog fue construido a partir de las necesidades identificadas para **Hatarium**, el To-Be Scenario Mapping y las User Stories, permitiendo organizar y planificar el trabajo del equipo de forma estructurada y alineada con los objetivos del proyecto. Cada ítem del backlog está enfocado en generar valor para el usuario final y facilitar una entrega incremental y efectiva de la solución.
+
+| Orden | User Story ID / Technical Story ID | Título | Story Points |
+| :--- | :--- | :--- | :---: |
+| 1 | US001 | Explorar Landing Page | 2 |
+| 2 | US002 | Visualización de Funcionalidades y Servicios | 2 |
+| 3 | US003 | Contacto con Hatarium | 1 |
+| 4 | US004 | Registro de Usuario | 3 |
+| 5 | US005 | Inicio de Sesión | 3 |
+| 6 | US006 | Cerrar Sesión | 1 |
+| 7 | US007 | Registro de Ganado | 5 |
+| 8 | US008 | Consulta de Información del Ganado | 3 |
+| 9 | US009 | Actualización de Información del Ganado | 3 |
+| 10 | US010 | Gestión de Lotes de Ganado | 3 |
+| 11 | US011 | Registro de Alimentación | 3 |
+| 12 | US012 | Monitoreo y Consulta de Historial Sanitario | 5 |
+| 13 | US013 | Visualización de Vacunas y Controles Preventivos | 5 |
+| 14 | US014 | Procesamiento de Eventos y Alertas Sanitarias | 5 |
+| 15 | US015 | Visualización de Reportes Productivos | 2 |
+| 16 | US016 | Consulta de Historial Sanitario Completo | 3 |
+| 17 | US017 | Visualización de Alertas y Estadísticas Sanitarias | 2 |
+| 18 | US018 | Registro de Visita Técnica y Diagnósticos en Campo | 5 |
+| 19 | US019 | Monitoreo con Sensores IoT y Control de Tratamientos Médicos | 3 |
+| 20 | TS001 | Desarrollo de Landing Page Responsiva | 3 |
+| 21 | TS002 | Desarrollo de Formulario de Contacto | 2 |
+| 22 | TS003 | API de Registro de Usuarios | 5 |
+| 23 | TS004 | Sistema de Autenticación JWT | 5 |
+| 24 | TS005 | Implementación de Endpoint para Registro de Ganado | 5 |
+| 25 | TS006 | Implementación de Endpoints de Consulta y Edición | 5 |
+| 26 | TS007 | Implementación de Gestión de Lotes | 3 |
+| 27 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | 5 |
+| 28 | TS009 | Implementación de Generación de Reportes y Estadísticas | 3 |
+| 29 | TS010 | API REST para Gestión Veterinaria y Telemetría IoT | 5 |
