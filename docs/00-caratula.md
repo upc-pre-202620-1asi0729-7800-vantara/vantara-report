@@ -23,7 +23,7 @@
 | Codigo     | Apellidos y Nombres                |
 |------------|------------------------------------|
 | U20241B645 | Linares Rodríguez Franco Orlando   |
-| codigo2    | integrante 2                       | 
+| U20241A860 | Ayllon Pauccar Juan David          | 
 | u20241D483 | Taza Curay,Eduardo Miguel          | 
 | codigo4    | integrante 4                       | 
 | u202516291 | Meza Tataje, David                 | 
