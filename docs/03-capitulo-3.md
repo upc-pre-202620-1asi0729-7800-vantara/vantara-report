@@ -1105,36 +1105,61 @@ de valor concreto.
 
 ## 3.3. Product Backlog
 
-El Product Backlog es un elemento esencial en la gestión ágil de proyectos, ya que representa una lista priorizada de funcionalidades, mejoras y tareas necesarias para el desarrollo del producto. Este backlog fue construido a partir de las necesidades identificadas para **Hatarium**, el To-Be Scenario Mapping y las User Stories, permitiendo organizar y planificar el trabajo del equipo de forma estructurada y alineada con los objetivos del proyecto. Cada ítem del backlog está enfocado en generar valor para el usuario final y facilitar una entrega incremental y efectiva de la solución.
+El Product Backlog es un elemento esencial en la gestión ágil de proyectos, ya que representa una lista priorizada de funcionalidades, mejoras y tareas necesarias para el desarrollo del producto. Este backlog fue construido a partir de las necesidades identificadas para **Hatarium**, el To-Be Scenario Mapping y las User Stories, permitiendo organizar y planificar el trabajo del equipo de forma estructurada y alineada con los objetivos del proyecto.
+
+Cada ítem del backlog está enfocado en generar valor para el usuario final y facilitar una entrega incremental y efectiva de la solución.
 
 | Orden | User Story ID / Technical Story ID | Título | Story Points |
 | :--- | :--- | :--- | :---: |
 | 1 | US001 | Explorar Landing Page | 2 |
 | 2 | US002 | Visualización de Funcionalidades y Servicios | 2 |
-| 3 | US003 | Contacto con Hatarium | 1 |
-| 4 | US004 | Registro de Usuario | 3 |
-| 5 | US005 | Inicio de Sesión | 3 |
-| 6 | US006 | Cerrar Sesión | 1 |
-| 7 | US007 | Registro de Ganado | 5 |
-| 8 | US008 | Consulta de Información del Ganado | 3 |
-| 9 | US009 | Actualización de Información del Ganado | 3 |
-| 10 | US010 | Gestión de Lotes de Ganado | 3 |
-| 11 | US011 | Registro de Alimentación | 3 |
-| 12 | US012 | Monitoreo y Consulta de Historial Sanitario | 5 |
-| 13 | US013 | Visualización de Vacunas y Controles Preventivos | 5 |
-| 14 | US014 | Procesamiento de Eventos y Alertas Sanitarias | 5 |
-| 15 | US015 | Visualización de Reportes Productivos | 2 |
-| 16 | US016 | Consulta de Historial Sanitario Completo | 3 |
-| 17 | US017 | Visualización de Alertas y Estadísticas Sanitarias | 2 |
-| 18 | US018 | Registro de Visita Técnica y Diagnósticos en Campo | 5 |
-| 19 | US019 | Monitoreo con Sensores IoT y Control de Tratamientos Médicos | 3 |
-| 20 | TS001 | Desarrollo de Landing Page Responsiva | 3 |
-| 21 | TS002 | Desarrollo de Formulario de Contacto | 2 |
-| 22 | TS003 | API de Registro de Usuarios | 5 |
-| 23 | TS004 | Sistema de Autenticación JWT | 5 |
-| 24 | TS005 | Implementación de Endpoint para Registro de Ganado | 5 |
-| 25 | TS006 | Implementación de Endpoints de Consulta y Edición | 5 |
-| 26 | TS007 | Implementación de Gestión de Lotes | 3 |
-| 27 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | 5 |
-| 28 | TS009 | Implementación de Generación de Reportes y Estadísticas | 3 |
-| 29 | TS010 | API REST para Gestión Veterinaria y Telemetría IoT | 5 |
+| 3 | US003 | Consultar Información de Contacto | 1 |
+| 4 | US004 | Enviar Formulario de Contacto | 2 |
+| 5 | US005 | Registro de Usuario | 3 |
+| 6 | US006 | Inicio de Sesión | 3 |
+| 7 | US007 | Cerrar Sesión | 1 |
+| 8 | US008 | Registro de Ganado | 5 |
+| 9 | US009 | Buscar Animal | 2 |
+| 10 | US010 | Consultar Información de un Animal | 2 |
+| 11 | US011 | Actualización de Información del Ganado | 3 |
+| 12 | US012 | Crear Lote de Ganado | 3 |
+| 13 | US013 | Asignar Animal a un Lote | 2 |
+| 14 | US014 | Registro de Alimentación | 3 |
+| 15 | US015 | Planificar Alimentación | 3 |
+| 16 | US016 | Consultar Plan Alimentario | 2 |
+| 17 | US017 | Visualizar Estado Sanitario Actual | 3 |
+| 18 | US018 | Visualizar Vacunas Aplicadas | 2 |
+| 19 | US019 | Consultar Próximas Vacunaciones | 2 |
+| 20 | US020 | Detectar Riesgo Sanitario | 3 |
+| 21 | US021 | Detectar Vacunación Pendiente | 2 |
+| 22 | US022 | Generar Reporte Productivo | 3 |
+| 23 | US023 | Visualizar Reporte Productivo | 2 |
+| 24 | US024 | Consulta de Historial Sanitario Completo | 3 |
+| 25 | US025 | Visualizar Estadísticas Sanitarias | 3 |
+| 26 | US026 | Visualizar Alertas Sanitarias | 2 |
+| 27 | US027 | Registrar Visita Técnica | 3 |
+| 28 | US028 | Registrar Diagnóstico Clínico | 3 |
+| 29 | US029 | Prescribir Tratamiento Médico | 3 |
+| 30 | US030 | Monitorear Telemetría de Sensores IoT | 5 |
+| 31 | US031 | Recibir Alerta por Anomalía en Signos Vitales | 3 |
+| 32 | US032 | Registrar Vacuna Aplicada | 3 |
+| 33 | US033 | Programar Cita Veterinaria | 3 |
+| 34 | US034 | Consultar Citas Veterinarias | 2 |
+| 35 | US035 | Reprogramar Cita Veterinaria | 3 |
+| 36 | US036 | Registrar Preñez | 3 |
+| 37 | US037 | Registrar Parto | 3 |
+| 38 | US038 | Registrar Secado | 2 |
+| 39 | US039 | Registrar Destete | 2 |
+| 40 | US040 | Consultar Historial Reproductivo | 3 |
+| 41 | TS001 | Desarrollo de Landing Page Responsiva | 3 |
+| 42 | TS002 | Desarrollo de Formulario de Contacto | 2 |
+| 43 | TS003 | API de Registro de Usuarios | 5 |
+| 44 | TS004 | Sistema de Autenticación JWT | 5 |
+| 45 | TS005 | Implementación de Endpoint para Registro de Ganado | 5 |
+| 46 | TS006 | Implementación de Endpoints de Consulta y Edición | 5 |
+| 47 | TS007 | Implementación de Gestión de Lotes | 3 |
+| 48 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | 5 |
+| 49 | TS009 | Implementación de Generación de Reportes y Estadísticas | 3 |
+| 50 | TS010 | API REST para Gestión Veterinaria y Telemetría IoT | 5 |
+| 51 | TS011 | Implementación de Registro de Eventos Reproductivos | 5 |
+| 52 | TS012 | Implementación de Consulta del Historial Reproductivo | 3 |
