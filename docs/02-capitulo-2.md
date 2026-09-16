@@ -500,6 +500,18 @@ Entrevista 1
 
 **Resumen:** En la entrevista, el productor ganadero explica cómo actualmente gestiona la información de sus animales mediante registros manuales y herramientas digitales, como hojas de cálculo y el celular. Entre las principales dificultades menciona mantener organizada la información relacionada con la salud, vacunación, reproducción y producción del ganado. Frente a estas necesidades, considera beneficioso contar con una plataforma web como Vantara, donde pueda centralizar la información de su ganado, consultar historiales, organizar tareas y recibir recordatorios. Finalmente, destaca que una herramienta de este tipo podría ayudarle a ahorrar tiempo, reducir errores en los registros y mantener un mayor control sobre la gestión de sus animales.
 
+Entrevista 2
+
+**Entrevistado:** Juan David Ayllon Pauccar
+
+**Edad:** 21
+
+<img src="../assets/entrevista-ganadero2.png">
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQCQpil_VSW7R4MvEA7hu3-NAVlPq4y7z1F8C8Vl0e8Ksik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dQOkwq)
+
+**Resumen:** En la entrevista, el productor ganadero explica que actualmente maneja aproximadamente 70 cabezas de ganado junto con su padre. La cantidad de animales varía durante el año debido a los periodos de reproducción y a la temporada seca o de escasez, cuando suelen vender algunos animales para reducir los gastos de alimentación. Entre las funciones indispensables para una plataforma web, considera el registro individual de cada animal, su fecha de nacimiento, genealogía, vacunas, tratamientos y estado reproductivo, además de alertas para próximas vacunaciones y partos. Asimismo, señala que uno de los principales problemas actuales es la desorganización y pérdida de información en los registros físicos, ya que los formatos pueden mancharse, mojarse o extraviarse. Aunque en ocasiones intenta trasladar los datos a Excel, la falta de tiempo provoca que termine dependiendo de su memoria y la de sus trabajadores, lo que puede generar errores. Para evaluar el desempeño de su operación, considera importantes el índice de preñez, la mortalidad, la ganancia de peso y, cuando corresponde, la producción diaria de leche. Finalmente, destaca que la plataforma debe funcionar directamente desde un navegador, tanto en el celular como en una laptop antigua, sin instalaciones complejas ni equipos especiales. También considera necesario poder crear grupos personalizados de animales según la edad, el propósito o el sector donde se encuentren. Entre los principales beneficios esperados menciona el ahorro de tiempo administrativo, la reducción del estrés y la identificación rápida de los animales que no resultan rentables para tomar decisiones de venta.
+
 
 
 **Segmento 2: Veterinarios Especializados**
