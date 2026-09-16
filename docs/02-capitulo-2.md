@@ -484,6 +484,23 @@ Hatarium ha formulado un conjunto de preguntas orientadas a comprender los méto
 
 ### 2.2.2. Registro de entrevistas
 
+**Segmento 2: Veterinarios Especializados**
+
+Entrevista 1
+
+**Entrevistado:** Silvia Cecilia Rebaza Rosas
+
+**Edad:** 22
+
+**Distrito:** Santiago de Surco
+
+<img src="../assets/Evidencia de Entrevista_Veterinaria1.png">
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b645_upc_edu_pe/IQDjJ1AJEoN9RoUmc-FRGPIiAW9hdNFEv_dCkrFlJzxrtVw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7SmNTc)
+
+**Resumen:** En la entrevista, el veterinario explica cómo actualmente gestiona la atención de los animales mediante fichas físicas, archivos digitales y notas tomadas durante las visitas de campo. Entre las principales dificultades se encuentra la falta de información clínica relevante al momento de realizar un diagnóstico, como antecedentes médicos, vacunaciones, desparasitaciones y tratamientos previos. Asimismo, el seguimiento con los productores ganaderos se realiza principalmente mediante llamadas y WhatsApp, lo que puede ocasionar que información importante se pierda o quede desorganizada. También señala dificultades para consolidar posteriormente las notas tomadas en campo, ya que deben ser transcritas a los registros definitivos y pueden quedar incompletas. Frente a esta situación, considera beneficioso contar con una plataforma web como Hatarium que permita centralizar y actualizar los historiales clínicos, controlar tratamientos y medicamentos, y gestionar recordatorios de vacunación y desparasitación. Finalmente, destaca la importancia de poder generar y compartir indicaciones médicas de manera organizada, manteniendo un registro de los tratamientos para mejorar el seguimiento y brindar un servicio veterinario más eficiente.
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
