@@ -502,7 +502,7 @@ Entrevista 1
 
 Entrevista 2
 
-**Entrevistado:** Juan David Ayllon Pauccar
+**Entrevistado:** Fernando Guere Calero
 
 **Edad:** 21
 
