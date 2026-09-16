@@ -56,7 +56,7 @@ CattleMax
 <th align="center" valign="middle">
 Herdwatch
 <br><br>
-<img src="../assets/herdwatch-logo.png" width="85">
+<img src="../assets/Herdwatch-logo.png" width="85">
 </th>
 
 <th align="center" valign="middle">
