@@ -484,6 +484,24 @@ Hatarium ha formulado un conjunto de preguntas orientadas a comprender los méto
 
 ### 2.2.2. Registro de entrevistas
 
+**Segmento 1: Productores Ganaderos (Independiente y Empresariales)**
+
+Entrevista 1
+
+**Entrevistado:** Josué laurente Castrejón
+
+**Edad:** 28
+
+**Distrito:** San juan de Lurigancho
+
+<img src="../assets/Evidencia de Entrevista_ProductoresGanaderos1.png">
+
+**Link de la entrevista:** [Entrevista](https://youtu.be/Zn316X1kxeM)
+
+**Resumen:** En la entrevista, el productor ganadero explica cómo actualmente gestiona la información de sus animales mediante registros manuales y herramientas digitales, como hojas de cálculo y el celular. Entre las principales dificultades menciona mantener organizada la información relacionada con la salud, vacunación, reproducción y producción del ganado. Frente a estas necesidades, considera beneficioso contar con una plataforma web como Vantara, donde pueda centralizar la información de su ganado, consultar historiales, organizar tareas y recibir recordatorios. Finalmente, destaca que una herramienta de este tipo podría ayudarle a ahorrar tiempo, reducir errores en los registros y mantener un mayor control sobre la gestión de sus animales.
+
+
+
 **Segmento 2: Veterinarios Especializados**
 
 Entrevista 1
@@ -499,6 +517,23 @@ Entrevista 1
 **Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b645_upc_edu_pe/IQDjJ1AJEoN9RoUmc-FRGPIiAW9hdNFEv_dCkrFlJzxrtVw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7SmNTc)
 
 **Resumen:** En la entrevista, el veterinario explica cómo actualmente gestiona la atención de los animales mediante fichas físicas, archivos digitales y notas tomadas durante las visitas de campo. Entre las principales dificultades se encuentra la falta de información clínica relevante al momento de realizar un diagnóstico, como antecedentes médicos, vacunaciones, desparasitaciones y tratamientos previos. Asimismo, el seguimiento con los productores ganaderos se realiza principalmente mediante llamadas y WhatsApp, lo que puede ocasionar que información importante se pierda o quede desorganizada. También señala dificultades para consolidar posteriormente las notas tomadas en campo, ya que deben ser transcritas a los registros definitivos y pueden quedar incompletas. Frente a esta situación, considera beneficioso contar con una plataforma web como Hatarium que permita centralizar y actualizar los historiales clínicos, controlar tratamientos y medicamentos, y gestionar recordatorios de vacunación y desparasitación. Finalmente, destaca la importancia de poder generar y compartir indicaciones médicas de manera organizada, manteniendo un registro de los tratamientos para mejorar el seguimiento y brindar un servicio veterinario más eficiente.
+
+Entrevista 2
+
+**Entrevistado:** Angélica Abarca Véliz
+
+**Edad:** 24
+
+**Distrito:** San Juan de Lurigancho
+
+<img src="../assets/Evidencia de Entrevista_Veterinaria2.png">
+
+**Link de la entrevista:** [Entrevista](https://youtu.be/r_-vTECQoUg)
+
+**Resumen:** En la entrevista, la veterinaria explica que actualmente gestiona la información clínica de los animales mediante anotaciones, archivos digitales y comunicación directa con los productores. Entre las principales dificultades menciona la falta de antecedentes completos de los animales y la organización del seguimiento de vacunas, tratamientos y controles reproductivos.
+
+Frente a estas necesidades, considera útil contar con una plataforma web como Vantara que permita centralizar los historiales clínicos, registrar tratamientos y facilitar el seguimiento de los animales. También destaca que una herramienta de este tipo podría mejorar la comunicación con los productores y hacer más eficiente su trabajo veterinario.
+
 
 
 ### 2.2.3. Análisis de entrevistas
