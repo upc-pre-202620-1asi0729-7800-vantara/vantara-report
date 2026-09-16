@@ -79,7 +79,7 @@ Overview
 </th>
 
 <td valign="top">
-Startup peruana de tecnología agropecuaria enfocada en digitalizar y centralizar la gestión ganadera mediante una plataforma web para productores y veterinarios.
+Plataforma web agropecuaria enfocada en digitalizar y centralizar la gestión ganadera mediante una plataforma web para productores y veterinarios.
 </td>
 
 <td valign="top">
