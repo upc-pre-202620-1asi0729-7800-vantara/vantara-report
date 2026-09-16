@@ -44,6 +44,12 @@
 
 ### 4.6.2. Software Architecture Context Diagram
 
+El diagrama de contexto presenta al sistema Vantara y las principales entidades que interactúan con él. El productor ganadero utiliza la plataforma para gestionar el inventario de animales, lotes, planes de alimentación, citas y pagos. El médico veterinario consulta y administra información clínica, diagnósticos, tratamientos, vacunas y certificados de trazabilidad. Además, Vantara se integra mediante HTTPS con un proveedor externo de autenticación, una pasarela de pagos y un servicio de notificaciones push.
+
+<img src="../assets/c4/c4context-diagram.png">
+
+La plataforma centraliza la información operativa y clínica, valida la identidad de los usuarios, procesa las transacciones y envía alertas sobre citas y eventos relevantes del sistema.
+
 ### 4.6.3. Software Architecture Container Diagrams
 
 ### 4.6.4. Software Architecture Components Diagrams
