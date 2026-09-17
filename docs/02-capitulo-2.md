@@ -594,8 +594,25 @@ Angélica, de 24 años y residente en San Juan de Lurigancho, es una especialist
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
+En esta sección se presentan las fichas de User Persona desarrolladas para los dos segmentos clave de Vantara. La creación de estos arquetipos no es arbitraria; surge directamente del análisis de las entrevistas realizadas a los productores y veterinarios. 
+
+De las entrevistas, identificamos que la principal fricción es la dependencia de registros manuales (cuadernos que se mojan o pierden) y la desconexión de la información clínica, lo que nos llevó a priorizar la accesibilidad web sin fricciones tecnológicas. Para la elaboración de estos artefactos, se utilizó la estructura de la herramienta UXPressia, asegurando que cada ficha incluya dimensiones demográficas, contexto, metas, frustraciones y el entorno tecnológico del usuario.
+
+#### Segmento 1: Productores Ganaderos (Independientes y Empresariales)
+Fernando representa nuestro segmento de productores en campo. Es el tomador de decisiones diario que busca optimizar su producción sin enredarse en sistemas tecnológicos complejos, priorizando la accesibilidad y el control de su ganado.
+
+<img src="../assets/needfinding/fernando-persona.png">
+
+---
+
+#### Segmento 2: Veterinarios Especializados
+Silvia representa nuestro segmento clínico especializado. Su necesidad no radica en la gestión de un solo establo, sino en la capacidad de tener historiales médicos portátiles, confiables y organizados para múltiples clientes ganaderos.
+
+
+<img src="../assets/needfinding/silvia-persona.png">
 
 ### 2.3.2. User Task Matrix
+
 
 ### 2.3.3. User Journey Mapping
 
