@@ -490,6 +490,10 @@ Se presenta el diseño a alto nivel de detalle de la aplicación web, consideran
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+A continuación se presenta el User Flow Diagram del Sprint 1 de la aplicación web Hatarium. Este diagrama representa las rutas de navegación que sigue el usuario desde el ingreso a la aplicación hasta la ejecución de las funcionalidades principales implementadas en este sprint, permitiendo identificar los puntos de decisión y los posibles caminos alternativos dentro del flujo de uso.
+
+<img src="../assets/web-application-userflow.png">
+
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
