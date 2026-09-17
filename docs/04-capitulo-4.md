@@ -14,7 +14,45 @@ El logotipo de Hatarium incorpora una representación gráfica relacionada con e
 
 El objetivo principal de la identidad de Hatarium es proyectar una plataforma confiable y moderna que permita gestionar el ganado, realizar seguimiento sanitario, controlar la alimentación y consultar información productiva desde un mismo entorno digital.
 
+**Typography**
+
+La tipografía de Hatarium prioriza la legibilidad, claridad y jerarquía visual para facilitar la lectura tanto en dispositivos web como móviles.
+
+Para los títulos, encabezados y elementos principales se utilizará la fuente Poppins, debido a su estilo moderno, geométrico y profesional. Esta tipografía permitirá diferenciar claramente títulos, secciones y elementos importantes dentro de la interfaz.
+
+Para el contenido, textos descriptivos, formularios, etiquetas y elementos secundarios se utilizará la fuente Inter, debido a su alta legibilidad en diferentes tamaños de pantalla.
+
+El uso combinado de Poppins e Inter permite mantener una identidad visual moderna y profesional, al mismo tiempo que facilita la lectura de información relacionada con el ganado, registros sanitarios, alimentación y reportes.
+
+**Jerarquía tipográfica**
+- H1: Poppins Bold — títulos principales.
+- H2: Poppins SemiBold — títulos de módulos y secciones.
+- H3: Poppins SemiBold — títulos de tarjetas y componentes.
+- Body: Inter Regular — contenido general.
+- Labels: Inter Medium — etiquetas, filtros y formularios.
+
+**Colors**
+
+La paleta de colores de Hatarium fue diseñada para representar naturaleza, bienestar animal, confianza y tecnología aplicada a la gestión ganadera.
+
+Los colores principales utilizan diferentes tonalidades de verde para representar la identidad de la marca y mantener una relación visual con el entorno natural y ganadero.
+
+Los colores semánticos se utilizan para comunicar estados específicos como animales saludables, situaciones que requieren seguimiento, tratamientos activos, alertas y acciones importantes.
+
+<img src="../assets/Colores principales.png ">
+
+El verde oscuro será el color principal de Hatarium y se utilizará principalmente en elementos que requieran mayor jerarquía visual, como botones principales, navegación seleccionada y elementos de identidad.
+
+El verde claro será utilizado principalmente como color de apoyo para tarjetas, fondos, badges y componentes relacionados con estados saludables.
+
+<img src="../assets/Secundarios.png>
+
+Los colores semánticos deberán utilizarse de manera consistente. Por ejemplo, el color verde representará estados positivos, mientras que amarillo y rojo indicarán situaciones que requieren atención.
+
+
 ### 4.1.1. General Style Guidelines
+
+
 
 ### 4.1.2. Web Style Guidelines
 
