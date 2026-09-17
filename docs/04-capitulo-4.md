@@ -383,6 +383,28 @@ Los wireframes de la landing page priorizan la experiencia del usuario y la faci
 
 ### 4.3.2. Landing Page Mock-up
 
+- Sección de "Home"
+
+<img src="../assets/landing-page-mockup-1.jpeg">
+
+- Sección de "About Us"
+
+<img src="../assets/landing-page-mockup-2.jpeg">
+
+- Sección de "Product"
+
+<img src="../assets/landing-page-mockup-3.jpeg">
+<img src="../assets/landing-page-mockup-4.jpeg">
+<img src="../assets/landing-page-mockup-5.jpeg">
+
+- Sección de "About The Team"
+
+<img src="../assets/landing-page-mockup-6.jpeg">
+
+- Sección de "Contact"
+
+<img src="../assets/landing-page-mockup-7.jpeg">
+
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
