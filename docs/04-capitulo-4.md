@@ -4,6 +4,8 @@
 
 ## 4.1. Style Guidelines
 
+### 4.1.1. General Style Guidelines
+
 **Branding** 
 
 El branding de Hatarium está orientado a transmitir confianza, tecnología y compromiso con la gestión ganadera moderna. La identidad visual busca representar la conexión entre la tecnología y el cuidado del ganado mediante una propuesta limpia, profesional y accesible para ganaderos y veterinarios.
@@ -39,22 +41,106 @@ Los colores principales utilizan diferentes tonalidades de verde para representa
 
 Los colores semánticos se utilizan para comunicar estados específicos como animales saludables, situaciones que requieren seguimiento, tratamientos activos, alertas y acciones importantes.
 
-<img src="../assets/Colores principales.png ">
+<img src="../assets/Colores principales.png">
 
 El verde oscuro será el color principal de Hatarium y se utilizará principalmente en elementos que requieran mayor jerarquía visual, como botones principales, navegación seleccionada y elementos de identidad.
 
 El verde claro será utilizado principalmente como color de apoyo para tarjetas, fondos, badges y componentes relacionados con estados saludables.
 
-<img src="../assets/Secundarios.png>
+<img src="../assets/Secundarios.png">
 
 Los colores semánticos deberán utilizarse de manera consistente. Por ejemplo, el color verde representará estados positivos, mientras que amarillo y rojo indicarán situaciones que requieren atención.
 
+**Spacing**
 
-### 4.1.1. General Style Guidelines
+La interfaz de Hatarium utilizará un sistema de espaciado consistente para mantener una estructura visual ordenada y facilitar la navegación.
 
+Se utilizarán espacios diferenciados entre:
 
+- Secciones principales.
+- Tarjetas.
+- Formularios.
+- Botones.
+- Elementos de navegación.
+- Tablas y listas.
+- Información secundaria.
+
+Se priorizará un sistema basado en múltiplos de 4 px, utilizando principalmente valores de:
+
+4 px · 8 px · 12 px · 16 px · 24 px · 32 px · 40 px
+
+Los espacios de 16 px y 24 px serán los más utilizados dentro de tarjetas y componentes, mientras que valores mayores serán utilizados para separar secciones principales.
+
+Este sistema permitirá mantener consistencia entre las versiones Web y Mobile.
 
 ### 4.1.2. Web Style Guidelines
+
+La versión Web de Hatarium está orientada a proporcionar una plataforma completa para la gestión y monitoreo de una ganadería.
+
+La interfaz utiliza una estructura basada en sidebar + header + área de contenido, permitiendo acceder rápidamente a los diferentes módulos.
+
+Las principales secciones de la plataforma son:
+
+Inicio → Ganado → Salud → Alimentación → Lotes → Reportes → Citas → Alertas
+
+Los diferentes módulos mantendrán los componentes compartidos de la interfaz, como el sidebar, header, buscador, selector de ganadería y perfil de usuario.
+
+La versión Web priorizará la visualización de información mediante dashboards, tablas, tarjetas y gráficos, permitiendo gestionar grandes cantidades de información de manera organizada.
+
+**Imágenes**
+
+Las imágenes utilizadas en Hatarium estarán relacionadas principalmente con:
+
+- Ganado bovino.
+- Entornos ganaderos.
+- Veterinaria.
+- Tecnología aplicada al ganado.
+- Monitoreo animal.
+
+Las imágenes deberán mantener una estética limpia y coherente con la identidad visual de la plataforma.
+
+En las pantallas principales se podrán utilizar ilustraciones o representaciones visuales del ganado como elemento complementario, evitando que las imágenes interfieran con la lectura de la información.
+
+**Botones**
+
+Los botones de Hatarium seguirán una línea visual consistente con la identidad de la plataforma.
+
+Los botones principales utilizarán el verde oscuro de la marca para representar acciones principales como:
+
+- Registrar animal.
+- Generar reporte.
+- Crear plan.
+- Registrar vacunación.
+- Guardar información.
+- Iniciar sesión.
+
+Los botones secundarios utilizarán fondos claros o blancos con bordes sutiles para acciones complementarias.
+
+Las acciones de advertencia o críticas utilizarán colores semánticos como amarillo o rojo cuando sea necesario comunicar un riesgo o una acción que requiere atención.
+
+Todos los botones tendrán bordes redondeados, buen contraste y una jerarquía visual clara.
+
+**Navegation**
+
+La navegación de la versión Web utilizará un sidebar lateral fijo como elemento principal de navegación.
+
+El sidebar incluirá las secciones:
+
+- Inicio
+- Ganado
+- Salud
+- Alimentación
+- Lotes
+- Reportes
+- Citas
+- Alertas
+- Configuración
+
+La sección activa deberá identificarse mediante un fondo verde claro y el color verde principal de Hatarium.
+
+El sidebar también mostrará la información básica del usuario en la parte inferior.
+
+Esta estructura deberá mantenerse consistente en todas las secciones de la plataforma.
 
 ## 4.2. Information Architecture
 
