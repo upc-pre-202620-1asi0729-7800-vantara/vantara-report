@@ -442,6 +442,13 @@ Los wireframes de la landing page priorizan la experiencia del usuario y la faci
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+A continuación se presenta el diagrama de Wireflow de la aplicación web Hatarium, que combina los wireframes
+de las pantallas con los flujos de navegación entre ellas. Este artefacto permite visualizar de forma integrada
+tanto la estructura visual de cada pantalla como las rutas que el usuario sigue para completar las principales
+tareas dentro de la aplicación
+
+<img src="../assets/web-application-wireflow.png">
+
 ### 4.4.3. Web Applications Mock-ups
 
 Se presenta el diseño a alto nivel de detalle de la aplicación web, considerando una versión para el segmento objetivo productores ganaderos y veterinarios.
