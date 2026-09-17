@@ -385,27 +385,66 @@ Los wireframes de la landing page priorizan la experiencia del usuario y la faci
 
 - Sección de "Home"
 
-<img src="../assets/landing-page-mockup-1.jpeg">
+<img src="../assets/landing-page-mockup-1.png">
 
 - Sección de "About Us"
 
-<img src="../assets/landing-page-mockup-2.jpeg">
+<img src="../assets/landing-page-mockup-2.png">
 
 - Sección de "Product"
 
-<img src="../assets/landing-page-mockup-3.jpeg">
-<img src="../assets/landing-page-mockup-4.jpeg">
-<img src="../assets/landing-page-mockup-5.jpeg">
+<img src="../assets/landing-page-mockup-3.png">
+<img src="../assets/landing-page-mockup-4.png">
+<img src="../assets/landing-page-mockup-5.png">
 
 - Sección de "About The Team"
 
-<img src="../assets/landing-page-mockup-6.jpeg">
+<img src="../assets/landing-page-mockup-6.png">
 
 - Sección de "Contact"
 
-<img src="../assets/landing-page-mockup-7.jpeg">
+<img src="../assets/landing-page-mockup-7.png">
 
 ## 4.4. Web Applications UX/UI Design
+
+Se presenta el diseño a alto nivel de detalle de la aplicación web, considerando una versión para el segmento objetivo productores ganaderos y veterinarios.
+
+- Sección de "Iniciar Sesión"
+
+<img src="../assets/web-application-mockup-1.jpg">
+
+- Sección de "Registrarse"
+
+<img src="../assets/web-application-mockup-2.jpg">
+
+- Sección de "Inicio"
+
+<img src="../assets/web-application-mockup-3.jpg">
+
+- Sección de "Ganado"
+
+<img src="../assets/web-application-mockup-4.jpg">
+<img src="../assets/web-application-mockup-9.jpg">
+<img src="../assets/web-application-mockup-10.jpg">
+
+
+- Sección de "Salud"
+
+<img src="../assets/web-application-mockup-5.jpg">
+
+- Sección de "Alimentación"
+
+<img src="../assets/web-application-mockup-6.jpg">
+
+- Sección de "Reportes"
+
+<img src="../assets/web-application-mockup-7.jpg">
+
+- Sección de "Visualizar Reporte"
+
+<img src="../assets/web-application-mockup-8.jpg">
+
+
 
 ### 4.4.1. Web Applications Wireframes
 
