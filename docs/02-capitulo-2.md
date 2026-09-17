@@ -645,6 +645,20 @@ Al analizar la matriz, se observan coincidencias estratégicas y diferencias ope
 
 ### 2.3.3. User Journey Mapping
 
+En esta sección se presentan los User Journey Maps para los dos arquetipos de usuario definidos en Vantara: Fernando Guere (Productor Ganadero) y Silvia Rebaza (Médica Veterinaria). Estos mapas detallan la experiencia del usuario a lo largo de cuatro fases clave: **Descubrimiento**, **Registro / Onboarding**, **Uso Diario** y **Fidelización / Crecimiento**, analizando sus metas, procesos, puntos de dolor, estado emocional y las oportunidades de diseño para la plataforma.
+
+---
+
+#### A. User Journey Map: Fernando Guere (Segmento Productor Ganadero)
+
+<img src="../assets/needfinding/journey-map-ganadero.png">
+
+---
+
+#### B. User Journey Map: Silvia Rebaza (Segmento Veterinario Especializado)
+
+<img src="../assets/needfinding/journey-map-vet.png">
+
 ### 2.3.4. Empathy Mapping
 
 ## 2.4. Big Picture Event Storming
