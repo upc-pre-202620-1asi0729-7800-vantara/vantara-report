@@ -547,6 +547,21 @@ Entrevista 2
 Frente a estas necesidades, considera útil contar con una plataforma web como Vantara que permita centralizar los historiales clínicos, registrar tratamientos y facilitar el seguimiento de los animales. También destaca que una herramienta de este tipo podría mejorar la comunicación con los productores y hacer más eficiente su trabajo veterinario.
 
 
+### Entrevista 3
+
+**Entrevistado:** Carlos Mendoza Ramos
+
+**Edad:** 30
+
+**Distrito:** Los Olivos
+
+<img src="../assets/Evidencia_de_Entrevista_Veterinaria3.png">
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202516291_upc_edu_pe/IQBak1UMR0r5S6eGRClIBDkGAQGiBR58b0leDMZCOfGtOnA?e=c95f8d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen:** En la entrevista, el médico veterinario Carlos Mendoza Ramos, con 6 años de experiencia en sanidad de ganado bovino, explica que actualmente gestiona las fichas e historiales médicos mediante anotaciones en libretas de papel en el establo, las cuales intenta traspasar a tablas de Excel al llegar a casa. Entre los principales problemas de este proceso manual destaca el deterioro del papel por humedad o barro, la pérdida de detalles clave, la fatiga de consolidar datos en el ordenador y la falta de conectividad móvil en fincas muy alejadas. Asimismo, señala que frecuentemente falta información sobre tratamientos o antibióticos aplicados previamente por los propios ganaderos, fechas exactas entre celos y partos, y la verificación del cumplimiento real de las dosis e indicaciones recetadas. Como datos indispensables previa evaluación considera el número de identificación (arete), la edad, el número de partos, el estado reproductivo actual y los antecedentes de vacunación. Para la comunicación y coordinación utiliza llamadas y WhatsApp, respaldándose en agendas físicas y alarmas en su celular para programar los ciclos sanitarios. Entre las herramientas o módulos indispensables para una plataforma web veterinaria (como Atariun), considera fundamentales una ficha sanitaria integrada con historial clínico y tratamientos, un módulo de control reproductivo para el seguimiento de inseminaciones, palpaciones, gestación y partos, y un calendario específico de fármacos con alertas sanitarias y periodos de retiro de leche. Adicionalmente, prefiere un formulario web rápido para emitir recetas digitales con cronogramas de aplicación y notificaciones automáticas para los productores. Finalmente, resalta como principales beneficios esperados la optimización del tiempo en las consultas de campo, la toma de decisiones clínicas rápidas e informadas, la reducción de errores por interacciones farmacológicas, el fortalecimiento de la trazabilidad sanitaria y la proyección de una imagen más estructurada que genere confianza y profesionalismo en sus clientes.
+
+
 
 ### 2.2.3. Análisis de entrevistas
 
