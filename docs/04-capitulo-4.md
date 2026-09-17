@@ -357,6 +357,30 @@ De esta manera, cada usuario visualizará las opciones relevantes para las activ
 
 ### 4.3.1. Landing Page Wireframe
 
+Los wireframes de la landing page priorizan la experiencia del usuario y la facilidad de uso. Gracias a una estructura intuitiva y una jerarquía visual bien definida, garantizamos que la navegación sea fluida, permitiendo que los visitantes localicen información clave y realicen conversiones sin fricciones. 
+
+- Es la interfaz principal de nuestra landing page
+
+<img src="../assets/landing-page-wireframe-1.jpeg">
+
+- La sección "About Us" contará con la siguiente interfaz donde se describe quienes somos, que hacemos, y nuestra visión y misión.
+
+<img src="../assets/landing-page-wireframe-2.jpeg">
+
+- La sección "Product" contará con las siguientes interface donde se describe hacia quienes va dirigido nuestro producto y las funcionalidades que ofrece.
+
+<img src="../assets/landing-page-wireframe-3.jpeg">
+<img src="../assets/landing-page-wireframe-4.jpeg">
+<img src="../assets/landing-page-wireframe-5.jpeg">
+
+- La sección "About the team" contará con la siguiente interfaz donde muestra la información de quienes conforman el equipo de Vantara
+
+<img src="../assets/landing-page-wireframe-6.jpeg">
+
+- La sección "Contact" contará con la siguiente interfaz donde muestra la información de los canales de contacto disponibles.
+
+<img src="../assets/landing-page-wireframe-7.jpeg">
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
