@@ -613,6 +613,35 @@ Silvia representa nuestro segmento clínico especializado. Su necesidad no radic
 
 ### 2.3.2. User Task Matrix
 
+En esta sección se presenta el User Task Matrix, una herramienta que permite mapear las actividades críticas que nuestros arquetipos realizan para alcanzar sus objetivos operacionales, productivos y sanitarios. Este artefacto es el resultado directo de la síntesis entre el análisis de las entrevistas a profundidad y el estudio del dominio ganadero, permitiéndonos identificar qué procesos son rutinarios y cuáles son de vital importancia para el éxito del negocio y la salud del hato.
+
+Para este análisis, consideramos a nuestros dos segmentos objetivo representados por:
+
+*   **Fernando Guere:** Productor Ganadero (Segmento 1: Productores Ganaderos Independientes y Empresariales).
+*   **Silvia Rebaza:** Médica Veterinaria de campo (Segmento 2: Veterinarios Especializados).
+
+A continuación, se detallan las tareas identificadas, evaluando su Frecuencia (F) y su Importancia (I) en una escala de Bajo, Medio y Alto.
+
+| Tareas (Tasks) | Fernando: Frecuencia | Fernando: Importancia | Silvia: Frecuencia | Silvia: Importancia |
+| :--- | :---: | :---: | :---: | :---: |
+| Registro e identificación individual del ganado (nacimientos, arete, genealogía) | Alta | Alta | Media | Alta |
+| Registro y control de vacunación y desparasitación | Media | Alta | Alta | Alta |
+| Seguimiento reproductivo (celos, inseminaciones, diagnósticos de gestación y partos) | Alta | Alta | Media | Alta |
+| Monitoreo de producción diaria (pesaje y/o litros de leche) | Alta | Alta | Baja | Media |
+| Consulta de antecedentes e historial clínico individual | Media | Alta | Alta | Alta |
+| Emisión y registro de diagnósticos, tratamientos y recetas médicas | Baja | Media | Alta | Alta |
+| Planificación y asignación de tareas diarias al personal de campo | Alta | Alta | Baja | Baja |
+| Generación y análisis de reportes e indicadores (preñez, mortalidad, rentabilidad) | Media | Alta | Baja | Media |
+| Categorización y organización de animales por lotes o sectores | Media | Media | Baja | Baja |
+| Compartido de fichas médicas y coordinación directa ganadero-veterinario | Media | Alta | Alta | Alta |
+
+#### Explicación del Cuadro
+
+Al analizar la matriz, se observan coincidencias estratégicas y diferencias operativas marcadas por el rol y la responsabilidad de cada arquetipo en el entorno pecuario:
+
+*   **Tareas Críticas (Coincidencias):** El *Registro e identificación individual*, el *Control de vacunas/desparasitaciones*, el *Seguimiento reproductivo* y la *Consulta de historiales clínicos* representan las tareas con mayor coincidencia en alta importancia para ambos perfiles. Esto valida que el núcleo funcional de Vantara debe ser el expediente único digital por animal, garantizando la trazabilidad desde su nacimiento hasta su producción o descarte.
+*   **Diferencias en Frecuencia y Enfoque:** Para Fernando (productor), el *Monitoreo de producción diaria* y la *Planificación de tareas al personal* son de alta frecuencia e importancia, ya que impactan directamente en el flujo de caja diario y la operatividad de su hato. En cambio, para Silvia (veterinaria), la tarea de mayor frecuencia e importancia es la *Emisión de diagnósticos y tratamientos* junto con la *Consulta rápida de antecedentes clínicos* antes de intervenir médicamente a un animal.
+*   **Puntos de Dolor e Intersección Operativa:** La tarea de *Compartido de fichas médicas y coordinación directa* posee una frecuencia e importancia Alta para la veterinaria y Media/Alta para el ganadero. Este punto de contacto es crítico: actualmente se realiza de forma desorganizada mediante llamadas o mensajes de WhatsApp. Vantara resuelve esta fricción al actuar como un canal centralizado donde el veterinario registra la indicación médica y el productor la recibe y ejecuta en campo sin pérdida de información.
 
 ### 2.3.3. User Journey Mapping
 
