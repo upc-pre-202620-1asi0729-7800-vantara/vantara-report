@@ -4,6 +4,16 @@
 
 ## 4.1. Style Guidelines
 
+**Branding** 
+
+El branding de Hatarium está orientado a transmitir confianza, tecnología y compromiso con la gestión ganadera moderna. La identidad visual busca representar la conexión entre la tecnología y el cuidado del ganado mediante una propuesta limpia, profesional y accesible para ganaderos y veterinarios.
+
+La marca utiliza tonalidades verdes como elemento principal para reforzar conceptos relacionados con la naturaleza, bienestar animal, sostenibilidad, salud y productividad. Estos elementos se complementan con una interfaz minimalista que facilita la consulta y gestión de información.
+
+El logotipo de Hatarium incorpora una representación gráfica relacionada con el ganado y la naturaleza, reforzando visualmente la finalidad de la plataforma. Su uso debe mantenerse consistente en las diferentes pantallas para favorecer el reconocimiento de la marca.
+
+El objetivo principal de la identidad de Hatarium es proyectar una plataforma confiable y moderna que permita gestionar el ganado, realizar seguimiento sanitario, controlar la alimentación y consultar información productiva desde un mismo entorno digital.
+
 ### 4.1.1. General Style Guidelines
 
 ### 4.1.2. Web Style Guidelines
