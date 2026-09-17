@@ -407,6 +407,43 @@ Los wireframes de la landing page priorizan la experiencia del usuario y la faci
 
 ## 4.4. Web Applications UX/UI Design
 
+### 4.4.1. Web Applications Wireframes
+
+- Sección de "Iniciar Sesión"
+
+<img src="../assets/web-application-wireframe-1.png">
+
+- Sección de "Inicio"
+
+<img src="../assets/web-application-wireframe-2.png">
+
+- Sección de "Ganado"
+
+<img src="../assets/web-application-wireframe-3.png">
+<img src="../assets/web-application-wireframe-8.png">
+<img src="../assets/web-application-wireframe-9.png">
+
+- Sección de "Salud"
+
+<img src="../assets/web-application-wireframe-4.png">
+
+- Sección de "Alimentación"
+
+<img src="../assets/web-application-wireframe-5.png">
+
+- Sección de "Reportes"
+
+<img src="../assets/web-application-wireframe-6.png">
+
+- Sección de "Visualizar Reporte"
+
+<img src="../assets/web-application-wireframe-7.png">
+
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+### 4.4.3. Web Applications Mock-ups
+
 Se presenta el diseño a alto nivel de detalle de la aplicación web, considerando una versión para el segmento objetivo productores ganaderos y veterinarios.
 
 - Sección de "Iniciar Sesión"
@@ -443,14 +480,6 @@ Se presenta el diseño a alto nivel de detalle de la aplicación web, consideran
 - Sección de "Visualizar Reporte"
 
 <img src="../assets/web-application-mockup-8.jpg">
-
-
-
-### 4.4.1. Web Applications Wireframes
-
-### 4.4.2. Web Applications Wireflow Diagrams
-
-### 4.4.3. Web Applications Mock-ups
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
