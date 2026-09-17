@@ -502,7 +502,7 @@ Entrevista 1
 
 Entrevista 2
 
-**Entrevistado:** Fernando Guere Calero
+**Entrevistado:** Fernando Güere Calero
 
 **Edad:** 21
 
@@ -564,6 +564,32 @@ Frente a estas necesidades, considera útil contar con una plataforma web como V
 
 
 ### 2.2.3. Análisis de entrevistas
+
+### 2.2.3. Análisis de entrevistas
+
+A continuación, se presenta un análisis detallado de cada una de las sesiones de validación realizadas. En este apartado se describen los comportamientos detectados, los puntos de dolor específicos de cada sector, las limitaciones operativas actuales y la recepción de la propuesta de valor de la plataforma (Vantara).
+
+**Segmento 1: Productores Ganaderos (Independientes y Empresariales)**
+
+**1. Josué Laurente Castrejón**  
+Josué, de 28 años y residente en San Juan de Lurigancho, es un productor ganadero que actualmente gestiona la información de sus animales combinando registros manuales, hojas de cálculo y el uso de su celular. Su principal punto de dolor es la dificultad para mantener organizada la información vital de su ganado, especialmente los datos de salud, vacunación, reproducción y producción. Al presentarle la propuesta, Josué considera muy beneficioso contar con una plataforma web centralizada que le permita consultar historiales de forma rápida, organizar tareas y recibir recordatorios. Destaca que la principal ventaja de la solución sería el ahorro de tiempo, la reducción de errores humanos en los registros y la obtención de un mayor control gerencial sobre sus animales.
+
+**2. Fernando Güere Calero**  
+Fernando, de 21 años, maneja junto a su padre un hato de aproximadamente 70 cabezas de ganado, cuya cantidad fluctúa según la temporada del año. Actualmente, sufre graves deficiencias con sus registros físicos, los cuales suelen mancharse, mojarse o extraviarse en el entorno de trabajo. Aunque intenta usar Excel, la falta de tiempo lo obliga a depender de su memoria y la de sus trabajadores, generando errores costosos. Para Fernando, una plataforma ideal debe ofrecer un registro individual detallado (genealogía, vacunas, tratamientos), alertas de partos y métricas clave como índices de preñez y mortalidad. Su principal requisito técnico es la accesibilidad: la plataforma debe funcionar sin instalaciones complejas directamente desde un navegador, siendo compatible tanto con celulares como con laptops antiguas.
+
+**Segmento 2: Veterinarios Especializados**
+
+**3. Silvia Cecilia Rebaza Rosas**  
+Silvia, de 22 años y residente en Santiago de Surco, es una veterinaria que gestiona sus atenciones de campo mediante fichas físicas, algunos archivos digitales y notas rápidas. Su mayor frustración profesional es la "ceguera clínica" al momento de realizar un diagnóstico, ya que a menudo carece de los antecedentes médicos, tratamientos previos o calendarios de vacunación del animal. Además, coordina los seguimientos médicos vía llamadas o WhatsApp, lo que provoca desorganización y pérdida de datos. Silvia percibe un inmenso valor en la plataforma propuesta, destacando como funcionalidades vitales la centralización de historiales clínicos en tiempo real, el control de medicamentos y la capacidad de emitir y compartir indicaciones médicas de manera estructurada con el productor.
+
+**4. Angélica Abarca Véliz**  
+Angélica, de 24 años y residente en San Juan de Lurigancho, es una especialista veterinaria cuyo flujo de trabajo actual depende fuertemente de anotaciones sueltas y comunicación verbal y directa con los productores. Comparte el mismo desafío crítico que sus colegas: la falta de antecedentes clínicos completos antes de intervenir a un animal, así como la enorme dificultad para organizar el seguimiento de controles reproductivos y tratamientos a largo plazo. Para ella, adoptar una plataforma web unificada solucionaría estos vacíos, permitiéndole registrar tratamientos de forma permanente y, sobre todo, facilitando una comunicación mucho más transparente y eficiente con los dueños del ganado.
+
+**Síntesis de hallazgos (Insights principales)**
+
+*   **Insight 1 (Vulnerabilidad y desorganización de los registros físicos):** Tanto los productores ganaderos como los veterinarios coinciden en que los sistemas de registro tradicionales (cuadernos, fichas de papel o la memoria misma) son altamente ineficientes en el entorno de campo. La pérdida de información por daños físicos (clima, humedad) o por transcripciones incompletas es el principal causante de errores operativos y diagnósticos deficientes.
+*   **Insight 2 (Necesidad de accesibilidad web sin fricciones tecnológicas):** Existe un fuerte rechazo a las instalaciones complejas o a la necesidad de adquirir hardware especializado. El productor ganadero requiere que el sistema sea un software ligero (SaaS) que funcione directamente desde el navegador, adaptándose a las limitaciones tecnológicas del campo, como el uso de teléfonos móviles estándar o computadoras antiguas.
+*   **Insight 3 (Ruptura en la comunicación Productor-Veterinario):** Se ha identificado un vacío crítico en el flujo de información entre el dueño del ganado y el especialista de la salud. Las coordinaciones actuales dependen de canales informales como WhatsApp o llamadas telefónicas, lo que impide al veterinario acceder a antecedentes previos al llegar al campo, y al ganadero hacer un seguimiento correcto de las recetas médicas. La centralización de este historial compartido es el principal gatillador de interés en la plataforma.
 
 ## 2.3. Needfinding
 
