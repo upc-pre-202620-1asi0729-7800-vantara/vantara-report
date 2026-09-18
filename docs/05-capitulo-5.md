@@ -180,7 +180,7 @@ Durante el Sprint 1 se realizó el despliegue de la **Landing Page de Hatarium**
   3. GitHub Pages procesó los archivos estáticos y generó automáticamente la URL pública del sitio.
   4. Se realizó la verificación funcional accediendo a la URL generada desde distintos navegadores y dispositivos móviles para validar el diseño responsivo y la navegación.
 
-* **URL de la Landing Page:** `https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-report/`
+* **URL de la Landing Page:** `https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-website/`
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
