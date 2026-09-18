@@ -496,7 +496,7 @@ Entrevista 1
 
 <img src="../assets/Evidencia de Entrevista_ProductoresGanaderos1.png">
 
-**Link de la entrevista:** [Entrevista](https://youtu.be/Zn316X1kxeM)
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d483_upc_edu_pe/IQAkxq-nDKg-TI95qZUo43qeAWcHD3C9twIEflsHV5i2uDo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KdTcux)
 
 **Resumen:** En la entrevista, el productor ganadero explica cómo actualmente gestiona la información de sus animales mediante registros manuales y herramientas digitales, como hojas de cálculo y el celular. Entre las principales dificultades menciona mantener organizada la información relacionada con la salud, vacunación, reproducción y producción del ganado. Frente a estas necesidades, considera beneficioso contar con una plataforma web como Vantara, donde pueda centralizar la información de su ganado, consultar historiales, organizar tareas y recibir recordatorios. Finalmente, destaca que una herramienta de este tipo podría ayudarle a ahorrar tiempo, reducir errores en los registros y mantener un mayor control sobre la gestión de sus animales.
 
@@ -554,7 +554,7 @@ Entrevista 2
 
 <img src="../assets/Evidencia de Entrevista_Veterinaria2.png">
 
-**Link de la entrevista:** [Entrevista](https://youtu.be/r_-vTECQoUg)
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d483_upc_edu_pe/IQAc6MiIDXpNTYQOD6Tt4X1RAfrv_kV2OtpM1RmdN4k2Dn8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qOoFII)
 
 **Resumen:** En la entrevista, la veterinaria explica que actualmente gestiona la información clínica de los animales mediante anotaciones, archivos digitales y comunicación directa con los productores. Entre las principales dificultades menciona la falta de antecedentes completos de los animales y la organización del seguimiento de vacunas, tratamientos y controles reproductivos.
 
