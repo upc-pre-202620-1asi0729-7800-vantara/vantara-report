@@ -42,7 +42,7 @@ El objetivo del análisis es identificar las principales brechas existentes entr
 </th>
 
 <th align="center" valign="middle">
-Vantara
+Hatarium
 <br><br>
 <img src="../assets/vantara-logo.png" width="85">
 </th>
@@ -715,4 +715,33 @@ Pasos del proceso:
 
   6. Agregados y Contextos Delimitados: Agrupar comandos y eventos relacionados para definir límites lógicos o microservicios.
 
+  <img src="../assets/event-storming.png">
+
+
 ## 2.5. Ubiquitous Language
+
+El lenguaje ubicuo define los términos que serán utilizados de manera consistente por los productores ganaderos, médicos veterinarios y el equipo de desarrollo de Vantara. Su propósito es evitar ambigüedades entre el negocio y el sistema, especialmente en los procesos de identificación del ganado, seguimiento sanitario, control reproductivo y comunicación entre usuarios. Estos conceptos se obtuvieron del análisis competitivo, las entrevistas, la matriz de tareas y el Event Storming realizado para Hatarium.
+
+| Término | Definición dentro del dominio |
+| :--- | :--- |
+| **Productor ganadero** | Usuario responsable de administrar el ganado, registrar actividades del hato, consultar indicadores y coordinar atenciones veterinarias. |
+| **Médico veterinario** | Profesional que consulta historiales autorizados, registra diagnósticos, tratamientos, vacunas y recomendaciones para los animales. |
+| **Animal** | Unidad individual de ganado identificada mediante un arete o código único, sobre la cual se registran datos sanitarios, reproductivos y productivos. |
+| **Hato** | Conjunto de animales administrados por un productor dentro de una operación ganadera. |
+| **Lote** | Grupo de animales organizado según criterios definidos por el productor, como edad, ubicación, propósito productivo o estado reproductivo. |
+| **Ficha del animal** | Registro principal que contiene la identificación, fecha de nacimiento, genealogía, estado actual y demás información relevante de un animal. |
+| **Historial clínico** | Conjunto cronológico de consultas, diagnósticos, tratamientos, vacunas y observaciones asociadas a un animal. |
+| **Evento sanitario** | Situación relacionada con la salud del animal, como una vacunación, desparasitación, diagnóstico, tratamiento o control médico. |
+| **Evento reproductivo** | Situación relacionada con la reproducción, como celo, inseminación, diagnóstico de gestación, parto, destete o periodo de secado. |
+| **Tratamiento** | Indicaciones médicas destinadas a atender una enfermedad o condición específica, incluyendo medicamento, dosis, frecuencia y duración. |
+| **Receta o indicación médica** | Instrucción registrada por el veterinario para orientar al productor sobre la aplicación de un tratamiento. |
+| **Alerta** | Notificación generada por el sistema para recordar una actividad pendiente o próxima, como una vacuna, parto, tratamiento o periodo de retiro. |
+| **Periodo de retiro** | Tiempo que debe transcurrir después de aplicar un medicamento antes de utilizar o comercializar productos derivados del animal, como la leche. |
+| **Cita o visita veterinaria** | Atención programada entre el productor y el médico veterinario para evaluar uno o más animales. |
+| **Registro productivo** | Información relacionada con el rendimiento del ganado, como peso, producción diaria de leche, mortalidad o rentabilidad. |
+| **Indicador ganadero** | Medida utilizada para evaluar el estado o desempeño del hato, como índice de preñez, ganancia de peso o tasa de mortalidad. |
+| **Usuario autorizado** | Persona que cuenta con permisos para consultar o modificar información dentro de la plataforma, según su rol y relación con el hato. |
+
+En el sistema, el **animal** constituye el eje principal de la información. Cada evento sanitario, reproductivo o productivo debe asociarse a su ficha y conservar la fecha, el responsable y los detalles correspondientes. De esta manera, el productor puede mantener el control operativo del hato y el veterinario puede acceder a antecedentes confiables para realizar un diagnóstico y dar seguimiento a sus indicaciones.
+
+Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, **productor ganadero**, **ficha del animal**, **historial clínico**, **evento**, **tratamiento** y **alerta** en los requisitos, diseños, diagramas y pantallas de Hatarium. La unificación de este vocabulario facilitará la trazabilidad entre las necesidades identificadas, las historias de usuario, el modelo de datos y las funcionalidades que se implementen posteriormente.
