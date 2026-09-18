@@ -20,10 +20,16 @@
 
 ## Recomendaciones
 
-### Roadmap de los productos digitales
+Se recomienda que Vantara priorice el desarrollo y validación de un producto mínimo viable de Hatarium, enfocado inicialmente en las necesidades principales de los ganaderos: registro de animales, organización por lotes, historiales clínicos, control de alimentación, seguimiento reproductivo y alertas sanitarias. Estas funciones deben ser sencillas, accesibles desde dispositivos móviles y adaptadas a contextos donde la conectividad puede ser limitada.
 
+Como siguiente etapa, se recomienda incorporar el módulo para médicos veterinarios, permitiendo consultar historiales autorizados, registrar diagnósticos, tratamientos, vacunas y citas. Antes de ampliar el producto con reportes o funciones avanzadas, se deben realizar entrevistas y pruebas de usabilidad con ganaderos y veterinarios para comprobar que las tareas principales se completan de manera clara y eficiente. Los resultados deben utilizarse para priorizar el backlog y corregir las dificultades encontradas.
+
+Finalmente, se recomienda completar la documentación pendiente de los capítulos de requisitos, diseño, implementación y validación, incluyendo entrevistas, historias de usuario, diagramas, evidencias de desarrollo y resultados de pruebas. También es importante unificar el uso de los nombres AgroCare, Vantara y Hatarium en todo el informe y la página web, además de reforzar la seguridad, los permisos de acceso, las copias de respaldo y la accesibilidad de la plataforma.
 
 # Bibliografía
 
+Agronegocios. (2023, 5 mayo). Cinco apps que le ayudan a gestionar una finca dedicada a las actividades ganaderas. AGRONEGOCIOS. https://www.agronegocios.co/finca/cinco-apps-que-le-ayudan-a-gestionar-una-finca-dedicada-a-las-actividades-ganaderas-3609083
+
 
 # Anexos
+
