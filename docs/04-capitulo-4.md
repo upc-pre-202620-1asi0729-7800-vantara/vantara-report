@@ -496,6 +496,12 @@ A continuación se presenta el User Flow Diagram del Sprint 1 de la aplicación 
 
 ## 4.5. Web Applications Prototyping
 
+En este primer sprint, se desarrollaron principalmente las funcionalidades core de la aplicación front end para el segmento objetivo de productores ganaderos, con pestaña de inicio, ganado, salud y alimento.
+
+Video Exposición del Prototipo: ([Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b645_upc_edu_pe/IQCDQjed5qhyR6kXCKI0k-1vAVzHmNJGotmTSCgda-dBNMc?e=jaCitc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+
+<img src="../assets/screenshot-prototype.png">
+
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Design-Level Event Storming
