@@ -1,4 +1,4 @@
-![Logo de la upc](../Assets/imagenes-caratula/logo-upc.png)
+![Logo de la upc](../assets/imagenes-caratula/logo-upc.png)
 
 # Univeridad Peruana de Ciencias Aplicadas
 
@@ -16,16 +16,16 @@
 
 ### Startup: Vantara
 
-### Producto: 
+### Producto: Hatarium
 
 ### Integrantes:
 
 | Codigo     | Apellidos y Nombres                |
 |------------|------------------------------------|
-| codigo1    | integrante 1                       |
-| codigo2    | integrante 2                       | 
-| codigo3    | integrante 3                       | 
-| codigo4    | integrante 4                       | 
+| U20241B645 | Linares Rodríguez, Franco Orlando   |
+| U20241A860 | Ayllon Pauccar, Juan David          | 
+| u20241D483 | Taza Curay, Eduardo Miguel          | 
+| u202416272    | Asmat Alminco, Martin              | 
 | u202516291 | Meza Tataje, David                 | 
 
 ### Agosto 2026-20
