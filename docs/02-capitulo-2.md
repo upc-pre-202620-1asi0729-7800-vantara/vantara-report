@@ -512,6 +512,20 @@ Entrevista 2
 
 **Resumen:** En la entrevista, el productor ganadero explica que actualmente maneja aproximadamente 70 cabezas de ganado junto con su padre. La cantidad de animales varía durante el año debido a los periodos de reproducción y a la temporada seca o de escasez, cuando suelen vender algunos animales para reducir los gastos de alimentación. Entre las funciones indispensables para una plataforma web, considera el registro individual de cada animal, su fecha de nacimiento, genealogía, vacunas, tratamientos y estado reproductivo, además de alertas para próximas vacunaciones y partos. Asimismo, señala que uno de los principales problemas actuales es la desorganización y pérdida de información en los registros físicos, ya que los formatos pueden mancharse, mojarse o extraviarse. Aunque en ocasiones intenta trasladar los datos a Excel, la falta de tiempo provoca que termine dependiendo de su memoria y la de sus trabajadores, lo que puede generar errores. Para evaluar el desempeño de su operación, considera importantes el índice de preñez, la mortalidad, la ganancia de peso y, cuando corresponde, la producción diaria de leche. Finalmente, destaca que la plataforma debe funcionar directamente desde un navegador, tanto en el celular como en una laptop antigua, sin instalaciones complejas ni equipos especiales. También considera necesario poder crear grupos personalizados de animales según la edad, el propósito o el sector donde se encuentren. Entre los principales beneficios esperados menciona el ahorro de tiempo administrativo, la reducción del estrés y la identificación rápida de los animales que no resultan rentables para tomar decisiones de venta.
 
+Entrevista 3
+
+**Entrevistado:** Harold Benji
+
+**Edad:** 23
+
+**Segmento:** Ganadero
+
+<img src="../assets/evidencia-entrevista-ganadero3.png">
+
+**Link de la entrevista:** Pendiente
+
+**Resumen:** Harold es un profesional de 23 años el cual ha estado en este rubro por un par de años en el mercado. Considera importante el uso de una aplicación que le ahorre el tiempo, sin embargo, cree que es un poco complicado debido a que el control con respecto a vacunas y contacto con profesionales como podría ser veterinarios es un poco tedioso y al ser una solución un poco ambiciosa cree que requiere bastante trabajo para que esté bien implementado. Por otro lado, considera que es una buena oportunidad de mejora, ya que normalmente utilizaban hojas de cálculo para registros e incluso escrituras de hoja a mano para recuerdos breves.
+
 
 
 **Segmento 2: Veterinarios Especializados**
@@ -576,6 +590,9 @@ Josué, de 28 años y residente en San Juan de Lurigancho, es un productor ganad
 
 **2. Fernando Güere Calero**  
 Fernando, de 21 años, maneja junto a su padre un hato de aproximadamente 70 cabezas de ganado, cuya cantidad fluctúa según la temporada del año. Actualmente, sufre graves deficiencias con sus registros físicos, los cuales suelen mancharse, mojarse o extraviarse en el entorno de trabajo. Aunque intenta usar Excel, la falta de tiempo lo obliga a depender de su memoria y la de sus trabajadores, generando errores costosos. Para Fernando, una plataforma ideal debe ofrecer un registro individual detallado (genealogía, vacunas, tratamientos), alertas de partos y métricas clave como índices de preñez y mortalidad. Su principal requisito técnico es la accesibilidad: la plataforma debe funcionar sin instalaciones complejas directamente desde un navegador, siendo compatible tanto con celulares como con laptops antiguas.
+
+**3. Harold Benji**  
+La entrevista con Harold, joven profesional del sector ganadero, revela la necesidad de optimizar los tiempos de gestión y la oportunidad de mejora frente al uso tradicional de hojas de cálculo y apuntes a mano. Si bien la idea de una aplicación le parece importante y valiosa, resalta los retos operativos en su sector, tales como el control detallado de vacunas y la interacción con profesionales como veterinarios. Desde su perspectiva, al tratarse de un sistema con funcionalidades ambiciosas, requerirá de un desarrollo minucioso para garantizar que su implementación se adapte correctamente a las tareas tediosas y específicas que enfrentan a diario.
 
 **Segmento 2: Veterinarios Especializados**
 
