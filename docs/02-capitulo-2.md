@@ -666,7 +666,7 @@ En esta sección se presentan los User Journey Maps para los dos arquetipos de u
 
 ---
 
-#### A. User Journey Map: Fernando Guere (Segmento Productor Ganadero)
+#### A. User Journey Map: Fernando Güere (Segmento Productor Ganadero)
 
 <img src="../assets/needfinding/journey-map-ganadero.png">
 
@@ -677,6 +677,21 @@ En esta sección se presentan los User Journey Maps para los dos arquetipos de u
 <img src="../assets/needfinding/journey-map-vet.png">
 
 ### 2.3.4. Empathy Mapping
+
+En esta sección se presentan los mapas de empatía para los arquetipos principales de Vantara: **Fernando Guere** (Productor Ganadero) y **Silvia Rebaza** (Médica Veterinaria). Estos artefactos permiten sintetizar el entorno psicográfico, comportamientos, necesidades y puntos de dolor de ambos usuarios frente a la gestión ganadera tradicional.
+
+---
+
+#### A. Empathy Map: Fernando Güere (Segmento Productor Ganadero)
+
+<img src="../assets/needfinding/empathy-ganadero.png">
+
+---
+
+#### B. Empathy Map: Silvia Rebaza (Segmento Veterinario Especializado)
+
+<img src="../assets/needfinding/empathy-vet.png">
+
 
 ## 2.4. Big Picture Event Storming
 
