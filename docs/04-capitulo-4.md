@@ -522,6 +522,82 @@ La plataforma centraliza la información operativa y clínica, valida la identid
 
 ### 4.7.1. Class Diagrams
 
+A continuación se presentan los diagramas de clases correspondientes a cada Bounded Context identificado en la arquitectura de la solución. Cada diagrama detalla las entidades principales, sus atributos, métodos y las relaciones entre ellas.
+
+#### 1. IAM (Identity and Access Management) Bounded Context
+Este Bounded Context se encarga de gestionar la seguridad, autenticación y autorización de los usuarios en la plataforma. Sus clases representan las credenciales, roles (como Ganadero o Veterinario) y sesiones de los usuarios.
+<img src="../assets/class-diagrams/1-iam-classes.png">
+
+#### 2. Profile Bounded Context
+Gestiona la información personal y la configuración de los perfiles de usuario dentro del sistema, así como la información general de la ganadería. Contiene clases que modelan los datos de contacto y preferencias.
+<img src="../assets/class-diagrams/2-profile-classes.png">
+
+#### 3. Livestock Bounded Context
+Este Bounded Context abarca la gestión del inventario animal. Sus clases principales modelan a los animales individuales, sus características físicas, estado, raza y su agrupación en lotes para una gestión más eficiente.
+<img src="../assets/class-diagrams/3-livestock-classes.png">
+
+#### 4. Veterinary Bounded Context
+Se enfoca en la gestión de la salud y el historial clínico del ganado. Contiene clases que representan diagnósticos, tratamientos, vacunaciones y citas veterinarias, permitiendo un control sanitario riguroso.
+<img src="../assets/class-diagrams/4-veterinary-classes.png">
+
+#### 5. Reproductive Bounded Context
+Encargado de registrar el ciclo reproductivo del ganado. Incluye clases para modelar eventos como celos, inseminaciones, gestaciones y partos, facilitando la planificación y el seguimiento reproductivo.
+<img src="../assets/class-diagrams/5-reproductive-classes.png">
+
+#### 6. Payments Bounded Context
+Maneja la lógica de facturación, transacciones y suscripciones de la plataforma. Sus clases modelan los pagos realizados, los planes de suscripción y el historial de facturación de los usuarios.
+<img src="../assets/class-diagrams/6-payments-classes.png">
+
+#### 7. Reports Bounded Context
+Responsable de la recopilación y consolidación de datos. Sus clases estructuran la generación de reportes estadísticos, resúmenes de productividad y exportación de datos operativos y sanitarios para la toma de decisiones.
+<img src="../assets/class-diagrams/7-reports-classes.png">
+
+#### 8. Notifications Bounded Context
+Administra las comunicaciones con el usuario. Sus clases estructuran la configuración y el envío de alertas, recordatorios y notificaciones sobre eventos críticos (como tratamientos pendientes o citas).
+<img src="../assets/class-diagrams/8-notifications-classes.png">
+
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
+
+A continuación, se presentan los Database Diagrams para cada Bounded Context de la solución. Estos diagramas detallan las tablas, columnas, restricciones (como llaves primarias `PK` y foráneas `FK`) y las relaciones que permitirán la persistencia de los objetos del dominio en una base de datos relacional. 
+
+Adicionalmente, al final de la sección se incluye una **vista general de la base de datos** utilizando diagrama UML, que integra todos los Bounded Contexts, dado que representan un esquema consolidado para la plataforma.
+
+#### 1. Identity and Access Management (IAM)
+Este esquema gestiona las credenciales de acceso, cuentas y roles. Las tablas principales incluyen la definición de roles y las cuentas de usuario, asegurando que la autenticación sea consistente y segura.
+<img src="../assets/database-diagrams/bd-identity-access-management.png">
+
+#### 2. Profile Management
+Se enfoca en almacenar los perfiles de los usuarios y su asociación con una cuenta del sistema. Permite guardar la información demográfica, de contacto y los datos de las ganaderías.
+<img src="../assets/database-diagrams/bd-profile-management.png">
+
+#### 3. Livestock Management
+Este esquema persiste toda la información relacionada con los animales, sus lotes, movimientos y planes de alimentación. Incluye tablas robustas que relacionan a los animales con sus padres (trazabilidad genealógica), su ubicación (lotes) y su dieta.
+<img src="../assets/database-diagrams/bd-livestock-management.png">
+
+#### 4. Veterinary Health
+Contiene las tablas necesarias para registrar las citas veterinarias, los historiales médicos, los diagnósticos y los tratamientos aplicados a los animales, incluyendo el catálogo de medicamentos.
+<img src="../assets/database-diagrams/bd-veterinary-health.png">
+
+#### 5. Reproductive Management
+Almacena la información del ciclo reproductivo de los animales, incluyendo las gestaciones, fechas estimadas de parto y las crías resultantes, enlazándose directamente con el registro de inventario de animales.
+<img src="../assets/database-diagrams/bd-reproductive-management.png">
+
+#### 6. Payments
+Gestiona el almacenamiento de las transacciones financieras. Sus tablas incluyen los pagos generados, transacciones asociadas a métodos de pago y los recibos de cobro por suscripciones o servicios veterinarios.
+<img src="../assets/database-diagrams/bd-payments.png">
+
+#### 7. Reports and Analytics
+Estructura la información para generar y compartir reportes. Relaciona quién generó el reporte, sobre qué animales o ganadería trata y con qué usuarios del sistema se han compartido los resultados.
+<img src="../assets/database-diagrams/bd-reports-analytics.png">
+
+#### 8. Notifications
+Persiste las notificaciones y alertas dirigidas a los usuarios. Su tabla principal registra el mensaje, el estado de lectura y el usuario destinatario.
+<img src="../assets/database-diagrams/bd-notifications.png">
+
+#### Vista General de Base de Datos (Entity-Relationship)
+
+Para integrar las relaciones consolidadas de todos los Bounded Contexts y comprender la estructura completa del sistema Vantara, presentamos el siguiente diagrama unificado modelado en UML (PlantUML).
+
+<img src="../assets/database-diagrams/db-general.png">
