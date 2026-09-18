@@ -506,6 +506,43 @@ Video Exposición del Prototipo: ([Link](https://upcedupe-my.sharepoint.com/:v:/
 
 ### 4.6.1. Design-Level Event Storming
 
+A continuación se presenta el Design-Level Event Storming, donde se detallan los comandos, agregados, eventos de dominio y políticas de los distintos Bounded Contexts que componen la solución.
+
+#### Visión General (Todos los Bounded Contexts)
+El siguiente diagrama muestra el sistema completo, ilustrando cómo interactúan los distintos Bounded Contexts entre sí para soportar los procesos principales de Vantara.
+<img src="../assets/design-level-storming/all-bounded-context.png">
+
+#### 1. IAM Bounded Context
+Este contexto abarca la gestión de identidad y accesos. Permite modelar los comandos y eventos involucrados en el registro, autenticación y manejo de roles de los usuarios de la plataforma.
+<img src="../assets/design-level-storming/iam-bounded-context.png">
+
+#### 2. Profile Management Bounded Context
+Encargado de los eventos relacionados con el manejo de perfiles y la configuración. En este contexto se define cómo los usuarios actualizan su información personal y los datos generales de su ganadería.
+<img src="../assets/design-level-storming/profile-mang-bounded-context.png">
+
+#### 3. Livestock Management Bounded Context
+Gestiona el inventario de animales y lotes. Aquí se detallan los eventos para registrar nuevos animales, asignarlos a lotes, actualizar sus características físicas y monitorear su estado a lo largo del tiempo.
+<img src="../assets/design-level-storming/livestock-mang-bounded-context.png">
+
+#### 4. Veterinary Health Bounded Context
+Se centra en el control sanitario del ganado. Incluye los comandos y eventos para la programación de citas, emisión de diagnósticos, registro de vacunaciones y aplicación de tratamientos.
+<img src="../assets/design-level-storming/veterinary-heatlh-bounded-context.png">
+
+#### 5. Reproductive Management Bounded Context
+Modelado en torno al ciclo reproductivo, este contexto captura los eventos clave como el registro de celos, inseminaciones, control de gestaciones y la atención de partos.
+<img src="../assets/design-level-storming/reproductive-mang-bounded-context.png">
+
+#### 6. Payments Bounded Context
+Controla los procesos financieros del sistema. Aquí se manejan los eventos relacionados a la validación de métodos de pago, el cobro de planes de suscripción y la generación de comprobantes.
+<img src="../assets/design-level-storming/payments-bounded-context.png">
+
+#### 7. Reports & Analytics Bounded Context
+Enfocado en la generación de valor a partir de los datos. Contempla los eventos necesarios para procesar información operativa y de salud, generando métricas de productividad y resúmenes estadísticos.
+<img src="../assets/design-level-storming/report-analy-bounded-context.png">
+
+#### 8. Recipes Management Bounded Context
+Este contexto administra los planes de alimentación. Refleja los eventos que permiten formular dietas balanceadas, registrar recetas nutricionales y gestionar las raciones para el ganado.
+<img src="../assets/design-level-storming/recipes-mang-bounded-context.png">
 ### 4.6.2. Software Architecture Context Diagram
 
 El diagrama de contexto presenta al sistema Vantara y las principales entidades que interactúan con él. El productor ganadero utiliza la plataforma para gestionar el inventario de animales, lotes, planes de alimentación, citas y pagos. El médico veterinario consulta y administra información clínica, diagnósticos, tratamientos, vacunas y certificados de trazabilidad. Además, Vantara se integra mediante HTTPS con un proveedor externo de autenticación, una pasarela de pagos y un servicio de notificaciones push.
