@@ -1,0 +1,204 @@
+@startuml
+title Vantara - General Database ER Diagram
+
+hide methods
+skinparam linetype ortho
+skinparam nodesep 50
+skinparam ranksep 50
+
+' --- Identity and Access Management ---
+package "IAM & Profile" {
+  entity "iam_roles" as iam_roles {
+    * id : BIGINT UNSIGNED <<PK>>
+  }
+  entity "iam_accounts" as iam_accounts {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    role_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "users" as users {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    account_id : BIGINT UNSIGNED <<FK>>
+  }
+}
+
+' --- Livestock Management ---
+package "Livestock" {
+  entity "livestock_lots" as livestock_lots {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    rancher_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "livestock_animals" as livestock_animals {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    rancher_id : BIGINT UNSIGNED <<FK>>
+    lot_id : BIGINT UNSIGNED <<FK>>
+    mother_id : BIGINT UNSIGNED <<FK>>
+    father_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "livestock_movements" as livestock_movements {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    animal_id : BIGINT UNSIGNED <<FK>>
+    origin_lot_id : BIGINT UNSIGNED <<FK>>
+    destination_lot_id : BIGINT UNSIGNED <<FK>>
+    recorded_by : BIGINT UNSIGNED <<FK>>
+  }
+  entity "livestock_feeding_plans" as livestock_feeding_plans {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    lot_id : BIGINT UNSIGNED <<FK>>
+    animal_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "livestock_feeding_plan_items" as livestock_feeding_plan_items {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    feeding_plan_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "livestock_feeding_logs" as livestock_feeding_logs {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    plan_item_id : BIGINT UNSIGNED <<FK>>
+    animal_id : BIGINT UNSIGNED <<FK>>
+    lot_id : BIGINT UNSIGNED <<FK>>
+    recorded_by : BIGINT UNSIGNED <<FK>>
+  }
+}
+
+' --- Veterinary and Health ---
+package "Veterinary" {
+  entity "appointments" as appointments {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    rancher_id : BIGINT UNSIGNED <<FK>>
+    veterinarian_id : BIGINT UNSIGNED <<FK>>
+    requested_by : BIGINT UNSIGNED <<FK>>
+  }
+  entity "appointment_animals" as appointment_animals {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    appointment_id : BIGINT UNSIGNED <<FK>>
+    animal_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "medical_records" as medical_records {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    appointment_id : BIGINT UNSIGNED <<FK>>
+    animal_id : BIGINT UNSIGNED <<FK>>
+    veterinarian_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "medications" as medications {
+    * id : BIGINT UNSIGNED <<PK>>
+  }
+  entity "treatments" as treatments {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    medical_record_id : BIGINT UNSIGNED <<FK>>
+    animal_id : BIGINT UNSIGNED <<FK>>
+    medication_id : BIGINT UNSIGNED <<FK>>
+  }
+}
+
+' --- Reproductive Management ---
+package "Reproductive" {
+  entity "reproduction_pregnancies" as reproduction_pregnancies {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    animal_id : BIGINT UNSIGNED <<FK>>
+    calf_id : BIGINT UNSIGNED <<FK>>
+  }
+}
+
+' --- Payments ---
+package "Payments" {
+  entity "payment_payments" as payment_payments {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    rancher_id : BIGINT UNSIGNED <<FK>>
+    appointment_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "payment_transactions" as payment_transactions {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    payment_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "payment_receipts" as payment_receipts {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    payment_id : BIGINT UNSIGNED <<FK>>
+  }
+}
+
+' --- Reports & Notifications ---
+package "Other" {
+  entity "report_reports" as report_reports {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    requested_by : BIGINT UNSIGNED <<FK>>
+    rancher_id : BIGINT UNSIGNED <<FK>>
+    animal_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "report_shares" as report_shares {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    report_id : BIGINT UNSIGNED <<FK>>
+    recipient_account_id : BIGINT UNSIGNED <<FK>>
+  }
+  entity "notifications" as notifications {
+    * id : BIGINT UNSIGNED <<PK>>
+    --
+    recipient_user_id : BIGINT UNSIGNED <<FK>>
+  }
+}
+
+' --- Relationships ---
+iam_roles ||--o{ iam_accounts
+iam_accounts ||--|| users
+
+users ||--o{ livestock_lots
+users ||--o{ livestock_animals
+livestock_lots ||--o{ livestock_animals
+livestock_animals ||--o{ livestock_animals
+livestock_animals ||--o{ livestock_movements
+livestock_lots ||--o{ livestock_movements
+iam_accounts ||--o{ livestock_movements
+
+livestock_lots ||--o{ livestock_feeding_plans
+livestock_animals ||--o{ livestock_feeding_plans
+livestock_feeding_plans ||--o{ livestock_feeding_plan_items
+livestock_feeding_plan_items ||--o{ livestock_feeding_logs
+livestock_animals ||--o{ livestock_feeding_logs
+livestock_lots ||--o{ livestock_feeding_logs
+iam_accounts ||--o{ livestock_feeding_logs
+
+users ||--o{ appointments
+iam_accounts ||--o{ appointments
+appointments ||--o{ appointment_animals
+livestock_animals ||--o{ appointment_animals
+
+appointments ||--o{ medical_records
+livestock_animals ||--o{ medical_records
+users ||--o{ medical_records
+
+medical_records ||--o{ treatments
+livestock_animals ||--o{ treatments
+medications ||--o{ treatments
+
+livestock_animals ||--o{ reproduction_pregnancies
+
+users ||--o{ payment_payments
+appointments ||--o{ payment_payments
+payment_payments ||--o{ payment_transactions
+payment_payments ||--o| payment_receipts
+
+iam_accounts ||--o{ report_reports
+users ||--o{ report_reports
+livestock_animals ||--o{ report_reports
+report_reports ||--o{ report_shares
+iam_accounts ||--o{ report_shares
+
+users ||--o{ notifications
+
+@enduml
