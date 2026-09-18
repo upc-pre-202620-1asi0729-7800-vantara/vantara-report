@@ -16,15 +16,15 @@
 
 ### Startup: Vantara
 
-### Producto: 
+### Producto: Hatarium
 
 ### Integrantes:
 
 | Codigo     | Apellidos y Nombres                |
 |------------|------------------------------------|
-| U20241B645 | Linares Rodríguez Franco Orlando   |
-| U20241A860 | Ayllon Pauccar Juan David          | 
-| u20241D483 | Taza Curay,Eduardo Miguel          | 
+| U20241B645 | Linares Rodríguez, Franco Orlando   |
+| U20241A860 | Ayllon Pauccar, Juan David          | 
+| u20241D483 | Taza Curay, Eduardo Miguel          | 
 | u202416272    | Asmat Alminco, Martin              | 
 | u202516291 | Meza Tataje, David                 | 
 
