@@ -38,13 +38,11 @@
 
 | Versión | Fecha | Autor | Descripción Modificada |
 |:-------:|:----------:|:------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0.1 | 28/08/26 | Meza Tataje David | Creación del documento base e inicialización de estructura del informe. |
-| 0.2 | 29/08/26 | Asmat, Martin | Redacción de User Stories (colaborativo), definición de Style Guidelines, elaboración de C4: Container Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
-| 0.3 | 30/08/26 | Linares, Franco | Elaboración del Solution Profile, definición del Product Backlog, diseño del Database Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
-| 0.4 | 31/08/26 | Taza, Eduardo | Elaboración del Análisis de Competidores, desarrollo de Impact Mapping, Information Architecture (colaborativo), modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
-| 0.5 | 01/09/26 | David Apellido | Redacción de User Stories (colaborativo), desarrollo de Prototyping: Web Application & Landing Page (Wireframes y Mockups), modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
-| 0.6 | 02/09/26 | Juan David | Desarrollo de Needfinding completo, Information Architecture (colaborativo), elaboración de C4: Context Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
-
+| 0.1 | 29/08/26 | Asmat Alminco, Martin Alejandro | Redacción de User Stories (colaborativo), definición de Style Guidelines, elaboración de C4: Container Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
+| 0.2 | 30/08/26 | Linares Rodriguez, Franco Orlando | Elaboración del Solution Profile, definición del Product Backlog, diseño del Database Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
+| 0.3 | 31/08/26 | Taza Curay, Eduardo Miguel | Elaboración del Análisis de Competidores, desarrollo de Impact Mapping, Information Architecture (colaborativo), modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
+| 0.4 | 01/09/26 | Meza Tataje, David | Redacción de User Stories (colaborativo), desarrollo de Prototyping: Web Application & Landing Page (Wireframes y Mockups), modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
+| 0.5 | 02/09/26 | Ayllon Pauccar, Juan David | Desarrollo de Needfinding completo, Information Architecture (colaborativo), elaboración de C4: Context Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
 # Project Report Collaboration Insights
 
 - Link del repositorio del informe: [https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report.git](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report.git)
