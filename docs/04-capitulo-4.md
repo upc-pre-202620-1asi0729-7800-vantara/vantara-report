@@ -553,7 +553,86 @@ La plataforma centraliza la información operativa y clínica, valida la identid
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+Se muestra el siguiente diagrama de contenedor para la aplicacion web:
+
+<img src="../assets/c4/container-vantara-platform-dark.png">
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+Los diagramas de componentes detallan la estructura interna de cada bounded context, incluyendo los componentes de presentación y las vistas que participan en sus principales interacciones.
+
+#### 1. IAM (Identity and Access Management)
+
+**Layers**
+<img src="../assets/c4/iam-layerscomponents-iam-layers-dark.png">
+
+**Presentation**
+<img src="../assets/c4/iam-presentationcomponents-iam-presentation-dark.png">
+
+**Views**
+<img src="../assets/c4/iam-viewscomponents-iam-views-dark.png">
+
+#### 2. Profile Management
+
+**Layers**
+<img src="../assets/c4/profile-layerscomponents-profile-layers-dark.png">
+
+**Presentation**
+<img src="../assets/c4/profile-presentationcomponents-profile-presentation-dark.png">
+
+**Views**
+<img src="../assets/c4/profile-viewscomponents-profile-views-dark.png">
+
+#### 3. Livestock Management
+
+**Presentation**
+<img src="../assets/c4/livestock-mng-presentation.png">
+
+**Views**
+<img src="../assets/c4/livestock-views.png">
+
+#### 4. Veterinary Health
+**Layers**
+<img src="../assets/c4/veterinary-layerscomponents-veterinary-layers-dark.png">
+
+**Presentation**
+<img src="../assets/c4/veterinary-presentationcomponents-veterinary-presentation-dark.png">
+
+**Views**
+<img src="../assets/c4/veterinary-viewscomponents-veterinary-views-dark.png">
+
+#### 5. Reproductive Management
+**Presentation**
+<img src="../assets/c4/components-reproductive-presentation-dark.png">
+
+**Views**
+<img src="../assets/c4/components-reproductive-views-dark.png">
+
+#### 6. Payments
+
+**Layers**
+
+<img src="../assets/c4/payments-layerscomponents-payments-layers-dark.png">
+
+**Presentation**
+<img src="../assets/c4/payments-presentationcomponents-payments-presentation-dark.png">
+
+**Views**
+<img src="../assets/c4/payments-viewcomponents-payments-views-dark.png">
+
+#### 7. Reports and Analytics
+**Presentation**
+<img src="../assets/c4/report-presentation.png">
+
+**Views**
+<img src="../assets/c4/report-views.png">
+
+#### 8. Notifications
+**Presentation**
+<img src="../assets/c4/notifications-presentation.png">
+
+**Views**
+<img src="../assets/c4/notifications-views.png">
 
 ## 4.7. Software Object-Oriented Design
 
