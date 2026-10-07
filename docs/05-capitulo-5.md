@@ -272,30 +272,42 @@ Durante el Sprint 2 se desarrolló e integró la aplicación Web Frontend utiliz
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-Se implementaron y ejecutaron satisfactoriamente las vistas y flujos interactivos correspondientes a la primera versión de la aplicación Web Frontend de Hatarium:
+Se implementaron y ejecutaron satisfactoriamente las vistas y los flujos interactivos de la primera versión de la aplicación Web Frontend de Hatarium. Las siguientes capturas muestran las pantallas disponibles de cada Bounded Context:
 
 * **IAM & Profile Management (Asmat Alminco, Martin / Taza Curay, Eduardo Miguel):**
-  Flujo completo de autenticación de usuarios, formulario de inicio de sesión con validación de credenciales, selección de roles (*Administrador*, *Ganadero*, *Veterinario*) y gestión del perfil del usuario con actualización de datos de contacto.
+  Se implementó el inicio de sesión con validación de credenciales y acceso según el rol del usuario (*Administrador*, *Ganadero* o *Veterinario*). La vista de perfil permite consultar y actualizar los datos personales y las preferencias de la cuenta.
+
+  <p align="center"><img src="../assets/imagenes-caratula/home-view.png" alt="Panel principal de Hatarium" width="75%"></p>
+  <p align="center"><img src="../assets/imagenes-caratula/profile-view.png" alt="Perfil y configuración del usuario" width="75%"></p>
 
 * **Livestock Management (Linares Rodríguez, Franco Orlando):**
-  Catálogo de bovinos registrados en la hacienda con detalle de arete ID, nombre, raza, sexo, peso e imagen. Incluye la vista de administración de Lotes (*Lote A - Pastoreo*, *Lote B - Crecimiento*, *Lote C - Producción*) y asignación de animales.
+  El catálogo permite consultar los bovinos registrados y sus datos principales, como arete, nombre, lote, sexo, raza, peso y estado. También presenta el resumen de animales distribuidos en los lotes de la hacienda.
+
+  <p align="center"><img src="../assets/imagenes-caratula/livestock-view.png" alt="Catálogo de ganado y lotes" width="75%"></p>
 
 * **Veterinary and Health (Meza Tataje, David):**
-  Flujo clínico completo estructurado en 5 pantallas interconectadas:
-  1. *Citas y Visitas Técnicas:* Dashboard interactivo con KPIs de atenciones, buscador y barra de filtros para diferenciar solicitudes del ganadero (🔵 `RANCHER_REQUEST`) de visitas técnicas programadas por el veterinario (🟢 `TECHNICAL_VISIT`).
-  2. *Agendar Visita Técnica:* Formulario para la programación de inspecciones en establo.
-  3. *Detalle de Cita:* Ficha completa del bovino con tabs de resumen, historial y estado de atención.
-  4. *Registrar Diagnóstico Clínico (US028):* Formulario para el registro de síntomas, causas probables y nivel de gravedad (*Leve*, *Moderada*, *Grave*).
-  5. *Prescribir Tratamiento (US029) y Vacunas:* Módulo de prescripción médica con selección de fármacos, dosis, vía de administración y registro de vacunas aplicadas en la hacienda.
+  El flujo contempla cinco vistas conectadas: (1) tablero de citas solicitadas por los ganaderos, con indicadores, búsqueda, filtros e historial; (2) formulario para registrar una solicitud de cita veterinaria; (3) detalle de la cita y del bovino atendido; (4) registro de síntomas, causas probables y gravedad del diagnóstico (US028); y (5) prescripción de tratamientos (US029) y registro de vacunas. La captura muestra el tablero de citas y su seguimiento.
 
-  <p align="center"><img src="../Assets/imagenes-caratula/img-citas.png" alt="citas-veterinarias" width="75%"></p>
-  <p align="center"><img src="../Assets/imagenes-caratula/img-diagnostico.png" alt="registrar-diagnostico" width="75%"></p>
+  <p align="center"><img src="../assets/imagenes-caratula/apoinmets-view.png" alt="Tablero de citas solicitadas por ganaderos" width="75%"></p>
 
-* **Reproductive Management & Payments (Ayllon Pauccar, Juan David):**
-  Seguimiento del estado reproductivo de vacas en gestación, proyección de fechas de parto y módulo de facturación con historial de transacciones y estados de pago.
+* **Reproductive Management (Ayllon Pauccar, Juan David / Asmat Alminco, Martin):**
+  La vista resume el estado reproductivo del ganado, las vacas preñadas y los próximos partos, y permite consultar los eventos reproductivos registrados.
+
+  <p align="center"><img src="../assets/imagenes-caratula/reproduction-view.png" alt="Seguimiento reproductivo y próximos eventos" width="75%"></p>
+
+* **Payments (Ayllon Pauccar, Juan David):**
+  Se implementó la consulta de planes de suscripción, el historial de transacciones y los estados de pago. No se adjuntó una captura específica de este módulo entre las imágenes disponibles.
+
+* **Feeding:**
+  La vista organiza los planes alimentarios por lote e informa raciones diarias, frecuencia y alimentos utilizados para el ganado.
+
+  <p align="center"><img src="../assets/imagenes-caratula/feeding-view.png" alt="Planes alimentarios por lote" width="75%"></p>
 
 * **Notifications & Reports (Taza Curay, Eduardo / Linares, Franco / Meza, David):**
-  Centro de alertas del sistema con avisos de próximas vacunas o citas agendadas, y panel de reportes con métricas consolidadas de salud e indicadores ganaderos.
+  El centro de notificaciones reúne avisos y recordatorios de actividad ganadera. El panel de reportes permite seleccionar información y filtros para consultar métricas del ganado y de la alimentación.
+
+  <p align="center"><img src="../assets/imagenes-caratula/notifications.png" alt="Centro de notificaciones" width="75%"></p>
+  <p align="center"><img src="../assets/imagenes-caratula/report-view.png" alt="Panel de reportes y analíticas" width="75%"></p>
 
 ---
 
