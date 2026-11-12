@@ -3088,7 +3088,66 @@ Se utilizó **GitHub** como repositorio centralizado bajo la organización del e
 
 ### 5.3.1. Diseño de Entrevistas
 
+#### Entrevista de validación – Ganadero
+
+**1.** Después de navegar por la pantalla de inicio, ¿considera que el resumen de su ganadería (total de animales, lotes, citas y alertas) le permite conocer rápidamente el estado de su ganado? ¿Qué información adicional incluiría?
+
+**2.** Al utilizar el módulo de Ganado, ¿le resultó sencillo encontrar animales y consultar su información mediante el buscador y los filtros de lote, sexo y raza? ¿Qué mejoraría de esta experiencia?
+
+**3.** ¿Considera que la información presentada en el registro y detalle de cada animal es clara y suficiente para llevar un control adecuado de su ganado?
+
+**4.** Después de explorar el módulo de Reproducción, ¿le resultó fácil identificar cuántas hembras están preñadas, vacías, en celo o próximas a dar a luz? ¿La información presentada le ayuda a tomar decisiones?
+
+**5.** ¿Considera que la visualización de los próximos eventos reproductivos y el estado reproductivo del ganado facilita el seguimiento de sus animales? ¿Cambiaría algo de su presentación?
+
+**6.** Al explorar el módulo de Alimentación, ¿le resultó sencillo comprender cómo se organizan los planes alimentarios, las raciones diarias y los alimentos utilizados por cada lote? ¿Considera que la información es suficiente para controlar la alimentación?
+
+**7.** ¿Qué tan fácil le resultó identificar el consumo diario total, la cantidad de animales cubiertos por los planes alimentarios y las posibles alertas de alimentación?
+
+**8.** Después de utilizar el módulo de Citas, ¿le resultó sencillo identificar las próximas atenciones, diferenciar las solicitudes realizadas por usted de las visitas técnicas y consultar el historial de atenciones?
+
+**9.** Al utilizar el módulo de Notificaciones, ¿pudo identificar fácilmente las actividades pendientes y diferenciar las notificaciones por categorías como partos, alimentación, animales y salud? ¿Considera útil la organización presentada?
+
+**10.** Después de interactuar con el prototipo completo de Hatarium, ¿qué tan fácil e intuitivo le pareció utilizar la aplicación? ¿Qué módulo considera más útil y qué cambios realizaría antes de utilizarla en su ganadería?
+
+#### Entrevista de validación – Veterinario
+
+**1.** Después de explorar la pantalla de inicio, ¿considera que los indicadores, alertas y resúmenes presentados le permiten identificar rápidamente situaciones que requieren atención veterinaria?
+
+**2.** Al utilizar el módulo de Ganado, ¿le resultó sencillo buscar un animal y consultar sus datos de identificación, características y lote? ¿Considera que la organización de la información es adecuada para su trabajo?
+
+**3.** ¿Considera que la distribución de la información del ganado facilita la identificación de animales que necesitan revisiones o seguimiento veterinario?
+
+**4.** Después de explorar el módulo de Reproducción, ¿le resultó clara la distribución de los indicadores de hembras preñadas, vacías, en celo, próximos partos y animales que requieren seguimiento?
+
+**5.** ¿Considera que el gráfico de estado reproductivo y el listado de próximos eventos permiten interpretar correctamente la situación reproductiva del ganado? ¿Qué información o indicadores adicionales necesitaría?
+
+**6.** Al utilizar el módulo de Citas y visitas técnicas, ¿le resultó sencillo diferenciar las solicitudes realizadas por los ganaderos de las visitas técnicas y consultar el estado de cada atención?
+
+**7.** ¿Considera que la información mostrada en cada cita (animal, motivo de atención, lote, fecha, veterinario y estado) es suficiente para organizar y realizar una visita veterinaria?
+
+**8.** Después de explorar el módulo de Notificaciones, ¿le resultó fácil identificar las alertas pendientes y reconocer las actividades que requieren atención? ¿Considera adecuada la clasificación de las notificaciones?
+
+**9.** Durante la navegación por los diferentes módulos, ¿encontró alguna dificultad para localizar información, comprender los indicadores o realizar las acciones disponibles? ¿Qué cambios propondría?
+
+**10.** En general, después de interactuar con Hatarium, ¿considera que el diseño y la organización de sus funcionalidades facilitarían su trabajo veterinario y la comunicación con los ganaderos? ¿Qué mejoraría o agregaría?
 ### 5.3.2. Registro de Entrevistas
+
+#### Segmento 2: Veterinarios Especializados
+
+Entrevista 1
+
+##### Entrevistado:  Silvia Cecilia Rebaza Rosas
+
+##### Edad: 22
+
+##### Distrito: Santiago de Surco
+
+<img src="assets/Registro_Entrevista_vet%231.png">
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b645_upc_edu_pe/IQBoHDggU_NmT7mG3mZMtEAAAV8tAQ7yT1W1ngH7YNhdVcs?e=wPORXe)
+
+**Resumen:** En la entrevista, la veterinaria destaca que la aplicación Hatarium presenta una interfaz limpia, fácil de entender y con una buena conexión entre sus diferentes secciones. Asimismo, considera que los formularios del módulo veterinario contienen la información justa y necesaria para registrar las atenciones, sin resultar complicados ni sobrecargados. Entre las principales mejoras que recomienda implementar se encuentra la posibilidad de adjuntar imágenes y videos como evidencia de los síntomas y pruebas realizadas a los animales atendidos, lo que permitiría complementar los registros veterinarios. También señala la importancia de mejorar el sistema de notificaciones, que actualmente aún no se encuentra implementado, para facilitar el seguimiento de citas y otras actividades veterinarias. Adicionalmente, recomienda que sea posible consultar no solo el detalle de cada cita, sino también la información específica del animal asociado a ella. A pesar de estas oportunidades de mejora, considera que Hatarium sería una herramienta de gran utilidad para facilitar su trabajo diario, organizar mejor la información y optimizar la atención veterinaria, por lo que manifiesta su recomendación de utilizar la aplicación.
 
 ### 5.3.3. Evaluaciones según heurísticas
 
