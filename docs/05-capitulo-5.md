@@ -369,6 +369,26 @@ Se utilizó **GitHub** aplicando estrictamente **Git Flow**. Cada desarrollador 
 
 ### 5.3.2. Registro de Entrevistas
 
+#### Segmento 1: Productores Ganaderos
+
+Entrevista 1
+
+##### Entrevistado: Fernando Julio Güere Calero
+
+##### Edad: 22
+
+##### Distrito: No indicado
+
+<img src="../assets/evidencia-entrevista-ganadero4.png" alt="Captura de la entrevista al productor ganadero">
+
+**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQDlp-H6NN2hRqYTQi8qT7_vAbCO6doB3f1poyNA9xOmFfk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wa5GnE)
+
+**Tiempo de inicio:** 00:00 | **Duración:** 21:54
+
+**Resumen:** El productor considera que Hatarium presenta la información de forma clara y facilita una revisión rápida de la situación de la ganadería. Valora especialmente la organización del ganado, los filtros de búsqueda, el seguimiento reproductivo y las alertas; entre sus sugerencias, propone añadir indicadores de animales enfermos o en tratamiento, datos diarios de producción y filtros guardados o por estado productivo. También recomienda incorporar fotografías y registros genealógicos, una vista de calendario para los eventos reproductivos, el costo de los alimentos y alertas de inventario, además de recordatorios automáticos por SMS o notificaciones push. Identifica el módulo reproductivo como uno de los más útiles y señala que, para su uso en campo, sería importante contar con funcionamiento sin conexión o sincronización posterior, así como exportar reportes en formatos como PDF, Excel o CSV.
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product

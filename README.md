@@ -2879,6 +2879,8 @@ Para integrar las relaciones consolidadas de todos los Bounded Contexts y compre
 <img src="assets/database-diagrams/db-general.png">
 <div style="page-break-before: always;"></div>
 
+<div style="page-break-before: always;"></div>
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
@@ -2979,7 +2981,7 @@ Se estableció el uso del idioma inglés para las clases CSS, identificadores y 
 | **Time** | 07:00 PM |
 | **Location** | Reunión virtual mediante Discord |
 | **Prepared By** | Meza Tataje, David |
-| **Attendees** | Linares Rodríguez, Franco Orlando / Ayllón Pauccar, Juan David / Taza Curay, Eduardo Miguel / Asmat Alminco, Martín / Meza Tataje, David |
+| **Attendees** | Linares Rodríguez, Franco Orlando / Ayllon Pauccar, Juan David / Taza Curay, Eduardo Miguel / Asmat Alminco, Martin / Meza Tataje, David |
 | **Sprint 0 Review Summary** | No aplica. Corresponde al primer Sprint del proyecto, por lo que no existe un sprint anterior del cual reportar resultados. |
 | **Sprint 0 Retrospective Summary** | No aplica. Al ser el Sprint inicial, el equipo realizó una reunión de Kickoff donde se definieron los acuerdos de trabajo, herramientas de comunicación, convenciones de código (Git Flow y Conventional Commits) y la distribución inicial de responsabilidades entre los integrantes. |
 | **Sprint 1 Goal** | Diseñar, desarrollar, verificar y desplegar la Landing Page completa y responsiva de Hatarium, e implementar la documentación técnica de los Capítulos I al V del informe para el primer entregable (TB1). |
@@ -2994,9 +2996,9 @@ Se estableció el uso del idioma inglés para las clases CSS, identificadores y 
 | :--- | :--- | :--- |
 | **Meza Tataje, David** | Team Lead / Frontend Developer | Coordinación del Sprint 1, maquetación CSS/HTML responsiva del Header y Navbar de la Landing Page, y redacción de los Capítulos III y V del informe. |
 | **Linares Rodríguez, Franco Orlando** | Frontend Developer / QA | Desarrollo de las secciones Hero y About Us de la Landing Page, elaboración de pruebas Gherkin y redacción del Capítulo I del informe. |
-| **Ayllón Pauccar, Juan David** | UX/UI Lead / Frontend Developer | Prototipado en Figma, maquetación de la sección de Funcionalidades y Servicios en la Landing Page, y redacción del Capítulo II del informe. |
+| **Ayllon Pauccar, Juan David** | UX/UI Lead / Frontend Developer | Prototipado en Figma, maquetación de la sección de Funcionalidades y Servicios en la Landing Page, y redacción del Capítulo II del informe. |
 | **Taza Curay, Eduardo Miguel** | Frontend Developer / Requirements | Desarrollo de la sección de Contacto, formulario web con validaciones UI, y estructuración de Historias de Usuario y Event Storming. |
-| **Asmat Alminco, Martín** | DevOps / Software Architect | Implementación del Footer, configuración del repositorio GitHub (Git Flow), despliegue en GitHub Pages y redacción del Capítulo IV del informe. |
+| **Asmat Alminco, Martin** | DevOps / Software Architect | Implementación del Footer, configuración del repositorio GitHub (Git Flow), despliegue en GitHub Pages y redacción del Capítulo IV del informe. |
 
 ---
 
@@ -3008,15 +3010,15 @@ En este primer Sprint, el trabajo del equipo se dividió de manera equitativa en
 | :--- | :--- | :--- | :---: | :--- | :---: |
 | **US001 / CC01** | Header y Navbar Responsivos | Maquetación y estilos responsive del encabezado y menú de navegación. | 4 | Meza Tataje, David | Done |
 | **US001 / CC02** | Sección Hero & About Us | Maquetación visual de la sección principal y presentación de la empresa. | 4 | Linares Rodríguez, Franco Orlando | Done |
-| **US002 / CC03** | Sección de Servicios y Producto | Maquetación de tarjetas informativas con las funcionalidades del SaaS. | 3 | Ayllón Pauccar, Juan David | Done |
+| **US002 / CC03** | Sección de Servicios y Producto | Maquetación de tarjetas informativas con las funcionalidades del SaaS. | 3 | Ayllon Pauccar, Juan David | Done |
 | **US003 / CC04** | Sección de Contacto | Maquetación de la sección informativa de canales de comunicación. | 2 | Taza Curay, Eduardo Miguel | Done |
 | **US004 / CC05** | Formulario de Contacto UI | Desarrollo de la interfaz del formulario y validaciones en tiempo real. | 3 | Taza Curay, Eduardo Miguel | Done |
-| **TS001 / CC06** | Footer & Enlaces Sociales | Maquetación del pie de página y enlaces a redes de la plataforma. | 2 | Asmat Alminco, Martín | Done |
-| **TS001 / CC07** | Despliegue en GitHub Pages | Configuración del pipeline de despliegue continuo desde la rama `main`. | 2 | Asmat Alminco, Martín | Done |
+| **TS001 / CC06** | Footer & Enlaces Sociales | Maquetación del pie de página y enlaces a redes de la plataforma. | 2 | Asmat Alminco, Martin | Done |
+| **TS001 / CC07** | Despliegue en GitHub Pages | Configuración del pipeline de despliegue continuo desde la rama `main`. | 2 | Asmat Alminco, Martin | Done |
 | **DOC01** | Informe Capítulo I | Introducción, problema, objetivos, justificación y restricciones. | 5 | Linares Rodríguez, Franco Orlando | Done |
-| **DOC02** | Informe Capítulo II | Análisis del dominio, entrevistas, User Personas, Empathy Maps. | 6 | Ayllón Pauccar, Juan David | Done |
+| **DOC02** | Informe Capítulo II | Análisis del dominio, entrevistas, User Personas, Empathy Maps. | 6 | Ayllon Pauccar, Juan David | Done |
 | **DOC03** | Informe Capítulo III | Impact Mapping, Event Storming, 40 US + 12 TS y Product Backlog. | 8 | Meza Tataje, David / Taza Curay, Eduardo M. | Done |
-| **DOC04** | Informe Capítulo IV | Arquitectura de Software, Estilo de Arquitectura y Vista de Contexto C4. | 6 | Asmat Alminco, Martín | Done |
+| **DOC04** | Informe Capítulo IV | Arquitectura de Software, Estilo de Arquitectura y Vista de Contexto C4. | 6 | Asmat Alminco, Martin | Done |
 | **DOC05** | Informe Capítulo V | Configuration Management, Sprint Planning 1 y Evidencias de Sprint. | 5 | Meza Tataje, David | Done |
 
 ---
@@ -3079,10 +3081,168 @@ Se utilizó **GitHub** como repositorio centralizado bajo la organización del e
 | Integrante | Tareas Principales en Sprint 1 |
 | :--- | :--- |
 | **Linares Rodríguez, Franco Orlando** | Maquetación de la sección Hero y About Us de la Landing Page; redacción del Capítulo I del informe y diseño de criterios de aceptación Gherkin. |
-| **Ayllón Pauccar, Juan David** | Maquetación de la sección de Funcionalidades y Servicios; diseño del prototipo interactivo en Figma y redacción del Capítulo II (Análisis de Dominio). |
+| **Ayllon Pauccar, Juan David** | Maquetación de la sección de Funcionalidades y Servicios; diseño del prototipo interactivo en Figma y redacción del Capítulo II (Análisis de Dominio). |
 | **Taza Curay, Eduardo Miguel** | Implementación de la sección de Contacto y formulario web con validaciones UI; apoyo en el diseño del Event Storming y Product Backlog (Capítulo III). |
-| **Asmat Alminco, Martín** | Maquetación del Footer y componentes de pie de página; configuración del repositorio central, Git Flow, despliegue en GitHub Pages y redacción del Capítulo IV (Arquitectura). |
+| **Asmat Alminco, Martin** | Maquetación del Footer y componentes de pie de página; configuración del repositorio central, Git Flow, despliegue en GitHub Pages y redacción del Capítulo IV (Arquitectura). |
 | **Meza Tataje, David** | Coordinación del Sprint 1; maquetación y estilos CSS responsivos del Header y Navbar de la Landing Page; redacción y estructuración técnica del Capítulo III y Capítulo V del informe. |
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 2 |
+| **Date** | 2026-10-1 |
+| **Time** | 08:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Meza Tataje, David |
+| **Attendees** | Linares Rodríguez, Franco Orlando / Ayllon Pauccar, Juan David / Taza Curay, Eduardo Miguel / Asmat Alminco, Martin / Meza Tataje, David |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se entregó satisfactoriamente la Landing Page completa y responsiva de Hatarium desplegada en GitHub Pages, junto con la documentación técnica inicial correspondiente a los Capítulos I al V del informe. |
+| **Sprint 1 Retrospective Summary** | El equipo mantuvo una sólida coordinación mediante Discord. Se identificó la necesidad de estandarizar las convenciones de arquitectura en Angular (Componentes Standalone, Signals y RxJS), estructurar la API simulada en `hatarium-db.json` con relaciones íntegras y unificar el flujo de trabajo en Git Flow con nombres de ramas estandarizados por Bounded Context. |
+| **Sprint 2 Goal** | Desarrollar, integrar y desplegar la primera versión funcional (v1.0) de la aplicación Web Frontend en Angular, implementando las interfaces y lógica de negocio de los Bounded Contexts de IAM, Livestock Management, Veterinary & Health, Reproductive Management, Notifications, Payments, Profile Management y Reports & Analytics. |
+| **Sprint 2 Velocity** | 60 Story Points |
+| **Sum of Story Points** | 60 |
+
+---
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Integrante | Rol / Bounded Contexts Asignados | Responsabilidades Principales en Sprint 2 |
+| :--- | :--- | :--- |
+| **Meza Tataje, David** | Team Lead / Bounded Context Leader | Liderazgo del Bounded Context de **Veterinary and Health** y co-liderazgo de **Reports and Analytics**. Desarrollo de las vistas de citas médicas con filtros por origen (*RANCHER_REQUEST* y *TECHNICAL_VISIT*), ficha de detalle de cita, registro de diagnóstico clínico (US028), prescripción de tratamiento (US029) y carnet de vacunas. |
+| **Linares Rodríguez, Franco Orlando** | Frontend Developer / Bounded Context Leader | Liderazgo del Bounded Context de **Livestock Management** y co-liderazgo de **Reports and Analytics**. Desarrollo del CRUD de bovinos (alta, edición, estado de salud), gestión de lotes/corrales y consolidación de reportes de rendimiento ganadero. |
+| **Ayllon Pauccar, Juan David** | UX/UI Lead / Bounded Context Leader | Liderazgo del Bounded Context de **Payments** y co-liderazgo de **Reproductive Management**. Desarrollo del flujo de suscripciones, historial de pagos, pasarela simulada y registro de gestaciones/partos. |
+| **Asmat Alminco, Martin** | DevOps / Bounded Context Leader | Liderazgo del Bounded Context de **IAM (Identity & Access Management)** y co-liderazgo de **Reproductive Management**. Desarrollo de inicio de sesión, registro de usuarios, guardias de autenticación JWT y seguimiento reproductivo del ganado. |
+| **Taza Curay, Eduardo Miguel** | Frontend Developer / Bounded Context Leader | Liderazgo del Bounded Context de **Notifications** y co-liderazgo de **Profile Management**. Desarrollo del centro de notificaciones (alertas sanitarias y recordatorios) y gestión del perfil del usuario ganadero/veterinario. |
+
+---
+
+#### 5.2.2.3. Sprint Backlog 2
+
+| US / TS / Task ID | Bounded Context | Título / Descripción de Tarea | Estimación (Horas) | Integrante Asignado | Estado |
+| :--- | :--- | :--- | :---: | :--- | :---: |
+| **US005 / CC08** | IAM | Pantalla e interfaz de Inicio de Sesión y autenticación con credenciales. | 4 | Asmat Alminco, Martin | Done |
+| **US006 / CC09** | IAM | Registro de nuevos usuarios y selección de rol (*RANCHER* / *VETERINARIAN*). | 4 | Asmat Alminco, Martin | Done |
+| **US007 / CC10** | Livestock | Vista de catálogo y registro individual de bovinos (arete, raza, peso, lote). | 5 | Linares Rodríguez, Franco Orlando | Done |
+| **US008 / CC11** | Livestock | Módulo de gestión y transferencia de bovinos entre Lotes / Corrales. | 4 | Linares Rodríguez, Franco Orlando | Done |
+| **US027 / CC12** | Veterinary & Health | Dashboard de citas veterinarias con filtrado por origen (*Ganadero* vs *Visita Técnica*). | 6 | Meza Tataje, David | Done |
+| **US027 / CC13** | Veterinary & Health | Formulario dedicado para agendar nuevas Citas / Visitas Técnicas de campo. | 4 | Meza Tataje, David | Done |
+| **US028 / CC14** | Veterinary & Health | Vista interactiva de Registro de Diagnóstico Clínico y nivel de gravedad. | 5 | Meza Tataje, David | Done |
+| **US029 / CC15** | Veterinary & Health | Vista de Prescripción de Tratamiento Médico y dosificación de fármacos. | 4 | Meza Tataje, David | Done |
+| **TS005 / CC16** | Veterinary & Health | Formulario y carnet de Registro de Vacunas Aplicadas (*External Data DTO*). | 4 | Meza Tataje, David | Done |
+| **US018 / CC17** | Reproductive | Módulo de monitoreo de gestaciones, fechas probables de parto y secado. | 5 | Ayllon Pauccar, Juan David / Asmat Alminco, M. | Done |
+| **US021 / CC18** | Payments | Pantalla de planes de suscripción SaaS, historial de pagos y facturación. | 4 | Ayllon Pauccar, Juan David | Done |
+| **US024 / CC19** | Notifications | Centro de alertas sanitarias en tiempo real y recordatorios de vacunas/citas. | 4 | Taza Curay, Eduardo Miguel | Done |
+| **US025 / CC20** | Profile | Gestor de perfil de usuario, datos personales y preferencias de cuenta. | 3 | Taza Curay, Eduardo Miguel | Done |
+| **US031 / CC21** | Reports & Analytics | Dashboard consolidado con reportes productivos, sanitarios y exportación PDF. | 6 | Linares Rodríguez, Franco / Meza Tataje, David | Done |
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se desarrolló e integró la aplicación Web Frontend utilizando el ecosistema moderno de Angular 19+:
+
+* **Repositorio Frontend Web Application:** `https://github.com/upc-pre-202620-1asi0729-7800-vantara/hatarium-frontend`
+* **Herramientas de Desarrollo:**
+  * **Visual Studio Code & WebStorm:** IDEs principales para el desarrollo en TypeScript, HTML5 y CSS3.
+  * **Angular CLI & Angular Material:** Framework web basado en arquitectura de componentes standalone, Signal Stores para manejo de estado reactivo y Angular Material para componentes UI.
+  * **JSON Server:** Servidor de Fake API REST montado sobre la estructura de datos `hatarium-db.json` para la simulación de persistencia de datos en tiempo real.
+
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Se implementaron y ejecutaron satisfactoriamente las vistas y los flujos interactivos de la primera versión de la aplicación Web Frontend de Hatarium. Las siguientes capturas muestran las pantallas disponibles de cada Bounded Context:
+
+* **IAM & Profile Management (Asmat Alminco, Martin / Taza Curay, Eduardo Miguel):**
+  Se implementó el inicio de sesión con validación de credenciales y acceso según el rol del usuario (*Administrador*, *Ganadero* o *Veterinario*). La vista de perfil permite consultar y actualizar los datos personales y las preferencias de la cuenta.
+
+  <p align="center"><img src="assets/imagenes-caratula/home-view.png" alt="Panel principal de Hatarium" width="75%"></p>
+  <p align="center"><img src="assets/imagenes-caratula/profile-view.png" alt="Perfil y configuración del usuario" width="75%"></p>
+
+* **Livestock Management (Linares Rodríguez, Franco Orlando):**
+  El catálogo permite consultar los bovinos registrados y sus datos principales, como arete, nombre, lote, sexo, raza, peso y estado. También presenta el resumen de animales distribuidos en los lotes de la hacienda.
+
+  <p align="center"><img src="assets/imagenes-caratula/livestock-view.png" alt="Catálogo de ganado y lotes" width="75%"></p>
+
+* **Veterinary and Health (Meza Tataje, David):**
+  El flujo contempla cinco vistas conectadas: (1) tablero de citas solicitadas por los ganaderos, con indicadores, búsqueda, filtros e historial; (2) formulario para registrar una solicitud de cita veterinaria; (3) detalle de la cita y del bovino atendido; (4) registro de síntomas, causas probables y gravedad del diagnóstico (US028); y (5) prescripción de tratamientos (US029) y registro de vacunas. La captura muestra el tablero de citas y su seguimiento.
+
+  <p align="center"><img src="assets/imagenes-caratula/apoinmets-view.png" alt="Tablero de citas solicitadas por ganaderos" width="75%"></p>
+
+* **Reproductive Management (Ayllon Pauccar, Juan David / Asmat Alminco, Martin):**
+  La vista resume el estado reproductivo del ganado, las vacas preñadas y los próximos partos, y permite consultar los eventos reproductivos registrados.
+
+  <p align="center"><img src="assets/imagenes-caratula/reproduction-view.png" alt="Seguimiento reproductivo y próximos eventos" width="75%"></p>
+
+* **Payments (Ayllon Pauccar, Juan David):**
+  Se implementó la consulta de planes de suscripción, el historial de transacciones y los estados de pago. No se adjuntó una captura específica de este módulo entre las imágenes disponibles.
+
+* **Feeding:**
+  La vista organiza los planes alimentarios por lote e informa raciones diarias, frecuencia y alimentos utilizados para el ganado.
+
+  <p align="center"><img src="assets/imagenes-caratula/feeding-view.png" alt="Planes alimentarios por lote" width="75%"></p>
+
+* **Notifications & Reports (Taza Curay, Eduardo / Linares, Franco / Meza, David):**
+  El centro de notificaciones reúne avisos y recordatorios de actividad ganadera. El panel de reportes permite seleccionar información y filtros para consultar métricas del ganado y de la alimentación.
+
+  <p align="center"><img src="assets/imagenes-caratula/notifications.png" alt="Centro de notificaciones" width="75%"></p>
+  <p align="center"><img src="assets/imagenes-caratula/report-view.png" alt="Panel de reportes y analíticas" width="75%"></p>
+
+---
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se estructuró la API simulada utilizando `json-server` para respaldar las operaciones HTTP (GET, POST, PUT, DELETE) de la aplicación frontend. La base de datos orientada a colecciones `hatarium-db.json` expone los siguientes recursos REST:
+
+* **`/accounts` & `/users`:** Gestión de cuentas, roles e información de perfil.
+* **`/animals` & `/lots`:** Colecciones de ganado y lotes de la hacienda.
+* **`/appointments`:** Registro de citas médicas con atributos de origen (`RANCHER_REQUEST` y `TECHNICAL_VISIT`), estado y fecha programada.
+* **`/appointmentAnimals`:** Relación asociativa entre citas y bovinos evaluados.
+* **`/medicalRecords`:** Historias clínicas y diagnósticos registrados durante la atención in situ.
+* **`/treatments`:** Prescripciones médicas, dosis y frecuencias de medicamentos.
+* **`/vaccines`:** Carnet de vacunación preventiva aplicada a los animales.
+* **`/notifications` & `/payments`:** Alertas del sistema e historial de pagos.
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizó el despliegue de la primera versión pública de la aplicación Web Frontend de Hatarium.
+
+* **Plataforma utilizada:** Vercel / GitHub Pages
+* **Pasos realizados para el despliegue:**
+  1. Integración de la rama `main` del repositorio `hatarium-frontend` con la plataforma de despliegue continuo.
+  2. Configuración del comando de compilación de producción (`npm run build`).
+  3. Despliegue de los activos compilados en el entorno de producción y verificación de rutas SPA mediante la configuración de reescritura de URLs (`vercel.json`).
+  4. Ejecución del servidor `json-server` para la persistencia de datos remota.
+
+* **URL de la Aplicación Web Frontend:** `https://hatarium-frontend.vercel.app/`
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo aplicó metodologías ágiles de trabajo colaborativo para garantizar la integración fluida entre los distintos Bounded Contexts:
+
+##### Project Management
+* **Discord:** Canal de comunicación diaria para Daily Standups, revisión de la estructura de componentes en Angular y sesiones de pair-programming.
+* **Google Meet:** Reuniones semanales para la revisión de avance del Sprint 2, demostración de software funcional (Sprint Review) y retrospectiva.
+* **Zoho Sprints:** Tablero Kanban para el seguimiento de tareas por estado (*To Do*, *In Process*, *To Review*, *Done*) y control de los Story Points completados.
+
+##### Source Code Management
+Se utilizó **GitHub** aplicando estrictamente **Git Flow**. Cada desarrollador trabajó en ramas específicas nombradas según su módulo (ej. `feature/veterinary-and-health`, `feature/livestock-management`, `feature/iam`), realizando commits estructurados bajo el estándar de **Conventional Commits** (`feat:`, `fix:`, `docs:`, `style:`).
+
+##### Distribución del trabajo por integrante en el Sprint 2:
+
+| Integrante | Tareas Principales en Sprint 2 |
+| :--- | :--- |
+| **Linares Rodríguez, Franco Orlando** | Desarrollo del Bounded Context de **Livestock Management** (CRUD de animales y lotes); co-desarrollo del módulo de **Reports and Analytics**. |
+| **Ayllon Pauccar, Juan David** | Desarrollo del Bounded Context de **Payments** (planes de suscripción y facturación); co-desarrollo de **Reproductive Management**. |
+| **Meza Tataje, David** | Coordinación del Sprint 2; desarrollo completo del Bounded Context de **Veterinary and Health** (citas, diagnóstico, tratamiento, vacunas) y co-desarrollo de **Reports and Analytics**. |
+| **Asmat Alminco, Martin** | Desarrollo del Bounded Context de **IAM** (login, registro, guardias JWT); co-desarrollo de **Reproductive Management** y configuración de despliegue. |
+| **Taza Curay, Eduardo Miguel** | Desarrollo del Bounded Context de **Notifications** (centro de alertas sanitarias) y desarrollo del módulo de **Profile Management**. |
 
 ## 5.3. Validation Interviews
 
@@ -3132,6 +3292,26 @@ Se utilizó **GitHub** como repositorio centralizado bajo la organización del e
 
 **10.** En general, después de interactuar con Hatarium, ¿considera que el diseño y la organización de sus funcionalidades facilitarían su trabajo veterinario y la comunicación con los ganaderos? ¿Qué mejoraría o agregaría?
 ### 5.3.2. Registro de Entrevistas
+
+#### Segmento 1: Productores Ganaderos
+
+Entrevista 1
+
+##### Entrevistado: Fernando Julio Güere Calero
+
+##### Edad: 22
+
+##### Distrito: No indicado
+
+<img src="assets/evidencia-entrevista-ganadero4.png" alt="Captura de la entrevista al productor ganadero">
+
+**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQDlp-H6NN2hRqYTQi8qT7_vAbCO6doB3f1poyNA9xOmFfk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wa5GnE)
+
+**Tiempo de inicio:** 00:00 | **Duración:** 21:54
+
+**Resumen:** El productor considera que Hatarium presenta la información de forma clara y facilita una revisión rápida de la situación de la ganadería. Valora especialmente la organización del ganado, los filtros de búsqueda, el seguimiento reproductivo y las alertas; entre sus sugerencias, propone añadir indicadores de animales enfermos o en tratamiento, datos diarios de producción y filtros guardados o por estado productivo. También recomienda incorporar fotografías y registros genealógicos, una vista de calendario para los eventos reproductivos, el costo de los alimentos y alertas de inventario, además de recordatorios automáticos por SMS o notificaciones push. Identifica el módulo reproductivo como uno de los más útiles y señala que, para su uso en campo, sería importante contar con funcionamiento sin conexión o sincronización posterior, así como exportar reportes en formatos como PDF, Excel o CSV.
 
 #### Segmento 2: Veterinarios Especializados
 
@@ -3187,3 +3367,6 @@ Agronegocios. (2023, 5 mayo). Cinco apps que le ayudan a gestionar una finca ded
 
 # Anexos
 
+**Despliegue de la aplicación web:** [Hatarium Web App](https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-webapp/)
+
+**Repositorio de la Fake API:** [vantara-fake-api](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-fake-api.git)
