@@ -3313,6 +3313,24 @@ Entrevista 1
 
 **Resumen:** El productor considera que Hatarium presenta la información de forma clara y facilita una revisión rápida de la situación de la ganadería. Valora especialmente la organización del ganado, los filtros de búsqueda, el seguimiento reproductivo y las alertas; entre sus sugerencias, propone añadir indicadores de animales enfermos o en tratamiento, datos diarios de producción y filtros guardados o por estado productivo. También recomienda incorporar fotografías y registros genealógicos, una vista de calendario para los eventos reproductivos, el costo de los alimentos y alertas de inventario, además de recordatorios automáticos por SMS o notificaciones push. Identifica el módulo reproductivo como uno de los más útiles y señala que, para su uso en campo, sería importante contar con funcionamiento sin conexión o sincronización posterior, así como exportar reportes en formatos como PDF, Excel o CSV.
 
+Entrevista 2
+
+##### Entrevistado: Josué laurente Castrejón
+
+##### Edad: 28
+
+##### Distrito: San juan de Lurigancho
+
+<img src="assets/evidencia-entrevista-ganadero1.png" alt="Captura de la entrevista al productor ganadero">
+
+**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d483_upc_edu_pe/IQD3lfKeee77RryagwclenrVAZGOfgxbARaQfsR_QpjZ6DE?e=kj2WlP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Tiempo de inicio:** 00:00 | **Duración:** 21:43
+
+**Resumen:** El ganadero considera que Hatarium es una aplicación fácil de entender, con módulos bien organizados que permiten consultar rápidamente la información del ganado. Destaca la utilidad de la pantalla de inicio, los filtros de búsqueda y el registro detallado de los animales. Valora especialmente los módulos de Ganado y Reproducción, ya que facilitan el seguimiento de las vacas preñadas, los próximos partos y las actividades diarias. También considera útiles los planes de alimentación, las citas veterinarias y las notificaciones. Entre sus sugerencias de mejora, propone incorporar filtros por edad, gráficos de evolución del peso, recordatorios anticipados de partos, cálculos semanales de alimento y alertas de inventario. Finalmente, señala que sería importante optimizar el uso de la aplicación desde dispositivos móviles para facilitar su manejo durante el trabajo en campo.
+
 #### Segmento 2: Veterinarios Especializados
 
 Entrevista 1
