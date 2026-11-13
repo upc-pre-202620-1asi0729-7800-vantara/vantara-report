@@ -3272,23 +3272,23 @@ Se utilizó **GitHub** aplicando estrictamente **Git Flow**. Cada desarrollador 
 
 #### Entrevista de validación – Veterinario
 
-**1.** Después de explorar la pantalla de inicio, ¿considera que los indicadores, alertas y resúmenes presentados le permiten identificar rápidamente situaciones que requieren atención veterinaria?
+**1.** Después de explorar la pantalla de inicio (Home), ¿considera que los indicadores superiores (Total citas hoy, Vacunas pendientes este mes, Animales en tratamiento crítico, Alertas sanitarias activas) y los resúmenes inferiores le permiten identificar rápidamente situaciones que requieren atención veterinaria?
 
-**2.** Al utilizar el módulo de Ganado, ¿le resultó sencillo buscar un animal y consultar sus datos de identificación, características y lote? ¿Considera que la organización de la información es adecuada para su trabajo?
+**2.** Al utilizar el módulo de Historial Sanitario, ¿le resultó sencillo buscar un animal por nombre, arete o lote y consultar sus datos de identificación, raza, sexo, peso y lote asignado? ¿Considera que la organización de esta información es adecuada para su trabajo?
 
-**3.** ¿Considera que la distribución de la información del ganado facilita la identificación de animales que necesitan revisiones o seguimiento veterinario?
+**3.** Dentro de la vista de Historial Sanitario por animal, ¿considera que la separación por pestañas (Diagnósticos, Tratamientos, Vacunas y Citas) y los contadores por bovino facilitan el seguimiento clínico de cada animal?
 
-**4.** Después de explorar el módulo de Reproducción, ¿le resultó clara la distribución de los indicadores de hembras preñadas, vacías, en celo, próximos partos y animales que requieren seguimiento?
+**4.** Después de explorar el Centro de vacunación, ¿le resultó clara la distribución de los indicadores (Vacunas registradas, Vacunas pendientes, Aplicadas este mes), los filtros de estado y los campos del formulario para registrar una vacuna aplicada?
 
-**5.** ¿Considera que el gráfico de estado reproductivo y el listado de próximos eventos permiten interpretar correctamente la situación reproductiva del ganado? ¿Qué información o indicadores adicionales necesitaría?
+**5.** En el módulo de Reportes sanitarios, ¿considera que los gráficos (Estado de citas, Gravedad de diagnósticos y Citas por mes) junto con las opciones de exportación (PDF y Excel) permiten interpretar correctamente su actividad clínica? ¿Qué indicador adicional necesitaría?
 
-**6.** Al utilizar el módulo de Citas y visitas técnicas, ¿le resultó sencillo diferenciar las solicitudes realizadas por los ganaderos de las visitas técnicas y consultar el estado de cada atención?
+**6.** Al utilizar el módulo de Citas y visitas técnicas de campo, ¿le resultó sencillo diferenciar las Solicitudes del Ganadero de las Visitas Técnicas, alternar entre Próximas atenciones e Historial y consultar el estado de cada atención?
 
-**7.** ¿Considera que la información mostrada en cada cita (animal, motivo de atención, lote, fecha, veterinario y estado) es suficiente para organizar y realizar una visita veterinaria?
+**7.** ¿Considera que la información mostrada en cada tarjeta de cita (fecha, hora, animal, origen, motivo, lote, veterinario y estado) y los campos del formulario Agendar nueva visita técnica son suficientes para organizar y realizar una visita en campo?
 
-**8.** Después de explorar el módulo de Notificaciones, ¿le resultó fácil identificar las alertas pendientes y reconocer las actividades que requieren atención? ¿Considera adecuada la clasificación de las notificaciones?
+**8.** Respecto a los avisos del sistema —como la campana de notificaciones en la barra superior, las Alertas sanitarias activas en el inicio y la notificación automática al ganadero al agendar una visita—, ¿le resulta claro identificar eventos pendientes y mantener informado al ganadero?
 
-**9.** Durante la navegación por los diferentes módulos, ¿encontró alguna dificultad para localizar información, comprender los indicadores o realizar las acciones disponibles? ¿Qué cambios propondría?
+**9.** Durante la navegación por los cinco módulos del menú lateral y la sección de Perfil y configuración, ¿encontró alguna dificultad para localizar información, comprender los indicadores o realizar las acciones disponibles? ¿Qué cambios propondría?
 
 **10.** En general, después de interactuar con Hatarium, ¿considera que el diseño y la organización de sus funcionalidades facilitarían su trabajo veterinario y la comunicación con los ganaderos? ¿Qué mejoraría o agregaría?
 ### 5.3.2. Registro de Entrevistas
