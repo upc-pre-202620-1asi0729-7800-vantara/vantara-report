@@ -3546,6 +3546,25 @@ Entrevista 2
 
 **Resumen:** El ganadero considera que Hatarium es una aplicación fácil de entender, con módulos bien organizados que permiten consultar rápidamente la información del ganado. Destaca la utilidad de la pantalla de inicio, los filtros de búsqueda y el registro detallado de los animales. Valora especialmente los módulos de Ganado y Reproducción, ya que facilitan el seguimiento de las vacas preñadas, los próximos partos y las actividades diarias. También considera útiles los planes de alimentación, las citas veterinarias y las notificaciones. Entre sus sugerencias de mejora, propone incorporar filtros por edad, gráficos de evolución del peso, recordatorios anticipados de partos, cálculos semanales de alimento y alertas de inventario. Finalmente, señala que sería importante optimizar el uso de la aplicación desde dispositivos móviles para facilitar su manejo durante el trabajo en campo.
 
+Entrevista 3
+
+##### Entrevistado: Harold Benigno Fuskord
+
+##### Edad: 23
+
+##### Distrito: Surquillo
+
+<img src="assets/evidencia-entrevista-ganadero1.png" alt="Captura de la entrevista al productor ganadero">
+
+**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416272_upc_edu_pe/IQDbro5ibM70RJuoVV1iB6H7AaUw4SwnkK7d6w97eme1PAk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBBpsc)
+
+**Tiempo de inicio:** 00:00 | **Duración:** 6:08 min
+
+**Resumen:** El ganadero considera que Hatarium es una aplicación fácil de entender, con módulos que permiten comprender la solución al instante. Le parece una idea original con la cual se puede empezar en el mundo de la ganadería; cree que ahorra tiempo como profesional en su campo y considera importante poder tener mayor accesibilidad a salud desde una aplicación, debido a la complejidad del asunto. Finalmente, la opción de aletas considera necesaria para poder utilizar la app apropiadamente. Por último, identifica el módulo de Alimentación como el más influyente para él por la cantidad de ganado que debe gestionar. 
+
+
 #### Segmento 2: Veterinarios Especializados
 
 Entrevista 1
