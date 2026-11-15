@@ -3554,7 +3554,7 @@ Entrevista 3
 
 ##### Distrito: Surquillo
 
-<img src="assets/evidencia-entrevista-ganadero1.png" alt="Captura de la entrevista al productor ganadero">
+<img src="assets/evidencia-validation-ganadero3.png" alt="Captura de la entrevista al productor ganadero">
 
 **Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
 
