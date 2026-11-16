@@ -3813,6 +3813,12 @@ Recomendación:
 Eliminar la etiqueta "Módulo Operativo", usar un color neutro o verde cuando no hay alertas, reservando el naranja para alertas activas, y aplicar plurales según la cantidad ("1 registro", "2 registros").
 
 ## 5.4. Video About-the-Product
+
+<img src="assets/about-the-product.png" width="500"/>
+
+**Link de video:** [About-the-product](https://youtu.be/6qorrOf7LjU)
+
+
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
@@ -3851,3 +3857,5 @@ Agronegocios. (2023, 5 mayo). Cinco apps que le ayudan a gestionar una finca ded
 **Despliegue de la aplicación web:** [Hatarium Web App](https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-webapp/)
 
 **Repositorio de la Fake API:** [vantara-fake-api](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-fake-api.git)
+
+**About the Team:** [about-the-team](https://youtu.be/Z8x_SzgnmT8)
