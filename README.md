@@ -34,8 +34,6 @@
 
 # Registro de Versiones del Informe
 
-# Registro de Versiones del Informe
-
 | Versión | Fecha | Autor | Descripción Modificada |
 |:-------:|:----------:|:------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0.1 | 29/08/26 | Asmat Alminco, Martin Alejandro | Redacción de User Stories (colaborativo), definición de Style Guidelines, elaboración de C4: Container Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
@@ -47,13 +45,14 @@
 
 - Link del repositorio del informe: [https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report.git](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report.git)
 - Link del repositorio de la Landing Page: [https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-website.git](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-website.git)
-- Link del repositorio del BackEnd: 
+- Link del repositorio del BackEnd: [https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-platform.git](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-platform.git)
 
 
 A lo largo del proyecto, el equipo ha estado comprometido en la creación del informe en diferentes fases. Las tareas principales que se han abarcado
 - La realización de una investigación del negocio y la problemática a resolver, recopilando información relevante de fuentes confiables que nos permitieron comprender mejor el sector y las necesidades de los usuarios.
 - La redacción de los capítulos del informe, incluyendo la descripción de la startup, el perfil de la solución, los segmentos objetivo, los competidores, las entrevistas, el needfinding, la especificación de requerimientos y el diseño del producto.
 
+<img src="assets/commits.png" width="100%" alt="commits">
 
 # Contenido
 
@@ -157,9 +156,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 | :--- | :--- | :--- |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Meza Tataje, David**<br>- **AV1:** Investigué los patrones tácticos de Domain-Driven Design (DDD) y la diagramación UML para la especificación del dominio ganadero. Adquirí conocimientos en gestión ágil y control de versiones bajo Git Flow con Conventional Commits. Estudié la maquetación responsiva HTML5/CSS3 y la lógica de navegación dinámica en JavaScript para la construcción del Header y Navbar de la Landing Page de Hatarium.<br><br>**Linares Rodríguez, Franco Orlando**<br>- **AV1:** Investigué técnicas de investigación cualitativa (5W's y 2H's) para estructurar el análisis de antecedentes y la problemática del sector ganadero en el Capítulo I. Adquirí conocimientos en maquetación web responsiva para el desarrollo de las secciones Hero Banner y About Us de la Landing Page de Hatarium. Estudié la metodología BDD para la especificación de pruebas de aceptación en formato Gherkin.<br><br>**Ayllón Pauccar, Juan David**<br>- **AV1:** Adquirí conocimientos en prototipado de alta fidelidad y sistemas de diseño utilizando Figma. Investigué técnicas de maquetación CSS Grid y Flexbox para implementar la sección de Producto y Módulos de Servicios (Ganaderos y Veterinarios) en la Landing Page. Estudié metodologías de análisis de dominio (Needfinding, User Personas, Empathy Maps) para el Capítulo II.<br><br>**Taza Curay, Eduardo Miguel**<br>- **AV1:** Investigué sobre la metodología Event Storming (Domain Events, Commands, Actors) e Impact Mapping para estructurar el alcance funcional del proyecto en el Capítulo III. Adquirí conocimientos en desarrollo web para implementar la sección de Contacto y la configuración bilingüe en `index-en.html`. Estudié técnicas de validación de formularios web.<br><br>**Asmat Alminco, Martín**<br>- **AV1:** Investigué sobre el Modelo C4 (Nivel de Contexto) para la especificación de la arquitectura de software en el Capítulo IV. Adquirí conocimientos en prácticas DevOps para la configuración del repositorio central en GitHub bajo Git Flow. Estudié las estrategias de despliegue continuo en GitHub Pages y maqueté la sección de Equipo, Video y Footer responsivo. | **AV1:** El equipo Vantara incorporó un conjunto amplio y diverso de metodologías y herramientas para el desarrollo de la solución SaaS Hatarium, abarcando desde el análisis del dominio del problema (Lean UX, 5W's y 2H's, Needfinding, Event Storming) hasta el diseño arquitectónico de la solución (DDD estratégico y táctico, Modelo C4) y la maquetación web (HTML5, CSS3, JS, Git Flow, GitHub Pages). Cada integrante identificó proactivamente las brechas en su conocimiento y tomó acciones concretas para cubrirlas mediante el estudio de documentación técnica, bibliografía especializada y recursos en línea. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Meza Tataje, David**<br>- **AV1:** Reconocí que el liderazgo técnico y el modelado táctico bajo DDD exigen una actualización continua para garantizar arquitecturas escalables y mantenibles en proyectos SaaS. Identifiqué que los estándares de diseño y maquetación web evolucionan rápidamente, lo que me motivó a profundizar en guías de estilos CSS y buenas prácticas de desarrollo frontend.<br><br>**Linares Rodríguez, Franco Orlando**<br>- **AV1:** Comprendí que la definición de propuestas de valor y la estructuración de criterios de aceptación Gherkin requieren un aprendizaje constante para traducir necesidades de negocio en especificaciones técnicas claras. Reconocí que el desarrollo frontend responsivo exige mantenerse al día en estándares de maquetación e inspección web.<br><br>**Ayllón Pauccar, Juan David**<br>- **AV1:** Identifiqué que el diseño de interfaces (UI/UX) para usuarios del sector agropecuario requiere comprender profundamente sus necesidades mediante el estudio constante de metodologías de investigación cualitativa. Valoré la importancia de actualizarme en herramientas de prototipado como Figma para acelerar la validación visual antes del desarrollo.<br><br>**Taza Curay, Eduardo Miguel**<br>- **AV1:** Reconocí que el modelado del dominio mediante Event Storming y la especificación de requerimientos requieren formación permanente para evitar ambigüedades en la arquitectura del software. Comprendí que la implementación de formularios web con validación en tiempo real demanda la adopción constante de buenas prácticas de usabilidad.<br><br>**Asmat Alminco, Martín**<br>- **AV1:** Acepté que las prácticas de integración y despliegue continuo (DevOps) evolucionan rápidamente, exigiendo un estudio ininterrumpido para mantener productos de software listos para producción. Reconocí que el diseño de arquitecturas con el Modelo C4 es un pilar profesional que debo seguir fortaleciendo a lo largo de mi carrera. | **AV1:** El equipo Vantara reconoce de manera colectiva que la construcción de una solución SaaS de calidad como Hatarium exige una actitud de aprendizaje permanente y proactivo. A lo largo de esta entrega, cada integrante identificó de forma autónoma las áreas de conocimiento que debía fortalecer desde el análisis de usuarios e investigación de dominio hasta la especificación de arquitectura y despliegue cloud, demostrando capacidad de adaptación continua frente a los estándares de la industria del software. |
-<div style="page-break-before: always;"></div>
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Meza Tataje, David**<br>- **AV1:** Investigé los patrones tácticos de Domain-Driven Design (DDD) y la diagramación UML para la especificación del dominio ganadero.<br><br>**AV2:** Profundicé mis conocimientos en desarrollo frontend mediante la actualización y despliegue de la versión final de la Landing Page de Hatarium, incluyendo la sección About the Product. Fortalecí mis conocimientos en gestión ágil mediante la elaboración del Product Backlog y Sprint 3 del Capítulo V. Asimismo, adquirí conocimientos en desarrollo backend para los módulos de Veterinary and Health.<br><br>**Linares Rodríguez, Franco Orlando**<br>- **AV1:** Investigué técnicas de investigación cualitativa (5W's y 2H's) para estructurar el análisis de antecedentes y la problemática del sector ganadero.<br><br>**AV2:** Profundicé mis conocimientos en investigación y validación de requerimientos mediante el diseño y registro de entrevistas para el Capítulo V. Desarrollé el formulario del curso TRS y actualicé el README. Asimismo, fortalecí mis conocimientos en desarrollo backend mediante la implementación del módulo de Livestock Management.<br><br>**Ayllón Pauccar, Juan David**<br>- **AV1:** Adquirí conocimientos en prototipado de alta fidelidad y sistemas de diseño utilizando Figma.<br><br>**AV2:** Fortalecí mis conocimientos en investigación y documentación mediante el registro de entrevistas para el Capítulo V y el desarrollo del Capítulo 4 del curso TRS. Asimismo, profundicé en el desarrollo backend mediante la implementación de los módulos de Reproduction e IAM.<br><br>**Taza Curay, Eduardo Miguel**<br>- **AV1:** Investigué sobre la metodología Event Storming e Impact Mapping.<br><br>**AV2:** Amplié mis conocimientos en investigación y validación de usuarios mediante el registro de entrevistas para el Capítulo V. Reforcé mis competencias en documentación académica mediante el desarrollo del Capítulo 2 del curso TRS. Asimismo, profundicé en el desarrollo backend mediante la implementación del módulo de Notification.<br><br>**Asmat Alminco, Martín**<br>- **AV1:** Investigué sobre el Modelo C4 para la especificación de la arquitectura de software.<br><br>**AV2:** Fortalecí mis conocimientos en investigación y recopilación de información mediante el registro de entrevistas para el Capítulo V. Asimismo, desarrollé el Capítulo 5 del curso TRS y amplié mis competencias en desarrollo backend mediante la implementación de los módulos de IAM y Reproduction. | **AV1:** El equipo Vantara incorporó un conjunto amplio y diverso de metodologías y herramientas para el desarrollo de la solución SaaS Hatarium.<br><br>**AV2:** El equipo Vantara amplió sus conocimientos técnicos y profesionales durante el desarrollo de la segunda entrega de Hatarium, incorporando nuevas competencias en desarrollo backend, implementación de módulos del sistema, investigación y validación mediante entrevistas, documentación técnica y gestión ágil del proyecto. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Meza Tataje, David**<br>- **AV1:** Reconocí que el liderazgo técnico y el modelado táctico bajo DDD exigen una actualización continua para garantizar arquitecturas escalables y mantenibles en proyectos SaaS. Identifiqué que los estándares de diseño y maquetación web evolucionan rápidamente, lo que me motivó a profundizar en guías de estilos CSS y buenas prácticas de desarrollo frontend.<br><br>- **AV2:** Reconocí la importancia de mantenerme actualizado en tecnologías frontend y prácticas de despliegue para garantizar la calidad de la Landing Page de Hatarium. Asimismo, comprendí que la gestión ágil requiere fortalecer continuamente mis conocimientos sobre planificación de sprints y priorización del Product Backlog. También identifiqué la necesidad de seguir aprendiendo sobre desarrollo backend para construir módulos funcionales y escalables.<br><br>**Linares Rodríguez, Franco Orlando**<br>- **AV1:** Comprendí que la definición de propuestas de valor y la estructuración de criterios de aceptación Gherkin requieren un aprendizaje constante para traducir necesidades de negocio en especificaciones técnicas claras. Reconocí que el desarrollo frontend responsivo exige mantenerse al día en estándares de maquetación e inspección web.<br><br>- **AV2:** Comprendí que la investigación continua y la aplicación de técnicas de entrevista son fundamentales para identificar las necesidades de los usuarios y validar los requerimientos de una solución de software. Asimismo, reconocí la importancia de actualizar mis conocimientos en desarrollo backend, documentación técnica y herramientas de gestión para contribuir a una implementación organizada y mantenible del sistema.<br><br>**Ayllón Pauccar, Juan David**<br>- **AV1:** Identifiqué que el diseño de interfaces (UI/UX) para usuarios del sector agropecuario requiere comprender profundamente sus necesidades mediante el estudio constante de metodologías de investigación cualitativa. Valoré la importancia de actualizarme en herramientas de prototipado como Figma para acelerar la validación visual antes del desarrollo.<br><br>- **AV2:** Reconocí que el desarrollo de sistemas basados en una arquitectura organizada exige un aprendizaje permanente sobre patrones de diseño, separación de responsabilidades y desarrollo backend. Comprendí que la implementación de módulos como Reproduction e IAM requiere profundizar continuamente en los conceptos arquitectónicos para garantizar la integración y mantenibilidad de la solución.<br><br>**Taza Curay, Eduardo Miguel**<br>- **AV1:** Reconocí que el modelado del dominio mediante Event Storming y la especificación de requerimientos requieren formación permanente para evitar ambigüedades en la arquitectura del software. Comprendí que la implementación de formularios web con validación en tiempo real demanda la adopción constante de buenas prácticas de usabilidad.<br><br>- **AV2:** Identifiqué que el desarrollo de funcionalidades de notificaciones requiere actualizar constantemente mis conocimientos sobre desarrollo backend y organización de componentes de software. Asimismo, comprendí que la investigación y documentación de entrevistas son procesos que demandan aprendizaje continuo para mejorar la comprensión de los usuarios y la calidad de los requerimientos del proyecto.<br><br>**Asmat Alminco, Martín**<br>- **AV1:** Acepté que las prácticas de integración y despliegue continuo (DevOps) evolucionan rápidamente, exigiendo un estudio ininterrumpido para mantener productos de software listos para producción. Reconocí que el diseño de arquitecturas con el Modelo C4 es un pilar profesional que debo seguir fortaleciendo a lo largo de mi carrera.<br><br>- **AV2:** Reconocí que la implementación de módulos como IAM y Reproduction requiere fortalecer continuamente mis conocimientos sobre arquitectura de software y desarrollo backend. Asimismo, comprendí que la documentación técnica y el registro de entrevistas son actividades que necesitan actualización constante para mantener una adecuada relación entre las necesidades identificadas y las funcionalidades desarrolladas. | **AV1:** El equipo Vantara reconoce de manera colectiva que la construcción de una solución SaaS de calidad como Hatarium exige una actitud de aprendizaje permanente y proactivo. A lo largo de esta entrega, cada integrante identificó de forma autónoma las áreas de conocimiento que debía fortalecer desde el análisis de usuarios e investigación de dominio hasta la especificación de arquitectura y despliegue cloud, demostrando capacidad de adaptación continua frente a los estándares de la industria del software.<br><br>**AV2:** El equipo Vantara reafirmó la importancia del aprendizaje permanente como parte fundamental del desarrollo profesional en ingeniería de software. Durante esta entrega, los integrantes identificaron la necesidad de seguir fortaleciendo sus competencias en desarrollo backend, arquitectura de software, investigación de usuarios, documentación técnica y gestión ágil. La implementación de nuevos módulos y la elaboración de entregables de investigación permitieron reconocer que la actualización constante de conocimientos es indispensable para construir soluciones tecnológicas funcionales, escalables y alineadas con las necesidades de los usuarios.** |<div style="page-break-before: always;"></div>
 
 # Capítulo I: Introducción
 
@@ -2879,6 +2877,8 @@ Para integrar las relaciones consolidadas de todos los Bounded Contexts y compre
 <img src="assets/database-diagrams/db-general.png">
 <div style="page-break-before: always;"></div>
 
+<div style="page-break-before: always;"></div>
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
@@ -2979,7 +2979,7 @@ Se estableció el uso del idioma inglés para las clases CSS, identificadores y 
 | **Time** | 07:00 PM |
 | **Location** | Reunión virtual mediante Discord |
 | **Prepared By** | Meza Tataje, David |
-| **Attendees** | Linares Rodríguez, Franco Orlando / Ayllón Pauccar, Juan David / Taza Curay, Eduardo Miguel / Asmat Alminco, Martín / Meza Tataje, David |
+| **Attendees** | Linares Rodríguez, Franco Orlando / Ayllon Pauccar, Juan David / Taza Curay, Eduardo Miguel / Asmat Alminco, Martin / Meza Tataje, David |
 | **Sprint 0 Review Summary** | No aplica. Corresponde al primer Sprint del proyecto, por lo que no existe un sprint anterior del cual reportar resultados. |
 | **Sprint 0 Retrospective Summary** | No aplica. Al ser el Sprint inicial, el equipo realizó una reunión de Kickoff donde se definieron los acuerdos de trabajo, herramientas de comunicación, convenciones de código (Git Flow y Conventional Commits) y la distribución inicial de responsabilidades entre los integrantes. |
 | **Sprint 1 Goal** | Diseñar, desarrollar, verificar y desplegar la Landing Page completa y responsiva de Hatarium, e implementar la documentación técnica de los Capítulos I al V del informe para el primer entregable (TB1). |
@@ -2994,9 +2994,9 @@ Se estableció el uso del idioma inglés para las clases CSS, identificadores y 
 | :--- | :--- | :--- |
 | **Meza Tataje, David** | Team Lead / Frontend Developer | Coordinación del Sprint 1, maquetación CSS/HTML responsiva del Header y Navbar de la Landing Page, y redacción de los Capítulos III y V del informe. |
 | **Linares Rodríguez, Franco Orlando** | Frontend Developer / QA | Desarrollo de las secciones Hero y About Us de la Landing Page, elaboración de pruebas Gherkin y redacción del Capítulo I del informe. |
-| **Ayllón Pauccar, Juan David** | UX/UI Lead / Frontend Developer | Prototipado en Figma, maquetación de la sección de Funcionalidades y Servicios en la Landing Page, y redacción del Capítulo II del informe. |
+| **Ayllon Pauccar, Juan David** | UX/UI Lead / Frontend Developer | Prototipado en Figma, maquetación de la sección de Funcionalidades y Servicios en la Landing Page, y redacción del Capítulo II del informe. |
 | **Taza Curay, Eduardo Miguel** | Frontend Developer / Requirements | Desarrollo de la sección de Contacto, formulario web con validaciones UI, y estructuración de Historias de Usuario y Event Storming. |
-| **Asmat Alminco, Martín** | DevOps / Software Architect | Implementación del Footer, configuración del repositorio GitHub (Git Flow), despliegue en GitHub Pages y redacción del Capítulo IV del informe. |
+| **Asmat Alminco, Martin** | DevOps / Software Architect | Implementación del Footer, configuración del repositorio GitHub (Git Flow), despliegue en GitHub Pages y redacción del Capítulo IV del informe. |
 
 ---
 
@@ -3008,15 +3008,15 @@ En este primer Sprint, el trabajo del equipo se dividió de manera equitativa en
 | :--- | :--- | :--- | :---: | :--- | :---: |
 | **US001 / CC01** | Header y Navbar Responsivos | Maquetación y estilos responsive del encabezado y menú de navegación. | 4 | Meza Tataje, David | Done |
 | **US001 / CC02** | Sección Hero & About Us | Maquetación visual de la sección principal y presentación de la empresa. | 4 | Linares Rodríguez, Franco Orlando | Done |
-| **US002 / CC03** | Sección de Servicios y Producto | Maquetación de tarjetas informativas con las funcionalidades del SaaS. | 3 | Ayllón Pauccar, Juan David | Done |
+| **US002 / CC03** | Sección de Servicios y Producto | Maquetación de tarjetas informativas con las funcionalidades del SaaS. | 3 | Ayllon Pauccar, Juan David | Done |
 | **US003 / CC04** | Sección de Contacto | Maquetación de la sección informativa de canales de comunicación. | 2 | Taza Curay, Eduardo Miguel | Done |
 | **US004 / CC05** | Formulario de Contacto UI | Desarrollo de la interfaz del formulario y validaciones en tiempo real. | 3 | Taza Curay, Eduardo Miguel | Done |
-| **TS001 / CC06** | Footer & Enlaces Sociales | Maquetación del pie de página y enlaces a redes de la plataforma. | 2 | Asmat Alminco, Martín | Done |
-| **TS001 / CC07** | Despliegue en GitHub Pages | Configuración del pipeline de despliegue continuo desde la rama `main`. | 2 | Asmat Alminco, Martín | Done |
+| **TS001 / CC06** | Footer & Enlaces Sociales | Maquetación del pie de página y enlaces a redes de la plataforma. | 2 | Asmat Alminco, Martin | Done |
+| **TS001 / CC07** | Despliegue en GitHub Pages | Configuración del pipeline de despliegue continuo desde la rama `main`. | 2 | Asmat Alminco, Martin | Done |
 | **DOC01** | Informe Capítulo I | Introducción, problema, objetivos, justificación y restricciones. | 5 | Linares Rodríguez, Franco Orlando | Done |
-| **DOC02** | Informe Capítulo II | Análisis del dominio, entrevistas, User Personas, Empathy Maps. | 6 | Ayllón Pauccar, Juan David | Done |
+| **DOC02** | Informe Capítulo II | Análisis del dominio, entrevistas, User Personas, Empathy Maps. | 6 | Ayllon Pauccar, Juan David | Done |
 | **DOC03** | Informe Capítulo III | Impact Mapping, Event Storming, 40 US + 12 TS y Product Backlog. | 8 | Meza Tataje, David / Taza Curay, Eduardo M. | Done |
-| **DOC04** | Informe Capítulo IV | Arquitectura de Software, Estilo de Arquitectura y Vista de Contexto C4. | 6 | Asmat Alminco, Martín | Done |
+| **DOC04** | Informe Capítulo IV | Arquitectura de Software, Estilo de Arquitectura y Vista de Contexto C4. | 6 | Asmat Alminco, Martin | Done |
 | **DOC05** | Informe Capítulo V | Configuration Management, Sprint Planning 1 y Evidencias de Sprint. | 5 | Meza Tataje, David | Done |
 
 ---
@@ -3079,18 +3079,738 @@ Se utilizó **GitHub** como repositorio centralizado bajo la organización del e
 | Integrante | Tareas Principales en Sprint 1 |
 | :--- | :--- |
 | **Linares Rodríguez, Franco Orlando** | Maquetación de la sección Hero y About Us de la Landing Page; redacción del Capítulo I del informe y diseño de criterios de aceptación Gherkin. |
-| **Ayllón Pauccar, Juan David** | Maquetación de la sección de Funcionalidades y Servicios; diseño del prototipo interactivo en Figma y redacción del Capítulo II (Análisis de Dominio). |
+| **Ayllon Pauccar, Juan David** | Maquetación de la sección de Funcionalidades y Servicios; diseño del prototipo interactivo en Figma y redacción del Capítulo II (Análisis de Dominio). |
 | **Taza Curay, Eduardo Miguel** | Implementación de la sección de Contacto y formulario web con validaciones UI; apoyo en el diseño del Event Storming y Product Backlog (Capítulo III). |
-| **Asmat Alminco, Martín** | Maquetación del Footer y componentes de pie de página; configuración del repositorio central, Git Flow, despliegue en GitHub Pages y redacción del Capítulo IV (Arquitectura). |
+| **Asmat Alminco, Martin** | Maquetación del Footer y componentes de pie de página; configuración del repositorio central, Git Flow, despliegue en GitHub Pages y redacción del Capítulo IV (Arquitectura). |
 | **Meza Tataje, David** | Coordinación del Sprint 1; maquetación y estilos CSS responsivos del Header y Navbar de la Landing Page; redacción y estructuración técnica del Capítulo III y Capítulo V del informe. |
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 2 |
+| **Date** | 2026-10-1 |
+| **Time** | 08:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Meza Tataje, David |
+| **Attendees** | Linares Rodríguez, Franco Orlando / Ayllon Pauccar, Juan David / Taza Curay, Eduardo Miguel / Asmat Alminco, Martin / Meza Tataje, David |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se entregó satisfactoriamente la Landing Page completa y responsiva de Hatarium desplegada en GitHub Pages, junto con la documentación técnica inicial correspondiente a los Capítulos I al V del informe. |
+| **Sprint 1 Retrospective Summary** | El equipo mantuvo una sólida coordinación mediante Discord. Se identificó la necesidad de estandarizar las convenciones de arquitectura en Angular (Componentes Standalone, Signals y RxJS), estructurar la API simulada en `hatarium-db.json` con relaciones íntegras y unificar el flujo de trabajo en Git Flow con nombres de ramas estandarizados por Bounded Context. |
+| **Sprint 2 Goal** | Desarrollar, integrar y desplegar la primera versión funcional (v1.0) de la aplicación Web Frontend en Angular, implementando las interfaces y lógica de negocio de los Bounded Contexts de IAM, Livestock Management, Veterinary & Health, Reproductive Management, Notifications, Payments, Profile Management y Reports & Analytics. |
+| **Sprint 2 Velocity** | 60 Story Points |
+| **Sum of Story Points** | 60 |
+
+---
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Integrante | Rol / Bounded Contexts Asignados | Responsabilidades Principales en Sprint 2 |
+| :--- | :--- | :--- |
+| **Meza Tataje, David** | Team Lead / Bounded Context Leader | Liderazgo del Bounded Context de **Veterinary and Health** y co-liderazgo de **Reports and Analytics**. Desarrollo de las vistas de citas médicas con filtros por origen (*RANCHER_REQUEST* y *TECHNICAL_VISIT*), ficha de detalle de cita, registro de diagnóstico clínico (US028), prescripción de tratamiento (US029) y carnet de vacunas. |
+| **Linares Rodríguez, Franco Orlando** | Frontend Developer / Bounded Context Leader | Liderazgo del Bounded Context de **Livestock Management** y co-liderazgo de **Reports and Analytics**. Desarrollo del CRUD de bovinos (alta, edición, estado de salud), gestión de lotes/corrales y consolidación de reportes de rendimiento ganadero. |
+| **Ayllon Pauccar, Juan David** | UX/UI Lead / Bounded Context Leader | Liderazgo del Bounded Context de **Payments** y co-liderazgo de **Reproductive Management**. Desarrollo del flujo de suscripciones, historial de pagos, pasarela simulada y registro de gestaciones/partos. |
+| **Asmat Alminco, Martin** | DevOps / Bounded Context Leader | Liderazgo del Bounded Context de **IAM (Identity & Access Management)** y co-liderazgo de **Reproductive Management**. Desarrollo de inicio de sesión, registro de usuarios, guardias de autenticación JWT y seguimiento reproductivo del ganado. |
+| **Taza Curay, Eduardo Miguel** | Frontend Developer / Bounded Context Leader | Liderazgo del Bounded Context de **Notifications** y co-liderazgo de **Profile Management**. Desarrollo del centro de notificaciones (alertas sanitarias y recordatorios) y gestión del perfil del usuario ganadero/veterinario. |
+
+---
+
+#### 5.2.2.3. Sprint Backlog 2
+
+| US / TS / Task ID | Bounded Context | Título / Descripción de Tarea | Estimación (Horas) | Integrante Asignado | Estado |
+| :--- | :--- | :--- | :---: | :--- | :---: |
+| **US005 / CC08** | IAM | Pantalla e interfaz de Inicio de Sesión y autenticación con credenciales. | 4 | Asmat Alminco, Martin | Done |
+| **US006 / CC09** | IAM | Registro de nuevos usuarios y selección de rol (*RANCHER* / *VETERINARIAN*). | 4 | Asmat Alminco, Martin | Done |
+| **US007 / CC10** | Livestock | Vista de catálogo y registro individual de bovinos (arete, raza, peso, lote). | 5 | Linares Rodríguez, Franco Orlando | Done |
+| **US008 / CC11** | Livestock | Módulo de gestión y transferencia de bovinos entre Lotes / Corrales. | 4 | Linares Rodríguez, Franco Orlando | Done |
+| **US027 / CC12** | Veterinary & Health | Dashboard de citas veterinarias con filtrado por origen (*Ganadero* vs *Visita Técnica*). | 6 | Meza Tataje, David | Done |
+| **US027 / CC13** | Veterinary & Health | Formulario dedicado para agendar nuevas Citas / Visitas Técnicas de campo. | 4 | Meza Tataje, David | Done |
+| **US028 / CC14** | Veterinary & Health | Vista interactiva de Registro de Diagnóstico Clínico y nivel de gravedad. | 5 | Meza Tataje, David | Done |
+| **US029 / CC15** | Veterinary & Health | Vista de Prescripción de Tratamiento Médico y dosificación de fármacos. | 4 | Meza Tataje, David | Done |
+| **TS005 / CC16** | Veterinary & Health | Formulario y carnet de Registro de Vacunas Aplicadas (*External Data DTO*). | 4 | Meza Tataje, David | Done |
+| **US018 / CC17** | Reproductive | Módulo de monitoreo de gestaciones, fechas probables de parto y secado. | 5 | Ayllon Pauccar, Juan David / Asmat Alminco, M. | Done |
+| **US021 / CC18** | Payments | Pantalla de planes de suscripción SaaS, historial de pagos y facturación. | 4 | Ayllon Pauccar, Juan David | Done |
+| **US024 / CC19** | Notifications | Centro de alertas sanitarias en tiempo real y recordatorios de vacunas/citas. | 4 | Taza Curay, Eduardo Miguel | Done |
+| **US025 / CC20** | Profile | Gestor de perfil de usuario, datos personales y preferencias de cuenta. | 3 | Taza Curay, Eduardo Miguel | Done |
+| **US031 / CC21** | Reports & Analytics | Dashboard consolidado con reportes productivos, sanitarios y exportación PDF. | 6 | Linares Rodríguez, Franco / Meza Tataje, David | Done |
+
+---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2 se desarrolló e integró la aplicación Web Frontend utilizando el ecosistema moderno de Angular 22:
+
+* **Repositorio Frontend Web Application:** `https://github.com/upc-pre-202620-1asi0729-7800-vantara/hatarium-frontend`
+* **Herramientas de Desarrollo:**
+  * **Visual Studio Code & WebStorm:** IDEs principales para el desarrollo en TypeScript, HTML5 y CSS3.
+  * **Angular CLI & Angular Material:** Framework web basado en arquitectura de componentes standalone, Signal Stores para manejo de estado reactivo y Angular Material para componentes UI.
+  * **JSON Server:** Servidor de Fake API REST montado sobre la estructura de datos `hatarium-db.json` para la simulación de persistencia de datos en tiempo real.
+
+---
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Se implementaron y ejecutaron satisfactoriamente las vistas y los flujos interactivos de la primera versión de la aplicación Web Frontend de Hatarium. Las siguientes capturas muestran las pantallas disponibles de cada Bounded Context:
+
+* **IAM & Profile Management (Asmat Alminco, Martin / Taza Curay, Eduardo Miguel):**
+  Se implementó el inicio de sesión con validación de credenciales y acceso según el rol del usuario (*Administrador*, *Ganadero* o *Veterinario*). La vista de perfil permite consultar y actualizar los datos personales y las preferencias de la cuenta.
+
+  <p align="center"><img src="assets/imagenes-caratula/home-view.png" alt="Panel principal de Hatarium" width="75%"></p>
+  <p align="center"><img src="assets/imagenes-caratula/profile-view.png" alt="Perfil y configuración del usuario" width="75%"></p>
+
+* **Livestock Management (Linares Rodríguez, Franco Orlando):**
+  El catálogo permite consultar los bovinos registrados y sus datos principales, como arete, nombre, lote, sexo, raza, peso y estado. También presenta el resumen de animales distribuidos en los lotes de la hacienda.
+
+  <p align="center"><img src="assets/imagenes-caratula/livestock-view.png" alt="Catálogo de ganado y lotes" width="75%"></p>
+
+* **Veterinary and Health (Meza Tataje, David):**
+  El flujo contempla cinco vistas conectadas: (1) tablero de citas solicitadas por los ganaderos, con indicadores, búsqueda, filtros e historial; (2) formulario para registrar una solicitud de cita veterinaria; (3) detalle de la cita y del bovino atendido; (4) registro de síntomas, causas probables y gravedad del diagnóstico (US028); y (5) prescripción de tratamientos (US029) y registro de vacunas. La captura muestra el tablero de citas y su seguimiento.
+
+  <p align="center"><img src="assets/imagenes-caratula/apoinmets-view.png" alt="Tablero de citas solicitadas por ganaderos" width="75%"></p>
+
+* **Reproductive Management (Ayllon Pauccar, Juan David / Asmat Alminco, Martin):**
+  La vista resume el estado reproductivo del ganado, las vacas preñadas y los próximos partos, y permite consultar los eventos reproductivos registrados.
+
+  <p align="center"><img src="assets/imagenes-caratula/reproduction-view.png" alt="Seguimiento reproductivo y próximos eventos" width="75%"></p>
+
+* **Payments (Ayllon Pauccar, Juan David):**
+  Se implementó la consulta de planes de suscripción, el historial de transacciones y los estados de pago. No se adjuntó una captura específica de este módulo entre las imágenes disponibles.
+
+* **Feeding:**
+  La vista organiza los planes alimentarios por lote e informa raciones diarias, frecuencia y alimentos utilizados para el ganado.
+
+  <p align="center"><img src="assets/imagenes-caratula/feeding-view.png" alt="Planes alimentarios por lote" width="75%"></p>
+
+* **Notifications & Reports (Taza Curay, Eduardo / Linares, Franco / Meza, David):**
+  El centro de notificaciones reúne avisos y recordatorios de actividad ganadera. El panel de reportes permite seleccionar información y filtros para consultar métricas del ganado y de la alimentación.
+
+  <p align="center"><img src="assets/imagenes-caratula/notifications.png" alt="Centro de notificaciones" width="75%"></p>
+  <p align="center"><img src="assets/imagenes-caratula/report-view.png" alt="Panel de reportes y analíticas" width="75%"></p>
+
+---
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se estructuró la API simulada utilizando `json-server` para respaldar las operaciones HTTP (GET, POST, PUT, DELETE) de la aplicación frontend. La base de datos orientada a colecciones `hatarium-db.json` expone los siguientes recursos REST:
+
+* **`/accounts` & `/users`:** Gestión de cuentas, roles e información de perfil.
+* **`/animals` & `/lots`:** Colecciones de ganado y lotes de la hacienda.
+* **`/appointments`:** Registro de citas médicas con atributos de origen (`RANCHER_REQUEST` y `TECHNICAL_VISIT`), estado y fecha programada.
+* **`/appointmentAnimals`:** Relación asociativa entre citas y bovinos evaluados.
+* **`/medicalRecords`:** Historias clínicas y diagnósticos registrados durante la atención in situ.
+* **`/treatments`:** Prescripciones médicas, dosis y frecuencias de medicamentos.
+* **`/vaccines`:** Carnet de vacunación preventiva aplicada a los animales.
+* **`/notifications` & `/payments`:** Alertas del sistema e historial de pagos.
+
+---
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizó el despliegue de la primera versión pública de la aplicación Web Frontend de Hatarium.
+
+* **Plataforma utilizada:** Vercel / GitHub Pages
+* **Pasos realizados para el despliegue:**
+  1. Integración de la rama `main` del repositorio `hatarium-frontend` con la plataforma de despliegue continuo.
+  2. Configuración del comando de compilación de producción (`npm run build`).
+  3. Despliegue de los activos compilados en el entorno de producción y verificación de rutas SPA mediante la configuración de reescritura de URLs (`vercel.json`).
+  4. Ejecución del servidor `json-server` para la persistencia de datos remota.
+
+* **URL de la Aplicación Web Frontend:** `https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-webapp/` (GitHub Pages / Render)
+
+---
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo aplicó metodologías ágiles de trabajo colaborativo para garantizar la integración fluida entre los distintos Bounded Contexts:
+
+##### Project Management
+* **Discord:** Canal de comunicación diaria para Daily Standups, revisión de la estructura de componentes en Angular y sesiones de pair-programming.
+* **Google Meet:** Reuniones semanales para la revisión de avance del Sprint 2, demostración de software funcional (Sprint Review) y retrospectiva.
+* **Zoho Sprints:** Tablero Kanban para el seguimiento de tareas por estado (*To Do*, *In Process*, *To Review*, *Done*) y control de los Story Points completados.
+
+##### Source Code Management
+Se utilizó **GitHub** aplicando estrictamente **Git Flow**. Cada desarrollador trabajó en ramas específicas nombradas según su módulo (ej. `feature/veterinary-and-health`, `feature/livestock-management`, `feature/iam`), realizando commits estructurados bajo el estándar de **Conventional Commits** (`feat:`, `fix:`, `docs:`, `style:`).
+
+##### Distribución del trabajo por integrante en el Sprint 2:
+
+| Integrante | Tareas Principales en Sprint 2 |
+| :--- | :--- |
+| **Linares Rodríguez, Franco Orlando** | Desarrollo del Bounded Context de **Livestock Management** (CRUD de animales y lotes); co-desarrollo del módulo de **Reports and Analytics**. |
+| **Ayllon Pauccar, Juan David** | Desarrollo del Bounded Context de **Payments** (planes de suscripción y facturación); co-desarrollo de **Reproductive Management**. |
+| **Meza Tataje, David** | Coordinación del Sprint 2; desarrollo completo del Bounded Context de **Veterinary and Health** (citas, diagnóstico, tratamiento, vacunas) y co-desarrollo de **Reports and Analytics**. |
+| **Asmat Alminco, Martin** | Desarrollo del Bounded Context de **IAM** (login, registro, guardias JWT); co-desarrollo de **Reproductive Management** y configuración de despliegue. |
+| **Taza Curay, Eduardo Miguel** | Desarrollo del Bounded Context de **Notifications** (centro de alertas sanitarias) y desarrollo del módulo de **Profile Management**. |
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | 2026-10-20 |
+| **Time** | 08:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Meza Tataje, David |
+| **Attendees** | Linares Rodríguez, Franco Orlando / Ayllon Pauccar, Juan David / Taza Curay, Eduardo Miguel / Asmat Alminco, Martin / Meza Tataje, David |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 (TB1) se implementó y desplegó la primera versión funcional (v1.0) de la aplicación Web Frontend en Angular 22 respaldada por una API simulada con `json-server` (`server/db.json`), obteniendo una evaluación docente de 14.00/20 en la que se destacó la Landing Page y el avance de interfaces, señalando la necesidad de demostrar el proceso sanitario de principio a fin con persistencia real, validaciones y control de permisos por rol. |
+| **Sprint 2 Retrospective Summary** | El equipo analizó las observaciones de la evaluación TB1 y acordó: (1) priorizar el desarrollo del Backend RESTful en Java/Spring Boot con base de datos relacional para los contextos críticos (*IAM*, *Livestock Management*, *Veterinary & Health* y *Notifications*), (2) implementar pruebas verificables de flujo completo, validaciones de error y permisos por rol (`RANCHER` vs. `VETERINARIAN`), y (3) documentar los servicios en Swagger UI con una guía reproducible para el evaluador. |
+| **Sprint 3 Goal** | Implementar, documentar en Swagger UI y desplegar en la nube el Backend RESTful en Java con Spring Boot (Clean Architecture y DDD), migrando la persistencia desde `json-server` hacia una base de datos relacional con seguridad JWT/roles, y validar de principio a fin el flujo sanitario entre Ganadero y Veterinario. |
+| **Sprint 3 Velocity** | 52 Story Points |
+| **Sum of Story Points** | 52 |
+
+##### Tabla de Mejora Continua (Levantamiento de Observaciones TB1)
+
+En atención a las recomendaciones del reporte de evaluación TB1 (Secciones 4.6 y 7), se detalla la trazabilidad de acciones ejecutadas durante el Sprint 3:
+
+| Observación Identificada en TB1 | Acción Realizada en Sprint 3 | Evidencia Documentada | Estado |
+| :--- | :--- | :--- | :---: |
+| **Prueba no reproducible y falta de cuentas de prueba (Sec. 4.1)** | Se habilitaron usuarios semilla (`RANCHER` y `VETERINARIAN`) en Spring Boot y se documentó la secuencia paso a paso de ejecución y migración desde `json-server`. | Sección `5.2.3.6` (Guía de Prueba Reproducible y Cuentas de Acceso). | Resuelto |
+| **Falta de trazabilidad entre historia, responsable y funcionalidad comprobada (Sec. 4.2)** | Se priorizaron historias críticas de backend/integración vinculando cada `TS`/`US` con su endpoint REST, responsable y criterio de aceptación verificado, diferenciando lo implementado de lo pendiente. | Sección `5.2.3.3` (Sprint Backlog 3 con estado de alcance). | Resuelto |
+| **Proceso sanitario incompleto sin validaciones de error ni permisos (Sec. 4.4 y 5.2)** | Se implementaron y probaron los Escenarios A (flujo sanitario completo), B (rechazo de datos inválidos, duplicados y acceso no autorizado `401`/`403`) y C (actualización de alertas pendientes). | Sección `5.2.3.5` (Testing Suite Evidence – Escenarios A, B y C). | Resuelto |
+| **Evidencia colaborativa limitada a capturas aisladas (Sec. 4.5)** | Se documentaron las ramas `feature/*`, Pull Requests y commits verificables de los 5 integrantes en los repositorios `vantara-backend` y `vantara-webapp`. | Sección `5.2.3.4` y `5.2.3.9` (Historial de commits y distribución). | Resuelto |
+| **Inconsistencia en enlaces y diferenciación entre logros y propuestas (Sec. 4.7)** | Se corrigieron los enlaces oficiales de la organización `upc-pre-202620-1asi0729-7800-vantara` y se separaron explícitamente los módulos en producción de los complementarios. | Sección `5.2.3.3`, `5.2.3.4` y `5.2.3.8`. | Resuelto |
+
+---
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Integrante | Rol / Bounded Contexts Asignados | Responsabilidades Principales en Sprint 3 (Backend & Integración) |
+| :--- | :--- | :--- |
+| **Meza Tataje, David** | Team Lead / Scrum Master / Bounded Context Leader | Coordinación del Sprint 3. Diseño e implementación en Spring Boot del núcleo **Veterinary & Health** (entidades JPA, reglas de dominio, comandos y controladores REST de citas `RANCHER_REQUEST`/`TECHNICAL_VISIT`, diagnósticos, tratamientos y vacunas), integración con Angular, pruebas E2E del flujo clínico y co-desarrollo del Bounded Context **Reports & Analytics**. |
+| **Linares Rodríguez, Franco Orlando** | Scrum Member / Bounded Context Leader | Implementación en Spring Boot del Bounded Context **Livestock Management** (endpoints REST CRUD de bovinos y lotes con validación de identificador único por hato y aislamiento por `rancherId`) y co-desarrollo de **Reports & Analytics**. |
+| **Asmat Alminco, Martin** | Product Owner / DevOps / Bounded Context Leader | Configuración base del proyecto Spring Boot, implementación de **IAM** (Spring Security, generación/validación de tokens JWT, control de acceso por rol `RANCHER`/`VETERINARIAN`), co-desarrollo de **Reproductive Management** y despliegue continuo en la nube. |
+| **Taza Curay, Eduardo Miguel** | Scrum Member / Bounded Context Leader | Implementación en Spring Boot de **Notifications & Scheduling** (generación de recordatorios sanitarios y transición de estado al completarse una atención) y **Profile Management**. |
+| **Ayllon Pauccar, Juan David** | Scrum Member / Bounded Context Leader | Implementación en Spring Boot de **Payments** (planes SaaS e historial de facturación) y co-desarrollo de **Reproductive Management** (registro de servicios y cálculo de fecha probable de parto). |
+
+---
+
+#### 5.2.3.3. Sprint Backlog 3
+
+Siguiendo la recomendación de priorización de la evaluación TB1, el Sprint Backlog 3 se estructuró enfocándose primero en los **Bounded Contexts críticos** (*IAM*, *Livestock Management*, *Veterinary & Health* y *Notifications*) y posteriormente en los módulos complementarios, distinguiendo con precisión lo implementado y verificado en producción de lo que permanece en alcance complementario:
+
+| Technical / User Story ID | Bounded Context | Tarea Backend / Integración y Endpoint Asociado | Est. (Horas) | Responsable | Alcance / Estado |
+| :--- | :--- | :--- | :---: | :--- | :---: |
+| **TS002** *(US005)* | IAM *(Crítico)* | Configuración de Spring Security, filtro JWT y endpoint `POST /api/v1/authentication/sign-in` con emisión de rol (`RANCHER` / `VETERINARIAN`). | 6 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
+| **TS003** *(US006)* | IAM *(Crítico)* | Endpoint `POST /api/v1/authentication/sign-up` con encriptación BCrypt y guardias de autorización por rol en rutas protegidas. | 4 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
+| **TS004** *(US007, US008)* | Livestock *(Crítico)* | Endpoints REST CRUD (`/api/v1/animals`, `/api/v1/lots`) con validación de arete único por ganadero y persistencia en BD relacional. | 6 | Linares Rodríguez, Franco Orlando | Implementado y Verificado (**Done**) |
+| **TS005** *(US027)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/appointments`) soportando origen `RANCHER_REQUEST` y `TECHNICAL_VISIT`, vinculados a `animalId` existente. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS006** *(US028, US029)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/medical-records`, `/api/v1/treatments`) con validación de rol `VETERINARIAN` y actualización de estado de cita. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS007** *(US030)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/vaccines`) con validación anti-duplicados, trazabilidad de profesional y consulta de historial por el ganadero. | 5 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS008** *(US024)* | Notifications *(Crítico)* | Endpoints REST (`/api/v1/notifications`) para alertas sanitarias pendientes y cierre automático al completarse la cita/vacuna. | 5 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
+| **TS009** *(US025)* | Profile | Endpoints REST (`/api/v1/profiles`) para actualización de datos de contacto y preferencias del productor/veterinario. | 3 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
+| **TS010** *(US018, US019)* | Reproductive *(Complementario)* | Endpoints REST (`/api/v1/reproductive-records`) para seguimiento gestacional y fechas estimadas de parto. | 4 | Ayllon Pauccar, Juan / Asmat Alminco, Martin | Implementado (**Done** – Flujo base) |
+| **TS011** *(US021, US022)* | Payments *(Complementario)* | Endpoints REST (`/api/v1/subscriptions`, `/api/v1/payments`) para registro de planes SaaS e historial de comprobantes. | 4 | Ayllon Pauccar, Juan David | Implementado (**Done** – Flujo base) |
+| **TS012** *(US031)* | Reports *(Complementario)* | Endpoint `GET /api/v1/reports/summary` con conteos reales desde BD (exportación avanzada PDF/Excel queda como mejora futura). | 3 | Linares Rodríguez, Franco / Meza Tataje, David | Implementado (**Done** – KPIs reales) |
+
+
+---
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se desarrolló el Backend RESTful en Java/Spring Boot y se integró con la aplicación Web Frontend en Angular 22, sustituyendo la API simulada (`json-server`) por persistencia relacional real en la nube (AWS + MySQL):
+
+**Software Development:**
+
+* **IntelliJ IDEA:** Entorno de desarrollo integrado (IDE) utilizado para implementar, depurar y compilar el Backend en Java 27 con Spring Boot y Maven.
+* **WebStorm & Visual Studio Code:** IDEs empleados para actualizar los `ApiClients` de Angular, configurar el `HttpInterceptor` de JWT y conectar los Signal Stores con los endpoints productivos.
+* **GitHub:** Plataforma de control de versiones colaborativo bajo la organización oficial `upc-pre-202620-1asi0729-7800-vantara`.
+* **Swagger UI (OpenAPI 3) & Postman:** Herramientas utilizadas para documentar y probar los contratos RESTful, códigos de respuesta HTTP y seguridad por Bearer Token.
+
+**Source Code Management (Repositorios Oficiales):**
+
+* **Repositorio del Informe:** `https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report`
+* **Repositorio de la Landing Page:** `https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-website`
+* **Repositorio Frontend Web Application (Angular):** `https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-webapp`
+* **Repositorio Backend REST API (Spring Boot):** `https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-platform`
+
+**Arquitectura y Convenciones Implementadas:**
+
+* **Backend — Java 27 & Spring Boot (Clean Architecture + Tactical DDD):**
+  * Organización por Bounded Context (`iam`, `livestock`, `veterinary`, `notifications`, `profile`, `reproductive`, `payments`, `reports`) estructurado en 4 capas: `domain` (Entidades, Value Objects, Comandos, Queries, Repositorios), `application` (Command/Query Services), `infrastructure` (JPA/Hibernate, Spring Security, JWT) e `interfaces` (`@RestController`, Resources, Assemblers).
+  * Nomenclatura estándar Java: `PascalCase` para clases/interfaces/records (`MedicalRecord`, `CreateVaccineCommand`, `VaccineResource`) y `camelCase` para métodos y atributos (`findByAnimalId`, `veterinarianId`).
+* **Frontend — TypeScript & Angular 22:**
+  * Sustitución de `environment.development.ts` y `environment.ts` (que anteriormente apuntaban a `http://localhost:4000` / `vantara-fake-api.onrender.com`) hacia la URL productiva del backend en Spring Boot (`http://13.184.100.191:8080`).
+  * Uso de `HttpInterceptor` para inyectar automáticamente el encabezado `Authorization: Bearer <token>` y `roleGuard` para proteger las rutas exclusivas de cada perfil.
+
+<p align="center"><img src="assets/sprint3/img-github-commits.png" alt="historial-commits-ramas-github" width="75%"></p>
+
+---
+
+#### 5.2.3.5. Testing Suite Evidence for Sprint Review
+
+En cumplimiento de la **Demostración Mínima Exigible** establecida en la revisión TB1 (Sección 5.2), se ejecutaron pruebas de aceptación en formato **Gherkin** cubriendo los tres escenarios obligatorios (flujo sanitario normal, validaciones/permisos y gestión de alertas pendientes):
+
+| Escenario / Story ID | Tipo de Prueba | Criterio Verificado en Backend + Frontend | Resultado HTTP / UI | Estado |
+| :--- | :--- | :--- | :--- | :---: |
+| **Escenario A.1** *(TS004 / US007)* | Flujo Normal E2E | El productor (`RANCHER`) registra un bovino con arete único en la base de datos relacional asociado a su hato. | `201 Created` + visible en catálogo | Done |
+| **Escenario A.2** *(TS005 / US027)* | Flujo Normal E2E | Se programa una cita / vacunación preventiva vinculada al identificador del bovino y al veterinario asignado. | `201 Created` + cita en estado `scheduled` | Done |
+| **Escenario A.3** *(TS006, TS007 / US028–US030)* | Flujo Normal E2E | El veterinario autorizado (`VETERINARIAN`) inicia sesión, registra el diagnóstico clínico, prescribe tratamiento y registra la vacuna aplicada. | `201 Created` + cita pasa a `completed` | Done |
+| **Escenario A.4** *(TS007 / US012)* | Flujo Normal E2E | El productor consulta el perfil de su animal y visualiza la nueva entrada en el historial sanitario con fecha, dosis y responsable veterinario. | `200 OK` + historial sincronizado | Done |
+| **Escenario B.1** *(TS004 / US007)* | Validación de Negocio | Intentar registrar un bovino con un número de arete ya existente dentro del mismo hato o con campos obligatorios vacíos. | `400 Bad Request` + mensaje descriptivo | Done |
+| **Escenario B.2** *(TS007 / US030)* | Validación de Negocio | Intentar registrar una vacuna sobre un `animalId` inexistente o duplicar la misma dosis en la misma fecha. | `404 Not Found` / `409 Conflict` | Done |
+| **Escenario B.3** *(TS002 / US005)* | Seguridad y Permisos | Intentar registrar un diagnóstico clínico o vacuna autenticándose con rol `RANCHER` o sin token JWT. | `401 Unauthorized` / `403 Forbidden` | Done |
+| **Escenario C.1** *(TS008 / US024)* | Estado de Alertas | Al programar un control sanitario próximo, el sistema genera una notificación pendiente vinculada al animal. | `201 Created` + alerta `PENDING` | Done |
+| **Escenario C.2** *(TS008 / US024)* | Estado de Alertas | Una vez que el veterinario completa la atención o aplica la vacuna, la notificación deja de mostrarse como pendiente y pasa a `COMPLETED`. | `200 OK` + alerta actualizada | Done |
+
+**Evidencia de las pruebas sobre Swagger UI (OpenAPI 3), ejecutadas con autenticación Bearer JWT:**
+
+* **Escenario A.1 — Registro exitoso de un bovino (`POST /api/v1/animals` → `201 Created`):**
+
+  <p align="center"><img src="assets/sprint3/img-swagger-animal-creado.png" alt="registro-exitoso-de-animal-201" width="75%"></p>
+
+* **Escenario B.1 — Validación de negocio: arete duplicado / datos inválidos (`POST /api/v1/animals` → `400 Bad Request`):**
+
+  <p align="center"><img src="assets/sprint3/img-swagger-animal-duplicado.png" alt="registro-animal-duplicado-400" width="75%"></p>
+
+* **Escenario B.2 — Vacuna sobre un `animalId` inexistente (`POST /api/v1/vaccines` → `404 Not Found`) y programación de cita con datos inválidos (`POST /api/v1/appointments` → error de validación):**
+
+  <p align="center"><img src="assets/sprint3/img-swagger-vacuna-404.png" alt="vacuna-animal-inexistente-404" width="75%"></p>
+
+  <p align="center"><img src="assets/sprint3/img-swagger-cita-error.png" alt="cita-programada-con-datos-invalidos" width="75%"></p>
+
+* **Escenario B.3 — Acceso denegado a endpoint protegido (`401 Unauthorized` / `403 Forbidden`):**
+
+  <p align="center"><img src="assets/sprint3/img-swagger-permiso-denegado.png" alt="acceso-denegado-401-403" width="75%"></p>
+
+---
+
+#### 5.2.3.6. Execution Evidence for Sprint Review
+
+##### Guía de Prueba Reproducible y Transición de Persistencia (Observación 4.1)
+
+* **Transición desde `json-server` al Backend Productivo:** Durante el Sprint 2 (TB1), la aplicación almacenaba los datos temporalmente en `server/db.json` mediante `json-server` (`vantara-fake-api.onrender.com`). En el Sprint 3, toda la persistencia fue migrada a **Spring Boot + Base de Datos Relacional en la nube**, garantizando integridad referencial entre usuarios, bovinos, citas, historias clínicas, tratamientos y vacunas, además de aislamiento de datos por usuario autenticado.
+* **Cuentas de Prueba Precargadas (Entorno de Demostración):**
+  * **Rol Ganadero (`RANCHER`):** Correo: `[ganadero@hatarium.com]` | Contraseña: `[123456]` *(Reemplazar con credenciales exactas del DataSeeder)*
+  * **Rol Veterinario (`VETERINARIAN`):** Correo: `[veterinario@hatarium.com]` | Contraseña: `[123456]` *(Reemplazar con credenciales exactas del DataSeeder)*
+* **Secuencia de Verificación Recomendada (Escenario A Completo):**
+  1. Ingresar con la cuenta de **Ganadero**, navegar a *Ganado* y registrar un nuevo bovino (ej. Arete `#105 - Estrella`).
+  2. Navegar a *Mis Citas y Salud* y solicitar una cita veterinaria (`RANCHER_REQUEST`) para dicho animal.
+  3. Cerrar sesión e ingresar con la cuenta de **Veterinario**; verificar el acceso al portal clínico (`/veterinary/appointments`) y localizar la solicitud pendiente.
+  4. Ejecutar el flujo clínico: *Ver cita* $\rightarrow$ *Registrar diagnóstico* $\rightarrow$ *Prescribir tratamiento / Registrar vacuna aplicada*.
+  5. Volver a ingresar como **Ganadero** y comprobar que el historial sanitario del bovino muestra el diagnóstico, tratamiento y vacuna con fecha y nombre del veterinario, y que la notificación pendiente fue cerrada.
+
+##### Evidencias Visuales de Ejecución Integrada
+
+* **1. Autenticación JWT y Control de Acceso por Roles (`IAM` – Asmat Alminco, Martin):**
+  Validación de inicio de sesión contra Spring Security (`/api/v1/authentication/sign-in`), generación de token JWT y renderizado dinámico del menú lateral según el perfil (`RANCHER` vs. `VETERINARIAN`).
+
+  <p align="center"><img src="assets/sprint3/img-iam-jwt-roles.png" alt="autenticacion-jwt-y-roles" width="75%"></p>
+
+* **2. Gestión de Hato Bovino y Lotes con Persistencia Relacional (`Livestock Management` – Linares Rodríguez, Franco):**
+  Registro de animales con validación de arete único y organización por lotes conectada a la base de datos en la nube.
+
+  <p align="center"><img src="assets/sprint3/img-livestock-crud.png" alt="gestion-ganado-y-lotes" width="75%"></p>
+
+* **3. Flujo Sanitario Completo: Citas, Diagnóstico, Tratamiento y Vacunas (`Veterinary & Health` – Meza Tataje, David):**
+  Ejecución de extremo a extremo del módulo clínico: bandeja de citas filtrable por origen (`RANCHER_REQUEST` / `TECHNICAL_VISIT`), registro de diagnóstico con nivel de severidad, prescripción médica y actualización del carnet de vacunación visible tanto para el veterinario como para el ganadero.
+
+  <p align="center"><img src="assets/sprint3/img-veterinary-e2e.png" alt="flujo-sanitario-veterinario-completo" width="75%"></p>
+
+* **4. Notificaciones Sanitarias, Perfil y Módulos Complementarios (`Notifications`, `Profile`, `Reproductive`, `Payments`, `Reports` – Taza, Eduardo / Ayllon, Juan / Linares, Franco / Meza, David):**
+  Verificación de alertas pendientes que cambian de estado tras la atención médica, control gestacional, gestión de suscripciones e indicadores reales del hato.
+
+  <p align="center"><img src="assets/sprint3/img-notifications-modules.png" alt="notificaciones-y-modulos-complementarios" width="75%"></p>
+
+---
+
+#### 5.2.3.7. Services Documentation Evidence for Sprint Review
+
+Todos los servicios RESTful del Backend en Spring Boot fueron documentados mediante **OpenAPI 3 / Swagger UI (`springdoc-openapi`)**, detallando los esquemas JSON de solicitud/respuesta (`Resources`), parámetros requeridos, códigos de estado HTTP (`200`, `201`, `400`, `401`, `403`, `404`, `409`) y autenticación mediante `Bearer JWT`:
+
+* **Controladores Expuestos en Swagger UI:**
+  * **Vaccines** — *Vaccine doses applied to animals*
+    * `GET /api/v1/vaccines` — List the vaccine doses, optionally filtered by animal
+    * `POST /api/v1/vaccines` — Register a vaccine dose
+  * **Appointments** — *Veterinary appointments between ranchers and veterinarians*
+    * `GET /api/v1/appointments` — List the appointments
+    * `POST /api/v1/appointments` — Schedule an appointment
+    * `GET /api/v1/appointments/{id}` — Get an appointment by id
+    * `PATCH /api/v1/appointments/{id}` — Update an appointment status, reason or schedule
+  * **Reproductive Records** — *Reproductive management endpoints*
+    * `GET /api/v1/reproductive-records` — Get reproductive history
+    * `POST /api/v1/reproductive-records` — Register pregnancy
+    * `POST /api/v1/reproductive-records/{recordId}/weanings` — Register weaning
+    * `POST /api/v1/reproductive-records/{recordId}/dry-offs` — Register dry-off
+    * `POST /api/v1/reproductive-records/{recordId}/calvings` — Register calving
+    * `GET /api/v1/reproductive-records/{recordId}` — Get reproductive record by id
+  * **Medications** — *Veterinary medication catalog*
+    * `GET /api/v1/medications` — List the medication catalog
+  * **Payment transactions** — *Payment transaction attempts*
+    * `GET /api/v1/transactions` — List transactions by payment
+  * **Treatments** — *Medical treatments prescribed within clinical records*
+    * `GET /api/v1/treatments` — List the treatments, optionally filtered by animal
+    * `POST /api/v1/treatments` — Prescribe a treatment
+  * **Contact** — *Contact form*
+    * `POST /api/v1/contact-requests` — Send the contact form
+  * **Authentication** — *Sign-up, email verification, sign-in and password recovery*
+    * `POST /api/v1/authentication/verify-email` — Verify an email address
+    * `POST /api/v1/authentication/sign-up` — Register an account
+    * `POST /api/v1/authentication/sign-in` — Sign in
+    * `POST /api/v1/authentication/send-verification-code` — Resend the verification code
+    * `POST /api/v1/authentication/request-password-recovery` — Request a password recovery
+    * `POST /api/v1/authentication/recover-password` — Set a new password
+  * **Users** — *Account of the authenticated user*
+    * `GET /api/v1/users/{userId}` — Get an account by id
+    * `GET /api/v1/users/me` — Get the authenticated account
+  * **Roles** — *Roles supported by the platform*
+    * `GET /api/v1/roles` — List the roles
+  * **Profile Management** — *Personal data and preferences of the authenticated user*
+    * `GET /api/v1/profile-management/profiles/me` — Get the profile of the authenticated user
+    * `PUT /api/v1/profile-management/profiles/me` — Create or update the profile of the authenticated user
+  * **Medical records** — *Clinical records issued by veterinarians*
+    * `GET /api/v1/medicalRecords` — List the clinical records, optionally filtered by animal
+    * `POST /api/v1/medicalRecords` — Register a clinical record
+  * **Payment receipts** — *Payment receipts and PDF documents*
+    * `GET /api/v1/receipts` — List receipts by payment
+    * `GET /api/v1/receipts/{id}/document` — Download a receipt PDF
+  * **Appointment animals** — *Animals attached to veterinary appointments*
+    * `GET /api/v1/appointmentAnimals` — List the appointment-animal links, optionally filtered by appointment or animal
+    * `POST /api/v1/appointmentAnimals` — Attach an animal to an appointment
+  * **Reports** — *Livestock and feeding reports of the authenticated rancher*
+    * `GET /api/v1/reports/livestock` — Get the livestock report of the authenticated rancher
+    * `GET /api/v1/reports/feeding` — Get the feeding report of the authenticated rancher
+  * **Payments** — *Payment checkout and history*
+    * `GET /api/v1/payments` — List payments
+    * `POST /api/v1/payments` — Create a payment
+    * `GET /api/v1/payments/{id}` — Get a payment by ID
+  * **notifications-controller**
+    * `GET /api/v1/notifications` · `POST /api/v1/notifications` · `GET /api/v1/notifications/{id}` · `PATCH /api/v1/notifications/{id}`
+  * **livestock-controller**
+    * `GET /api/v1/movements` · `POST /api/v1/movements`
+    * `GET /api/v1/lots` · `POST /api/v1/lots` · `GET /api/v1/lots/{id}`
+    * `GET /api/v1/feedingPlans` · `POST /api/v1/feedingPlans` · `GET /api/v1/feedingPlans/{id}`
+    * `GET /api/v1/feedingLogs` · `POST /api/v1/feedingLogs`
+    * `GET /api/v1/animals` · `POST /api/v1/animals` · `GET /api/v1/animals/{id}` · `PATCH /api/v1/animals/{id}` · `DELETE /api/v1/animals/{id}`
+* **Enlace a Documentación Interactiva Swagger UI:** `http://13.184.100.191:8080/swagger-ui/index.html` *(IP pública de la instancia EC2; puede variar si la instancia se detiene/inicia sin Elastic IP asignada)*
+
+<p align="center"><img src="assets/sprint3/img-swagger-openapi.png" alt="documentacion-swagger-ui-spring-boot" width="75%"></p>
+
+<p align="center"><img src="assets/sprint3/img-swagger-authorize.png" alt="swagger-ui-authorize-jwt" width="75%"></p>
+<p align="center"><em>Autorización Bearer JWT en Swagger UI.</em></p>
+
+---
+
+#### 5.2.3.8. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3 se realizó el despliegue en producción del Backend REST API, la Base de Datos Relacional en la nube y la aplicación Web Frontend integrada (v2.0):
+
+**1. Backend REST API (Java / Spring Boot) & Base de Datos Cloud**
+* **Plataforma utilizada:** **AWS** (instancia **EC2**, región `us-east-2`) + Base de Datos Relacional Cloud **MySQL**.
+* **Pasos realizados para el despliegue:**
+  1. Configuración del `Dockerfile` multi-stage con JDK 27 y Maven en la raíz del repositorio `vantara-platform`.
+  2. Despliegue en la instancia EC2 y configuración de variables de entorno (`SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`, `JWT_SECRET`).
+  3. Verificación de generación de esquema relacional y disponibilidad de endpoints REST.
+* **URL del Backend en Producción:** `http://13.184.100.191:8080` *(IP pública de EC2; puede cambiar al detener/iniciar la instancia si no se usa Elastic IP)*
+
+**2. Frontend Web Application v2.0 (Angular 22)**
+* **Plataforma utilizada:** GitHub Pages y Render.
+* **Pasos realizados para el despliegue:**
+  1. Actualización de `src/environments/environment.ts` apuntando a la URL productiva del backend en Spring Boot (`http://13.184.100.191:8080`).
+  2. Despliegue continuo desde la rama `main` de `vantara-webapp` (`npm run build`).
+  3. Verificación en navegador de los Escenarios A, B y C en entorno público.
+* **URL de la Aplicación Web en Producción:** `https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-webapp/` *(desplegada en GitHub Pages y Render; versión final sujeta a la integración completa con el backend)*
+
+<p align="center"><img src="assets/sprint3/img-cloud-deployment.png" alt="despliegue-produccion-backend-frontend" width="75%"></p>
+
+---
+
+#### 5.2.3.9. Team Collaboration Insights during Sprint
+
+##### Project Management
+* **Discord:** Canal principal para Daily Standups, alineamiento de contratos DTO entre backend y frontend, y sesiones de *pair-programming*.
+* **Google Meet:** Reuniones formales de Sprint Planning 3, revisión de avances semanales (Sprint Review) y retrospectiva.
+
+##### Source Code Management
+Se aplicó **Git Flow** (`main`, `develop`, `feature/*`) en los repositorios `vantara-platform`, `vantara-webapp` y `vantara-report`, utilizando **Pull Requests** y el estándar **Conventional Commits** (`feat:`, `fix:`, `docs:`, `refactor:`, `test:`) para garantizar trazabilidad individual de cada integrante.
+
+##### Distribución del trabajo por integrante en el Sprint 3:
+
+| Integrante | Tareas Principales en Sprint 3 (Backend, Integración & Pruebas) |
+| :--- | :--- |
+| **Meza Tataje, David** | Coordinación del Sprint 3; desarrollo completo en Spring Boot del Bounded Context **Veterinary & Health** (citas, diagnósticos, tratamientos, vacunas); co-desarrollo de **Reports & Analytics**; integración E2E del flujo sanitario y elaboración del informe técnico. |
+| **Linares Rodríguez, Franco Orlando** | Desarrollo en Spring Boot del Bounded Context **Livestock Management** (CRUD de bovinos y lotes con validación de arete único); co-desarrollo de **Reports & Analytics** (endpoints de reportes ganaderos y de alimentación) y pruebas Gherkin. |
+| **Asmat Alminco, Martin** | Configuración base de Spring Boot, seguridad **IAM** (Spring Security, JWT, permisos `RANCHER`/`VETERINARIAN`), co-desarrollo de **Reproductive Management** y despliegue continuo en la nube. |
+| **Taza Curay, Eduardo Miguel** | Desarrollo en Spring Boot de **Notifications & Scheduling** (alertas sanitarias pendientes y cierre automático tras atención) y **Profile Management**. |
+| **Ayllon Pauccar, Juan David** | Desarrollo en Spring Boot de **Payments** (planes SaaS e historial de facturación), co-desarrollo de **Reproductive Management** y validación UI/UX de flujos integrados. |
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
 
+#### Entrevista de validación – Ganadero
+
+**1.** Después de navegar por la pantalla de inicio, ¿considera que el resumen de su ganadería (total de animales, lotes, citas y alertas) le permite conocer rápidamente el estado de su ganado? ¿Qué información adicional incluiría?
+
+**2.** Al utilizar el módulo de Ganado, ¿le resultó sencillo encontrar animales y consultar su información mediante el buscador y los filtros de lote, sexo y raza? ¿Qué mejoraría de esta experiencia?
+
+**3.** ¿Considera que la información presentada en el registro y detalle de cada animal es clara y suficiente para llevar un control adecuado de su ganado?
+
+**4.** Después de explorar el módulo de Reproducción, ¿le resultó fácil identificar cuántas hembras están preñadas, vacías, en celo o próximas a dar a luz? ¿La información presentada le ayuda a tomar decisiones?
+
+**5.** ¿Considera que la visualización de los próximos eventos reproductivos y el estado reproductivo del ganado facilita el seguimiento de sus animales? ¿Cambiaría algo de su presentación?
+
+**6.** Al explorar el módulo de Alimentación, ¿le resultó sencillo comprender cómo se organizan los planes alimentarios, las raciones diarias y los alimentos utilizados por cada lote? ¿Considera que la información es suficiente para controlar la alimentación?
+
+**7.** ¿Qué tan fácil le resultó identificar el consumo diario total, la cantidad de animales cubiertos por los planes alimentarios y las posibles alertas de alimentación?
+
+**8.** Después de utilizar el módulo de Citas, ¿le resultó sencillo identificar las próximas atenciones, diferenciar las solicitudes realizadas por usted de las visitas técnicas y consultar el historial de atenciones?
+
+**9.** Al utilizar el módulo de Notificaciones, ¿pudo identificar fácilmente las actividades pendientes y diferenciar las notificaciones por categorías como partos, alimentación, animales y salud? ¿Considera útil la organización presentada?
+
+**10.** Después de interactuar con el prototipo completo de Hatarium, ¿qué tan fácil e intuitivo le pareció utilizar la aplicación? ¿Qué módulo considera más útil y qué cambios realizaría antes de utilizarla en su ganadería?
+
+#### Entrevista de validación – Veterinario
+
+**1.** Después de explorar la pantalla de inicio (Home), ¿considera que los indicadores superiores (Total citas hoy, Vacunas pendientes este mes, Animales en tratamiento crítico, Alertas sanitarias activas) y los resúmenes inferiores le permiten identificar rápidamente situaciones que requieren atención veterinaria?
+
+**2.** Al utilizar el módulo de Historial Sanitario, ¿le resultó sencillo buscar un animal por nombre, arete o lote y consultar sus datos de identificación, raza, sexo, peso y lote asignado? ¿Considera que la organización de esta información es adecuada para su trabajo?
+
+**3.** Dentro de la vista de Historial Sanitario por animal, ¿considera que la separación por pestañas (Diagnósticos, Tratamientos, Vacunas y Citas) y los contadores por bovino facilitan el seguimiento clínico de cada animal?
+
+**4.** Después de explorar el Centro de vacunación, ¿le resultó clara la distribución de los indicadores (Vacunas registradas, Vacunas pendientes, Aplicadas este mes), los filtros de estado y los campos del formulario para registrar una vacuna aplicada?
+
+**5.** En el módulo de Reportes sanitarios, ¿considera que los gráficos (Estado de citas, Gravedad de diagnósticos y Citas por mes) junto con las opciones de exportación (PDF y Excel) permiten interpretar correctamente su actividad clínica? ¿Qué indicador adicional necesitaría?
+
+**6.** Al utilizar el módulo de Citas y visitas técnicas de campo, ¿le resultó sencillo diferenciar las Solicitudes del Ganadero de las Visitas Técnicas, alternar entre Próximas atenciones e Historial y consultar el estado de cada atención?
+
+**7.** ¿Considera que la información mostrada en cada tarjeta de cita (fecha, hora, animal, origen, motivo, lote, veterinario y estado) y los campos del formulario Agendar nueva visita técnica son suficientes para organizar y realizar una visita en campo?
+
+**8.** Respecto a los avisos del sistema —como la campana de notificaciones en la barra superior, las Alertas sanitarias activas en el inicio y la notificación automática al ganadero al agendar una visita—, ¿le resulta claro identificar eventos pendientes y mantener informado al ganadero?
+
+**9.** Durante la navegación por los cinco módulos del menú lateral y la sección de Perfil y configuración, ¿encontró alguna dificultad para localizar información, comprender los indicadores o realizar las acciones disponibles? ¿Qué cambios propondría?
+
+**10.** En general, después de interactuar con Hatarium, ¿considera que el diseño y la organización de sus funcionalidades facilitarían su trabajo veterinario y la comunicación con los ganaderos? ¿Qué mejoraría o agregaría?
 ### 5.3.2. Registro de Entrevistas
 
+#### Segmento 1: Productores Ganaderos
+
+Entrevista 1
+
+##### Entrevistado: Fernando Julio Güere Calero
+
+##### Edad: 22
+
+##### Distrito: No indicado
+
+<img src="assets/evidencia-entrevista-ganadero4.png" alt="Captura de la entrevista al productor ganadero">
+
+**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQDlp-H6NN2hRqYTQi8qT7_vAbCO6doB3f1poyNA9xOmFfk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wa5GnE)
+
+**Tiempo de inicio:** 00:00 | **Duración:** 21:54
+
+**Resumen:** El productor considera que Hatarium presenta la información de forma clara y facilita una revisión rápida de la situación de la ganadería. Valora especialmente la organización del ganado, los filtros de búsqueda, el seguimiento reproductivo y las alertas; entre sus sugerencias, propone añadir indicadores de animales enfermos o en tratamiento, datos diarios de producción y filtros guardados o por estado productivo. También recomienda incorporar fotografías y registros genealógicos, una vista de calendario para los eventos reproductivos, el costo de los alimentos y alertas de inventario, además de recordatorios automáticos por SMS o notificaciones push. Identifica el módulo reproductivo como uno de los más útiles y señala que, para su uso en campo, sería importante contar con funcionamiento sin conexión o sincronización posterior, así como exportar reportes en formatos como PDF, Excel o CSV.
+
+Entrevista 2
+
+##### Entrevistado: Josué laurente Castrejón
+
+##### Edad: 28
+
+##### Distrito: San juan de Lurigancho
+
+<img src="assets/evidencia-entrevista-ganadero1.png" alt="Captura de la entrevista al productor ganadero">
+
+**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d483_upc_edu_pe/IQD3lfKeee77RryagwclenrVAZGOfgxbARaQfsR_QpjZ6DE?e=kj2WlP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Tiempo de inicio:** 00:00 | **Duración:** 21:43
+
+**Resumen:** El ganadero considera que Hatarium es una aplicación fácil de entender, con módulos bien organizados que permiten consultar rápidamente la información del ganado. Destaca la utilidad de la pantalla de inicio, los filtros de búsqueda y el registro detallado de los animales. Valora especialmente los módulos de Ganado y Reproducción, ya que facilitan el seguimiento de las vacas preñadas, los próximos partos y las actividades diarias. También considera útiles los planes de alimentación, las citas veterinarias y las notificaciones. Entre sus sugerencias de mejora, propone incorporar filtros por edad, gráficos de evolución del peso, recordatorios anticipados de partos, cálculos semanales de alimento y alertas de inventario. Finalmente, señala que sería importante optimizar el uso de la aplicación desde dispositivos móviles para facilitar su manejo durante el trabajo en campo.
+
+Entrevista 3
+
+##### Entrevistado: Harold Benigno Fuskord
+
+##### Edad: 23
+
+##### Distrito: Surquillo
+
+<img src="assets/evidencia-validation-ganadero3.png" alt="Captura de la entrevista al productor ganadero">
+
+**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416272_upc_edu_pe/IQDbro5ibM70RJuoVV1iB6H7AaUw4SwnkK7d6w97eme1PAk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBBpsc)
+
+**Tiempo de inicio:** 00:00 | **Duración:** 6:08 min
+
+**Resumen:** El ganadero considera que Hatarium es una aplicación fácil de entender, con módulos que permiten comprender la solución al instante. Le parece una idea original con la cual se puede empezar en el mundo de la ganadería; cree que ahorra tiempo como profesional en su campo y considera importante poder tener mayor accesibilidad a salud desde una aplicación, debido a la complejidad del asunto. Finalmente, la opción de aletas considera necesaria para poder utilizar la app apropiadamente. Por último, identifica el módulo de Alimentación como el más influyente para él por la cantidad de ganado que debe gestionar. 
+
+
+#### Segmento 2: Veterinarios Especializados
+
+Entrevista 1
+
+##### Entrevistado:  Silvia Cecilia Rebaza Rosas
+
+##### Edad: 22
+
+##### Distrito: Santiago de Surco
+
+<img src="assets/Registro_Entrevista_vet%231.png">
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b645_upc_edu_pe/IQBoHDggU_NmT7mG3mZMtEAAAV8tAQ7yT1W1ngH7YNhdVcs?e=wPORXe)
+
+**Resumen:** En la entrevista, la veterinaria destaca que la aplicación Hatarium presenta una interfaz limpia, fácil de entender y con una buena conexión entre sus diferentes secciones. Asimismo, considera que los formularios del módulo veterinario contienen la información justa y necesaria para registrar las atenciones, sin resultar complicados ni sobrecargados. Entre las principales mejoras que recomienda implementar se encuentra la posibilidad de adjuntar imágenes y videos como evidencia de los síntomas y pruebas realizadas a los animales atendidos, lo que permitiría complementar los registros veterinarios. También señala la importancia de mejorar el sistema de notificaciones, que actualmente aún no se encuentra implementado, para facilitar el seguimiento de citas y otras actividades veterinarias. Adicionalmente, recomienda que sea posible consultar no solo el detalle de cada cita, sino también la información específica del animal asociado a ella. A pesar de estas oportunidades de mejora, considera que Hatarium sería una herramienta de gran utilidad para facilitar su trabajo diario, organizar mejor la información y optimizar la atención veterinaria, por lo que manifiesta su recomendación de utilizar la aplicación.
+
+Entrevista 2
+
+##### Entrevistado: Carlos Mendoza Ramos
+
+##### Edad: 30
+
+##### Distrito: Los Olivos
+
+<img src="assets/entrevista-veterinario-2-validation.png">
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202516291_upc_edu_pe/IQC6xvOcEEaVTZhTP5RocdgwAYmfCcchTOFiTHs9i5UaMTg?e=ea4iU2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen:** En la entrevista, el médico veterinario de campo destaca que la aplicación Hatarium presenta un diseño limpio, ordenado e intuitivo, lo que facilita ubicar la información rápidamente sin elementos innecesarios y permite dejar atrás el uso tedioso de libretas físicas y hojas de Excel dispersas. Asimismo, valora positivamente los indicadores del panel de inicio para priorizar urgencias y tratamientos críticos antes de salir a ruta, la búsqueda por número de arete o lote en el historial sanitario —resaltando la utilidad de visualizar el peso del bovino para calcular al instante la dosificación exacta de medicamentos—, la trazabilidad del centro de vacunación, las notificaciones automáticas al ganadero al agendar visitas técnicas (con espacio para indicaciones previas como tener al animal en la manga) y la exportación de reportes en PDF y Excel para los dueños de los establos. Entre las principales mejoras que recomienda implementar se encuentra la incorporación de filtros avanzados en los reportes sanitarios (por rango de fechas personalizado y por enfermedades más frecuentes), la inclusión de un campo para el número de colegiatura en el perfil del veterinario para que figure automáticamente en prescripciones y reportes, y la posibilidad de contar con un modo sin conexión (offline) que permita registrar y sincronizar datos en zonas rurales donde no hay señal. Finalmente, afirma que Hatarium optimiza el flujo de trabajo en campo, evita la pérdida de información clínica y mejora la coordinación con los ganaderos.
+
 ### 5.3.3. Evaluaciones según heurísticas
+
+CARRERA: Ingeniería de Software <br>
+CURSO: Open Source <br>
+SECCIÓN: 1ASI0729 <br>
+PROFESORES: Todos <br>
+AUDITOR: Equipo Vantara (autoevaluación) <br>
+CLIENTE(S): Equipo Vantara
+
+- Linares Rodríguez, Franco Orlando U20241B645
+- Ayllón Pauccar, Juan David U20241A860
+- Taza Curay, Eduardo Miguel u20241D483
+- Asmat Alminco, Martín Alejandro u202416272
+- Meza Tataje, David u202516291
+
+SITE o APP A EVALUAR: Hatarium (Web App), rol Ganadero
+
+En este ciclo la evaluación heurística se realizó como una autoevaluación: el propio equipo auditó su producto. Para ello se recorrió la aplicación web con una cuenta de rol Ganadero, ejecutando cada tarea de principio a fin, y se contrastó cada pantalla contra las 10 heurísticas de usabilidad de Nielsen. Las capturas de evidencia se encuentran en la carpeta `assets/heuristics-evidence`.
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de las siguientes tareas:
+
+1. Visualización del historial clínico de un animal
+2. Listado y filtrado del ganado
+3. Cancelación de una cita veterinaria
+4. Registro de un evento reproductivo (revisión del módulo Reproducción)
+5. Visualización del plan de alimentación
+6. Consulta de las notificaciones
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro e inicio de sesión de usuario
+2. Gestión de suscripciones y pagos
+3. Generación de reportes
+4. Funcionalidades exclusivas del rol Veterinario
+
+#### ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | El estado de salud de los animales no se muestra de forma confiable: las tarjetas de resumen aparecen vacías y todos los animales figuran como "Saludable" | 3 | Usability: Visibilidad del estado del sistema |
+| 2 | Las fechas se presentan en formatos distintos (ISO 8601, dd/MM/yyyy, meses en inglés y en español) | 2 | Usability: Consistencia y estándares |
+| 3 | La cancelación de una cita usa un diálogo nativo del navegador sin indicar consecuencias ni solicitar el motivo | 3 | Usability: Prevención de errores |
+| 4 | El desglose del estado reproductivo mezcla categorías que se superponen con porcentajes que no suman 100 % | 2 | Usability: Estética y diseño minimalista |
+| 5 | Los mensajes de las notificaciones muestran fechas en formato técnico dentro del texto | 2 | Usability: Relación entre el sistema y el mundo real |
+| 6 | Textos con jerga interna o errores de redacción: badge "Módulo Operativo", "Sin alertas" en color de advertencia y "1 registros" | 1 | Usability: Relación entre el sistema y el mundo real |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+##### PROBLEMA #1: El estado de salud de los animales no se muestra de forma confiable
+Severidad: 3
+Heurística violada: Usability — Visibilidad del estado del sistema
+Problema:
+
+En la vista Mi Ganado, las tarjetas "Saludables" y "Requieren atención" muestran un guion ("—") con el texto "Datos de Salud", y la columna "Último control" aparece vacía en todas las filas. Además, la columna "Estado" muestra "Saludable" para todos los animales, incluso para aquellos que sí tienen un registro clínico con una alerta. Por ejemplo, la vista Salud del ganado reporta que el animal #018 Estrella tiene "Inflamación localizada" desde el 06 de septiembre de 2026, mientras que el listado de Mi Ganado lo marca como "Saludable". Nielsen indica que el sistema debe mantener al usuario informado sobre lo que ocurre mediante retroalimentación apropiada y veraz. Un ganadero que se guía por el listado puede pasar por alto un animal que requiere atención.
+
+<img src="assets/heuristics-evidence/p1-mi-ganado-salud.png" width="500"/>
+
+<img src="assets/heuristics-evidence/p1-salud-del-ganado.png" width="500"/>
+
+Recomendación:
+
+Calcular el estado de cada animal a partir de su último registro clínico y usar el mismo dato en el listado, el detalle y las tarjetas de resumen. Completar los contadores "Saludables" y "Requieren atención", y mostrar la fecha del último control en la columna correspondiente. Si un animal aún no tiene controles, mostrar "Sin control registrado" en lugar de "Saludable".
+
+##### PROBLEMA #2: Formatos de fecha inconsistentes entre pantallas
+Severidad: 2
+Heurística violada: Usability — Consistencia y estándares
+Problema:
+
+La misma clase de dato se presenta de varias maneras distintas. En el detalle del animal, la fecha de nacimiento aparece en formato ISO (2023-06-10); en el historial clínico aparece como 20/09/2026; en la pestaña Salud del ganado como "20 Sep 2026", con el mes en inglés; y en las tarjetas de Mis citas y salud como "08 DEC 2026", también con el mes en inglés, mientras que en Reproducción se muestra "15 dic. 2026" en español. Siendo la interfaz en español, el usuario debe reinterpretar cada formato y puede confundir el día con el mes. Según Nielsen, los mismos conceptos deben expresarse siempre de la misma manera, siguiendo las convenciones de la plataforma.
+
+<img src="assets/heuristics-evidence/p2-detalle-animal-fecha-iso.png" width="500"/>
+
+<img src="assets/heuristics-evidence/p3-mis-citas-cancelar.png" width="500"/>
+
+Recomendación:
+
+Definir un único formato de fecha para toda la aplicación, por ejemplo "10 jun 2026", y aplicarlo mediante el idioma activo de la aplicación (es / en) para que los meses se traduzcan junto con el resto de la interfaz. Centralizar el formateo en un pipe o utilitario compartido para evitar nuevas diferencias.
+
+##### PROBLEMA #3: Cancelación de cita sin información de consecuencias ni motivo
+Severidad: 3
+Heurística violada: Usability — Prevención de errores
+Problema:
+
+En Mis citas y salud, el botón "Cancelar cita" abre únicamente el diálogo nativo del navegador con el texto "¿Deseas cancelar esta cita?". El diálogo no coincide con el diseño de la aplicación, no indica la fecha ni el veterinario de la cita que se va a cancelar, no advierte que la acción no se puede deshacer y no permite al ganadero indicar un motivo. Al confirmar, el sistema registra siempre el mismo motivo fijo ("Cancelada por el ganadero."), lo que le quita valor a ese dato para el veterinario. En la lista, el botón está junto a cada cita y un solo clic seguido de un "Aceptar" automático puede hacer perder una visita programada. Nielsen recomienda eliminar las condiciones propensas a error o pedir confirmación informada antes de ejecutar acciones de alto impacto.
+
+<img src="assets/heuristics-evidence/p3-mis-citas-cancelar.png" width="500"/>
+
+Recomendación:
+
+Reemplazar el diálogo nativo por un modal propio que resuma la cita (fecha, hora, veterinario y animal), advierta que la acción no se puede revertir, ofrezca un campo opcional para el motivo y presente dos botones claros: "Cancelar cita" y "Volver sin cancelar". Guardar el motivo escrito por el usuario en lugar del texto fijo.
+
+##### PROBLEMA #4: El desglose del estado reproductivo mezcla categorías superpuestas
+Severidad: 2
+Heurística violada: Usability — Estética y diseño minimalista
+Problema:
+
+En Reproducción, el gráfico de dona reparte a las 13 hembras reproductivas en Preñadas (4) y Vacías (9), pero la tabla contigua lista seis categorías con porcentajes: Preñadas 30.8 %, Vacías 69.2 %, En celo 0 %, Problemas reproductivos 0 %, Próximos partos 7.7 % y Requieren seguimiento 7.7 %. Las dos últimas no son estados excluyentes, sino subconjuntos de otras categorías, por lo que la suma de la tabla supera el 100 % y el usuario debe leer una nota al pie para entender por qué. La información adicional compite con la información relevante y obliga a un esfuerzo de interpretación innecesario.
+
+<img src="assets/heuristics-evidence/p4-reproduccion.png" width="500"/>
+
+Recomendación:
+
+Separar visualmente los estados excluyentes (preñada, vacía, en celo, con problemas) de los indicadores derivados (próximos partos, requieren seguimiento), por ejemplo mostrando estos últimos solo en las tarjetas superiores. Así la tabla suma 100 % y la nota explicativa deja de ser necesaria.
+
+##### PROBLEMA #5: Fechas en formato técnico dentro de los mensajes de notificación
+Severidad: 2
+Heurística violada: Usability — Relación entre el sistema y el mundo real
+Problema:
+
+En el centro de notificaciones, la fecha y hora de cada aviso se muestra correctamente ("06 oct 2026, 20:18"), pero el texto del mensaje incorpora fechas con formato ISO, por ejemplo: "Se registró el plan Plan de Alimentación - Gyarados, desde 2026-10-06 hasta 2026-10-12". El mensaje se genera con la fecha sin formatear, de modo que el usuario encuentra dos formatos de fecha en una misma tarjeta. Según Nielsen, el sistema debe hablar el lenguaje del usuario y no el de la base de datos.
+
+<img src="assets/heuristics-evidence/p5-notificaciones.png" width="500"/>
+
+Recomendación:
+
+Formatear las fechas antes de componer el texto de la notificación, utilizando el mismo formato definido para toda la aplicación, por ejemplo: "desde el 6 de octubre hasta el 12 de octubre de 2026".
+
+##### PROBLEMA #6: Textos con jerga interna o errores de redacción en Alimentación
+Severidad: 1
+Heurística violada: Usability — Relación entre el sistema y el mundo real
+Problema:
+
+La pantalla de Alimentación muestra la etiqueta "Módulo Operativo" junto al título, un término de uso interno del equipo que no aporta información al ganadero. La tarjeta "Alertas" muestra "Sin alertas" con tipografía grande y color naranja de advertencia, de modo que una situación sin problemas se presenta con el mismo color que usa la aplicación para señalar riesgos. Además, en otras pantallas se encuentran errores de concordancia como "1 registros" en la pestaña Salud del ganado. Estos detalles no impiden usar la aplicación, pero restan profesionalismo y pueden generar dudas sobre el significado de los colores.
+
+<img src="assets/heuristics-evidence/p6-alimentacion.png" width="500"/>
+
+Recomendación:
+
+Eliminar la etiqueta "Módulo Operativo", usar un color neutro o verde cuando no hay alertas, reservando el naranja para alertas activas, y aplicar plurales según la cantidad ("1 registro", "2 registros").
 
 ## 5.4. Video About-the-Product
 # Conclusiones y Recomendaciones
@@ -3128,3 +3848,6 @@ Agronegocios. (2023, 5 mayo). Cinco apps que le ayudan a gestionar una finca ded
 
 # Anexos
 
+**Despliegue de la aplicación web:** [Hatarium Web App](https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-webapp/)
+
+**Repositorio de la Fake API:** [vantara-fake-api](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-fake-api.git)

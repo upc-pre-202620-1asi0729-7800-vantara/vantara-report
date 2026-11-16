@@ -543,6 +543,7 @@ Enfocado en la generación de valor a partir de los datos. Contempla los eventos
 #### 8. Recipes Management Bounded Context
 Este contexto administra los planes de alimentación. Refleja los eventos que permiten formular dietas balanceadas, registrar recetas nutricionales y gestionar las raciones para el ganado.
 <img src="../assets/design-level-storming/recipes-mang-bounded-context.png">
+
 ### 4.6.2. Software Architecture Context Diagram
 
 El diagrama de contexto presenta al sistema Vantara y las principales entidades que interactúan con él. El productor ganadero utiliza la plataforma para gestionar el inventario de animales, lotes, planes de alimentación, citas y pagos. El médico veterinario consulta y administra información clínica, diagnósticos, tratamientos, vacunas y certificados de trazabilidad. Además, Vantara se integra mediante HTTPS con un proveedor externo de autenticación, una pasarela de pagos y un servicio de notificaciones push.
@@ -553,7 +554,91 @@ La plataforma centraliza la información operativa y clínica, valida la identid
 
 ### 4.6.3. Software Architecture Container Diagrams
 
+Los siguientes diagramas presentan la organización de la aplicación por bounded context. Se muestran sus capas principales y las relaciones con los contenedores de aplicación y persistencia.
+
+#### 1. IAM (Identity and Access Management)
+<img src="../assets/c4/iam-layer.png">
+
+#### 2. Profile Management
+<img src="../assets/c4/profile-layer.png">
+
+#### 3. Livestock Management
+<img src="../assets/c4/liverstock-mang-layer.png">
+
+#### 4. Veterinary Health
+<img src="../assets/c4/veterinary-health-layer.png">
+
+#### 5. Reproductive Management
+<img src="../assets/c4/reproduction-layer.png">
+
+#### 6. Payments
+<img src="../assets/c4/payments-layer.png">
+
+#### 7. Reports and Analytics
+<img src="../assets/c4/report-layer.png">
+
+#### 8. Notifications
+<img src="../assets/c4/notifications-layer.png">
+
 ### 4.6.4. Software Architecture Components Diagrams
+
+Los diagramas de componentes detallan la estructura interna de cada bounded context, incluyendo los componentes de presentación y las vistas que participan en sus principales interacciones.
+
+#### 1. IAM (Identity and Access Management)
+**Presentation**
+<img src="../assets/c4/iam-presentation.png">
+
+**Views**
+<img src="../assets/c4/iam-views.png">
+
+#### 2. Profile Management
+**Presentation**
+<img src="../assets/c4/profile-presentation.png">
+
+**Views**
+<img src="../assets/c4/profile-views.png">
+
+#### 3. Livestock Management
+**Presentation**
+<img src="../assets/c4/livestock-mng-presentation.png">
+
+**Views**
+<img src="../assets/c4/livestock-views.png">
+
+#### 4. Veterinary Health
+**Presentation**
+<img src="../assets/c4/veterinary-presentation.png">
+
+**Views**
+<img src="../assets/c4/veterinary-health-views.png">
+
+#### 5. Reproductive Management
+**Presentation**
+<img src="../assets/c4/reproduction-presentation.png">
+
+**Views**
+<img src="../assets/c4/reproduction-views.png">
+
+#### 6. Payments
+**Presentation**
+<img src="../assets/c4/payments-presentation.png">
+
+**Views**
+<img src="../assets/c4/payments-views.png">
+
+#### 7. Reports and Analytics
+**Presentation**
+<img src="../assets/c4/report-presentation.png">
+
+**Views**
+<img src="../assets/c4/report-views.png">
+
+#### 8. Notifications
+**Presentation**
+<img src="../assets/c4/notifications-presentation.png">
+
+**Views**
+<img src="../assets/c4/notifications-views.png">
 
 ## 4.7. Software Object-Oriented Design
 
