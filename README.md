@@ -3354,6 +3354,26 @@ En cumplimiento de la **Demostración Mínima Exigible** establecida en la revis
 | **Escenario C.1** *(TS008 / US024)* | Estado de Alertas | Al programar un control sanitario próximo, el sistema genera una notificación pendiente vinculada al animal. | `201 Created` + alerta `PENDING` | Done |
 | **Escenario C.2** *(TS008 / US024)* | Estado de Alertas | Una vez que el veterinario completa la atención o aplica la vacuna, la notificación deja de mostrarse como pendiente y pasa a `COMPLETED`. | `200 OK` + alerta actualizada | Done |
 
+**Evidencia de las pruebas sobre Swagger UI (OpenAPI 3), ejecutadas con autenticación Bearer JWT:**
+
+* **Escenario A.1 — Registro exitoso de un bovino (`POST /api/v1/animals` → `201 Created`):**
+
+  <p align="center"><img src="assets/sprint3/img-swagger-animal-creado.png" alt="registro-exitoso-de-animal-201" width="75%"></p>
+
+* **Escenario B.1 — Validación de negocio: arete duplicado / datos inválidos (`POST /api/v1/animals` → `400 Bad Request`):**
+
+  <p align="center"><img src="assets/sprint3/img-swagger-animal-duplicado.png" alt="registro-animal-duplicado-400" width="75%"></p>
+
+* **Escenario B.2 — Vacuna sobre un `animalId` inexistente (`POST /api/v1/vaccines` → `404 Not Found`) y programación de cita con datos inválidos (`POST /api/v1/appointments` → error de validación):**
+
+  <p align="center"><img src="assets/sprint3/img-swagger-vacuna-404.png" alt="vacuna-animal-inexistente-404" width="75%"></p>
+
+  <p align="center"><img src="assets/sprint3/img-swagger-cita-error.png" alt="cita-programada-con-datos-invalidos" width="75%"></p>
+
+* **Escenario B.3 — Acceso denegado a endpoint protegido (`401 Unauthorized` / `403 Forbidden`):**
+
+  <p align="center"><img src="assets/sprint3/img-swagger-permiso-denegado.png" alt="acceso-denegado-401-403" width="75%"></p>
+
 ---
 
 #### 5.2.3.6. Execution Evidence for Sprint Review
