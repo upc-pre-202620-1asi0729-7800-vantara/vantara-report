@@ -3583,6 +3583,145 @@ Entrevista 1
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+CARRERA: Ingeniería de Software <br>
+CURSO: Open Source <br>
+SECCIÓN: 1ASI0729 <br>
+PROFESORES: Todos <br>
+AUDITOR: Equipo Vantara (autoevaluación) <br>
+CLIENTE(S): Equipo Vantara
+
+- Linares Rodríguez, Franco Orlando U20241B645
+- Ayllón Pauccar, Juan David U20241A860
+- Taza Curay, Eduardo Miguel u20241D483
+- Asmat Alminco, Martín Alejandro u202416272
+- Meza Tataje, David u202516291
+
+SITE o APP A EVALUAR: Hatarium (Web App), rol Ganadero
+
+En este ciclo la evaluación heurística se realizó como una autoevaluación: el propio equipo auditó su producto. Para ello se recorrió la aplicación web con una cuenta de rol Ganadero, ejecutando cada tarea de principio a fin, y se contrastó cada pantalla contra las 10 heurísticas de usabilidad de Nielsen. Las capturas de evidencia se encuentran en la carpeta `assets/heuristics-evidence`.
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de las siguientes tareas:
+
+1. Visualización del historial clínico de un animal
+2. Listado y filtrado del ganado
+3. Cancelación de una cita veterinaria
+4. Registro de un evento reproductivo (revisión del módulo Reproducción)
+5. Visualización del plan de alimentación
+6. Consulta de las notificaciones
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro e inicio de sesión de usuario
+2. Gestión de suscripciones y pagos
+3. Generación de reportes
+4. Funcionalidades exclusivas del rol Veterinario
+
+#### ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | El estado de salud de los animales no se muestra de forma confiable: las tarjetas de resumen aparecen vacías y todos los animales figuran como "Saludable" | 3 | Usability: Visibilidad del estado del sistema |
+| 2 | Las fechas se presentan en formatos distintos (ISO 8601, dd/MM/yyyy, meses en inglés y en español) | 2 | Usability: Consistencia y estándares |
+| 3 | La cancelación de una cita usa un diálogo nativo del navegador sin indicar consecuencias ni solicitar el motivo | 3 | Usability: Prevención de errores |
+| 4 | El desglose del estado reproductivo mezcla categorías que se superponen con porcentajes que no suman 100 % | 2 | Usability: Estética y diseño minimalista |
+| 5 | Los mensajes de las notificaciones muestran fechas en formato técnico dentro del texto | 2 | Usability: Relación entre el sistema y el mundo real |
+| 6 | Textos con jerga interna o errores de redacción: badge "Módulo Operativo", "Sin alertas" en color de advertencia y "1 registros" | 1 | Usability: Relación entre el sistema y el mundo real |
+
+#### DESCRIPCIÓN DE PROBLEMAS:
+
+##### PROBLEMA #1: El estado de salud de los animales no se muestra de forma confiable
+Severidad: 3
+Heurística violada: Usability — Visibilidad del estado del sistema
+Problema:
+
+En la vista Mi Ganado, las tarjetas "Saludables" y "Requieren atención" muestran un guion ("—") con el texto "Datos de Salud", y la columna "Último control" aparece vacía en todas las filas. Además, la columna "Estado" muestra "Saludable" para todos los animales, incluso para aquellos que sí tienen un registro clínico con una alerta. Por ejemplo, la vista Salud del ganado reporta que el animal #018 Estrella tiene "Inflamación localizada" desde el 06 de septiembre de 2026, mientras que el listado de Mi Ganado lo marca como "Saludable". Nielsen indica que el sistema debe mantener al usuario informado sobre lo que ocurre mediante retroalimentación apropiada y veraz. Un ganadero que se guía por el listado puede pasar por alto un animal que requiere atención.
+
+<img src="assets/heuristics-evidence/p1-mi-ganado-salud.png" width="500"/>
+
+<img src="assets/heuristics-evidence/p1-salud-del-ganado.png" width="500"/>
+
+Recomendación:
+
+Calcular el estado de cada animal a partir de su último registro clínico y usar el mismo dato en el listado, el detalle y las tarjetas de resumen. Completar los contadores "Saludables" y "Requieren atención", y mostrar la fecha del último control en la columna correspondiente. Si un animal aún no tiene controles, mostrar "Sin control registrado" en lugar de "Saludable".
+
+##### PROBLEMA #2: Formatos de fecha inconsistentes entre pantallas
+Severidad: 2
+Heurística violada: Usability — Consistencia y estándares
+Problema:
+
+La misma clase de dato se presenta de varias maneras distintas. En el detalle del animal, la fecha de nacimiento aparece en formato ISO (2023-06-10); en el historial clínico aparece como 20/09/2026; en la pestaña Salud del ganado como "20 Sep 2026", con el mes en inglés; y en las tarjetas de Mis citas y salud como "08 DEC 2026", también con el mes en inglés, mientras que en Reproducción se muestra "15 dic. 2026" en español. Siendo la interfaz en español, el usuario debe reinterpretar cada formato y puede confundir el día con el mes. Según Nielsen, los mismos conceptos deben expresarse siempre de la misma manera, siguiendo las convenciones de la plataforma.
+
+<img src="assets/heuristics-evidence/p2-detalle-animal-fecha-iso.png" width="500"/>
+
+<img src="assets/heuristics-evidence/p3-mis-citas-cancelar.png" width="500"/>
+
+Recomendación:
+
+Definir un único formato de fecha para toda la aplicación, por ejemplo "10 jun 2026", y aplicarlo mediante el idioma activo de la aplicación (es / en) para que los meses se traduzcan junto con el resto de la interfaz. Centralizar el formateo en un pipe o utilitario compartido para evitar nuevas diferencias.
+
+##### PROBLEMA #3: Cancelación de cita sin información de consecuencias ni motivo
+Severidad: 3
+Heurística violada: Usability — Prevención de errores
+Problema:
+
+En Mis citas y salud, el botón "Cancelar cita" abre únicamente el diálogo nativo del navegador con el texto "¿Deseas cancelar esta cita?". El diálogo no coincide con el diseño de la aplicación, no indica la fecha ni el veterinario de la cita que se va a cancelar, no advierte que la acción no se puede deshacer y no permite al ganadero indicar un motivo. Al confirmar, el sistema registra siempre el mismo motivo fijo ("Cancelada por el ganadero."), lo que le quita valor a ese dato para el veterinario. En la lista, el botón está junto a cada cita y un solo clic seguido de un "Aceptar" automático puede hacer perder una visita programada. Nielsen recomienda eliminar las condiciones propensas a error o pedir confirmación informada antes de ejecutar acciones de alto impacto.
+
+<img src="assets/heuristics-evidence/p3-mis-citas-cancelar.png" width="500"/>
+
+Recomendación:
+
+Reemplazar el diálogo nativo por un modal propio que resuma la cita (fecha, hora, veterinario y animal), advierta que la acción no se puede revertir, ofrezca un campo opcional para el motivo y presente dos botones claros: "Cancelar cita" y "Volver sin cancelar". Guardar el motivo escrito por el usuario en lugar del texto fijo.
+
+##### PROBLEMA #4: El desglose del estado reproductivo mezcla categorías superpuestas
+Severidad: 2
+Heurística violada: Usability — Estética y diseño minimalista
+Problema:
+
+En Reproducción, el gráfico de dona reparte a las 13 hembras reproductivas en Preñadas (4) y Vacías (9), pero la tabla contigua lista seis categorías con porcentajes: Preñadas 30.8 %, Vacías 69.2 %, En celo 0 %, Problemas reproductivos 0 %, Próximos partos 7.7 % y Requieren seguimiento 7.7 %. Las dos últimas no son estados excluyentes, sino subconjuntos de otras categorías, por lo que la suma de la tabla supera el 100 % y el usuario debe leer una nota al pie para entender por qué. La información adicional compite con la información relevante y obliga a un esfuerzo de interpretación innecesario.
+
+<img src="assets/heuristics-evidence/p4-reproduccion.png" width="500"/>
+
+Recomendación:
+
+Separar visualmente los estados excluyentes (preñada, vacía, en celo, con problemas) de los indicadores derivados (próximos partos, requieren seguimiento), por ejemplo mostrando estos últimos solo en las tarjetas superiores. Así la tabla suma 100 % y la nota explicativa deja de ser necesaria.
+
+##### PROBLEMA #5: Fechas en formato técnico dentro de los mensajes de notificación
+Severidad: 2
+Heurística violada: Usability — Relación entre el sistema y el mundo real
+Problema:
+
+En el centro de notificaciones, la fecha y hora de cada aviso se muestra correctamente ("06 oct 2026, 20:18"), pero el texto del mensaje incorpora fechas con formato ISO, por ejemplo: "Se registró el plan Plan de Alimentación - Gyarados, desde 2026-10-06 hasta 2026-10-12". El mensaje se genera con la fecha sin formatear, de modo que el usuario encuentra dos formatos de fecha en una misma tarjeta. Según Nielsen, el sistema debe hablar el lenguaje del usuario y no el de la base de datos.
+
+<img src="assets/heuristics-evidence/p5-notificaciones.png" width="500"/>
+
+Recomendación:
+
+Formatear las fechas antes de componer el texto de la notificación, utilizando el mismo formato definido para toda la aplicación, por ejemplo: "desde el 6 de octubre hasta el 12 de octubre de 2026".
+
+##### PROBLEMA #6: Textos con jerga interna o errores de redacción en Alimentación
+Severidad: 1
+Heurística violada: Usability — Relación entre el sistema y el mundo real
+Problema:
+
+La pantalla de Alimentación muestra la etiqueta "Módulo Operativo" junto al título, un término de uso interno del equipo que no aporta información al ganadero. La tarjeta "Alertas" muestra "Sin alertas" con tipografía grande y color naranja de advertencia, de modo que una situación sin problemas se presenta con el mismo color que usa la aplicación para señalar riesgos. Además, en otras pantallas se encuentran errores de concordancia como "1 registros" en la pestaña Salud del ganado. Estos detalles no impiden usar la aplicación, pero restan profesionalismo y pueden generar dudas sobre el significado de los colores.
+
+<img src="assets/heuristics-evidence/p6-alimentacion.png" width="500"/>
+
+Recomendación:
+
+Eliminar la etiqueta "Módulo Operativo", usar un color neutro o verde cuando no hay alertas, reservando el naranja para alertas activas, y aplicar plurales según la cantidad ("1 registro", "2 registros").
+
 ## 5.4. Video About-the-Product
 # Conclusiones y Recomendaciones
 
