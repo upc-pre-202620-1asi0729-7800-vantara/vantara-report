@@ -1076,8 +1076,6 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
 
 ## 3.1. User Stories
 
-## 3.1. User Stories
-
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
     <th>Epic / Story ID</th>
