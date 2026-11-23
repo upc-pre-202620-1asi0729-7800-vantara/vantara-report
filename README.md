@@ -2179,60 +2179,60 @@ El Product Backlog es un elemento esencial en la gestión ágil de proyectos, ya
 
 Cada ítem del backlog está enfocado en generar valor para el usuario final y facilitar una entrega incremental y efectiva de la solución.
 
-| Orden | User Story ID / Technical Story ID | Título | Story Points |
-| :--- | :--- | :--- | :---: |
-| 1 | US001 | Explorar Landing Page | 2 |
-| 2 | US002 | Visualización de Funcionalidades y Servicios | 2 |
-| 3 | US003 | Consultar Información de Contacto | 1 |
-| 4 | US004 | Enviar Formulario de Contacto | 2 |
-| 5 | US005 | Registro de Usuario | 3 |
-| 6 | US006 | Inicio de Sesión | 3 |
-| 7 | US007 | Cerrar Sesión | 1 |
-| 8 | US008 | Registro de Ganado | 5 |
-| 9 | US009 | Buscar Animal | 2 |
-| 10 | US010 | Consultar Información de un Animal | 2 |
-| 11 | US011 | Actualización de Información del Ganado | 3 |
-| 12 | US012 | Crear Lote de Ganado | 3 |
-| 13 | US013 | Asignar Animal a un Lote | 2 |
-| 14 | US014 | Registro de Alimentación | 3 |
-| 15 | US015 | Planificar Alimentación | 3 |
-| 16 | US016 | Consultar Plan Alimentario | 2 |
-| 17 | US017 | Visualizar Estado Sanitario Actual | 3 |
-| 18 | US018 | Visualizar Vacunas Aplicadas | 2 |
-| 19 | US019 | Consultar Próximas Vacunaciones | 2 |
-| 20 | US020 | Detectar Riesgo Sanitario | 3 |
-| 21 | US021 | Detectar Vacunación Pendiente | 2 |
-| 22 | US022 | Generar Reporte Productivo | 3 |
-| 23 | US023 | Visualizar Reporte Productivo | 2 |
-| 24 | US024 | Consulta de Historial Sanitario Completo | 3 |
-| 25 | US025 | Visualizar Estadísticas Sanitarias | 3 |
-| 26 | US026 | Visualizar Alertas Sanitarias | 2 |
-| 27 | US027 | Registrar Visita Técnica | 3 |
-| 28 | US028 | Registrar Diagnóstico Clínico | 3 |
-| 29 | US029 | Prescribir Tratamiento Médico | 3 |
-| 30 | US030 | Monitorear Telemetría de Sensores IoT | 5 |
-| 31 | US031 | Recibir Alerta por Anomalía en Signos Vitales | 3 |
-| 32 | US032 | Registrar Vacuna Aplicada | 3 |
-| 33 | US033 | Programar Cita Veterinaria | 3 |
-| 34 | US034 | Consultar Citas Veterinarias | 2 |
-| 35 | US035 | Reprogramar Cita Veterinaria | 3 |
-| 36 | US036 | Registrar Preñez | 3 |
-| 37 | US037 | Registrar Parto | 3 |
-| 38 | US038 | Registrar Secado | 2 |
-| 39 | US039 | Registrar Destete | 2 |
-| 40 | US040 | Consultar Historial Reproductivo | 3 |
-| 41 | TS001 | Desarrollo de Landing Page Responsiva | 3 |
-| 42 | TS002 | Desarrollo de Formulario de Contacto | 2 |
-| 43 | TS003 | API de Registro de Usuarios | 5 |
-| 44 | TS004 | Sistema de Autenticación JWT | 5 |
-| 45 | TS005 | Implementación de Endpoint para Registro de Ganado | 5 |
-| 46 | TS006 | Implementación de Endpoints de Consulta y Edición | 5 |
-| 47 | TS007 | Implementación de Gestión de Lotes | 3 |
-| 48 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | 5 |
-| 49 | TS009 | Implementación de Generación de Reportes y Estadísticas | 3 |
-| 50 | TS010 | API REST para Gestión Veterinaria y Telemetría IoT | 5 |
-| 51 | TS011 | Implementación de Registro de Eventos Reproductivos | 5 |
-| 52 | TS012 | Implementación de Consulta del Historial Reproductivo | 3 |
+| Orden | User Story ID / Technical Story ID | Título | Descripción | Story Points |
+| :--- | :--- | :--- | :--- | :---: |
+| 1 | US001 | Explorar Landing Page | Como visitante, quiero explorar la landing page para conocer las funcionalidades, características y beneficios que ofrece Hatarium. | 2 |
+| 2 | US002 | Visualización de Funcionalidades y Servicios | Como visitante, quiero visualizar las funcionalidades y servicios de Hatarium para comprender cómo la plataforma puede ayudar en la gestión ganadera. | 2 |
+| 3 | US003 | Consultar Información de Contacto | Como visitante, quiero consultar la información de contacto de Hatarium para conocer los medios disponibles para comunicarme con el equipo. | 1 |
+| 4 | US004 | Enviar Formulario de Contacto | Como visitante, quiero enviar una consulta mediante el formulario de contacto para comunicarme con el equipo de Hatarium desde la plataforma. | 2 |
+| 5 | US005 | Registro de Usuario | Como ganadero, quiero crear una cuenta en Hatarium para acceder a las funcionalidades de gestión ganadera. | 3 |
+| 6 | US006 | Inicio de Sesión | Como ganadero, quiero iniciar sesión en la plataforma para acceder a mi información y funcionalidades personalizadas. | 3 |
+| 7 | US007 | Cerrar Sesión | Como ganadero, quiero cerrar sesión de manera segura para proteger la información de mi cuenta. | 1 |
+| 8 | US008 | Registro de Ganado | Como ganadero, quiero registrar nuevos animales para mantener actualizado el inventario de mi ganado. | 5 |
+| 9 | US009 | Buscar Animal | Como ganadero, quiero buscar un animal registrado para localizar rápidamente el ejemplar que deseo consultar. | 2 |
+| 10 | US010 | Consultar Información de un Animal | Como ganadero, quiero consultar la información de un animal para acceder a los datos registrados del ejemplar seleccionado. | 2 |
+| 11 | US011 | Actualización de Información del Ganado | Como ganadero, quiero actualizar la información de mis animales para mantener datos precisos y actualizados dentro del sistema. | 3 |
+| 12 | US012 | Crear Lote de Ganado | Como ganadero, quiero crear lotes de ganado para organizar mis animales de acuerdo con las necesidades de manejo de la explotación. | 3 |
+| 13 | US013 | Asignar Animal a un Lote | Como ganadero, quiero asignar un animal a un lote para mantener organizada la distribución de mi ganado. | 2 |
+| 14 | US014 | Registro de Alimentación | Como ganadero, quiero registrar la alimentación de mis animales para controlar su consumo y mejorar su productividad. | 3 |
+| 15 | US015 | Planificar Alimentación | Como ganadero, quiero planificar la alimentación de mis animales para organizar anticipadamente las raciones y periodos de alimentación. | 3 |
+| 16 | US016 | Consultar Plan Alimentario | Como ganadero, quiero consultar el plan alimentario de mis animales para conocer las raciones y periodos de alimentación establecidos. | 2 |
+| 17 | US017 | Visualizar Estado Sanitario Actual | Como ganadero, quiero visualizar el estado sanitario actual de mis animales para supervisar su condición de salud. | 3 |
+| 18 | US018 | Visualizar Vacunas Aplicadas | Como ganadero, quiero visualizar las vacunas aplicadas a mis animales para verificar los controles preventivos realizados. | 2 |
+| 19 | US019 | Consultar Próximas Vacunaciones | Como ganadero, quiero consultar las próximas vacunaciones de mis animales para anticiparme al cumplimiento del calendario sanitario. | 2 |
+| 20 | US020 | Detectar Riesgo Sanitario | Como ganadero, quiero que el sistema detecte condiciones de riesgo sanitario para identificar oportunamente posibles problemas de salud en mis animales. | 3 |
+| 21 | US021 | Detectar Vacunación Pendiente | Como ganadero, quiero que el sistema identifique vacunaciones pendientes para conocer cuándo un animal requiere una próxima dosis. | 2 |
+| 22 | US022 | Generar Reporte Productivo | Como ganadero, quiero generar reportes productivos para obtener información consolidada sobre el rendimiento de mi ganado. | 3 |
+| 23 | US023 | Visualizar Reporte Productivo | Como ganadero, quiero visualizar un reporte productivo generado para analizar el rendimiento y estado general de mi ganado. | 2 |
+| 24 | US024 | Consulta de Historial Sanitario Completo | Como ganadero, quiero consultar el historial sanitario detallado de mis animales para realizar seguimiento de vacunas, tratamientos anteriores y estado clínico de cada ejemplar. | 3 |
+| 25 | US025 | Visualizar Estadísticas Sanitarias | Como ganadero, quiero visualizar estadísticas sanitarias para analizar de manera consolidada la situación de salud de mi ganado. | 3 |
+| 26 | US026 | Visualizar Alertas Sanitarias | Como ganadero, quiero visualizar las alertas sanitarias generadas para identificar eventos importantes relacionados con la salud de mis animales. | 2 |
+| 27 | US027 | Registrar Visita Técnica | Como médico veterinario, quiero registrar los detalles de una visita técnica para mantener evidencia de las atenciones realizadas al ganado. | 3 |
+| 28 | US028 | Registrar Diagnóstico Clínico | Como médico veterinario, quiero registrar el diagnóstico clínico de un animal para documentar su condición médica después de una evaluación. | 3 |
+| 29 | US029 | Prescribir Tratamiento Médico | Como médico veterinario, quiero prescribir un tratamiento médico para registrar las indicaciones necesarias para la recuperación del animal. | 3 |
+| 30 | US030 | Monitorear Telemetría de Sensores IoT | Como médico veterinario, quiero monitorear la telemetría obtenida mediante sensores IoT para supervisar las constantes vitales del animal. | 5 |
+| 31 | US031 | Recibir Alerta por Anomalía en Signos Vitales | Como médico veterinario, quiero recibir una alerta cuando los sensores detecten valores anormales para identificar oportunamente posibles riesgos de salud. | 3 |
+| 32 | US032 | Registrar Vacuna Aplicada | Como médico veterinario, quiero registrar una vacuna aplicada a un animal para mantener actualizado su historial preventivo. | 3 |
+| 33 | US033 | Programar Cita Veterinaria | Como ganadero, quiero programar una cita veterinaria para coordinar la atención médica de mis animales. | 3 |
+| 34 | US034 | Consultar Citas Veterinarias | Como ganadero, quiero consultar mis citas veterinarias para conocer las atenciones programadas para mis animales. | 2 |
+| 35 | US035 | Reprogramar Cita Veterinaria | Como ganadero, quiero reprogramar una cita veterinaria para modificar la fecha u hora de una atención previamente coordinada. | 3 |
+| 36 | US036 | Registrar Preñez | Como ganadero, quiero registrar la preñez de un animal para mantener actualizado su estado reproductivo. | 3 |
+| 37 | US037 | Registrar Parto | Como ganadero, quiero registrar el parto de un animal para mantener actualizado su historial reproductivo. | 3 |
+| 38 | US038 | Registrar Secado | Como ganadero, quiero registrar el secado de un animal para mantener actualizado su seguimiento productivo y reproductivo. | 2 |
+| 39 | US039 | Registrar Destete | Como ganadero, quiero registrar el destete de un animal para mantener actualizado su seguimiento productivo. | 2 |
+| 40 | US040 | Consultar Historial Reproductivo | Como ganadero, quiero consultar el historial reproductivo de un animal para conocer los eventos registrados durante su ciclo reproductivo. | 3 |
+| 41 | TS001 | Desarrollo de Landing Page Responsiva | Como developer, necesito implementar la landing page responsiva de Hatarium para mostrar información del producto y permitir la navegación entre secciones. | 3 |
+| 42 | TS002 | Desarrollo de Formulario de Contacto | Como developer, necesito implementar el formulario de contacto para permitir que los visitantes envíen consultas al equipo de Hatarium. | 2 |
+| 43 | TS003 | API de Registro de Usuarios | Como developer, necesito implementar el endpoint de registro para permitir la creación segura de cuentas de usuario. | 5 |
+| 44 | TS004 | Sistema de Autenticación JWT | Como developer, necesito implementar autenticación basada en JWT para gestionar sesiones seguras dentro de Hatarium. | 5 |
+| 45 | TS005 | Implementación de Endpoint para Registro de Ganado | Como developer, necesito implementar el endpoint de registro de animales para almacenar la información del ganado dentro de la plataforma. | 5 |
+| 46 | TS006 | Implementación de Endpoints de Consulta y Edición | Como developer, necesito implementar endpoints de consulta y actualización para gestionar la información registrada del ganado. | 5 |
+| 47 | TS007 | Implementación de Gestión de Lotes | Como developer, necesito implementar funcionalidades para la creación y administración de lotes de ganado. | 3 |
+| 48 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | Como developer, necesito implementar endpoints sanitarios y alimentarios para registrar consumos, consultar el historial clínico y permitir la lectura del calendario de vacunas. | 5 |
+| 49 | TS009 | Implementación de Generación de Reportes y Estadísticas | Como developer, necesito implementar servicios backend para consolidar reportes productivos y estadísticas sanitarias del ganado. | 3 |
+| 50 | TS010 | API REST para Gestión Veterinaria y Telemetría IoT | Como developer, necesito exponer los endpoints para el registro de visitas médicas, prescripciones y la ingesta de telemetría proveniente de dispositivos IoT. | 5 |
+| 51 | TS011 | Implementación de Registro de Eventos Reproductivos | Como developer, necesito implementar los servicios backend para registrar eventos reproductivos del ganado, permitiendo almacenar de manera estructurada la información asociada al ciclo reproductivo de cada animal. | 5 |
+| 52 | TS012 | Implementación de Consulta del Historial Reproductivo | Como developer, necesito implementar el servicio de consulta del historial reproductivo para recuperar los eventos registrados de cada animal de manera organizada. | 3 |
 <div style="page-break-before: always;"></div>
 
 # Capítulo IV: Product Design
