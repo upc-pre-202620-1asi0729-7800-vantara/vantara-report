@@ -2,17 +2,19 @@
 
 # Universidad Peruana de Ciencias Aplicadas
 
+# Facultad de Ingeniería
+
 # Ingeniería de Software
 
-### Periodo: UG-2do Semestre 2026 Pregrado
+### Periodo: UG-2do Semestre 2026 Pregrado (ciclo 2026-20)
 
-### Curso: Desarrollo de Aplicaciones Open Source
+### Curso: 1ASI0729 - Desarrollo de Aplicaciones Open Source
 
 ### NRC: 7800
 
 ### Docente: Robles Fernández, Iván
 
-## Informe del Trabajo Final
+## Informe de Trabajo Final
 
 ### Startup: Vantara
 
@@ -24,11 +26,11 @@
 |------------|------------------------------------|
 | U20241B645 | Linares Rodríguez, Franco Orlando   |
 | U20241A860 | Ayllón Pauccar, Juan David          | 
-| u20241D483 | Taza Curay, Eduardo Miguel          | 
-| u202416272 | Asmat Alminco, Martín              | 
-| u202516291 | Meza Tataje, David                 | 
+| U20241D483 | Taza Curay, Eduardo Miguel          | 
+| U202416272 | Asmat Alminco, Martín              | 
+| U202516291 | Meza Tataje, David                 | 
 
-### Agosto 2026-20
+### Noviembre 2026
 
 ---
 
