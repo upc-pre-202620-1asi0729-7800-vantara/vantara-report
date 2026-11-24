@@ -3165,7 +3165,7 @@ En este primer Sprint, el trabajo del equipo se dividió de manera equitativa en
 | **TS001 / CC07** | Despliegue en GitHub Pages | Configuración del pipeline de despliegue continuo desde la rama `main`. | 2 | Asmat Alminco, Martin | Done |
 | **DOC01** | Informe Capítulo I | Introducción, problema, objetivos, justificación y restricciones. | 5 | Linares Rodríguez, Franco Orlando | Done |
 | **DOC02** | Informe Capítulo II | Análisis del dominio, entrevistas, User Personas, Empathy Maps. | 6 | Ayllon Pauccar, Juan David | Done |
-| **DOC03** | Informe Capítulo III | Impact Mapping, Event Storming, 40 US + 12 TS y Product Backlog. | 8 | Meza Tataje, David / Taza Curay, Eduardo M. | Done |
+| **DOC03** | Informe Capítulo III | Impact Mapping, Event Storming, 43 US + 15 TS y Product Backlog. | 8 | Meza Tataje, David / Taza Curay, Eduardo M. | Done |
 | **DOC04** | Informe Capítulo IV | Arquitectura de Software, Estilo de Arquitectura y Vista de Contexto C4. | 6 | Asmat Alminco, Martin | Done |
 | **DOC05** | Informe Capítulo V | Configuration Management, Sprint Planning 1 y Evidencias de Sprint. | 5 | Meza Tataje, David | Done |
 
@@ -3270,20 +3270,20 @@ Se utilizó **GitHub** como repositorio centralizado bajo la organización del e
 
 | US / TS / Task ID | Bounded Context | Título / Descripción de Tarea | Estimación (Horas) | Integrante Asignado | Estado |
 | :--- | :--- | :--- | :---: | :--- | :---: |
-| **US005 / CC08** | IAM | Pantalla e interfaz de Inicio de Sesión y autenticación con credenciales. | 4 | Asmat Alminco, Martin | Done |
-| **US006 / CC09** | IAM | Registro de nuevos usuarios y selección de rol (*RANCHER* / *VETERINARIAN*). | 4 | Asmat Alminco, Martin | Done |
-| **US007 / CC10** | Livestock | Vista de catálogo y registro individual de bovinos (arete, raza, peso, lote). | 5 | Linares Rodríguez, Franco Orlando | Done |
-| **US008 / CC11** | Livestock | Módulo de gestión y transferencia de bovinos entre Lotes / Corrales. | 4 | Linares Rodríguez, Franco Orlando | Done |
-| **US027 / CC12** | Veterinary & Health | Dashboard de citas veterinarias con filtrado por origen (*Ganadero* vs *Visita Técnica*). | 6 | Meza Tataje, David | Done |
-| **US027 / CC13** | Veterinary & Health | Formulario dedicado para agendar nuevas Citas / Visitas Técnicas de campo. | 4 | Meza Tataje, David | Done |
+| **US006 / CC08** | IAM | Pantalla e interfaz de Inicio de Sesión y autenticación con credenciales. | 4 | Asmat Alminco, Martin | Done |
+| **US005 / CC09** | IAM | Registro de nuevos usuarios y selección de rol (*RANCHER* / *VETERINARIAN*). | 4 | Asmat Alminco, Martin | Done |
+| **US008, US009, US010 / CC10** | Livestock | Vista de catálogo y registro individual de bovinos (arete, raza, peso, lote). | 5 | Linares Rodríguez, Franco Orlando | Done |
+| **US012, US013 / CC11** | Livestock | Módulo de gestión y transferencia de bovinos entre Lotes / Corrales. | 4 | Linares Rodríguez, Franco Orlando | Done |
+| **US034 / CC12** | Veterinary & Health | Dashboard de citas veterinarias con filtrado por origen (*Ganadero* vs *Visita Técnica*). | 6 | Meza Tataje, David | Done |
+| **US027, US033 / CC13** | Veterinary & Health | Formulario dedicado para agendar nuevas Citas / Visitas Técnicas de campo. | 4 | Meza Tataje, David | Done |
 | **US028 / CC14** | Veterinary & Health | Vista interactiva de Registro de Diagnóstico Clínico y nivel de gravedad. | 5 | Meza Tataje, David | Done |
 | **US029 / CC15** | Veterinary & Health | Vista de Prescripción de Tratamiento Médico y dosificación de fármacos. | 4 | Meza Tataje, David | Done |
-| **TS005 / CC16** | Veterinary & Health | Formulario y carnet de Registro de Vacunas Aplicadas (*External Data DTO*). | 4 | Meza Tataje, David | Done |
-| **US018 / CC17** | Reproductive | Módulo de monitoreo de gestaciones, fechas probables de parto y secado. | 5 | Ayllon Pauccar, Juan David / Asmat Alminco, M. | Done |
-| **US021 / CC18** | Payments | Pantalla de planes de suscripción SaaS, historial de pagos y facturación. | 4 | Ayllon Pauccar, Juan David | Done |
-| **US024 / CC19** | Notifications | Centro de alertas sanitarias en tiempo real y recordatorios de vacunas/citas. | 4 | Taza Curay, Eduardo Miguel | Done |
-| **US025 / CC20** | Profile | Gestor de perfil de usuario, datos personales y preferencias de cuenta. | 3 | Taza Curay, Eduardo Miguel | Done |
-| **US031 / CC21** | Reports & Analytics | Dashboard consolidado con reportes productivos, sanitarios y exportación PDF. | 6 | Linares Rodríguez, Franco / Meza Tataje, David | Done |
+| **US032 / CC16** | Veterinary & Health | Formulario y carnet de Registro de Vacunas Aplicadas (*External Data DTO*). | 4 | Meza Tataje, David | Done |
+| **US036, US037, US038 / CC17** | Reproductive | Módulo de monitoreo de gestaciones, fechas probables de parto y secado. | 5 | Ayllon Pauccar, Juan David / Asmat Alminco, M. | Done |
+| **US041, US042 / CC18** | Payments | Pantalla de planes de suscripción SaaS, historial de pagos y facturación. | 4 | Ayllon Pauccar, Juan David | Done |
+| **US026 / CC19** | Notifications | Centro de alertas sanitarias en tiempo real y recordatorios de vacunas/citas. | 4 | Taza Curay, Eduardo Miguel | Done |
+| **US043 / CC20** | Profile | Gestor de perfil de usuario, datos personales y preferencias de cuenta. | 3 | Taza Curay, Eduardo Miguel | Done |
+| **US022, US023, US025 / CC21** | Reports & Analytics | Dashboard consolidado con reportes productivos, sanitarios y exportación PDF. | 6 | Linares Rodríguez, Franco / Meza Tataje, David | Done |
 
 ---
 
@@ -3442,17 +3442,17 @@ Siguiendo la recomendación de priorización de la evaluación TB1, el Sprint Ba
 
 | Technical / User Story ID | Bounded Context | Tarea Backend / Integración y Endpoint Asociado | Est. (Horas) | Responsable | Alcance / Estado |
 | :--- | :--- | :--- | :---: | :--- | :---: |
-| **TS002** *(US005)* | IAM *(Crítico)* | Configuración de Spring Security, filtro JWT y endpoint `POST /api/v1/authentication/sign-in` con emisión de rol (`RANCHER` / `VETERINARIAN`). | 6 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
-| **TS003** *(US006)* | IAM *(Crítico)* | Endpoint `POST /api/v1/authentication/sign-up` con encriptación BCrypt y guardias de autorización por rol en rutas protegidas. | 4 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
-| **TS004** *(US007, US008)* | Livestock *(Crítico)* | Endpoints REST CRUD (`/api/v1/animals`, `/api/v1/lots`) con validación de arete único por ganadero y persistencia en BD relacional. | 6 | Linares Rodríguez, Franco Orlando | Implementado y Verificado (**Done**) |
-| **TS005** *(US027)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/appointments`) soportando origen `RANCHER_REQUEST` y `TECHNICAL_VISIT`, vinculados a `animalId` existente. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
-| **TS006** *(US028, US029)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/medical-records`, `/api/v1/treatments`) con validación de rol `VETERINARIAN` y actualización de estado de cita. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
-| **TS007** *(US030)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/vaccines`) con validación anti-duplicados, trazabilidad de profesional y consulta de historial por el ganadero. | 5 | Meza Tataje, David | Implementado y Verificado (**Done**) |
-| **TS008** *(US024)* | Notifications *(Crítico)* | Endpoints REST (`/api/v1/notifications`) para alertas sanitarias pendientes y cierre automático al completarse la cita/vacuna. | 5 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
-| **TS009** *(US025)* | Profile | Endpoints REST (`/api/v1/profiles`) para actualización de datos de contacto y preferencias del productor/veterinario. | 3 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
-| **TS010** *(US018, US019)* | Reproductive *(Complementario)* | Endpoints REST (`/api/v1/reproductive-records`) para seguimiento gestacional y fechas estimadas de parto. | 4 | Ayllon Pauccar, Juan / Asmat Alminco, Martin | Implementado (**Done** – Flujo base) |
-| **TS011** *(US021, US022)* | Payments *(Complementario)* | Endpoints REST (`/api/v1/subscriptions`, `/api/v1/payments`) para registro de planes SaaS e historial de comprobantes. | 4 | Ayllon Pauccar, Juan David | Implementado (**Done** – Flujo base) |
-| **TS012** *(US031)* | Reports *(Complementario)* | Endpoint `GET /api/v1/reports/summary` con conteos reales desde BD (exportación avanzada PDF/Excel queda como mejora futura). | 3 | Linares Rodríguez, Franco / Meza Tataje, David | Implementado (**Done** – KPIs reales) |
+| **TS003** *(US005)* | IAM *(Crítico)* | Endpoint `POST /api/v1/authentication/sign-up` con encriptación BCrypt y guardias de autorización por rol en rutas protegidas. | 4 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
+| **TS004** *(US006)* | IAM *(Crítico)* | Configuración de Spring Security, filtro JWT y endpoint `POST /api/v1/authentication/sign-in` con emisión de rol (`RANCHER` / `VETERINARIAN`). | 6 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
+| **TS005, TS006, TS007** *(US008–US013)* | Livestock *(Crítico)* | Endpoints REST CRUD (`/api/v1/animals`, `/api/v1/lots`) con validación de arete único por ganadero y persistencia en BD relacional. | 6 | Linares Rodríguez, Franco Orlando | Implementado y Verificado (**Done**) |
+| **TS010** *(US027, US033–US035)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/appointments`) soportando origen `RANCHER_REQUEST` y `TECHNICAL_VISIT`, vinculados a `animalId` existente. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS010** *(US028, US029)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/medical-records`, `/api/v1/treatments`) con validación de rol `VETERINARIAN` y actualización de estado de cita. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS010** *(US032, US024)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/vaccines`) con validación anti-duplicados, trazabilidad de profesional y consulta de historial por el ganadero. | 5 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS013** *(US026)* | Notifications *(Crítico)* | Endpoints REST (`/api/v1/notifications`) para alertas sanitarias pendientes y cierre automático al completarse la cita/vacuna. | 5 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
+| **TS015** *(US043)* | Profile | Endpoints REST (`/api/v1/profiles`) para actualización de datos de contacto y preferencias del productor/veterinario. | 3 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
+| **TS011, TS012** *(US036–US040)* | Reproductive *(Complementario)* | Endpoints REST (`/api/v1/reproductive-records`) para seguimiento gestacional y fechas estimadas de parto. | 4 | Ayllon Pauccar, Juan / Asmat Alminco, Martin | Implementado (**Done** – Flujo base) |
+| **TS014** *(US041, US042)* | Payments *(Complementario)* | Endpoints REST (`/api/v1/subscriptions`, `/api/v1/payments`) para registro de planes SaaS e historial de comprobantes. | 4 | Ayllon Pauccar, Juan David | Implementado (**Done** – Flujo base) |
+| **TS009** *(US022, US023, US025)* | Reports *(Complementario)* | Endpoint `GET /api/v1/reports/summary` con conteos reales desde BD (exportación avanzada PDF/Excel queda como mejora futura). | 3 | Linares Rodríguez, Franco / Meza Tataje, David | Implementado (**Done** – KPIs reales) |
 
 
 ---
@@ -3494,15 +3494,15 @@ En cumplimiento de la **Demostración Mínima Exigible** establecida en la revis
 
 | Escenario / Story ID | Tipo de Prueba | Criterio Verificado en Backend + Frontend | Resultado HTTP / UI | Estado |
 | :--- | :--- | :--- | :--- | :---: |
-| **Escenario A.1** *(TS004 / US007)* | Flujo Normal E2E | El productor (`RANCHER`) registra un bovino con arete único en la base de datos relacional asociado a su hato. | `201 Created` + visible en catálogo | Done |
-| **Escenario A.2** *(TS005 / US027)* | Flujo Normal E2E | Se programa una cita / vacunación preventiva vinculada al identificador del bovino y al veterinario asignado. | `201 Created` + cita en estado `scheduled` | Done |
-| **Escenario A.3** *(TS006, TS007 / US028–US030)* | Flujo Normal E2E | El veterinario autorizado (`VETERINARIAN`) inicia sesión, registra el diagnóstico clínico, prescribe tratamiento y registra la vacuna aplicada. | `201 Created` + cita pasa a `completed` | Done |
-| **Escenario A.4** *(TS007 / US012)* | Flujo Normal E2E | El productor consulta el perfil de su animal y visualiza la nueva entrada en el historial sanitario con fecha, dosis y responsable veterinario. | `200 OK` + historial sincronizado | Done |
-| **Escenario B.1** *(TS004 / US007)* | Validación de Negocio | Intentar registrar un bovino con un número de arete ya existente dentro del mismo hato o con campos obligatorios vacíos. | `400 Bad Request` + mensaje descriptivo | Done |
-| **Escenario B.2** *(TS007 / US030)* | Validación de Negocio | Intentar registrar una vacuna sobre un `animalId` inexistente o duplicar la misma dosis en la misma fecha. | `404 Not Found` / `409 Conflict` | Done |
-| **Escenario B.3** *(TS002 / US005)* | Seguridad y Permisos | Intentar registrar un diagnóstico clínico o vacuna autenticándose con rol `RANCHER` o sin token JWT. | `401 Unauthorized` / `403 Forbidden` | Done |
-| **Escenario C.1** *(TS008 / US024)* | Estado de Alertas | Al programar un control sanitario próximo, el sistema genera una notificación pendiente vinculada al animal. | `201 Created` + alerta `PENDING` | Done |
-| **Escenario C.2** *(TS008 / US024)* | Estado de Alertas | Una vez que el veterinario completa la atención o aplica la vacuna, la notificación deja de mostrarse como pendiente y pasa a `COMPLETED`. | `200 OK` + alerta actualizada | Done |
+| **Escenario A.1** *(TS005 / US008)* | Flujo Normal E2E | El productor (`RANCHER`) registra un bovino con arete único en la base de datos relacional asociado a su hato. | `201 Created` + visible en catálogo | Done |
+| **Escenario A.2** *(TS010 / US033)* | Flujo Normal E2E | Se programa una cita / vacunación preventiva vinculada al identificador del bovino y al veterinario asignado. | `201 Created` + cita en estado `scheduled` | Done |
+| **Escenario A.3** *(TS010 / US028, US029, US032)* | Flujo Normal E2E | El veterinario autorizado (`VETERINARIAN`) inicia sesión, registra el diagnóstico clínico, prescribe tratamiento y registra la vacuna aplicada. | `201 Created` + cita pasa a `completed` | Done |
+| **Escenario A.4** *(TS010 / US024)* | Flujo Normal E2E | El productor consulta el perfil de su animal y visualiza la nueva entrada en el historial sanitario con fecha, dosis y responsable veterinario. | `200 OK` + historial sincronizado | Done |
+| **Escenario B.1** *(TS005 / US008)* | Validación de Negocio | Intentar registrar un bovino con un número de arete ya existente dentro del mismo hato o con campos obligatorios vacíos. | `400 Bad Request` + mensaje descriptivo | Done |
+| **Escenario B.2** *(TS010 / US032)* | Validación de Negocio | Intentar registrar una vacuna sobre un `animalId` inexistente o duplicar la misma dosis en la misma fecha. | `404 Not Found` / `409 Conflict` | Done |
+| **Escenario B.3** *(TS004 / US006)* | Seguridad y Permisos | Intentar registrar un diagnóstico clínico o vacuna autenticándose con rol `RANCHER` o sin token JWT. | `401 Unauthorized` / `403 Forbidden` | Done |
+| **Escenario C.1** *(TS013 / US026)* | Estado de Alertas | Al programar un control sanitario próximo, el sistema genera una notificación pendiente vinculada al animal. | `201 Created` + alerta `PENDING` | Done |
+| **Escenario C.2** *(TS013 / US026)* | Estado de Alertas | Una vez que el veterinario completa la atención o aplica la vacuna, la notificación deja de mostrarse como pendiente y pasa a `COMPLETED`. | `200 OK` + alerta actualizada | Done |
 
 **Evidencia de las pruebas sobre Swagger UI (OpenAPI 3), ejecutadas con autenticación Bearer JWT:**
 
