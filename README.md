@@ -2,17 +2,19 @@
 
 # Universidad Peruana de Ciencias Aplicadas
 
+# Facultad de Ingeniería
+
 # Ingeniería de Software
 
-### Periodo: UG-2do Semestre 2026 Pregrado
+### Periodo: UG-2do Semestre 2026 Pregrado (ciclo 2026-20)
 
-### Curso: Desarrollo de Aplicaciones Open Source
+### Curso: 1ASI0729 - Desarrollo de Aplicaciones Open Source
 
 ### NRC: 7800
 
 ### Docente: Robles Fernández, Iván
 
-## Informe del Trabajo Final
+## Informe de Trabajo Final
 
 ### Startup: Vantara
 
@@ -24,11 +26,11 @@
 |------------|------------------------------------|
 | U20241B645 | Linares Rodríguez, Franco Orlando   |
 | U20241A860 | Ayllón Pauccar, Juan David          | 
-| u20241D483 | Taza Curay, Eduardo Miguel          | 
-| u202416272 | Asmat Alminco, Martín              | 
-| u202516291 | Meza Tataje, David                 | 
+| U20241D483 | Taza Curay, Eduardo Miguel          | 
+| U202416272 | Asmat Alminco, Martín              | 
+| U202516291 | Meza Tataje, David                 | 
 
-### Agosto 2026-20
+### Noviembre 2026
 
 ---
 
@@ -41,6 +43,20 @@
 | 0.3 | 31/08/26 | Taza Curay, Eduardo Miguel | Elaboración del Análisis de Competidores, desarrollo de Impact Mapping, Information Architecture (colaborativo), modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
 | 0.4 | 01/09/26 | Meza Tataje, David | Redacción de User Stories (colaborativo), desarrollo de Prototyping: Web Application & Landing Page (Wireframes y Mockups), modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
 | 0.5 | 02/09/26 | Ayllon Pauccar, Juan David | Desarrollo de Needfinding completo, Information Architecture (colaborativo), elaboración de C4: Context Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
+| 0.6 | 17/09/26 | Asmat Alminco, Martín Alejandro | Diagramas de clases y de base de datos por bounded context, componentes DDD y Design-Level Event Storming de todos los bounded contexts. |
+| 0.7 | 17/09/26 | Linares Rodríguez, Franco Orlando | Style Guidelines, wireframes, mock-ups, wireflow, user flow y prototipo de la Landing Page y de la Web Application. |
+| 0.8 | 17/09/26 | Ayllon Pauccar, Juan David | Análisis de entrevistas, User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y Ubiquitous Language. |
+| 0.9 | 17/09/26 | Meza Tataje, David | Capítulo V (Sprint 1, configuración del entorno y despliegue de la Landing) y primera versión del Student Outcome. |
+| 1.0 | 18/09/26 | Ayllon Pauccar, Juan David | Conclusiones y consolidación del informe en la rama develop. |
+| 1.1 | 03/10/26 | Asmat Alminco, Martín Alejandro | Ajustes de la carátula y del Registro de Versiones; eliminación de caracteres no reconocidos. |
+| 1.2 | 06/10/26 | Ayllon Pauccar, Juan David | Corrección de los diagramas C4 Container y Components. |
+| 1.3 | 06/10/26 | Meza Tataje, David | Sección 5.2.2 Sprint 2: documentación, evidencias de ejecución y Team Collaboration Insights. |
+| 1.4 | 12/11/26 | Taza Curay, Eduardo Miguel | Entrevistas de validación del productor ganadero y del veterinario, y evidencias asociadas. |
+| 1.5 | 12/11/26 | Meza Tataje, David | Sección 5.2.3 Sprint 3: backlog, evidencias y assets; actualización de las preguntas de validación. |
+| 1.6 | 15/11/26 | Asmat Alminco, Martín Alejandro | Evaluación según heurísticas (5.3.3) con evidencias y actualización de la descripción de las entrevistas de validación. |
+| 1.7 | 15/11/26 | Meza Tataje, David | Evidencias Swagger de los escenarios A y B del Sprint 3, segunda entrevista a veterinario y enlaces a los videos About the Product y About the Team. |
+| 1.8 | 23/11/26 | Asmat Alminco, Martín Alejandro | Corrección de la carátula, del Registro de Versiones y de la estructura del Student Outcome; eliminación de encabezados duplicados; reestructuración del Lean UX (problem statement, cinco tipos de assumptions y una hypothesis por feature assumption); corrección de los perfiles de integrantes y de las citas de la sección 1.3. |
+
 # Project Report Collaboration Insights
 
 - Link del repositorio del informe: [https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report.git](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report.git)
@@ -48,9 +64,31 @@
 - Link del repositorio del BackEnd: [https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-platform.git](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-platform.git)
 
 
-A lo largo del proyecto, el equipo ha estado comprometido en la creación del informe en diferentes fases. Las tareas principales que se han abarcado
-- La realización de una investigación del negocio y la problemática a resolver, recopilando información relevante de fuentes confiables que nos permitieron comprender mejor el sector y las necesidades de los usuarios.
-- La redacción de los capítulos del informe, incluyendo la descripción de la startup, el perfil de la solución, los segmentos objetivo, los competidores, las entrevistas, el needfinding, la especificación de requerimientos y el diseño del producto.
+El informe se elabora en el repositorio indicado, bajo Git Flow: cada capítulo o sección se redacta en una rama `feature/*` (`feature/caratula`, `feature/capitulo-1` a `feature/capitulo-5`, `feature/conclusiones-referencias`, entre otras), se integra en `develop` mediante *pull request* y, al cierre de cada entrega, `develop` se fusiona en `main`. Las tareas principales abarcadas fueron:
+- La investigación del negocio y de la problemática a resolver, recopilando información de fuentes confiables que permitieron comprender el sector y las necesidades de los usuarios.
+- La redacción de los capítulos del informe: descripción de la startup, perfil de la solución, segmentos objetivo, competidores, entrevistas, needfinding, especificación de requisitos, diseño del producto, implementación, validación y despliegue.
+- La documentación de la evidencia de cada Sprint y de las sesiones de validación con usuarios.
+
+### Evolución del informe por etapa
+
+| Etapa | Periodo | Trabajo realizado en el informe | Versiones del registro |
+| :--- | :--- | :--- | :---: |
+| 1 | 27/08/26 - 18/09/26 | Estructura del informe, carátula, Capítulos I a V iniciales, diagramas por bounded context, diseño del producto, needfinding, Sprint 1 y conclusiones. | 0.1 - 1.0 |
+| 2 | 29/09/26 - 06/10/26 | Correcciones a la carátula y al registro de versiones, ajustes de los diagramas C4 y documentación del Sprint 2. | 1.1 - 1.3 |
+| 3 | 11/11/26 - 15/11/26 | Entrevistas de validación, Sprint 3, evidencias de servicios, evaluación según heurísticas y enlaces a los videos About the Product y About the Team. | 1.4 - 1.7 |
+| 4 | 23/11/26 | Correcciones de carátula, registro de versiones, Lean UX y perfiles de integrantes, a partir de la auditoría del informe. | 1.8 |
+
+### Participación de los integrantes
+
+Commits no fusionados registrados en la rama `develop` del repositorio del informe (cada integrante puede aparecer con más de un usuario de GitHub):
+
+| Integrante | Commits |
+| :--- | :---: |
+| Asmat Alminco, Martín Alejandro | 22 |
+| Linares Rodríguez, Franco Orlando | 22 |
+| Meza Tataje, David | 21 |
+| Taza Curay, Eduardo Miguel | 17 |
+| Ayllon Pauccar, Juan David | 14 |
 
 <img src="assets/commits.png" width="100%" alt="commits">
 
@@ -141,12 +179,6 @@ A lo largo del proyecto, el equipo ha estado comprometido en la creación del in
 
 
 # Student Outcome
-**Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea
-necesario, utilizando estrategias de aprendizaje apropiadas.
-
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones
-por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET �?"
-EAC - Student Outcome 7.
 
 ## ABET - EAC - Student Outcome 7
 
@@ -179,17 +211,16 @@ eficiente, trazable y sostenible.
 ### 1.1.2. Perfiles de integrantes del equipo
 |                                                                                     |Integrantes del equipo|Código de estudiante| Carrera | Conocimientos/Habilidades                                                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------| --- | --- | --- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="assets/img_franco.jpg"> | Franco Orlando Linares Rodríguez | U20241B645 | Ingeniería de Software |Soy Franco Linares, estudiante de Ingeniería de Software en el 5 ciclo. Desde el primer momento que elegí mi carrera sabía que había tomado una buena decisión. En los últimos 3 años he aprendido lo apasionado que soy con la programación, específicamente con el lenguaje programación C++ donde he desarrollado mis habilidades durante la carrera. También cuento con conocimientos en básicos en HTML5, CCS3 y JavaScript, además de conocimientos en lenguajes de consulta de bases de datos como SQL. Me considero respetuoso, solidario, trabajador y bueno trabajando en equipo.|
-| <img src="assets/img_juan.jpg"> | Juan David Ayllón Pauccar | U20241A860 | Ingeniería de Software | Estudiante de 6to ciclo de Ingeniería de Software en la UPC. Cuento con conocimientos técnicos avanzados en desarrollo con C++, SQL, Python Intermedio, HTML, CSS. Me distingo por ser un integrante responsable y con gran capacidad de comunicación, facilitando la coordinación y el flujo de trabajo dentro del equipo. |
-| <img src="assets/img_edu.png"> | Taza Curay, Eduardo Miguel| U20241D483 | Ingeniería de Software |  Soy Eduardo Taza Curay estudiante de Ingeniería de Software, tengo 19 años, los lenguajes que tengo conocimiento son c++, phyton, HTML, CSS, JavaScript y SQL. Me considero una persona colaboradora, empática, responsable y justa. En busca de aprender siempre más y a trabajar en equipo para lograr los objetivos del proyecto. |
-| <img src="assets/martin-foto.jpg"> | Asmat Alminco, Martín Alejandro | U202416272 | Ingeniería de Software | Soy estudiante de sexto ciclo de la carrera de Ingeniería de Software. Cuento con experiencia en lenguajes de programación como Python y C++ para proyectos enfocados en el desarrollo de habilidades computacionales, las cuales apliqué en proyectos académicos enfocados en solucionar un problema a través de procesos de documentación de Ingeniería de software.Dentro del equipo, cumplo el rol de un full stack al realizar actividades de documentación y programación a un nivel medio. Considero que soy una persona responsable y adaptable a distintas situaciones con buen time-management.                                                                                          |
-| <img src="assets/Foto-David.jpg" width="100%" alt="Imagen de David"> | Meza Tataje, David | U202516291 | Ingeniería de Software | Soy David Meza estudiante de Ingeniería de Software, tengo 21 años, con conocimientos en C++, Java y C# a nivel intermedio, además de experiencia básica en el desarrollo de aplicaciones web con HTML, CSS, JavaScript y SQL. Me considero una persona colaboradora y responsable, siempre dispuesto a aprender y a trabajar en equipo para lograr los objetivos del proyecto.                                                                                                                                                                                                                                                                               |
+| <img src="assets/img_franco.jpg" alt="Foto de Franco Linares" width="120"> | Franco Orlando Linares Rodríguez | U20241B645 | Ingeniería de Software |Soy Franco Linares, estudiante de quinto ciclo de Ingeniería de Software. Desde el primer momento que elegí mi carrera sabía que había tomado una buena decisión. En los últimos 3 años he aprendido lo apasionado que soy con la programación, específicamente con el lenguaje programación C++ donde he desarrollado mis habilidades durante la carrera. También cuento con conocimientos básicos en HTML5, CSS3 y JavaScript, además de conocimientos en lenguajes de consulta de bases de datos como SQL. Me considero respetuoso, solidario, trabajador y bueno trabajando en equipo.|
+| <img src="assets/img_juan.jpg" alt="Foto de Juan Ayllón" width="120"> | Juan David Ayllón Pauccar | U20241A860 | Ingeniería de Software | Estudiante de sexto ciclo de Ingeniería de Software en la UPC. Cuento con conocimientos técnicos avanzados en desarrollo con C++, SQL, Python Intermedio, HTML, CSS. Me distingo por ser un integrante responsable y con gran capacidad de comunicación, facilitando la coordinación y el flujo de trabajo dentro del equipo. |
+| <img src="assets/img_edu.png" alt="Foto de Eduardo Taza" width="120"> | Taza Curay, Eduardo Miguel| U20241D483 | Ingeniería de Software |  Soy Eduardo Taza Curay estudiante de Ingeniería de Software, tengo 19 años, los lenguajes que conozco son C++, Python, HTML, CSS, JavaScript y SQL. Me considero una persona colaboradora, empática, responsable y justa. En busca de aprender siempre más y a trabajar en equipo para lograr los objetivos del proyecto. |
+| <img src="assets/martin-foto.jpg" alt="Foto de Martín Asmat" width="120"> | Asmat Alminco, Martín Alejandro | U202416272 | Ingeniería de Software | Soy estudiante de sexto ciclo de la carrera de Ingeniería de Software. Cuento con experiencia en lenguajes de programación como Python y C++ para proyectos enfocados en el desarrollo de habilidades computacionales, las cuales apliqué en proyectos académicos enfocados en solucionar un problema a través de procesos de documentación de Ingeniería de Software. Dentro del equipo, cumplo el rol de un full stack al realizar actividades de documentación y programación a un nivel medio. Considero que soy una persona responsable y adaptable a distintas situaciones con buen time-management.                                                                                          |
+| <img src="assets/Foto-David.jpg" alt="Foto de David Meza" width="120"> | Meza Tataje, David | U202516291 | Ingeniería de Software | Soy David Meza estudiante de Ingeniería de Software, tengo 21 años, con conocimientos en C++, Java y C# a nivel intermedio, además de experiencia básica en el desarrollo de aplicaciones web con HTML, CSS, JavaScript y SQL. Me considero una persona colaboradora y responsable, siempre dispuesto a aprender y a trabajar en equipo para lograr los objetivos del proyecto.                                                                                                                                                                                                                                                                               |
 
 
 ## 1.2. Solution Profile
-### 1.2. Solution Profile
 
-#### 1.2.1. Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 
 El sector ganadero peruano representa una actividad económica importante para miles de familias rurales. Según EY Perú (2024), el sector agrario aportó el 3,6 % del PBI nacional en 2023 y empleó aproximadamente al 24 % de la Población Económicamente Activa. Sin embargo, muchos productores ganaderos aún gestionan información mediante registros manuales o herramientas poco centralizadas, dificultando el control de datos relacionados con salud, reproducción, vacunación y producción animal. Esta situación se relaciona con las brechas de digitalización existentes en las zonas rurales de América Latina, señaladas por la CEPAL y FAO (2021).
 
@@ -198,8 +229,6 @@ Ante esta problemática, diferentes investigaciones han demostrado la utilidad d
 Finalmente, el crecimiento de la conectividad rural favorece la implementación de este tipo de soluciones. Según OSIPTEL (2024), el acceso a internet en hogares rurales del Perú aumentó de 41,5 % en 2019 a cerca del 83 % en 2024, generando mejores condiciones para la adopción de herramientas digitales orientadas a productores ganaderos y médicos veterinarios.
 
 Aplicando la técnica de las 5W's y 2H's, se identificaron los siguientes aspectos clave del problema.
-
-### 1.2.1. Antecedentes y problemática
 
 > What(¿Qué?): Los productores ganaderos y médicos veterinarios en el Perú carecen de una plataforma web centralizada e integrada que les permita gestionar, analizar y consultar en tiempo real el historial clínico, reproducción, vacunación y trazabilidad de sus hatos. Esta ausencia de herramientas digitales accesibles provoca un manejo fragmentado de la información, usualmente relegado a cuadernos de notas o archivos dispersos, lo que obstaculiza la toma de decisiones oportunas y estratégicas sobre el rendimiento productivo y la salud animal.
 
@@ -234,51 +263,154 @@ Aplicando la técnica de las 5W's y 2H's, se identificaron los siguientes aspect
 
 **Initial Segment:** Productores ganaderos y médicos veterinarios del Perú, mayores de 18 años, ubicados en zonas rurales o periurbanas, que buscan mejorar la organización y control de sus operaciones con herramientas digitales accesibles desde cualquier navegador.
 
+**Problem Statement (template *Brand new initiative*):**
+
+El estado actual de la gestión tecnológica del sector ganadero peruano se ha centrado principalmente en productores y empresas que llevan sus registros en cuadernos, hojas de cálculo o sistemas no centralizados, y en veterinarios que dependen de fichas físicas y archivos dispersos para dar seguimiento clínico.
+
+Lo que los productos y servicios existentes no logran atender es la ausencia de una plataforma web abierta, accesible desde el navegador y adaptada al contexto peruano, que unifique el inventario del hato, el historial sanitario y la coordinación entre el productor y el médico veterinario.
+
+Nuestro producto, Hatarium, atenderá esta brecha mediante una plataforma web *responsive* y bajo un esquema SaaS de bajo costo, que centraliza la gestión del ganado, optimiza el trabajo del veterinario y ofrece paneles de analítica para la toma de decisiones.
+
+Nuestro foco inicial serán los productores ganaderos y los médicos veterinarios del Perú, mayores de 18 años, en zonas rurales o periurbanas.
+
+Sabremos que tenemos éxito cuando veamos que:
+* al menos el 75 % de los nuevos usuarios crea su cuenta y registra su primer hato o ficha clínica en su primera sesión, sin asistencia técnica;
+* el tiempo promedio de generación de reportes de producción y salud se reduce en un 40 % frente a los métodos manuales;
+* al menos el 60 % de los veterinarios registrados emite diagnósticos o valida historiales sanitarios en la plataforma cada mes;
+* los productores que usan la plataforma reportan una disminución del 25 % en incidencias sanitarias no controladas tras seis meses de uso;
+* menos del 5 % de los usuarios manifiesta inquietudes sobre la privacidad o la pérdida de sus datos.
+
 ---
 
 ### 1.2.2.2. Lean UX Assumptions
-#### User Assumptions:
-1. Los ganaderos, independientemente de su nivel tecnológico, adoptarán una plataforma web si es fácil de usar, intuitiva y les resuelve problemas concretos de su día a día.
 
-2. Los usuarios están dispuestos a incorporar tecnología si perciben beneficios tangibles en ahorro de tiempo, reducción de pérdidas y mejora en la salud de sus animales.
+Las assumptions se organizan en los cinco tipos que define Lean UX. Cada enunciado es una creencia del equipo que se validará con los segmentos objetivo; los identificadores permiten referenciarlas desde las hypotheses (1.2.2.3).
 
-3. Los ganaderos y veterinarios utilizarán la plataforma web si esta es compatible con los dispositivos que poseen actualmente (computadoras, tablets o smartphones) y permite acceder fácilmente a la información almacenada.
+#### Business Assumptions
+Creencias de alto nivel sobre la posición en el mercado, la viabilidad, la monetización y las capacidades del equipo.
 
-4. Los usuarios confiarán en la plataforma si garantiza la privacidad e integridad de su información productiva y veterinaria.
+| ID | Assumption |
+| :--- | :--- |
+| BA1 | No existe en el Perú una plataforma web abierta, accesible y adaptada a ganaderos y veterinarios, por lo que Hatarium ocupa un espacio de mercado sin atender. |
+| BA2 | Un modelo SaaS web de bajo costo, con suscripción, es viable y asequible tanto para productores independientes como para empresas ganaderas. |
+| BA3 | Si atendemos a ganaderos y veterinarios en una misma plataforma, fidelizamos a ambos segmentos a la vez, porque cada uno aporta valor al otro. |
+| BA4 | El aumento de la conectividad rural (cerca del 83 % de hogares con internet, según OSIPTEL, 2024) permite que una solución web llegue a los segmentos objetivo. |
+| BA5 | Una arquitectura orientada al dominio (DDD) y tecnologías Open Source permiten al equipo evolucionar y mantener el producto con los recursos disponibles. |
 
-5. Las funciones más utilizadas deben estar accesibles en pocos clics, ya que los ganaderos priorizan soluciones prácticas y rápidas.
+#### Business Outcome Assumptions
+Cambios medibles que indican que el negocio tiene éxito.
 
-6. Los veterinarios especializados adoptarán la plataforma si les permite hacer seguimiento clínico de sus pacientes de forma remota, registrar tratamientos y coordinar citas de manera organizada.
+| ID | Assumption |
+| :--- | :--- |
+| BO1 | Al menos el 75 % de los nuevos usuarios creará su cuenta y registrará su primer hato o ficha clínica en su primera sesión, sin asistencia técnica. |
+| BO2 | El tiempo promedio de generación de reportes de producción y salud se reducirá en un 40 % frente a los métodos manuales. |
+| BO3 | Al menos el 60 % de los veterinarios registrados emitirá diagnósticos o validará historiales sanitarios en la plataforma cada mes. |
+| BO4 | Los productores que usen la plataforma reportarán una disminución del 25 % en incidencias sanitarias no controladas tras seis meses de uso. |
+| BO5 | Menos del 5 % de los usuarios manifestará inquietudes sobre la privacidad o la pérdida de sus datos en las evaluaciones de usabilidad y encuestas. |
+| BO6 | Hatarium alcanzará al menos 200 usuarios activos (ganaderos y veterinarios) en seis meses. |
+| BO7 | Los productores mejorarán en un 35 % el control sanitario y la gestión de su ganado en seis meses. |
 
-#### Business Assumptions:
-1. Si digitalizamos los registros del ganado en una plataforma web centralizada, los usuarios mejorarán significativamente la organización y trazabilidad de su inventario animal.
+#### User Assumptions
+Perfiles de usuario, segmentos y actores que interactuarán con el sistema.
 
-2. Si proporcionamos herramientas de seguimiento sanitario y registro de controles veterinarios, los ganaderos podrán detectar oportunamente problemas de salud en sus animales y reducir pérdidas económicas asociadas a enfermedades prevenibles.
+| ID | Assumption |
+| :--- | :--- |
+| UA1 | Los productores ganaderos, independientemente de su nivel tecnológico, adoptarán una plataforma web si es fácil de usar, intuitiva y resuelve problemas concretos de su día a día. |
+| UA2 | Los productores llevan hoy sus registros en cuadernos, hojas de cálculo o archivos dispersos, y están dispuestos a migrarlos si el cambio no les exige instalaciones complejas. |
+| UA3 | Los ganaderos y veterinarios usarán la plataforma desde los dispositivos que ya poseen (computadoras, tablets o smartphones) a través de un navegador. |
+| UA4 | Los veterinarios especializados atienden a varios productores y necesitan historiales clínicos portátiles, confiables y organizados. |
+| UA5 | Los usuarios confiarán en la plataforma solo si garantiza la privacidad y la integridad de su información productiva y veterinaria. |
 
-3. Si proporcionamos herramientas de planificación alimentaria, los productores optimizarán el uso de recursos y reducirán desperdicios.
+#### User Outcome and Benefit Assumptions
+Objetivos que los usuarios quieren alcanzar y el valor que obtienen al usar el producto.
 
-4. Si permitimos el seguimiento reproductivo eficiente, los ganaderos incrementarán la productividad de sus hatos.
+| ID | Assumption |
+| :--- | :--- |
+| UB1 | Los usuarios incorporarán tecnología si perciben beneficios tangibles en ahorro de tiempo, reducción de pérdidas y mejora en la salud de sus animales. |
+| UB2 | Los ganaderos quieren tener su inventario centralizado y conocer el estado sanitario de cada animal sin depender de cuadernos que se pierden o se dañan. |
+| UB3 | Los ganaderos priorizan soluciones rápidas, por lo que las funciones más usadas deben estar accesibles en pocos clics. |
+| UB4 | Los veterinarios quieren consultar el historial clínico completo del animal antes de tratarlo y registrar diagnósticos y tratamientos de forma remota y ordenada. |
+| UB5 | Los productores quieren coordinar citas con el veterinario y recibir recordatorios de vacunas y alertas sanitarias a tiempo. |
 
-5. Si desarrollamos una plataforma web accesible desde distintos dispositivos y con una interfaz sencilla, los ganaderos y veterinarios podrán gestionar la información del ganado de manera eficiente, favoreciendo su adopción tecnológica.
+#### Feature Assumptions
+Funcionalidades que el equipo propone desarrollar para satisfacer las necesidades de los usuarios y del negocio.
 
-6. Si aseguramos la privacidad y seguridad de los datos mediante buenas prácticas de desarrollo web, los usuarios confiarán en la plataforma y estarán dispuestos a almacenar información crítica en ella.
-
-7. Si integramos un módulo para veterinarios que les permita gestionar historiales clínicos y coordinar atención, incrementaremos la confianza de los ganaderos en la plataforma y fidelizaremos a ambos segmentos simultáneamente.
+| ID | Assumption |
+| :--- | :--- |
+| FA1 | Si digitalizamos el registro y la administración del ganado y de los lotes en una plataforma web centralizada, los productores mejorarán la organización y la trazabilidad de su inventario animal. |
+| FA2 | Si ofrecemos seguimiento sanitario (historial clínico, vacunas y alertas sanitarias), los ganaderos detectarán a tiempo los problemas de salud y reducirán las pérdidas por enfermedades prevenibles. |
+| FA3 | Si ofrecemos planificación y registro de la alimentación, los productores optimizarán el uso de recursos y reducirán desperdicios. |
+| FA4 | Si ofrecemos seguimiento reproductivo (preñez, parto, secado y destete), los ganaderos incrementarán la productividad de sus hatos. |
+| FA5 | Si integramos un módulo para veterinarios (citas, visitas técnicas, diagnósticos, tratamientos y vacunas), aumentaremos la confianza de los ganaderos y la adopción por parte de los veterinarios. |
+| FA6 | Si ofrecemos paneles y reportes productivos y sanitarios, los productores tomarán decisiones con datos actualizados y reducirán el tiempo que dedican a consolidar información. |
+| FA7 | Si entregamos una plataforma web *responsive*, con navegación clara y una interfaz sencilla, ganaderos y veterinarios podrán gestionar la información desde cualquier dispositivo con poca fricción. |
+| FA8 | Si protegemos los datos con autenticación por roles y buenas prácticas de seguridad web, los usuarios confiarán en la plataforma y almacenarán en ella información crítica. |
 
 ---
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
-1. **Creemos que** los usuarios (ganaderos y veterinarios) valorarán un portal web con navegación clara y diseño *responsive* porque podrán consultar y registrar información en tiempo real desde cualquier dispositivo con navegador. **Sabremos que tuvimos éxito cuando** al menos el 75% de los nuevos usuarios registrados cree su cuenta y registre su primer hato o ficha clínica en su primera sesión sin requerir asistencia técnica.
 
-2. **Creemos que** la implementación de paneles de administración (*dashboards*) para analítica de datos acelerará la gestión administrativa de las empresas y productores ganaderos. **Sabremos que tuvimos éxito cuando** el tiempo promedio invertido en la generación de reportes de producción y salud se reduzca en un 40% en comparación con los métodos manuales.
+Se formula una hypothesis por cada Feature Assumption (FA1 a FA8), con el template de Lean UX:
 
-3. **Creemos que** al ofrecer un módulo web exclusivo para médicos veterinarios, estos adoptarán la plataforma para el seguimiento de sus clientes. **Sabremos que tuvimos éxito cuando** al menos el 60% de los veterinarios registrados emita diagnósticos o valide historiales sanitarios dentro del portal de manera mensual.
+> **Creemos que lograremos** [business outcome] **si** [personas] **alcanzan** [beneficio / user outcome] **con** [feature o solución].
 
-4. **Creemos que** la visibilidad centralizada del historial clínico en la web reducirá las pérdidas por tratamientos tardíos o mal aplicados. **Sabremos que tuvimos éxito cuando** los productores usando la plataforma reporten una disminución del 25% en incidencias sanitarias no controladas tras seis meses de uso.
+Los Business Outcome (BO) corresponden a la sección 1.2.2.2 y definen el criterio de éxito de cada hypothesis. Esta trazabilidad se retoma en las Conclusiones, donde cada hypothesis se contrasta con los resultados de la validación.
 
-5. **Creemos que** la garantía de una plataforma web transparente y segura incentivará la migración de datos desde métodos tradicionales a la nube. **Sabremos que tuvimos éxito cuando** menos del 5% de los usuarios manifieste inquietudes sobre la privacidad o pérdida de sus datos en las evaluaciones de usabilidad y encuestas.
+**H1** (feature assumption FA1; business outcome BO1; user outcome UB2)
 
+> **Creemos que lograremos** que al menos el 75 % de los nuevos usuarios cree su cuenta y registre su primer hato o ficha clínica en su primera sesión, sin asistencia técnica,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que tengan su inventario centralizado y conozcan el estado sanitario de cada animal sin depender de cuadernos,
+> **con** un módulo de registro y administración de ganado y lotes.
 
+**H2** (feature assumption FA2; business outcome BO4; user outcome UB5)
+
+> **Creemos que lograremos** que los productores reporten una disminución del 25 % en incidencias sanitarias no controladas tras seis meses de uso,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que reciban a tiempo recordatorios de vacunas y alertas sanitarias, y coordinen citas con el veterinario,
+> **con** seguimiento sanitario con historial clínico, vacunas y alertas.
+
+**H3** (feature assumption FA3; business outcome BO7; user outcome UB1)
+
+> **Creemos que lograremos** que los productores mejoren en un 35 % el control sanitario y la gestión de su ganado en seis meses,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que ahorren tiempo y reduzcan desperdicios de recursos,
+> **con** planificación y registro de la alimentación del hato.
+
+**H4** (feature assumption FA4; business outcome BO7; user outcome UB1)
+
+> **Creemos que lograremos** que los productores mejoren en un 35 % el control sanitario y la gestión de su ganado en seis meses,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que den seguimiento ordenado a su ciclo reproductivo y aumenten la productividad del hato,
+> **con** seguimiento reproductivo con registro de preñez, parto, secado y destete.
+
+**H5** (feature assumption FA5; business outcome BO3; user outcome UB4)
+
+> **Creemos que lograremos** que al menos el 60 % de los veterinarios registrados emita diagnósticos o valide historiales sanitarios en la plataforma cada mes,
+> **si** los médicos veterinarios
+> **alcanzan** el beneficio de que consulten el historial clínico completo antes de tratar al animal y registren diagnósticos y tratamientos de forma remota y ordenada,
+> **con** un módulo veterinario con citas, visitas técnicas, diagnósticos, tratamientos y vacunas.
+
+**H6** (feature assumption FA6; business outcome BO2; user outcome UB1)
+
+> **Creemos que lograremos** que el tiempo de generación de reportes de producción y salud se reduzca en un 40 % frente a los métodos manuales,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que decidan con datos actualizados y ahorren el tiempo que hoy dedican a consolidar información,
+> **con** paneles y reportes productivos y sanitarios.
+
+**H7** (feature assumption FA7; business outcome BO6; user outcome UB3)
+
+> **Creemos que lograremos** que Hatarium alcance al menos 200 usuarios activos en seis meses,
+> **si** los productores ganaderos y los médicos veterinarios
+> **alcanzan** el beneficio de que accedan en pocos clics a las funciones que más usan, desde cualquier dispositivo con navegador,
+> **con** una aplicación web *responsive* con navegación clara e interfaz sencilla.
+
+**H8** (feature assumption FA8; business outcome BO5; user outcome UA5)
+
+> **Creemos que lograremos** que menos del 5 % de los usuarios manifieste inquietudes sobre la privacidad o la pérdida de sus datos,
+> **si** los productores ganaderos y los médicos veterinarios
+> **alcanzan** el beneficio de que confíen en que su información productiva y clínica es privada e íntegra,
+> **con** autenticación por roles y buenas prácticas de seguridad web.
 
 ### 1.2.2.4. Lean UX Canvas
 
@@ -303,7 +435,7 @@ Este segmento agrupa a los actores del sector ganadero peruano que se dedican a 
 * Se estima que al menos el 15% de las muertes animales en granjas peruanas se relaciona con la falta de acceso oportuno a atención veterinaria, generando pérdidas equivalentes a aproximadamente el 20% de los ingresos anuales del productor.
 * Alrededor del 60% de las operaciones ganaderas empresariales en el Perú enfrenta deficiencias en el seguimiento constante de estándares de bienestar animal.
 * Cerca del 70% de los establecimientos ganaderos presenta una gestión inadecuada de registros e inventarios físicos, dificultando la trazabilidad y la toma de decisiones oportunas.
-* La expansión sostenida del acceso a internet en zonas rurales del Perú (alcanzando cerca del 83% de hogares según OSIPTEL) habilita el uso de aplicaciones web *responsive* ejecutables desde navegadores en computadoras, tablets y smartphones.
+* La expansión sostenida del acceso a internet en zonas rurales del Perú (alcanzando cerca del 83% de hogares según OSIPTEL, 2024) habilita el uso de aplicaciones web *responsive* ejecutables desde navegadores en computadoras, tablets y smartphones.
 
 ---
 
@@ -886,7 +1018,7 @@ Entrevista 2
 Frente a estas necesidades, considera útil contar con una plataforma web como Vantara que permita centralizar los historiales clínicos, registrar tratamientos y facilitar el seguimiento de los animales. También destaca que una herramienta de este tipo podría mejorar la comunicación con los productores y hacer más eficiente su trabajo veterinario.
 
 
-### Entrevista 3
+Entrevista 3
 
 **Entrevistado:** Carlos Mendoza Ramos
 
@@ -901,8 +1033,6 @@ Frente a estas necesidades, considera útil contar con una plataforma web como V
 **Resumen:** En la entrevista, el médico veterinario Carlos Mendoza Ramos, con 6 años de experiencia en sanidad de ganado bovino, explica que actualmente gestiona las fichas e historiales médicos mediante anotaciones en libretas de papel en el establo, las cuales intenta traspasar a tablas de Excel al llegar a casa. Entre los principales problemas de este proceso manual destaca el deterioro del papel por humedad o barro, la pérdida de detalles clave, la fatiga de consolidar datos en el ordenador y la falta de conectividad móvil en fincas muy alejadas. Asimismo, señala que frecuentemente falta información sobre tratamientos o antibióticos aplicados previamente por los propios ganaderos, fechas exactas entre celos y partos, y la verificación del cumplimiento real de las dosis e indicaciones recetadas. Como datos indispensables previa evaluación considera el número de identificación (arete), la edad, el número de partos, el estado reproductivo actual y los antecedentes de vacunación. Para la comunicación y coordinación utiliza llamadas y WhatsApp, respaldándose en agendas físicas y alarmas en su celular para programar los ciclos sanitarios. Entre las herramientas o módulos indispensables para una plataforma web veterinaria (como Atariun), considera fundamentales una ficha sanitaria integrada con historial clínico y tratamientos, un módulo de control reproductivo para el seguimiento de inseminaciones, palpaciones, gestación y partos, y un calendario específico de fármacos con alertas sanitarias y periodos de retiro de leche. Adicionalmente, prefiere un formulario web rápido para emitir recetas digitales con cronogramas de aplicación y notificaciones automáticas para los productores. Finalmente, resalta como principales beneficios esperados la optimización del tiempo en las consultas de campo, la toma de decisiones clínicas rápidas e informadas, la reducción de errores por interacciones farmacológicas, el fortalecimiento de la trazabilidad sanitaria y la proyección de una imagen más estructurada que genere confianza y profesionalismo en sus clientes.
 
 
-
-### 2.2.3. Análisis de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
 
