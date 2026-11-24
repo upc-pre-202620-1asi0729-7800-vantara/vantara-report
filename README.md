@@ -1820,6 +1820,29 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
     <td>EP006 (APIs y Servicios Backend)</td>
   </tr>
 
+  <tr>
+    <td><strong>TS013</strong></td>
+    <td>Implementación de Endpoints de Notificaciones y Alertas Sanitarias</td>
+    <td>Como developer, necesito implementar los servicios backend de notificaciones para generar, consultar y cerrar las alertas sanitarias y los recordatorios de citas y vacunas.</td>
+    <td>
+      <strong>E01: Consulta de notificaciones</strong><br>
+      Dado que el usuario autenticado posee notificaciones pendientes.<br>
+      Cuando se envía una solicitud <code>GET /api/v1/notifications</code>.<br>
+      Entonces la API responde <code>200 OK</code> con la lista de notificaciones del usuario y su estado (<code>PENDING</code> o <code>COMPLETED</code>).
+      <p></p>
+      <strong>E02: Generación de alerta</strong><br>
+      Dado que se programa una cita o un control sanitario próximo para un animal existente.<br>
+      Cuando el sistema procesa el evento.<br>
+      Entonces crea una notificación en estado <code>PENDING</code> vinculada al animal y responde <code>201 Created</code>.
+      <p></p>
+      <strong>E03: Cierre de alerta</strong><br>
+      Dado que el veterinario completa la cita o aplica la vacuna asociada a una notificación pendiente.<br>
+      Cuando el sistema procesa el evento.<br>
+      Entonces actualiza la notificación a <code>COMPLETED</code> y responde <code>200 OK</code>.
+    </td>
+    <td>EP006 (APIs y Servicios Backend)</td>
+  </tr>
+
   <!-- ======================= EP007 ======================= -->
 
   <tr>
@@ -2155,6 +2178,127 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
   </td>
   <td>EP008 (Gestión Reproductiva)</td>
 </tr>
+
+
+  <!-- ======================= EP009 ======================= -->
+
+  <tr>
+    <td><strong>EP009</strong></td>
+    <td>Suscripción y Pagos</td>
+    <td>Como ganadero, deseo contratar y administrar mi suscripción a Hatarium y revisar mis pagos para mantener acceso continuo a la plataforma.</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US041</strong></td>
+    <td>Contratar Plan de Suscripción</td>
+    <td>Como ganadero, quiero contratar un plan de suscripción para acceder a las funcionalidades de Hatarium según las necesidades de mi hato.</td>
+    <td>
+      <strong>E01: Contratación exitosa</strong><br>
+      Dado que el ganadero visualiza los planes de suscripción disponibles.<br>
+      Cuando selecciona un plan y confirma el pago.<br>
+      Entonces el sistema activa la suscripción y registra el comprobante correspondiente.
+      <p></p>
+      <strong>E02: Pago rechazado</strong><br>
+      Dado que el ganadero intenta contratar un plan.<br>
+      Cuando los datos de pago son inválidos o el pago es rechazado.<br>
+      Entonces el sistema mantiene la suscripción anterior e informa el motivo del rechazo.
+    </td>
+    <td>EP009 (Suscripción y Pagos)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US042</strong></td>
+    <td>Consultar Historial de Pagos</td>
+    <td>Como ganadero, quiero consultar el historial de mis pagos y comprobantes para llevar el control de los gastos de mi suscripción.</td>
+    <td>
+      <strong>E01: Consulta de pagos</strong><br>
+      Dado que el ganadero posee pagos registrados.<br>
+      Cuando accede al historial de pagos.<br>
+      Entonces el sistema muestra los pagos con fecha, monto, plan y estado.
+      <p></p>
+      <strong>E02: Sin pagos registrados</strong><br>
+      Dado que el ganadero no posee pagos registrados.<br>
+      Cuando consulta el historial de pagos.<br>
+      Entonces el sistema informa que no existen pagos registrados.
+    </td>
+    <td>EP009 (Suscripción y Pagos)</td>
+  </tr>
+
+  <tr>
+    <td><strong>TS014</strong></td>
+    <td>Implementación de Endpoints de Suscripciones y Pagos</td>
+    <td>Como developer, necesito implementar los servicios backend para registrar suscripciones, procesar pagos simulados y consultar el historial de comprobantes.</td>
+    <td>
+      <strong>E01: Creación de suscripción</strong><br>
+      Dado que un usuario autenticado envía un plan válido.<br>
+      Cuando se envía una solicitud <code>POST /api/v1/subscriptions</code>.<br>
+      Entonces la API responde <code>201 Created</code> con la suscripción activa.
+      <p></p>
+      <strong>E02: Consulta de pagos</strong><br>
+      Dado que el usuario posee pagos registrados.<br>
+      Cuando se envía una solicitud <code>GET /api/v1/payments</code>.<br>
+      Entonces la API responde <code>200 OK</code> con el historial de pagos y comprobantes del usuario.
+      <p></p>
+      <strong>E03: Plan inválido</strong><br>
+      Dado que la solicitud contiene un plan inexistente o datos incompletos.<br>
+      Cuando la API valida la solicitud.<br>
+      Entonces responde <code>400 Bad Request</code> con el detalle de la validación.
+    </td>
+    <td>EP009 (Suscripción y Pagos)</td>
+  </tr>
+
+  <!-- ======================= EP010 ======================= -->
+
+  <tr>
+    <td><strong>EP010</strong></td>
+    <td>Gestión de Perfil</td>
+    <td>Como usuario de Hatarium, deseo administrar mi perfil y mis preferencias para mantener actualizados mis datos de contacto y la configuración de mi cuenta.</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US043</strong></td>
+    <td>Gestionar Perfil de Usuario</td>
+    <td>Como usuario, quiero consultar y actualizar mis datos personales y preferencias para mantener mi información de contacto vigente.</td>
+    <td>
+      <strong>E01: Actualización exitosa</strong><br>
+      Dado que el usuario autenticado se encuentra en la gestión de su perfil.<br>
+      Cuando modifica sus datos y guarda los cambios.<br>
+      Entonces el sistema actualiza la información del perfil y confirma la operación.
+      <p></p>
+      <strong>E02: Datos inválidos</strong><br>
+      Dado que el usuario modifica sus datos de perfil.<br>
+      Cuando ingresa información con formato inválido.<br>
+      Entonces el sistema rechaza los cambios y señala los campos a corregir.
+    </td>
+    <td>EP010 (Gestión de Perfil)</td>
+  </tr>
+
+  <tr>
+    <td><strong>TS015</strong></td>
+    <td>Implementación de Endpoints de Perfiles</td>
+    <td>Como developer, necesito implementar los servicios backend para consultar y actualizar el perfil del ganadero y del veterinario.</td>
+    <td>
+      <strong>E01: Consulta del perfil</strong><br>
+      Dado que un usuario autenticado posee un perfil registrado.<br>
+      Cuando se envía una solicitud <code>GET /api/v1/profiles/{profileId}</code>.<br>
+      Entonces la API responde <code>200 OK</code> con los datos del perfil.
+      <p></p>
+      <strong>E02: Actualización del perfil</strong><br>
+      Dado que un usuario autenticado envía datos válidos.<br>
+      Cuando se envía una solicitud <code>PUT /api/v1/profiles/{profileId}</code>.<br>
+      Entonces la API responde <code>200 OK</code> con el perfil actualizado.
+      <p></p>
+      <strong>E03: Perfil inexistente</strong><br>
+      Dado que el identificador del perfil no existe.<br>
+      Cuando se consulta o actualiza el perfil.<br>
+      Entonces la API responde <code>404 Not Found</code>.
+    </td>
+    <td>EP010 (Gestión de Perfil)</td>
+  </tr>
 
 </table>
 
