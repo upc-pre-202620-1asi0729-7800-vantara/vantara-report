@@ -43,6 +43,20 @@
 | 0.3 | 31/08/26 | Taza Curay, Eduardo Miguel | Elaboración del Análisis de Competidores, desarrollo de Impact Mapping, Information Architecture (colaborativo), modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
 | 0.4 | 01/09/26 | Meza Tataje, David | Redacción de User Stories (colaborativo), desarrollo de Prototyping: Web Application & Landing Page (Wireframes y Mockups), modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
 | 0.5 | 02/09/26 | Ayllon Pauccar, Juan David | Desarrollo de Needfinding completo, Information Architecture (colaborativo), elaboración de C4: Context Diagram, modelado de 2 Bounded Contexts (Componentes y Diagrama de Clases) y Entrevistas. |
+| 0.6 | 17/09/26 | Asmat Alminco, Martín Alejandro | Diagramas de clases y de base de datos por bounded context, componentes DDD y Design-Level Event Storming de todos los bounded contexts. |
+| 0.7 | 17/09/26 | Linares Rodríguez, Franco Orlando | Style Guidelines, wireframes, mock-ups, wireflow, user flow y prototipo de la Landing Page y de la Web Application. |
+| 0.8 | 17/09/26 | Ayllon Pauccar, Juan David | Análisis de entrevistas, User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y Ubiquitous Language. |
+| 0.9 | 17/09/26 | Meza Tataje, David | Capítulo V (Sprint 1, configuración del entorno y despliegue de la Landing) y primera versión del Student Outcome. |
+| 1.0 | 18/09/26 | Ayllon Pauccar, Juan David | Conclusiones y consolidación del informe en la rama develop. |
+| 1.1 | 03/10/26 | Asmat Alminco, Martín Alejandro | Ajustes de la carátula y del Registro de Versiones; eliminación de caracteres no reconocidos. |
+| 1.2 | 06/10/26 | Ayllon Pauccar, Juan David | Corrección de los diagramas C4 Container y Components. |
+| 1.3 | 06/10/26 | Meza Tataje, David | Sección 5.2.2 Sprint 2: documentación, evidencias de ejecución y Team Collaboration Insights. |
+| 1.4 | 12/11/26 | Taza Curay, Eduardo Miguel | Entrevistas de validación del productor ganadero y del veterinario, y evidencias asociadas. |
+| 1.5 | 12/11/26 | Meza Tataje, David | Sección 5.2.3 Sprint 3: backlog, evidencias y assets; actualización de las preguntas de validación. |
+| 1.6 | 15/11/26 | Asmat Alminco, Martín Alejandro | Evaluación según heurísticas (5.3.3) con evidencias y actualización de la descripción de las entrevistas de validación. |
+| 1.7 | 15/11/26 | Meza Tataje, David | Evidencias Swagger de los escenarios A y B del Sprint 3, segunda entrevista a veterinario y enlaces a los videos About the Product y About the Team. |
+| 1.8 | 23/11/26 | Asmat Alminco, Martín Alejandro | Corrección de la carátula, del Registro de Versiones y de la estructura del Student Outcome; eliminación de encabezados duplicados; reestructuración del Lean UX (problem statement, cinco tipos de assumptions y una hypothesis por feature assumption); corrección de los perfiles de integrantes y de las citas de la sección 1.3. |
+
 # Project Report Collaboration Insights
 
 - Link del repositorio del informe: [https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report.git](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report.git)
@@ -143,12 +157,6 @@ A lo largo del proyecto, el equipo ha estado comprometido en la creación del in
 
 
 # Student Outcome
-**Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea
-necesario, utilizando estrategias de aprendizaje apropiadas.
-
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones
-por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET �?"
-EAC - Student Outcome 7.
 
 ## ABET - EAC - Student Outcome 7
 
