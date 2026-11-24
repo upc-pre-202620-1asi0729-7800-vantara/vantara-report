@@ -1076,8 +1076,6 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
 
 ## 3.1. User Stories
 
-## 3.1. User Stories
-
 <table border="1" cellspacing="0" cellpadding="8">
   <tr>
     <th>Epic / Story ID</th>
@@ -1822,6 +1820,29 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
     <td>EP006 (APIs y Servicios Backend)</td>
   </tr>
 
+  <tr>
+    <td><strong>TS013</strong></td>
+    <td>Implementación de Endpoints de Notificaciones y Alertas Sanitarias</td>
+    <td>Como developer, necesito implementar los servicios backend de notificaciones para generar, consultar y cerrar las alertas sanitarias y los recordatorios de citas y vacunas.</td>
+    <td>
+      <strong>E01: Consulta de notificaciones</strong><br>
+      Dado que el usuario autenticado posee notificaciones pendientes.<br>
+      Cuando se envía una solicitud <code>GET /api/v1/notifications</code>.<br>
+      Entonces la API responde <code>200 OK</code> con la lista de notificaciones del usuario y su estado (<code>PENDING</code> o <code>COMPLETED</code>).
+      <p></p>
+      <strong>E02: Generación de alerta</strong><br>
+      Dado que se programa una cita o un control sanitario próximo para un animal existente.<br>
+      Cuando el sistema procesa el evento.<br>
+      Entonces crea una notificación en estado <code>PENDING</code> vinculada al animal y responde <code>201 Created</code>.
+      <p></p>
+      <strong>E03: Cierre de alerta</strong><br>
+      Dado que el veterinario completa la cita o aplica la vacuna asociada a una notificación pendiente.<br>
+      Cuando el sistema procesa el evento.<br>
+      Entonces actualiza la notificación a <code>COMPLETED</code> y responde <code>200 OK</code>.
+    </td>
+    <td>EP006 (APIs y Servicios Backend)</td>
+  </tr>
+
   <!-- ======================= EP007 ======================= -->
 
   <tr>
@@ -2158,22 +2179,171 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
   <td>EP008 (Gestión Reproductiva)</td>
 </tr>
 
+
+  <!-- ======================= EP009 ======================= -->
+
+  <tr>
+    <td><strong>EP009</strong></td>
+    <td>Suscripción y Pagos</td>
+    <td>Como ganadero, deseo contratar y administrar mi suscripción a Hatarium y revisar mis pagos para mantener acceso continuo a la plataforma.</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US041</strong></td>
+    <td>Contratar Plan de Suscripción</td>
+    <td>Como ganadero, quiero contratar un plan de suscripción para acceder a las funcionalidades de Hatarium según las necesidades de mi hato.</td>
+    <td>
+      <strong>E01: Contratación exitosa</strong><br>
+      Dado que el ganadero visualiza los planes de suscripción disponibles.<br>
+      Cuando selecciona un plan y confirma el pago.<br>
+      Entonces el sistema activa la suscripción y registra el comprobante correspondiente.
+      <p></p>
+      <strong>E02: Pago rechazado</strong><br>
+      Dado que el ganadero intenta contratar un plan.<br>
+      Cuando los datos de pago son inválidos o el pago es rechazado.<br>
+      Entonces el sistema mantiene la suscripción anterior e informa el motivo del rechazo.
+    </td>
+    <td>EP009 (Suscripción y Pagos)</td>
+  </tr>
+
+  <tr>
+    <td><strong>US042</strong></td>
+    <td>Consultar Historial de Pagos</td>
+    <td>Como ganadero, quiero consultar el historial de mis pagos y comprobantes para llevar el control de los gastos de mi suscripción.</td>
+    <td>
+      <strong>E01: Consulta de pagos</strong><br>
+      Dado que el ganadero posee pagos registrados.<br>
+      Cuando accede al historial de pagos.<br>
+      Entonces el sistema muestra los pagos con fecha, monto, plan y estado.
+      <p></p>
+      <strong>E02: Sin pagos registrados</strong><br>
+      Dado que el ganadero no posee pagos registrados.<br>
+      Cuando consulta el historial de pagos.<br>
+      Entonces el sistema informa que no existen pagos registrados.
+    </td>
+    <td>EP009 (Suscripción y Pagos)</td>
+  </tr>
+
+  <tr>
+    <td><strong>TS014</strong></td>
+    <td>Implementación de Endpoints de Suscripciones y Pagos</td>
+    <td>Como developer, necesito implementar los servicios backend para registrar suscripciones, procesar pagos simulados y consultar el historial de comprobantes.</td>
+    <td>
+      <strong>E01: Creación de suscripción</strong><br>
+      Dado que un usuario autenticado envía un plan válido.<br>
+      Cuando se envía una solicitud <code>POST /api/v1/subscriptions</code>.<br>
+      Entonces la API responde <code>201 Created</code> con la suscripción activa.
+      <p></p>
+      <strong>E02: Consulta de pagos</strong><br>
+      Dado que el usuario posee pagos registrados.<br>
+      Cuando se envía una solicitud <code>GET /api/v1/payments</code>.<br>
+      Entonces la API responde <code>200 OK</code> con el historial de pagos y comprobantes del usuario.
+      <p></p>
+      <strong>E03: Plan inválido</strong><br>
+      Dado que la solicitud contiene un plan inexistente o datos incompletos.<br>
+      Cuando la API valida la solicitud.<br>
+      Entonces responde <code>400 Bad Request</code> con el detalle de la validación.
+    </td>
+    <td>EP009 (Suscripción y Pagos)</td>
+  </tr>
+
+  <!-- ======================= EP010 ======================= -->
+
+  <tr>
+    <td><strong>EP010</strong></td>
+    <td>Gestión de Perfil</td>
+    <td>Como usuario de Hatarium, deseo administrar mi perfil y mis preferencias para mantener actualizados mis datos de contacto y la configuración de mi cuenta.</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td><strong>US043</strong></td>
+    <td>Gestionar Perfil de Usuario</td>
+    <td>Como usuario, quiero consultar y actualizar mis datos personales y preferencias para mantener mi información de contacto vigente.</td>
+    <td>
+      <strong>E01: Actualización exitosa</strong><br>
+      Dado que el usuario autenticado se encuentra en la gestión de su perfil.<br>
+      Cuando modifica sus datos y guarda los cambios.<br>
+      Entonces el sistema actualiza la información del perfil y confirma la operación.
+      <p></p>
+      <strong>E02: Datos inválidos</strong><br>
+      Dado que el usuario modifica sus datos de perfil.<br>
+      Cuando ingresa información con formato inválido.<br>
+      Entonces el sistema rechaza los cambios y señala los campos a corregir.
+    </td>
+    <td>EP010 (Gestión de Perfil)</td>
+  </tr>
+
+  <tr>
+    <td><strong>TS015</strong></td>
+    <td>Implementación de Endpoints de Perfiles</td>
+    <td>Como developer, necesito implementar los servicios backend para consultar y actualizar el perfil del ganadero y del veterinario.</td>
+    <td>
+      <strong>E01: Consulta del perfil</strong><br>
+      Dado que un usuario autenticado posee un perfil registrado.<br>
+      Cuando se envía una solicitud <code>GET /api/v1/profiles/{profileId}</code>.<br>
+      Entonces la API responde <code>200 OK</code> con los datos del perfil.
+      <p></p>
+      <strong>E02: Actualización del perfil</strong><br>
+      Dado que un usuario autenticado envía datos válidos.<br>
+      Cuando se envía una solicitud <code>PUT /api/v1/profiles/{profileId}</code>.<br>
+      Entonces la API responde <code>200 OK</code> con el perfil actualizado.
+      <p></p>
+      <strong>E03: Perfil inexistente</strong><br>
+      Dado que el identificador del perfil no existe.<br>
+      Cuando se consulta o actualiza el perfil.<br>
+      Entonces la API responde <code>404 Not Found</code>.
+    </td>
+    <td>EP010 (Gestión de Perfil)</td>
+  </tr>
+
 </table>
 
 ## 3.2. Impact Mapping
 
-A continuación se presentan los dos Impact Maps elaborados para los principales objetivos de negocio de
-Hatarium. Esta técnica permite visualizar la relación entre los goals del negocio, los actores involucrados, los
-impactos esperados en su comportamiento y las funcionalidades del producto necesarias para alcanzarlos. Los
-mapas guiaron la priorización del Product Backlog y aseguraron que cada funcionalidad responda a un objetivo
-de valor concreto.
+A continuación se presentan los dos Impact Maps elaborados en UXPressia para los principales objetivos de negocio de Hatarium. Esta técnica permite visualizar la relación entre los goals del negocio, los actores involucrados, los impactos esperados en su comportamiento, los deliverables del producto y las user stories necesarias para alcanzarlos. Los mapas guiaron la priorización del Product Backlog y aseguraron que cada funcionalidad responda a un objetivo de valor concreto.
+
+Cada mapa se lee de izquierda a derecha en cinco niveles: **Business Goal** (por qué se construye), **Persona** (quién generará el cambio), **Impacts** (cómo debe cambiar su comportamiento), **Deliverables** (qué entrega el equipo) y **User Stories** (cómo se concreta cada entrega en el Product Backlog).
+
+### Business Goals
+
+Los objetivos están redactados con criterio SMART: son específicos, medibles, alcanzables con el alcance del producto, relevantes para la propuesta de valor de Hatarium y tienen un plazo definido.
+
+| Goal | Objetivo de negocio | Específico | Medible | Plazo | Persona (actor) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **BG01** | Mejorar el control sanitario y la gestión del ganado en un 35 % en 6 meses mediante la plataforma web de Hatarium. | Control sanitario y gestión del hato del productor. | Mejora del 35 % en el control sanitario y la gestión del ganado. | 6 meses | Productor ganadero |
+| **BG02** | Lograr la captación e incorporación de al menos 200 usuarios activos (ganaderos y veterinarios) y digitalizar las atenciones técnicas en un periodo de 6 meses. | Adopción de la plataforma y digitalización de la atención veterinaria. | Al menos 200 usuarios activos. | 6 meses | Médico veterinario especializado |
+
+### Impact Map 1: Productor ganadero
+
+El actor es el **productor ganadero**, el segmento representado por la persona Fernando (sección 2.3.1). En el mapa de UXPressia el actor aparece rotulado como «Juan Quispe». Para alcanzar BG01, el mapa propone tres cambios de comportamiento: registrar de forma constante el inventario del hato, consultar rápidamente el historial sanitario y tomar decisiones con datos actualizados.
+
+| Impacto esperado | Deliverable | User Stories |
+| :--- | :--- | :--- |
+| Registrar de forma constante los datos e inventario del ganado en la plataforma web. | Sistema web de registro y administración del ganado. | US008 Registro de Ganado, US011 Actualización de Información del Ganado |
+| Consultar rápidamente el historial sanitario y las indicaciones médicas desde la web. | Módulo de búsqueda y consulta de historial sanitario con orden cronológico. | US017 Visualizar Estado Sanitario Actual, US024 Consulta de Historial Sanitario Completo |
+| Tomar decisiones informadas sobre la producción basadas en datos actualizados. | Dashboard web de analítica y reporte del rendimiento productivo. | US022 Generar Reporte Productivo, US023 Visualizar Reporte Productivo |
 
 #### Impact Map 1
 ![Impact Map 1](assets/Impact-Map-1.png)
 
+### Impact Map 2: Médico veterinario
+
+El actor es el **médico veterinario especializado**, el segmento representado por la persona Silvia (sección 2.3.1). Para alcanzar BG02, el mapa propone que el veterinario registre sus diagnósticos de forma estructurada, prescriba tratamientos vinculados al expediente del animal y consulte el historial clínico antes de intervenir.
+
+| Impacto esperado | Deliverable | User Stories |
+| :--- | :--- | :--- |
+| Registrar diagnósticos clínicos de manera estructurada y accesible desde cualquier navegador. | Módulo web para el registro y consulta de visitas técnicas y diagnósticos clínicos. | US027 Registrar Visita Técnica, US028 Registrar Diagnóstico Clínico |
+| Prescribir tratamientos médicos y recetas digitales vinculadas directamente al expediente del animal. | Módulo de prescripción médica y control de tratamientos. | US029 Prescribir Tratamiento Médico |
+| Consultar el historial clínico completo y los antecedentes sanitarios del animal antes de aplicar un tratamiento. | Ficha clínica digital e historial médico del paciente. | US024 Consulta de Historial Sanitario Completo |
+
 #### Impact Map 2
 ![Impact Map 2](assets/Impact-map-2.png)
 
+> **Nota de trazabilidad:** los identificadores de las user stories que aparecen dentro de las imágenes de UXPressia corresponden a una numeración previa. Las tablas anteriores usan los identificadores vigentes de la sección 3.1 y del Product Backlog (3.3).
 
 ## 3.3. Product Backlog
 
@@ -2181,60 +2351,68 @@ El Product Backlog es un elemento esencial en la gestión ágil de proyectos, ya
 
 Cada ítem del backlog está enfocado en generar valor para el usuario final y facilitar una entrega incremental y efectiva de la solución.
 
-| Orden | User Story ID / Technical Story ID | Título | Story Points |
-| :--- | :--- | :--- | :---: |
-| 1 | US001 | Explorar Landing Page | 2 |
-| 2 | US002 | Visualización de Funcionalidades y Servicios | 2 |
-| 3 | US003 | Consultar Información de Contacto | 1 |
-| 4 | US004 | Enviar Formulario de Contacto | 2 |
-| 5 | US005 | Registro de Usuario | 3 |
-| 6 | US006 | Inicio de Sesión | 3 |
-| 7 | US007 | Cerrar Sesión | 1 |
-| 8 | US008 | Registro de Ganado | 5 |
-| 9 | US009 | Buscar Animal | 2 |
-| 10 | US010 | Consultar Información de un Animal | 2 |
-| 11 | US011 | Actualización de Información del Ganado | 3 |
-| 12 | US012 | Crear Lote de Ganado | 3 |
-| 13 | US013 | Asignar Animal a un Lote | 2 |
-| 14 | US014 | Registro de Alimentación | 3 |
-| 15 | US015 | Planificar Alimentación | 3 |
-| 16 | US016 | Consultar Plan Alimentario | 2 |
-| 17 | US017 | Visualizar Estado Sanitario Actual | 3 |
-| 18 | US018 | Visualizar Vacunas Aplicadas | 2 |
-| 19 | US019 | Consultar Próximas Vacunaciones | 2 |
-| 20 | US020 | Detectar Riesgo Sanitario | 3 |
-| 21 | US021 | Detectar Vacunación Pendiente | 2 |
-| 22 | US022 | Generar Reporte Productivo | 3 |
-| 23 | US023 | Visualizar Reporte Productivo | 2 |
-| 24 | US024 | Consulta de Historial Sanitario Completo | 3 |
-| 25 | US025 | Visualizar Estadísticas Sanitarias | 3 |
-| 26 | US026 | Visualizar Alertas Sanitarias | 2 |
-| 27 | US027 | Registrar Visita Técnica | 3 |
-| 28 | US028 | Registrar Diagnóstico Clínico | 3 |
-| 29 | US029 | Prescribir Tratamiento Médico | 3 |
-| 30 | US030 | Monitorear Telemetría de Sensores IoT | 5 |
-| 31 | US031 | Recibir Alerta por Anomalía en Signos Vitales | 3 |
-| 32 | US032 | Registrar Vacuna Aplicada | 3 |
-| 33 | US033 | Programar Cita Veterinaria | 3 |
-| 34 | US034 | Consultar Citas Veterinarias | 2 |
-| 35 | US035 | Reprogramar Cita Veterinaria | 3 |
-| 36 | US036 | Registrar Preñez | 3 |
-| 37 | US037 | Registrar Parto | 3 |
-| 38 | US038 | Registrar Secado | 2 |
-| 39 | US039 | Registrar Destete | 2 |
-| 40 | US040 | Consultar Historial Reproductivo | 3 |
-| 41 | TS001 | Desarrollo de Landing Page Responsiva | 3 |
-| 42 | TS002 | Desarrollo de Formulario de Contacto | 2 |
-| 43 | TS003 | API de Registro de Usuarios | 5 |
-| 44 | TS004 | Sistema de Autenticación JWT | 5 |
-| 45 | TS005 | Implementación de Endpoint para Registro de Ganado | 5 |
-| 46 | TS006 | Implementación de Endpoints de Consulta y Edición | 5 |
-| 47 | TS007 | Implementación de Gestión de Lotes | 3 |
-| 48 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | 5 |
-| 49 | TS009 | Implementación de Generación de Reportes y Estadísticas | 3 |
-| 50 | TS010 | API REST para Gestión Veterinaria y Telemetría IoT | 5 |
-| 51 | TS011 | Implementación de Registro de Eventos Reproductivos | 5 |
-| 52 | TS012 | Implementación de Consulta del Historial Reproductivo | 3 |
+| Orden | User Story ID / Technical Story ID | Título | Descripción | Story Points |
+| :--- | :--- | :--- | :--- | :---: |
+| 1 | US001 | Explorar Landing Page | Como visitante, quiero explorar la landing page para conocer las funcionalidades, características y beneficios que ofrece Hatarium. | 2 |
+| 2 | US002 | Visualización de Funcionalidades y Servicios | Como visitante, quiero visualizar las funcionalidades y servicios de Hatarium para comprender cómo la plataforma puede ayudar en la gestión ganadera. | 2 |
+| 3 | US003 | Consultar Información de Contacto | Como visitante, quiero consultar la información de contacto de Hatarium para conocer los medios disponibles para comunicarme con el equipo. | 1 |
+| 4 | US004 | Enviar Formulario de Contacto | Como visitante, quiero enviar una consulta mediante el formulario de contacto para comunicarme con el equipo de Hatarium desde la plataforma. | 2 |
+| 5 | US008 | Registro de Ganado | Como ganadero, quiero registrar nuevos animales para mantener actualizado el inventario de mi ganado. | 5 |
+| 6 | US009 | Buscar Animal | Como ganadero, quiero buscar un animal registrado para localizar rápidamente el ejemplar que deseo consultar. | 2 |
+| 7 | US010 | Consultar Información de un Animal | Como ganadero, quiero consultar la información de un animal para acceder a los datos registrados del ejemplar seleccionado. | 2 |
+| 8 | US011 | Actualización de Información del Ganado | Como ganadero, quiero actualizar la información de mis animales para mantener datos precisos y actualizados dentro del sistema. | 3 |
+| 9 | US012 | Crear Lote de Ganado | Como ganadero, quiero crear lotes de ganado para organizar mis animales de acuerdo con las necesidades de manejo de la explotación. | 3 |
+| 10 | US013 | Asignar Animal a un Lote | Como ganadero, quiero asignar un animal a un lote para mantener organizada la distribución de mi ganado. | 2 |
+| 11 | US014 | Registro de Alimentación | Como ganadero, quiero registrar la alimentación de mis animales para controlar su consumo y mejorar su productividad. | 3 |
+| 12 | US015 | Planificar Alimentación | Como ganadero, quiero planificar la alimentación de mis animales para organizar anticipadamente las raciones y periodos de alimentación. | 3 |
+| 13 | US016 | Consultar Plan Alimentario | Como ganadero, quiero consultar el plan alimentario de mis animales para conocer las raciones y periodos de alimentación establecidos. | 2 |
+| 14 | US017 | Visualizar Estado Sanitario Actual | Como ganadero, quiero visualizar el estado sanitario actual de mis animales para supervisar su condición de salud. | 3 |
+| 15 | US018 | Visualizar Vacunas Aplicadas | Como ganadero, quiero visualizar las vacunas aplicadas a mis animales para verificar los controles preventivos realizados. | 2 |
+| 16 | US019 | Consultar Próximas Vacunaciones | Como ganadero, quiero consultar las próximas vacunaciones de mis animales para anticiparme al cumplimiento del calendario sanitario. | 2 |
+| 17 | US020 | Detectar Riesgo Sanitario | Como ganadero, quiero que el sistema detecte condiciones de riesgo sanitario para identificar oportunamente posibles problemas de salud en mis animales. | 3 |
+| 18 | US021 | Detectar Vacunación Pendiente | Como ganadero, quiero que el sistema identifique vacunaciones pendientes para conocer cuándo un animal requiere una próxima dosis. | 2 |
+| 19 | US033 | Programar Cita Veterinaria | Como ganadero, quiero programar una cita veterinaria para coordinar la atención médica de mis animales. | 3 |
+| 20 | US034 | Consultar Citas Veterinarias | Como ganadero, quiero consultar mis citas veterinarias para conocer las atenciones programadas para mis animales. | 2 |
+| 21 | US035 | Reprogramar Cita Veterinaria | Como ganadero, quiero reprogramar una cita veterinaria para modificar la fecha u hora de una atención previamente coordinada. | 3 |
+| 22 | US027 | Registrar Visita Técnica | Como médico veterinario, quiero registrar los detalles de una visita técnica para mantener evidencia de las atenciones realizadas al ganado. | 3 |
+| 23 | US028 | Registrar Diagnóstico Clínico | Como médico veterinario, quiero registrar el diagnóstico clínico de un animal para documentar su condición médica después de una evaluación. | 3 |
+| 24 | US029 | Prescribir Tratamiento Médico | Como médico veterinario, quiero prescribir un tratamiento médico para registrar las indicaciones necesarias para la recuperación del animal. | 3 |
+| 25 | US030 | Monitorear Telemetría de Sensores IoT | Como médico veterinario, quiero monitorear la telemetría obtenida mediante sensores IoT para supervisar las constantes vitales del animal. | 5 |
+| 26 | US031 | Recibir Alerta por Anomalía en Signos Vitales | Como médico veterinario, quiero recibir una alerta cuando los sensores detecten valores anormales para identificar oportunamente posibles riesgos de salud. | 3 |
+| 27 | US032 | Registrar Vacuna Aplicada | Como médico veterinario, quiero registrar una vacuna aplicada a un animal para mantener actualizado su historial preventivo. | 3 |
+| 28 | US036 | Registrar Preñez | Como ganadero, quiero registrar la preñez de un animal para mantener actualizado su estado reproductivo. | 3 |
+| 29 | US037 | Registrar Parto | Como ganadero, quiero registrar el parto de un animal para mantener actualizado su historial reproductivo. | 3 |
+| 30 | US038 | Registrar Secado | Como ganadero, quiero registrar el secado de un animal para mantener actualizado su seguimiento productivo y reproductivo. | 2 |
+| 31 | US039 | Registrar Destete | Como ganadero, quiero registrar el destete de un animal para mantener actualizado su seguimiento productivo. | 2 |
+| 32 | US040 | Consultar Historial Reproductivo | Como ganadero, quiero consultar el historial reproductivo de un animal para conocer los eventos registrados durante su ciclo reproductivo. | 3 |
+| 33 | US022 | Generar Reporte Productivo | Como ganadero, quiero generar reportes productivos para obtener información consolidada sobre el rendimiento de mi ganado. | 3 |
+| 34 | US023 | Visualizar Reporte Productivo | Como ganadero, quiero visualizar un reporte productivo generado para analizar el rendimiento y estado general de mi ganado. | 2 |
+| 35 | US024 | Consulta de Historial Sanitario Completo | Como ganadero, quiero consultar el historial sanitario detallado de mis animales para realizar seguimiento de vacunas, tratamientos anteriores y estado clínico de cada ejemplar. | 3 |
+| 36 | US025 | Visualizar Estadísticas Sanitarias | Como ganadero, quiero visualizar estadísticas sanitarias para analizar de manera consolidada la situación de salud de mi ganado. | 3 |
+| 37 | US026 | Visualizar Alertas Sanitarias | Como ganadero, quiero visualizar las alertas sanitarias generadas para identificar eventos importantes relacionados con la salud de mis animales. | 2 |
+| 38 | US041 | Contratar Plan de Suscripción | Como ganadero, quiero contratar un plan de suscripción para acceder a las funcionalidades de Hatarium según las necesidades de mi hato. | 3 |
+| 39 | US042 | Consultar Historial de Pagos | Como ganadero, quiero consultar el historial de mis pagos y comprobantes para llevar el control de los gastos de mi suscripción. | 2 |
+| 40 | US043 | Gestionar Perfil de Usuario | Como usuario, quiero consultar y actualizar mis datos personales y preferencias para mantener mi información de contacto vigente. | 3 |
+| 41 | US005 | Registro de Usuario | Como ganadero, quiero crear una cuenta en Hatarium para acceder a las funcionalidades de gestión ganadera. | 3 |
+| 42 | US006 | Inicio de Sesión | Como ganadero, quiero iniciar sesión en la plataforma para acceder a mi información y funcionalidades personalizadas. | 3 |
+| 43 | US007 | Cerrar Sesión | Como ganadero, quiero cerrar sesión de manera segura para proteger la información de mi cuenta. | 1 |
+| 44 | TS001 | Desarrollo de Landing Page Responsiva | Como developer, necesito implementar la landing page responsiva de Hatarium para mostrar información del producto y permitir la navegación entre secciones. | 3 |
+| 45 | TS002 | Desarrollo de Formulario de Contacto | Como developer, necesito implementar el formulario de contacto para permitir que los visitantes envíen consultas al equipo de Hatarium. | 2 |
+| 46 | TS003 | API de Registro de Usuarios | Como developer, necesito implementar el endpoint de registro para permitir la creación segura de cuentas de usuario. | 5 |
+| 47 | TS004 | Sistema de Autenticación JWT | Como developer, necesito implementar autenticación basada en JWT para gestionar sesiones seguras dentro de Hatarium. | 5 |
+| 48 | TS005 | Implementación de Endpoint para Registro de Ganado | Como developer, necesito implementar el endpoint de registro de animales para almacenar la información del ganado dentro de la plataforma. | 5 |
+| 49 | TS006 | Implementación de Endpoints de Consulta y Edición | Como developer, necesito implementar endpoints de consulta y actualización para gestionar la información registrada del ganado. | 5 |
+| 50 | TS007 | Implementación de Gestión de Lotes | Como developer, necesito implementar funcionalidades para la creación y administración de lotes de ganado. | 3 |
+| 51 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | Como developer, necesito implementar endpoints sanitarios y alimentarios para registrar consumos, consultar el historial clínico y permitir la lectura del calendario de vacunas. | 5 |
+| 52 | TS009 | Implementación de Generación de Reportes y Estadísticas | Como developer, necesito implementar servicios backend para consolidar reportes productivos y estadísticas sanitarias del ganado. | 3 |
+| 53 | TS010 | API REST para Gestión Veterinaria y Telemetría IoT | Como developer, necesito exponer los endpoints para el registro de visitas médicas, prescripciones y la ingesta de telemetría proveniente de dispositivos IoT. | 5 |
+| 54 | TS011 | Implementación de Registro de Eventos Reproductivos | Como developer, necesito implementar los servicios backend para registrar eventos reproductivos del ganado, permitiendo almacenar de manera estructurada la información asociada al ciclo reproductivo de cada animal. | 5 |
+| 55 | TS012 | Implementación de Consulta del Historial Reproductivo | Como developer, necesito implementar el servicio de consulta del historial reproductivo para recuperar los eventos registrados de cada animal de manera organizada. | 3 |
+| 56 | TS013 | Implementación de Endpoints de Notificaciones y Alertas Sanitarias | Como developer, necesito implementar los servicios backend de notificaciones para generar, consultar y cerrar las alertas sanitarias y los recordatorios de citas y vacunas. | 5 |
+| 57 | TS014 | Implementación de Endpoints de Suscripciones y Pagos | Como developer, necesito implementar los servicios backend para registrar suscripciones, procesar pagos simulados y consultar el historial de comprobantes. | 4 |
+| 58 | TS015 | Implementación de Endpoints de Perfiles | Como developer, necesito implementar los servicios backend para consultar y actualizar el perfil del ganadero y del veterinario. | 3 |
+
+El orden del backlog responde al valor de negocio para el ganadero y el veterinario: primero se prioriza la landing y las historias de gestión del hato (ganado, alimentación, salud, atención veterinaria, reproducción y reportes). El registro e inicio de sesión (US005–US007) se ubican a continuación porque su valor es habilitador, y se cubren técnicamente desde el inicio mediante TS003 y TS004. Los Story Points siguen la escala 1, 2, 3, 5 y 8.
 <div style="page-break-before: always;"></div>
 
 # Capítulo IV: Product Design
@@ -3015,7 +3193,7 @@ En este primer Sprint, el trabajo del equipo se dividió de manera equitativa en
 | **TS001 / CC07** | Despliegue en GitHub Pages | Configuración del pipeline de despliegue continuo desde la rama `main`. | 2 | Asmat Alminco, Martin | Done |
 | **DOC01** | Informe Capítulo I | Introducción, problema, objetivos, justificación y restricciones. | 5 | Linares Rodríguez, Franco Orlando | Done |
 | **DOC02** | Informe Capítulo II | Análisis del dominio, entrevistas, User Personas, Empathy Maps. | 6 | Ayllon Pauccar, Juan David | Done |
-| **DOC03** | Informe Capítulo III | Impact Mapping, Event Storming, 40 US + 12 TS y Product Backlog. | 8 | Meza Tataje, David / Taza Curay, Eduardo M. | Done |
+| **DOC03** | Informe Capítulo III | Impact Mapping, Event Storming, 43 US + 15 TS y Product Backlog. | 8 | Meza Tataje, David / Taza Curay, Eduardo M. | Done |
 | **DOC04** | Informe Capítulo IV | Arquitectura de Software, Estilo de Arquitectura y Vista de Contexto C4. | 6 | Asmat Alminco, Martin | Done |
 | **DOC05** | Informe Capítulo V | Configuration Management, Sprint Planning 1 y Evidencias de Sprint. | 5 | Meza Tataje, David | Done |
 
@@ -3120,20 +3298,20 @@ Se utilizó **GitHub** como repositorio centralizado bajo la organización del e
 
 | US / TS / Task ID | Bounded Context | Título / Descripción de Tarea | Estimación (Horas) | Integrante Asignado | Estado |
 | :--- | :--- | :--- | :---: | :--- | :---: |
-| **US005 / CC08** | IAM | Pantalla e interfaz de Inicio de Sesión y autenticación con credenciales. | 4 | Asmat Alminco, Martin | Done |
-| **US006 / CC09** | IAM | Registro de nuevos usuarios y selección de rol (*RANCHER* / *VETERINARIAN*). | 4 | Asmat Alminco, Martin | Done |
-| **US007 / CC10** | Livestock | Vista de catálogo y registro individual de bovinos (arete, raza, peso, lote). | 5 | Linares Rodríguez, Franco Orlando | Done |
-| **US008 / CC11** | Livestock | Módulo de gestión y transferencia de bovinos entre Lotes / Corrales. | 4 | Linares Rodríguez, Franco Orlando | Done |
-| **US027 / CC12** | Veterinary & Health | Dashboard de citas veterinarias con filtrado por origen (*Ganadero* vs *Visita Técnica*). | 6 | Meza Tataje, David | Done |
-| **US027 / CC13** | Veterinary & Health | Formulario dedicado para agendar nuevas Citas / Visitas Técnicas de campo. | 4 | Meza Tataje, David | Done |
+| **US006 / CC08** | IAM | Pantalla e interfaz de Inicio de Sesión y autenticación con credenciales. | 4 | Asmat Alminco, Martin | Done |
+| **US005 / CC09** | IAM | Registro de nuevos usuarios y selección de rol (*RANCHER* / *VETERINARIAN*). | 4 | Asmat Alminco, Martin | Done |
+| **US008, US009, US010 / CC10** | Livestock | Vista de catálogo y registro individual de bovinos (arete, raza, peso, lote). | 5 | Linares Rodríguez, Franco Orlando | Done |
+| **US012, US013 / CC11** | Livestock | Módulo de gestión y transferencia de bovinos entre Lotes / Corrales. | 4 | Linares Rodríguez, Franco Orlando | Done |
+| **US034 / CC12** | Veterinary & Health | Dashboard de citas veterinarias con filtrado por origen (*Ganadero* vs *Visita Técnica*). | 6 | Meza Tataje, David | Done |
+| **US027, US033 / CC13** | Veterinary & Health | Formulario dedicado para agendar nuevas Citas / Visitas Técnicas de campo. | 4 | Meza Tataje, David | Done |
 | **US028 / CC14** | Veterinary & Health | Vista interactiva de Registro de Diagnóstico Clínico y nivel de gravedad. | 5 | Meza Tataje, David | Done |
 | **US029 / CC15** | Veterinary & Health | Vista de Prescripción de Tratamiento Médico y dosificación de fármacos. | 4 | Meza Tataje, David | Done |
-| **TS005 / CC16** | Veterinary & Health | Formulario y carnet de Registro de Vacunas Aplicadas (*External Data DTO*). | 4 | Meza Tataje, David | Done |
-| **US018 / CC17** | Reproductive | Módulo de monitoreo de gestaciones, fechas probables de parto y secado. | 5 | Ayllon Pauccar, Juan David / Asmat Alminco, M. | Done |
-| **US021 / CC18** | Payments | Pantalla de planes de suscripción SaaS, historial de pagos y facturación. | 4 | Ayllon Pauccar, Juan David | Done |
-| **US024 / CC19** | Notifications | Centro de alertas sanitarias en tiempo real y recordatorios de vacunas/citas. | 4 | Taza Curay, Eduardo Miguel | Done |
-| **US025 / CC20** | Profile | Gestor de perfil de usuario, datos personales y preferencias de cuenta. | 3 | Taza Curay, Eduardo Miguel | Done |
-| **US031 / CC21** | Reports & Analytics | Dashboard consolidado con reportes productivos, sanitarios y exportación PDF. | 6 | Linares Rodríguez, Franco / Meza Tataje, David | Done |
+| **US032 / CC16** | Veterinary & Health | Formulario y carnet de Registro de Vacunas Aplicadas (*External Data DTO*). | 4 | Meza Tataje, David | Done |
+| **US036, US037, US038 / CC17** | Reproductive | Módulo de monitoreo de gestaciones, fechas probables de parto y secado. | 5 | Ayllon Pauccar, Juan David / Asmat Alminco, M. | Done |
+| **US041, US042 / CC18** | Payments | Pantalla de planes de suscripción SaaS, historial de pagos y facturación. | 4 | Ayllon Pauccar, Juan David | Done |
+| **US026 / CC19** | Notifications | Centro de alertas sanitarias en tiempo real y recordatorios de vacunas/citas. | 4 | Taza Curay, Eduardo Miguel | Done |
+| **US043 / CC20** | Profile | Gestor de perfil de usuario, datos personales y preferencias de cuenta. | 3 | Taza Curay, Eduardo Miguel | Done |
+| **US022, US023, US025 / CC21** | Reports & Analytics | Dashboard consolidado con reportes productivos, sanitarios y exportación PDF. | 6 | Linares Rodríguez, Franco / Meza Tataje, David | Done |
 
 ---
 
@@ -3292,17 +3470,17 @@ Siguiendo la recomendación de priorización de la evaluación TB1, el Sprint Ba
 
 | Technical / User Story ID | Bounded Context | Tarea Backend / Integración y Endpoint Asociado | Est. (Horas) | Responsable | Alcance / Estado |
 | :--- | :--- | :--- | :---: | :--- | :---: |
-| **TS002** *(US005)* | IAM *(Crítico)* | Configuración de Spring Security, filtro JWT y endpoint `POST /api/v1/authentication/sign-in` con emisión de rol (`RANCHER` / `VETERINARIAN`). | 6 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
-| **TS003** *(US006)* | IAM *(Crítico)* | Endpoint `POST /api/v1/authentication/sign-up` con encriptación BCrypt y guardias de autorización por rol en rutas protegidas. | 4 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
-| **TS004** *(US007, US008)* | Livestock *(Crítico)* | Endpoints REST CRUD (`/api/v1/animals`, `/api/v1/lots`) con validación de arete único por ganadero y persistencia en BD relacional. | 6 | Linares Rodríguez, Franco Orlando | Implementado y Verificado (**Done**) |
-| **TS005** *(US027)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/appointments`) soportando origen `RANCHER_REQUEST` y `TECHNICAL_VISIT`, vinculados a `animalId` existente. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
-| **TS006** *(US028, US029)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/medical-records`, `/api/v1/treatments`) con validación de rol `VETERINARIAN` y actualización de estado de cita. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
-| **TS007** *(US030)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/vaccines`) con validación anti-duplicados, trazabilidad de profesional y consulta de historial por el ganadero. | 5 | Meza Tataje, David | Implementado y Verificado (**Done**) |
-| **TS008** *(US024)* | Notifications *(Crítico)* | Endpoints REST (`/api/v1/notifications`) para alertas sanitarias pendientes y cierre automático al completarse la cita/vacuna. | 5 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
-| **TS009** *(US025)* | Profile | Endpoints REST (`/api/v1/profiles`) para actualización de datos de contacto y preferencias del productor/veterinario. | 3 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
-| **TS010** *(US018, US019)* | Reproductive *(Complementario)* | Endpoints REST (`/api/v1/reproductive-records`) para seguimiento gestacional y fechas estimadas de parto. | 4 | Ayllon Pauccar, Juan / Asmat Alminco, Martin | Implementado (**Done** – Flujo base) |
-| **TS011** *(US021, US022)* | Payments *(Complementario)* | Endpoints REST (`/api/v1/subscriptions`, `/api/v1/payments`) para registro de planes SaaS e historial de comprobantes. | 4 | Ayllon Pauccar, Juan David | Implementado (**Done** – Flujo base) |
-| **TS012** *(US031)* | Reports *(Complementario)* | Endpoint `GET /api/v1/reports/summary` con conteos reales desde BD (exportación avanzada PDF/Excel queda como mejora futura). | 3 | Linares Rodríguez, Franco / Meza Tataje, David | Implementado (**Done** – KPIs reales) |
+| **TS003** *(US005)* | IAM *(Crítico)* | Endpoint `POST /api/v1/authentication/sign-up` con encriptación BCrypt y guardias de autorización por rol en rutas protegidas. | 4 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
+| **TS004** *(US006)* | IAM *(Crítico)* | Configuración de Spring Security, filtro JWT y endpoint `POST /api/v1/authentication/sign-in` con emisión de rol (`RANCHER` / `VETERINARIAN`). | 6 | Asmat Alminco, Martin | Implementado y Verificado (**Done**) |
+| **TS005, TS006, TS007** *(US008–US013)* | Livestock *(Crítico)* | Endpoints REST CRUD (`/api/v1/animals`, `/api/v1/lots`) con validación de arete único por ganadero y persistencia en BD relacional. | 6 | Linares Rodríguez, Franco Orlando | Implementado y Verificado (**Done**) |
+| **TS010** *(US027, US033–US035)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/appointments`) soportando origen `RANCHER_REQUEST` y `TECHNICAL_VISIT`, vinculados a `animalId` existente. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS010** *(US028, US029)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/medical-records`, `/api/v1/treatments`) con validación de rol `VETERINARIAN` y actualización de estado de cita. | 6 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS010** *(US032, US024)* | Veterinary & Health *(Crítico)* | Endpoints REST (`/api/v1/vaccines`) con validación anti-duplicados, trazabilidad de profesional y consulta de historial por el ganadero. | 5 | Meza Tataje, David | Implementado y Verificado (**Done**) |
+| **TS013** *(US026)* | Notifications *(Crítico)* | Endpoints REST (`/api/v1/notifications`) para alertas sanitarias pendientes y cierre automático al completarse la cita/vacuna. | 5 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
+| **TS015** *(US043)* | Profile | Endpoints REST (`/api/v1/profiles`) para actualización de datos de contacto y preferencias del productor/veterinario. | 3 | Taza Curay, Eduardo Miguel | Implementado y Verificado (**Done**) |
+| **TS011, TS012** *(US036–US040)* | Reproductive *(Complementario)* | Endpoints REST (`/api/v1/reproductive-records`) para seguimiento gestacional y fechas estimadas de parto. | 4 | Ayllon Pauccar, Juan / Asmat Alminco, Martin | Implementado (**Done** – Flujo base) |
+| **TS014** *(US041, US042)* | Payments *(Complementario)* | Endpoints REST (`/api/v1/subscriptions`, `/api/v1/payments`) para registro de planes SaaS e historial de comprobantes. | 4 | Ayllon Pauccar, Juan David | Implementado (**Done** – Flujo base) |
+| **TS009** *(US022, US023, US025)* | Reports *(Complementario)* | Endpoint `GET /api/v1/reports/summary` con conteos reales desde BD (exportación avanzada PDF/Excel queda como mejora futura). | 3 | Linares Rodríguez, Franco / Meza Tataje, David | Implementado (**Done** – KPIs reales) |
 
 
 ---
@@ -3344,15 +3522,15 @@ En cumplimiento de la **Demostración Mínima Exigible** establecida en la revis
 
 | Escenario / Story ID | Tipo de Prueba | Criterio Verificado en Backend + Frontend | Resultado HTTP / UI | Estado |
 | :--- | :--- | :--- | :--- | :---: |
-| **Escenario A.1** *(TS004 / US007)* | Flujo Normal E2E | El productor (`RANCHER`) registra un bovino con arete único en la base de datos relacional asociado a su hato. | `201 Created` + visible en catálogo | Done |
-| **Escenario A.2** *(TS005 / US027)* | Flujo Normal E2E | Se programa una cita / vacunación preventiva vinculada al identificador del bovino y al veterinario asignado. | `201 Created` + cita en estado `scheduled` | Done |
-| **Escenario A.3** *(TS006, TS007 / US028–US030)* | Flujo Normal E2E | El veterinario autorizado (`VETERINARIAN`) inicia sesión, registra el diagnóstico clínico, prescribe tratamiento y registra la vacuna aplicada. | `201 Created` + cita pasa a `completed` | Done |
-| **Escenario A.4** *(TS007 / US012)* | Flujo Normal E2E | El productor consulta el perfil de su animal y visualiza la nueva entrada en el historial sanitario con fecha, dosis y responsable veterinario. | `200 OK` + historial sincronizado | Done |
-| **Escenario B.1** *(TS004 / US007)* | Validación de Negocio | Intentar registrar un bovino con un número de arete ya existente dentro del mismo hato o con campos obligatorios vacíos. | `400 Bad Request` + mensaje descriptivo | Done |
-| **Escenario B.2** *(TS007 / US030)* | Validación de Negocio | Intentar registrar una vacuna sobre un `animalId` inexistente o duplicar la misma dosis en la misma fecha. | `404 Not Found` / `409 Conflict` | Done |
-| **Escenario B.3** *(TS002 / US005)* | Seguridad y Permisos | Intentar registrar un diagnóstico clínico o vacuna autenticándose con rol `RANCHER` o sin token JWT. | `401 Unauthorized` / `403 Forbidden` | Done |
-| **Escenario C.1** *(TS008 / US024)* | Estado de Alertas | Al programar un control sanitario próximo, el sistema genera una notificación pendiente vinculada al animal. | `201 Created` + alerta `PENDING` | Done |
-| **Escenario C.2** *(TS008 / US024)* | Estado de Alertas | Una vez que el veterinario completa la atención o aplica la vacuna, la notificación deja de mostrarse como pendiente y pasa a `COMPLETED`. | `200 OK` + alerta actualizada | Done |
+| **Escenario A.1** *(TS005 / US008)* | Flujo Normal E2E | El productor (`RANCHER`) registra un bovino con arete único en la base de datos relacional asociado a su hato. | `201 Created` + visible en catálogo | Done |
+| **Escenario A.2** *(TS010 / US033)* | Flujo Normal E2E | Se programa una cita / vacunación preventiva vinculada al identificador del bovino y al veterinario asignado. | `201 Created` + cita en estado `scheduled` | Done |
+| **Escenario A.3** *(TS010 / US028, US029, US032)* | Flujo Normal E2E | El veterinario autorizado (`VETERINARIAN`) inicia sesión, registra el diagnóstico clínico, prescribe tratamiento y registra la vacuna aplicada. | `201 Created` + cita pasa a `completed` | Done |
+| **Escenario A.4** *(TS010 / US024)* | Flujo Normal E2E | El productor consulta el perfil de su animal y visualiza la nueva entrada en el historial sanitario con fecha, dosis y responsable veterinario. | `200 OK` + historial sincronizado | Done |
+| **Escenario B.1** *(TS005 / US008)* | Validación de Negocio | Intentar registrar un bovino con un número de arete ya existente dentro del mismo hato o con campos obligatorios vacíos. | `400 Bad Request` + mensaje descriptivo | Done |
+| **Escenario B.2** *(TS010 / US032)* | Validación de Negocio | Intentar registrar una vacuna sobre un `animalId` inexistente o duplicar la misma dosis en la misma fecha. | `404 Not Found` / `409 Conflict` | Done |
+| **Escenario B.3** *(TS004 / US006)* | Seguridad y Permisos | Intentar registrar un diagnóstico clínico o vacuna autenticándose con rol `RANCHER` o sin token JWT. | `401 Unauthorized` / `403 Forbidden` | Done |
+| **Escenario C.1** *(TS013 / US026)* | Estado de Alertas | Al programar un control sanitario próximo, el sistema genera una notificación pendiente vinculada al animal. | `201 Created` + alerta `PENDING` | Done |
+| **Escenario C.2** *(TS013 / US026)* | Estado de Alertas | Una vez que el veterinario completa la atención o aplica la vacuna, la notificación deja de mostrarse como pendiente y pasa a `COMPLETED`. | `200 OK` + alerta actualizada | Done |
 
 **Evidencia de las pruebas sobre Swagger UI (OpenAPI 3), ejecutadas con autenticación Bearer JWT:**
 
