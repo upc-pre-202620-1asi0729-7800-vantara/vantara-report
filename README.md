@@ -2304,18 +2304,46 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
 
 ## 3.2. Impact Mapping
 
-A continuación se presentan los dos Impact Maps elaborados para los principales objetivos de negocio de
-Hatarium. Esta técnica permite visualizar la relación entre los goals del negocio, los actores involucrados, los
-impactos esperados en su comportamiento y las funcionalidades del producto necesarias para alcanzarlos. Los
-mapas guiaron la priorización del Product Backlog y aseguraron que cada funcionalidad responda a un objetivo
-de valor concreto.
+A continuación se presentan los dos Impact Maps elaborados en UXPressia para los principales objetivos de negocio de Hatarium. Esta técnica permite visualizar la relación entre los goals del negocio, los actores involucrados, los impactos esperados en su comportamiento, los deliverables del producto y las user stories necesarias para alcanzarlos. Los mapas guiaron la priorización del Product Backlog y aseguraron que cada funcionalidad responda a un objetivo de valor concreto.
+
+Cada mapa se lee de izquierda a derecha en cinco niveles: **Business Goal** (por qué se construye), **Persona** (quién generará el cambio), **Impacts** (cómo debe cambiar su comportamiento), **Deliverables** (qué entrega el equipo) y **User Stories** (cómo se concreta cada entrega en el Product Backlog).
+
+### Business Goals
+
+Los objetivos están redactados con criterio SMART: son específicos, medibles, alcanzables con el alcance del producto, relevantes para la propuesta de valor de Hatarium y tienen un plazo definido.
+
+| Goal | Objetivo de negocio | Específico | Medible | Plazo | Persona (actor) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **BG01** | Mejorar el control sanitario y la gestión del ganado en un 35 % en 6 meses mediante la plataforma web de Hatarium. | Control sanitario y gestión del hato del productor. | Mejora del 35 % en el control sanitario y la gestión del ganado. | 6 meses | Productor ganadero |
+| **BG02** | Lograr la captación e incorporación de al menos 200 usuarios activos (ganaderos y veterinarios) y digitalizar las atenciones técnicas en un periodo de 6 meses. | Adopción de la plataforma y digitalización de la atención veterinaria. | Al menos 200 usuarios activos. | 6 meses | Médico veterinario especializado |
+
+### Impact Map 1: Productor ganadero
+
+El actor es el **productor ganadero**, el segmento representado por la persona Fernando (sección 2.3.1). En el mapa de UXPressia el actor aparece rotulado como «Juan Quispe». Para alcanzar BG01, el mapa propone tres cambios de comportamiento: registrar de forma constante el inventario del hato, consultar rápidamente el historial sanitario y tomar decisiones con datos actualizados.
+
+| Impacto esperado | Deliverable | User Stories |
+| :--- | :--- | :--- |
+| Registrar de forma constante los datos e inventario del ganado en la plataforma web. | Sistema web de registro y administración del ganado. | US008 Registro de Ganado, US011 Actualización de Información del Ganado |
+| Consultar rápidamente el historial sanitario y las indicaciones médicas desde la web. | Módulo de búsqueda y consulta de historial sanitario con orden cronológico. | US017 Visualizar Estado Sanitario Actual, US024 Consulta de Historial Sanitario Completo |
+| Tomar decisiones informadas sobre la producción basadas en datos actualizados. | Dashboard web de analítica y reporte del rendimiento productivo. | US022 Generar Reporte Productivo, US023 Visualizar Reporte Productivo |
 
 #### Impact Map 1
 ![Impact Map 1](assets/Impact-Map-1.png)
 
+### Impact Map 2: Médico veterinario
+
+El actor es el **médico veterinario especializado**, el segmento representado por la persona Silvia (sección 2.3.1). Para alcanzar BG02, el mapa propone que el veterinario registre sus diagnósticos de forma estructurada, prescriba tratamientos vinculados al expediente del animal y consulte el historial clínico antes de intervenir.
+
+| Impacto esperado | Deliverable | User Stories |
+| :--- | :--- | :--- |
+| Registrar diagnósticos clínicos de manera estructurada y accesible desde cualquier navegador. | Módulo web para el registro y consulta de visitas técnicas y diagnósticos clínicos. | US027 Registrar Visita Técnica, US028 Registrar Diagnóstico Clínico |
+| Prescribir tratamientos médicos y recetas digitales vinculadas directamente al expediente del animal. | Módulo de prescripción médica y control de tratamientos. | US029 Prescribir Tratamiento Médico |
+| Consultar el historial clínico completo y los antecedentes sanitarios del animal antes de aplicar un tratamiento. | Ficha clínica digital e historial médico del paciente. | US024 Consulta de Historial Sanitario Completo |
+
 #### Impact Map 2
 ![Impact Map 2](assets/Impact-map-2.png)
 
+> **Nota de trazabilidad:** los identificadores de las user stories que aparecen dentro de las imágenes de UXPressia corresponden a una numeración previa. Las tablas anteriores usan los identificadores vigentes de la sección 3.1 y del Product Backlog (3.3).
 
 ## 3.3. Product Backlog
 
