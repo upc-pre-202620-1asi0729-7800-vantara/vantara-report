@@ -251,33 +251,68 @@ Sabremos que tenemos éxito cuando veamos que:
 ---
 
 ### 1.2.2.2. Lean UX Assumptions
-#### User Assumptions:
-1. Los ganaderos, independientemente de su nivel tecnológico, adoptarán una plataforma web si es fácil de usar, intuitiva y les resuelve problemas concretos de su día a día.
 
-2. Los usuarios están dispuestos a incorporar tecnología si perciben beneficios tangibles en ahorro de tiempo, reducción de pérdidas y mejora en la salud de sus animales.
+Las assumptions se organizan en los cinco tipos que define Lean UX. Cada enunciado es una creencia del equipo que se validará con los segmentos objetivo; los identificadores permiten referenciarlas desde las hypotheses (1.2.2.3).
 
-3. Los ganaderos y veterinarios utilizarán la plataforma web si esta es compatible con los dispositivos que poseen actualmente (computadoras, tablets o smartphones) y permite acceder fácilmente a la información almacenada.
+#### Business Assumptions
+Creencias de alto nivel sobre la posición en el mercado, la viabilidad, la monetización y las capacidades del equipo.
 
-4. Los usuarios confiarán en la plataforma si garantiza la privacidad e integridad de su información productiva y veterinaria.
+| ID | Assumption |
+| :--- | :--- |
+| BA1 | No existe en el Perú una plataforma web abierta, accesible y adaptada a ganaderos y veterinarios, por lo que Hatarium ocupa un espacio de mercado sin atender. |
+| BA2 | Un modelo SaaS web de bajo costo, con suscripción, es viable y asequible tanto para productores independientes como para empresas ganaderas. |
+| BA3 | Si atendemos a ganaderos y veterinarios en una misma plataforma, fidelizamos a ambos segmentos a la vez, porque cada uno aporta valor al otro. |
+| BA4 | El aumento de la conectividad rural (cerca del 83 % de hogares con internet, según OSIPTEL, 2024) permite que una solución web llegue a los segmentos objetivo. |
+| BA5 | Una arquitectura orientada al dominio (DDD) y tecnologías Open Source permiten al equipo evolucionar y mantener el producto con los recursos disponibles. |
 
-5. Las funciones más utilizadas deben estar accesibles en pocos clics, ya que los ganaderos priorizan soluciones prácticas y rápidas.
+#### Business Outcome Assumptions
+Cambios medibles que indican que el negocio tiene éxito.
 
-6. Los veterinarios especializados adoptarán la plataforma si les permite hacer seguimiento clínico de sus pacientes de forma remota, registrar tratamientos y coordinar citas de manera organizada.
+| ID | Assumption |
+| :--- | :--- |
+| BO1 | Al menos el 75 % de los nuevos usuarios creará su cuenta y registrará su primer hato o ficha clínica en su primera sesión, sin asistencia técnica. |
+| BO2 | El tiempo promedio de generación de reportes de producción y salud se reducirá en un 40 % frente a los métodos manuales. |
+| BO3 | Al menos el 60 % de los veterinarios registrados emitirá diagnósticos o validará historiales sanitarios en la plataforma cada mes. |
+| BO4 | Los productores que usen la plataforma reportarán una disminución del 25 % en incidencias sanitarias no controladas tras seis meses de uso. |
+| BO5 | Menos del 5 % de los usuarios manifestará inquietudes sobre la privacidad o la pérdida de sus datos en las evaluaciones de usabilidad y encuestas. |
+| BO6 | Hatarium alcanzará al menos 200 usuarios activos (ganaderos y veterinarios) en seis meses. |
+| BO7 | Los productores mejorarán en un 35 % el control sanitario y la gestión de su ganado en seis meses. |
 
-#### Business Assumptions:
-1. Si digitalizamos los registros del ganado en una plataforma web centralizada, los usuarios mejorarán significativamente la organización y trazabilidad de su inventario animal.
+#### User Assumptions
+Perfiles de usuario, segmentos y actores que interactuarán con el sistema.
 
-2. Si proporcionamos herramientas de seguimiento sanitario y registro de controles veterinarios, los ganaderos podrán detectar oportunamente problemas de salud en sus animales y reducir pérdidas económicas asociadas a enfermedades prevenibles.
+| ID | Assumption |
+| :--- | :--- |
+| UA1 | Los productores ganaderos, independientemente de su nivel tecnológico, adoptarán una plataforma web si es fácil de usar, intuitiva y resuelve problemas concretos de su día a día. |
+| UA2 | Los productores llevan hoy sus registros en cuadernos, hojas de cálculo o archivos dispersos, y están dispuestos a migrarlos si el cambio no les exige instalaciones complejas. |
+| UA3 | Los ganaderos y veterinarios usarán la plataforma desde los dispositivos que ya poseen (computadoras, tablets o smartphones) a través de un navegador. |
+| UA4 | Los veterinarios especializados atienden a varios productores y necesitan historiales clínicos portátiles, confiables y organizados. |
+| UA5 | Los usuarios confiarán en la plataforma solo si garantiza la privacidad y la integridad de su información productiva y veterinaria. |
 
-3. Si proporcionamos herramientas de planificación alimentaria, los productores optimizarán el uso de recursos y reducirán desperdicios.
+#### User Outcome and Benefit Assumptions
+Objetivos que los usuarios quieren alcanzar y el valor que obtienen al usar el producto.
 
-4. Si permitimos el seguimiento reproductivo eficiente, los ganaderos incrementarán la productividad de sus hatos.
+| ID | Assumption |
+| :--- | :--- |
+| UB1 | Los usuarios incorporarán tecnología si perciben beneficios tangibles en ahorro de tiempo, reducción de pérdidas y mejora en la salud de sus animales. |
+| UB2 | Los ganaderos quieren tener su inventario centralizado y conocer el estado sanitario de cada animal sin depender de cuadernos que se pierden o se dañan. |
+| UB3 | Los ganaderos priorizan soluciones rápidas, por lo que las funciones más usadas deben estar accesibles en pocos clics. |
+| UB4 | Los veterinarios quieren consultar el historial clínico completo del animal antes de tratarlo y registrar diagnósticos y tratamientos de forma remota y ordenada. |
+| UB5 | Los productores quieren coordinar citas con el veterinario y recibir recordatorios de vacunas y alertas sanitarias a tiempo. |
 
-5. Si desarrollamos una plataforma web accesible desde distintos dispositivos y con una interfaz sencilla, los ganaderos y veterinarios podrán gestionar la información del ganado de manera eficiente, favoreciendo su adopción tecnológica.
+#### Feature Assumptions
+Funcionalidades que el equipo propone desarrollar para satisfacer las necesidades de los usuarios y del negocio.
 
-6. Si aseguramos la privacidad y seguridad de los datos mediante buenas prácticas de desarrollo web, los usuarios confiarán en la plataforma y estarán dispuestos a almacenar información crítica en ella.
-
-7. Si integramos un módulo para veterinarios que les permita gestionar historiales clínicos y coordinar atención, incrementaremos la confianza de los ganaderos en la plataforma y fidelizaremos a ambos segmentos simultáneamente.
+| ID | Assumption |
+| :--- | :--- |
+| FA1 | Si digitalizamos el registro y la administración del ganado y de los lotes en una plataforma web centralizada, los productores mejorarán la organización y la trazabilidad de su inventario animal. |
+| FA2 | Si ofrecemos seguimiento sanitario (historial clínico, vacunas y alertas sanitarias), los ganaderos detectarán a tiempo los problemas de salud y reducirán las pérdidas por enfermedades prevenibles. |
+| FA3 | Si ofrecemos planificación y registro de la alimentación, los productores optimizarán el uso de recursos y reducirán desperdicios. |
+| FA4 | Si ofrecemos seguimiento reproductivo (preñez, parto, secado y destete), los ganaderos incrementarán la productividad de sus hatos. |
+| FA5 | Si integramos un módulo para veterinarios (citas, visitas técnicas, diagnósticos, tratamientos y vacunas), aumentaremos la confianza de los ganaderos y la adopción por parte de los veterinarios. |
+| FA6 | Si ofrecemos paneles y reportes productivos y sanitarios, los productores tomarán decisiones con datos actualizados y reducirán el tiempo que dedican a consolidar información. |
+| FA7 | Si entregamos una plataforma web *responsive*, con navegación clara y una interfaz sencilla, ganaderos y veterinarios podrán gestionar la información desde cualquier dispositivo con poca fricción. |
+| FA8 | Si protegemos los datos con autenticación por roles y buenas prácticas de seguridad web, los usuarios confiarán en la plataforma y almacenarán en ella información crítica. |
 
 ---
 
