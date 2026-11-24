@@ -187,9 +187,8 @@ eficiente, trazable y sostenible.
 
 
 ## 1.2. Solution Profile
-### 1.2. Solution Profile
 
-#### 1.2.1. Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 
 El sector ganadero peruano representa una actividad económica importante para miles de familias rurales. Según EY Perú (2024), el sector agrario aportó el 3,6 % del PBI nacional en 2023 y empleó aproximadamente al 24 % de la Población Económicamente Activa. Sin embargo, muchos productores ganaderos aún gestionan información mediante registros manuales o herramientas poco centralizadas, dificultando el control de datos relacionados con salud, reproducción, vacunación y producción animal. Esta situación se relaciona con las brechas de digitalización existentes en las zonas rurales de América Latina, señaladas por la CEPAL y FAO (2021).
 
@@ -198,8 +197,6 @@ Ante esta problemática, diferentes investigaciones han demostrado la utilidad d
 Finalmente, el crecimiento de la conectividad rural favorece la implementación de este tipo de soluciones. Según OSIPTEL (2024), el acceso a internet en hogares rurales del Perú aumentó de 41,5 % en 2019 a cerca del 83 % en 2024, generando mejores condiciones para la adopción de herramientas digitales orientadas a productores ganaderos y médicos veterinarios.
 
 Aplicando la técnica de las 5W's y 2H's, se identificaron los siguientes aspectos clave del problema.
-
-### 1.2.1. Antecedentes y problemática
 
 > What(¿Qué?): Los productores ganaderos y médicos veterinarios en el Perú carecen de una plataforma web centralizada e integrada que les permita gestionar, analizar y consultar en tiempo real el historial clínico, reproducción, vacunación y trazabilidad de sus hatos. Esta ausencia de herramientas digitales accesibles provoca un manejo fragmentado de la información, usualmente relegado a cuadernos de notas o archivos dispersos, lo que obstaculiza la toma de decisiones oportunas y estratégicas sobre el rendimiento productivo y la salud animal.
 
@@ -886,7 +883,7 @@ Entrevista 2
 Frente a estas necesidades, considera útil contar con una plataforma web como Vantara que permita centralizar los historiales clínicos, registrar tratamientos y facilitar el seguimiento de los animales. También destaca que una herramienta de este tipo podría mejorar la comunicación con los productores y hacer más eficiente su trabajo veterinario.
 
 
-### Entrevista 3
+Entrevista 3
 
 **Entrevistado:** Carlos Mendoza Ramos
 
@@ -901,8 +898,6 @@ Frente a estas necesidades, considera útil contar con una plataforma web como V
 **Resumen:** En la entrevista, el médico veterinario Carlos Mendoza Ramos, con 6 años de experiencia en sanidad de ganado bovino, explica que actualmente gestiona las fichas e historiales médicos mediante anotaciones en libretas de papel en el establo, las cuales intenta traspasar a tablas de Excel al llegar a casa. Entre los principales problemas de este proceso manual destaca el deterioro del papel por humedad o barro, la pérdida de detalles clave, la fatiga de consolidar datos en el ordenador y la falta de conectividad móvil en fincas muy alejadas. Asimismo, señala que frecuentemente falta información sobre tratamientos o antibióticos aplicados previamente por los propios ganaderos, fechas exactas entre celos y partos, y la verificación del cumplimiento real de las dosis e indicaciones recetadas. Como datos indispensables previa evaluación considera el número de identificación (arete), la edad, el número de partos, el estado reproductivo actual y los antecedentes de vacunación. Para la comunicación y coordinación utiliza llamadas y WhatsApp, respaldándose en agendas físicas y alarmas en su celular para programar los ciclos sanitarios. Entre las herramientas o módulos indispensables para una plataforma web veterinaria (como Atariun), considera fundamentales una ficha sanitaria integrada con historial clínico y tratamientos, un módulo de control reproductivo para el seguimiento de inseminaciones, palpaciones, gestación y partos, y un calendario específico de fármacos con alertas sanitarias y periodos de retiro de leche. Adicionalmente, prefiere un formulario web rápido para emitir recetas digitales con cronogramas de aplicación y notificaciones automáticas para los productores. Finalmente, resalta como principales beneficios esperados la optimización del tiempo en las consultas de campo, la toma de decisiones clínicas rápidas e informadas, la reducción de errores por interacciones farmacológicas, el fortalecimiento de la trazabilidad sanitaria y la proyección de una imagen más estructurada que genere confianza y profesionalismo en sus clientes.
 
 
-
-### 2.2.3. Análisis de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
 
