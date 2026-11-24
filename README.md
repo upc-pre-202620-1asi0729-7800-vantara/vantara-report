@@ -231,6 +231,23 @@ Aplicando la técnica de las 5W's y 2H's, se identificaron los siguientes aspect
 
 **Initial Segment:** Productores ganaderos y médicos veterinarios del Perú, mayores de 18 años, ubicados en zonas rurales o periurbanas, que buscan mejorar la organización y control de sus operaciones con herramientas digitales accesibles desde cualquier navegador.
 
+**Problem Statement (template *Brand new initiative*):**
+
+El estado actual de la gestión tecnológica del sector ganadero peruano se ha centrado principalmente en productores y empresas que llevan sus registros en cuadernos, hojas de cálculo o sistemas no centralizados, y en veterinarios que dependen de fichas físicas y archivos dispersos para dar seguimiento clínico.
+
+Lo que los productos y servicios existentes no logran atender es la ausencia de una plataforma web abierta, accesible desde el navegador y adaptada al contexto peruano, que unifique el inventario del hato, el historial sanitario y la coordinación entre el productor y el médico veterinario.
+
+Nuestro producto, Hatarium, atenderá esta brecha mediante una plataforma web *responsive* y bajo un esquema SaaS de bajo costo, que centraliza la gestión del ganado, optimiza el trabajo del veterinario y ofrece paneles de analítica para la toma de decisiones.
+
+Nuestro foco inicial serán los productores ganaderos y los médicos veterinarios del Perú, mayores de 18 años, en zonas rurales o periurbanas.
+
+Sabremos que tenemos éxito cuando veamos que:
+* al menos el 75 % de los nuevos usuarios crea su cuenta y registra su primer hato o ficha clínica en su primera sesión, sin asistencia técnica;
+* el tiempo promedio de generación de reportes de producción y salud se reduce en un 40 % frente a los métodos manuales;
+* al menos el 60 % de los veterinarios registrados emite diagnósticos o valida historiales sanitarios en la plataforma cada mes;
+* los productores que usan la plataforma reportan una disminución del 25 % en incidencias sanitarias no controladas tras seis meses de uso;
+* menos del 5 % de los usuarios manifiesta inquietudes sobre la privacidad o la pérdida de sus datos.
+
 ---
 
 ### 1.2.2.2. Lean UX Assumptions
