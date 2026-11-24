@@ -317,17 +317,68 @@ Funcionalidades que el equipo propone desarrollar para satisfacer las necesidade
 ---
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
-1. **Creemos que** los usuarios (ganaderos y veterinarios) valorarán un portal web con navegación clara y diseño *responsive* porque podrán consultar y registrar información en tiempo real desde cualquier dispositivo con navegador. **Sabremos que tuvimos éxito cuando** al menos el 75% de los nuevos usuarios registrados cree su cuenta y registre su primer hato o ficha clínica en su primera sesión sin requerir asistencia técnica.
 
-2. **Creemos que** la implementación de paneles de administración (*dashboards*) para analítica de datos acelerará la gestión administrativa de las empresas y productores ganaderos. **Sabremos que tuvimos éxito cuando** el tiempo promedio invertido en la generación de reportes de producción y salud se reduzca en un 40% en comparación con los métodos manuales.
+Se formula una hypothesis por cada Feature Assumption (FA1 a FA8), con el template de Lean UX:
 
-3. **Creemos que** al ofrecer un módulo web exclusivo para médicos veterinarios, estos adoptarán la plataforma para el seguimiento de sus clientes. **Sabremos que tuvimos éxito cuando** al menos el 60% de los veterinarios registrados emita diagnósticos o valide historiales sanitarios dentro del portal de manera mensual.
+> **Creemos que lograremos** [business outcome] **si** [personas] **alcanzan** [beneficio / user outcome] **con** [feature o solución].
 
-4. **Creemos que** la visibilidad centralizada del historial clínico en la web reducirá las pérdidas por tratamientos tardíos o mal aplicados. **Sabremos que tuvimos éxito cuando** los productores usando la plataforma reporten una disminución del 25% en incidencias sanitarias no controladas tras seis meses de uso.
+Los Business Outcome (BO) corresponden a la sección 1.2.2.2 y definen el criterio de éxito de cada hypothesis. Esta trazabilidad se retoma en las Conclusiones, donde cada hypothesis se contrasta con los resultados de la validación.
 
-5. **Creemos que** la garantía de una plataforma web transparente y segura incentivará la migración de datos desde métodos tradicionales a la nube. **Sabremos que tuvimos éxito cuando** menos del 5% de los usuarios manifieste inquietudes sobre la privacidad o pérdida de sus datos en las evaluaciones de usabilidad y encuestas.
+**H1** (feature assumption FA1; business outcome BO1; user outcome UB2)
 
+> **Creemos que lograremos** que al menos el 75 % de los nuevos usuarios cree su cuenta y registre su primer hato o ficha clínica en su primera sesión, sin asistencia técnica,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que tengan su inventario centralizado y conozcan el estado sanitario de cada animal sin depender de cuadernos,
+> **con** un módulo de registro y administración de ganado y lotes.
 
+**H2** (feature assumption FA2; business outcome BO4; user outcome UB5)
+
+> **Creemos que lograremos** que los productores reporten una disminución del 25 % en incidencias sanitarias no controladas tras seis meses de uso,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que reciban a tiempo recordatorios de vacunas y alertas sanitarias, y coordinen citas con el veterinario,
+> **con** seguimiento sanitario con historial clínico, vacunas y alertas.
+
+**H3** (feature assumption FA3; business outcome BO7; user outcome UB1)
+
+> **Creemos que lograremos** que los productores mejoren en un 35 % el control sanitario y la gestión de su ganado en seis meses,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que ahorren tiempo y reduzcan desperdicios de recursos,
+> **con** planificación y registro de la alimentación del hato.
+
+**H4** (feature assumption FA4; business outcome BO7; user outcome UB1)
+
+> **Creemos que lograremos** que los productores mejoren en un 35 % el control sanitario y la gestión de su ganado en seis meses,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que den seguimiento ordenado a su ciclo reproductivo y aumenten la productividad del hato,
+> **con** seguimiento reproductivo con registro de preñez, parto, secado y destete.
+
+**H5** (feature assumption FA5; business outcome BO3; user outcome UB4)
+
+> **Creemos que lograremos** que al menos el 60 % de los veterinarios registrados emita diagnósticos o valide historiales sanitarios en la plataforma cada mes,
+> **si** los médicos veterinarios
+> **alcanzan** el beneficio de que consulten el historial clínico completo antes de tratar al animal y registren diagnósticos y tratamientos de forma remota y ordenada,
+> **con** un módulo veterinario con citas, visitas técnicas, diagnósticos, tratamientos y vacunas.
+
+**H6** (feature assumption FA6; business outcome BO2; user outcome UB1)
+
+> **Creemos que lograremos** que el tiempo de generación de reportes de producción y salud se reduzca en un 40 % frente a los métodos manuales,
+> **si** los productores ganaderos
+> **alcanzan** el beneficio de que decidan con datos actualizados y ahorren el tiempo que hoy dedican a consolidar información,
+> **con** paneles y reportes productivos y sanitarios.
+
+**H7** (feature assumption FA7; business outcome BO6; user outcome UB3)
+
+> **Creemos que lograremos** que Hatarium alcance al menos 200 usuarios activos en seis meses,
+> **si** los productores ganaderos y los médicos veterinarios
+> **alcanzan** el beneficio de que accedan en pocos clics a las funciones que más usan, desde cualquier dispositivo con navegador,
+> **con** una aplicación web *responsive* con navegación clara e interfaz sencilla.
+
+**H8** (feature assumption FA8; business outcome BO5; user outcome UA5)
+
+> **Creemos que lograremos** que menos del 5 % de los usuarios manifieste inquietudes sobre la privacidad o la pérdida de sus datos,
+> **si** los productores ganaderos y los médicos veterinarios
+> **alcanzan** el beneficio de que confíen en que su información productiva y clínica es privada e íntegra,
+> **con** autenticación por roles y buenas prácticas de seguridad web.
 
 ### 1.2.2.4. Lean UX Canvas
 
