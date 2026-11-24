@@ -64,9 +64,31 @@
 - Link del repositorio del BackEnd: [https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-platform.git](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-platform.git)
 
 
-A lo largo del proyecto, el equipo ha estado comprometido en la creación del informe en diferentes fases. Las tareas principales que se han abarcado
-- La realización de una investigación del negocio y la problemática a resolver, recopilando información relevante de fuentes confiables que nos permitieron comprender mejor el sector y las necesidades de los usuarios.
-- La redacción de los capítulos del informe, incluyendo la descripción de la startup, el perfil de la solución, los segmentos objetivo, los competidores, las entrevistas, el needfinding, la especificación de requerimientos y el diseño del producto.
+El informe se elabora en el repositorio indicado, bajo Git Flow: cada capítulo o sección se redacta en una rama `feature/*` (`feature/caratula`, `feature/capitulo-1` a `feature/capitulo-5`, `feature/conclusiones-referencias`, entre otras), se integra en `develop` mediante *pull request* y, al cierre de cada entrega, `develop` se fusiona en `main`. Las tareas principales abarcadas fueron:
+- La investigación del negocio y de la problemática a resolver, recopilando información de fuentes confiables que permitieron comprender el sector y las necesidades de los usuarios.
+- La redacción de los capítulos del informe: descripción de la startup, perfil de la solución, segmentos objetivo, competidores, entrevistas, needfinding, especificación de requisitos, diseño del producto, implementación, validación y despliegue.
+- La documentación de la evidencia de cada Sprint y de las sesiones de validación con usuarios.
+
+### Evolución del informe por etapa
+
+| Etapa | Periodo | Trabajo realizado en el informe | Versiones del registro |
+| :--- | :--- | :--- | :---: |
+| 1 | 27/08/26 - 18/09/26 | Estructura del informe, carátula, Capítulos I a V iniciales, diagramas por bounded context, diseño del producto, needfinding, Sprint 1 y conclusiones. | 0.1 - 1.0 |
+| 2 | 29/09/26 - 06/10/26 | Correcciones a la carátula y al registro de versiones, ajustes de los diagramas C4 y documentación del Sprint 2. | 1.1 - 1.3 |
+| 3 | 11/11/26 - 15/11/26 | Entrevistas de validación, Sprint 3, evidencias de servicios, evaluación según heurísticas y enlaces a los videos About the Product y About the Team. | 1.4 - 1.7 |
+| 4 | 23/11/26 | Correcciones de carátula, registro de versiones, Lean UX y perfiles de integrantes, a partir de la auditoría del informe. | 1.8 |
+
+### Participación de los integrantes
+
+Commits no fusionados registrados en la rama `develop` del repositorio del informe (cada integrante puede aparecer con más de un usuario de GitHub):
+
+| Integrante | Commits |
+| :--- | :---: |
+| Asmat Alminco, Martín Alejandro | 22 |
+| Linares Rodríguez, Franco Orlando | 22 |
+| Meza Tataje, David | 21 |
+| Taza Curay, Eduardo Miguel | 17 |
+| Ayllon Pauccar, Juan David | 14 |
 
 <img src="assets/commits.png" width="100%" alt="commits">
 
