@@ -56,6 +56,8 @@
 | 1.6 | 15/11/26 | Asmat Alminco, Martín Alejandro | Evaluación según heurísticas (5.3.3) con evidencias y actualización de la descripción de las entrevistas de validación. |
 | 1.7 | 15/11/26 | Meza Tataje, David | Evidencias Swagger de los escenarios A y B del Sprint 3, segunda entrevista a veterinario y enlaces a los videos About the Product y About the Team. |
 | 1.8 | 23/11/26 | Asmat Alminco, Martín Alejandro | Corrección de la carátula, del Registro de Versiones y de la estructura del Student Outcome; eliminación de encabezados duplicados; reestructuración del Lean UX (problem statement, cinco tipos de assumptions y una hypothesis por feature assumption); corrección de los perfiles de integrantes y de las citas de la sección 1.3. |
+| 1.9 | 23/11/26 | Asmat Alminco, Martín Alejandro | Ampliación del Impact Mapping con objetivos SMART y trazabilidad a historias; reordenamiento del Product Backlog por valor de negocio e incorporación de historias de pagos, perfil y notificaciones; alineación de los IDs de los backlogs y escenarios de los Sprints 2 y 3 con el Capítulo III. |
+| 2.0 | 24/11/26 | Equipo Vantara | Incorporación del Sprint 4 con el servicio IoT simulado para monitoreo de pulso y temperatura, gestión de anomalías, reportes de telemetría, correcciones de UX y evidencias de cierre y despliegue final. |
 
 # Project Report Collaboration Insights
 
@@ -2507,8 +2509,8 @@ Cada ítem del backlog está enfocado en generar valor para el usuario final y f
 | 22 | US027 | Registrar Visita Técnica | Como médico veterinario, quiero registrar los detalles de una visita técnica para mantener evidencia de las atenciones realizadas al ganado. | 3 |
 | 23 | US028 | Registrar Diagnóstico Clínico | Como médico veterinario, quiero registrar el diagnóstico clínico de un animal para documentar su condición médica después de una evaluación. | 3 |
 | 24 | US029 | Prescribir Tratamiento Médico | Como médico veterinario, quiero prescribir un tratamiento médico para registrar las indicaciones necesarias para la recuperación del animal. | 3 |
-| 25 | US030 | Monitorear Telemetría de Sensores IoT | Como médico veterinario, quiero monitorear la telemetría obtenida mediante sensores IoT para supervisar las constantes vitales del animal. | 5 |
-| 26 | US031 | Recibir Alerta por Anomalía en Signos Vitales | Como médico veterinario, quiero recibir una alerta cuando los sensores detecten valores anormales para identificar oportunamente posibles riesgos de salud. | 3 |
+| 25 | US030 | Asignar Dispositivo IoT y Monitorear Signos Vitales | Como ganadero, quiero asignar una pulsera IoT a un bovino para medir su pulso y temperatura, monitorear sus constantes vitales en tiempo real y generar reportes por animal y rango de fechas. | 5 |
+| 26 | US031 | Gestionar Anomalías en Signos Vitales | Como ganadero, quiero que el sistema detecte anomalías en el pulso o la temperatura y genere una notificación, una cita veterinaria y un registro en el historial de salud. | 3 |
 | 27 | US032 | Registrar Vacuna Aplicada | Como médico veterinario, quiero registrar una vacuna aplicada a un animal para mantener actualizado su historial preventivo. | 3 |
 | 28 | US036 | Registrar Preñez | Como ganadero, quiero registrar la preñez de un animal para mantener actualizado su estado reproductivo. | 3 |
 | 29 | US037 | Registrar Parto | Como ganadero, quiero registrar el parto de un animal para mantener actualizado su historial reproductivo. | 3 |
@@ -2535,7 +2537,7 @@ Cada ítem del backlog está enfocado en generar valor para el usuario final y f
 | 50 | TS007 | Implementación de Gestión de Lotes | Como developer, necesito implementar funcionalidades para la creación y administración de lotes de ganado. | 3 |
 | 51 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | Como developer, necesito implementar endpoints sanitarios y alimentarios para registrar consumos, consultar el historial clínico y permitir la lectura del calendario de vacunas. | 5 |
 | 52 | TS009 | Implementación de Generación de Reportes y Estadísticas | Como developer, necesito implementar servicios backend para consolidar reportes productivos y estadísticas sanitarias del ganado. | 3 |
-| 53 | TS010 | API REST para Gestión Veterinaria y Telemetría IoT | Como developer, necesito exponer los endpoints para el registro de visitas médicas, prescripciones y la ingesta de telemetría proveniente de dispositivos IoT. | 5 |
+| 53 | TS010 | API REST para Telemetría IoT y Gestión Veterinaria | Como developer, necesito exponer endpoints para ingesta simulada, detección de anomalías, reportes y gestión veterinaria. | 5 |
 | 54 | TS011 | Implementación de Registro de Eventos Reproductivos | Como developer, necesito implementar los servicios backend para registrar eventos reproductivos del ganado, permitiendo almacenar de manera estructurada la información asociada al ciclo reproductivo de cada animal. | 5 |
 | 55 | TS012 | Implementación de Consulta del Historial Reproductivo | Como developer, necesito implementar el servicio de consulta del historial reproductivo para recuperar los eventos registrados de cada animal de manera organizada. | 3 |
 | 56 | TS013 | Implementación de Endpoints de Notificaciones y Alertas Sanitarias | Como developer, necesito implementar los servicios backend de notificaciones para generar, consultar y cerrar las alertas sanitarias y los recordatorios de citas y vacunas. | 5 |
@@ -3194,19 +3196,19 @@ Para integrar las relaciones consolidadas de todos los Bounded Contexts y compre
 ### 5.1.1. Software Development Environment Configuration
 
 #### Gestión del Proyecto
-Para la coordinación del proyecto y el seguimiento del trabajo colaborativo se utilizaron plataformas de comunicación, almacenamiento y gestión ágil. El código fuente de la Landing Page y del informe se centralizó en una organización de GitHub. Las reuniones virtuales del equipo y coordinaciones diarias se realizaron mediante Discord y WhatsApp, mientras que la planificación y asignación de tareas se gestionó a través de Zoho Sprints.
+Para la coordinación del proyecto y el seguimiento del trabajo colaborativo se utilizaron plataformas de comunicación, almacenamiento y gestión ágil. El código fuente de la Landing Page y del informe se centralizó en una organización de GitHub. Las reuniones virtuales del equipo y coordinaciones diarias se realizaron mediante Discord y WhatsApp, mientras que la planificación y asignación de tareas se gestionó a través de GitHub Projects.
 
 * **Coordinación de código y repositorios:** GitHub
 * **Reuniones virtuales y syncs:** Discord
 * **Comunicación diaria:** WhatsApp
-* **Organización y seguimiento de tareas (Agile):** Zoho Sprints
+* **Organización y seguimiento de tareas (Agile):** GitHub Projects
 
 #### Gestión de Requerimientos
 Durante la fase de análisis y estructuración de requerimientos, se empleó UXPressia para diseñar las User Personas, Mapas de Empatía e Impact Maps. Se utilizó Miro para la construcción de escenarios As-Is / To-Be y los tableros de Event Storming.
 
 * **Diseño UX y Mapas de Impacto:** UXPressia
 * **Event Storming y Escenarios:** Miro
-* **Gestión de User Stories:** Zoho Sprints / GitHub Projects
+* **Gestión de User Stories:** GitHub Projects
 
 #### Diseño de Experiencia e Interfaz del Producto
 Para la concepción visual de la Landing Page y la maquetación preliminar de las interfaces de la plataforma, el equipo empleó Figma. Se elaboraron wireframes y maquetas de alta fidelidad para validar la estructura visual, paleta de colores y la disposición de las secciones informativas antes de su codificación.
@@ -3377,7 +3379,7 @@ Durante el Sprint 1, el equipo mantuvo una comunicación fluida y organizada par
 * **Discord:** Canal principal para reuniones diarias (Daily Standups), sesiones de pair-programming para la Landing Page y resolución de dudas sobre la documentación.
 * **Google Meet:** Plataforma utilizada para las reuniones formales de Sprint Planning 1, revisión del avance y retrospectiva del primer hito (TB1).
 * **WhatsApp:** Medio de comunicación rápida para alertas y coordinación inmediata entre integrantes.
-* **Zoho Sprints:** Herramienta utilizada para la gestión ágil del tablero Kanban del Sprint 1, control de estados (*To Do*, *In Process*, *Done*) y asignación de tareas por integrante.
+* **GitHub Projects:** Herramienta utilizada para la gestión ágil del tablero Kanban del Sprint 1, control de estados (*To Do*, *In Process*, *Done*) y asignación de tareas por integrante.
 
 ##### Source Code Management
 Se utilizó **GitHub** como repositorio centralizado bajo la organización del equipo. Se siguió el modelo **Git Flow**, creando ramas de trabajo de tipo `feature/` vinculadas a cada sección del informe o componente de la Landing Page, aplicando estrictamente el estándar de **Conventional Commits** (`feat:`, `docs:`, `style:`, `fix:`).
@@ -3535,7 +3537,7 @@ Durante el Sprint 2, el equipo aplicó metodologías ágiles de trabajo colabora
 ##### Project Management
 * **Discord:** Canal de comunicación diaria para Daily Standups, revisión de la estructura de componentes en Angular y sesiones de pair-programming.
 * **Google Meet:** Reuniones semanales para la revisión de avance del Sprint 2, demostración de software funcional (Sprint Review) y retrospectiva.
-* **Zoho Sprints:** Tablero Kanban para el seguimiento de tareas por estado (*To Do*, *In Process*, *To Review*, *Done*) y control de los Story Points completados.
+* **GitHub Projects:** Tablero Kanban para el seguimiento de tareas por estado (*To Do*, *In Process*, *To Review*, *Done*) y control de los Story Points completados.
 
 ##### Source Code Management
 Se utilizó **GitHub** aplicando estrictamente **Git Flow**. Cada desarrollador trabajó en ramas específicas nombradas según su módulo (ej. `feature/veterinary-and-health`, `feature/livestock-management`, `feature/iam`), realizando commits estructurados bajo el estándar de **Conventional Commits** (`feat:`, `fix:`, `docs:`, `style:`).
@@ -3810,15 +3812,15 @@ Durante el Sprint 3 se realizó el despliegue en producción del Backend REST AP
   1. Configuración del `Dockerfile` multi-stage con JDK 27 y Maven en la raíz del repositorio `vantara-platform`.
   2. Despliegue en la instancia EC2 y configuración de variables de entorno (`SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`, `JWT_SECRET`).
   3. Verificación de generación de esquema relacional y disponibilidad de endpoints REST.
-* **URL del Backend en Producción:** `http://13.184.100.191:8080` *(IP pública de EC2; puede cambiar al detener/iniciar la instancia si no se usa Elastic IP)*
+* **URL del Backend en Producción:** `http://77.113.110.44:8080` 
 
 **2. Frontend Web Application v2.0 (Angular 22)**
-* **Plataforma utilizada:** GitHub Pages y Render.
+* **Plataforma utilizada:** Azure
 * **Pasos realizados para el despliegue:**
   1. Actualización de `src/environments/environment.ts` apuntando a la URL productiva del backend en Spring Boot (`http://13.184.100.191:8080`).
   2. Despliegue continuo desde la rama `main` de `vantara-webapp` (`npm run build`).
   3. Verificación en navegador de los Escenarios A, B y C en entorno público.
-* **URL de la Aplicación Web en Producción:** `https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-webapp/` *(desplegada en GitHub Pages y Render; versión final sujeta a la integración completa con el backend)*
+* **URL de la Aplicación Web en Producción:** `https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-webapp/` 
 
 <p align="center"><img src="assets/sprint3/img-cloud-deployment.png" alt="despliegue-produccion-backend-frontend" width="75%"></p>
 
@@ -3842,6 +3844,100 @@ Se aplicó **Git Flow** (`main`, `develop`, `feature/*`) en los repositorios `va
 | **Asmat Alminco, Martin** | Configuración base de Spring Boot, seguridad **IAM** (Spring Security, JWT, permisos `RANCHER`/`VETERINARIAN`), co-desarrollo de **Reproductive Management** y despliegue continuo en la nube. |
 | **Taza Curay, Eduardo Miguel** | Desarrollo en Spring Boot de **Notifications & Scheduling** (alertas sanitarias pendientes y cierre automático tras atención) y **Profile Management**. |
 | **Ayllon Pauccar, Juan David** | Desarrollo en Spring Boot de **Payments** (planes SaaS e historial de facturación), co-desarrollo de **Reproductive Management** y validación UI/UX de flujos integrados. |
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 4 |
+| **Date** | 2026-11-24 |
+| **Time** | 08:00 PM |
+| **Location** | Reunión virtual mediante Discord |
+| **Prepared By** | Meza Tataje, David |
+| **Attendees** | Linares Rodríguez, Franco Orlando / Ayllon Pauccar, Juan David / Taza Curay, Eduardo Miguel / Asmat Alminco, Martin / Meza Tataje, David |
+| **Sprint 3 Review Summary** | Durante el Sprint 3 se completó la API REST en Spring Boot, la persistencia relacional, la documentación OpenAPI/Swagger y la integración de la Web Application con el backend desplegado. |
+| **Sprint 3 Retrospective Summary** | El equipo priorizó cerrar correcciones de diseño y consolidar la versión final sin ampliar innecesariamente el dominio. |
+| **Sprint 4 Goal** | Consolidar la versión final de Hatarium mediante un servicio IoT simulado para monitorear pulso y temperatura, generar alertas y reportes, y aplicar las correcciones de diseño pendientes. |
+| **Sprint 4 Velocity** | 27 Story Points |
+| **Sum of Story Points** | 27 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+| Integrante | Responsabilidades principales en Sprint 4 |
+| :--- | :--- |
+| **Meza Tataje, David** | Coordinación; flujo de anomalías IoT, cita automática e historial sanitario en Veterinary & Health. |
+| **Linares Rodríguez, Franco Orlando** | Vista de monitoreo y reportes de telemetría en Reports & Analytics/Livestock Management. |
+| **Asmat Alminco, Martin** | Endpoints de telemetría simulada, integración del servicio externo simulado y despliegue. |
+| **Taza Curay, Eduardo Miguel** | Notificaciones automáticas ante anomalías y correcciones de UX. |
+| **Ayllon Pauccar, Juan David** | Correcciones de diseño y validación de los flujos integrados. |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El Sprint 4 se enfoca en consolidar la solución. El IoT se presenta como una integración simulada: no se implementa hardware real ni se crea un nuevo Bounded Context.
+
+| ID | Tarea | Descripción | Horas | Responsable | Estado |
+| :--- | :--- | :--- | :---: | :--- | :--- |
+| **US030** | Monitorear signos vitales | Asignar una pulsera simulada al bovino y mostrar pulso y temperatura en tiempo real. | 5 | Linares / Meza | Done |
+| **US031** | Gestionar anomalías | Detectar valores anormales, notificar al ganadero, generar una cita y registrar hora/duración en el historial. | 6 | Meza / Taza | Done |
+| **TS010** | API de telemetría simulada | Exponer ingesta, consulta y reportes de lecturas IoT. | 5 | Asmat | Done |
+| **US022 / US030** | Reportes de telemetría | Filtrar animales y rango de fechas para generar reportes. | 4 | Linares | Done |
+| **Correcciones UX** | Ajustes finales | Corregir fechas, plurales, colores de alertas y etiquetas internas. | 4 | Ayllon / Taza | Done |
+| **Cierre** | Release final | Verificar despliegue final, documentación y videos. | 3 | Todo el equipo | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+| Repositorio | Rama | Commit | Descripción | Fecha |
+| :--- | :--- | :--- | :--- | :--- |
+| `vantara-platform` | `develop` | Sprint 4 release | `feat: add simulated IoT telemetry endpoints` | 24/11/2026 |
+| `vantara-webapp` | `develop` | Sprint 4 release | `feat: add IoT vitals view and telemetry reports` | 24/11/2026 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Se documenta la vista de signos vitales, la anomalía detectada con su notificación y cita automática, los reportes por animal/rango de fechas y las correcciones de diseño. Las evidencias visuales se presentan a continuación.
+
+* **Monitoreo de signos vitales:**
+
+  <p align="center"><img src="assets/sprint4/img-iot-vitals.png" alt="monitoreo simulado de pulso y temperatura" width="75%"></p>
+
+* **Anomalía, notificación y cita automática:**
+
+  <p align="center"><img src="assets/sprint4/img-iot-anomalia.png" alt="anomalia IoT y notificacion automatica" width="75%"></p>
+
+* **Reporte por animal y rango de fechas:**
+
+  <p align="center"><img src="assets/sprint4/img-iot-reportes.png" alt="reporte de telemetria por animal y fecha" width="75%"></p>
+
+* **Correcciones de diseño y usabilidad:**
+
+  <p align="center"><img src="assets/sprint4/img-correcciones-ux.png" alt="correcciones de diseño UX" width="75%"></p>
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+| Verbo | Endpoint | Descripción |
+| :--- | :--- | :--- |
+| `POST` | `/api/v1/telemetry/readings` | Ingesta simulada de pulso y temperatura. |
+| `GET` | `/api/v1/animals/{animalId}/vitals` | Consulta de signos vitales recientes. |
+| `GET` | `/api/v1/telemetry/reports?animalIds=&from=&to=` | Reporte por animales y rango de fechas. |
+| `GET` | `/api/v1/notifications` | Consulta de alertas generadas por anomalías. |
+| `POST` | `/api/v1/appointments` | Registro de la cita generada ante una anomalía. |
+
+Swagger: `http://77.113.110.44:8080/swagger-ui/index.html`
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+* **Landing Page:** GitHub Pages — `https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-website/`
+* **Frontend:** Azure Static Web Apps — `https://polite-glacier-00ccb7310.3.azurestaticapps.net/`
+* **Backend:** AWS EC2 + MySQL — `http://77.113.110.44:8080`
+
+<p align="center"><img src="assets/sprint4/img-deploy-final.png" alt="despliegue final de Hatarium" width="75%"></p>
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+El equipo coordinó mediante Discord y Google Meet, utilizó GitHub Projects para organizar tareas y aplicó Git Flow, Pull Requests y Conventional Commits en `vantara-platform`, `vantara-webapp` y `vantara-report`. Todos los integrantes colaboraron en el IoT simulado y en las correcciones finales.
 
 ## 5.3. Validation Interviews
 
@@ -3904,7 +4000,7 @@ Entrevista 1
 
 <img src="assets/evidencia-entrevista-ganadero4.png" alt="Captura de la entrevista al productor ganadero">
 
-**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+**Imagen 1.** Evidencia visual de la entrevista al productor ganadero.
 
 **Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQDlp-H6NN2hRqYTQi8qT7_vAbCO6doB3f1poyNA9xOmFfk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wa5GnE)
 
@@ -3940,7 +4036,7 @@ Entrevista 3
 
 <img src="assets/evidencia-validation-ganadero3.png" alt="Captura de la entrevista al productor ganadero">
 
-**Imagen 2.** Evidencia visual de la entrevista al productor ganadero.
+**Imagen 3.** Evidencia visual de la entrevista al productor ganadero.
 
 **Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416272_upc_edu_pe/IQDbro5ibM70RJuoVV1iB6H7AaUw4SwnkK7d6w97eme1PAk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBBpsc)
 
@@ -4122,9 +4218,17 @@ Eliminar la etiqueta "Módulo Operativo", usar un color neutro o verde cuando no
 
 ## 5.4. Video About-the-Product
 
+El Video About-the-Product de Hatarium presenta, con un tono promocional, el modelo de negocio de Vantara y las principales características de la plataforma de gestión ganadera. En el video se muestra un recorrido por los módulos principales —gestión de ganado y lotes, historial clínico veterinario, seguimiento reproductivo, control de alimentación y notificaciones— y se incluye la opinión de un productor ganadero que participó en las entrevistas de validación, evidenciando el valor de la solución para los segmentos objetivo.
+
 <img src="assets/about-the-product.png" width="500"/>
 
-**Link de video:** [About-the-product](https://youtu.be/6qorrOf7LjU)
+**Evidencia:**
+
+| Tiempo Inicio | Tiempo Fin |
+| :---: | :---: |
+| 00:00 | 13:02 |
+
+**YouTube:** [About-the-product](https://youtu.be/6qorrOf7LjU)
 
 
 # Conclusiones y Recomendaciones
@@ -4160,10 +4264,31 @@ Finalmente, se recomienda completar la documentación pendiente de los capítulo
 Agronegocios. (2023, 5 mayo). Cinco apps que le ayudan a gestionar una finca dedicada a las actividades ganaderas. AGRONEGOCIOS. https://www.agronegocios.co/finca/cinco-apps-que-le-ayudan-a-gestionar-una-finca-dedicada-a-las-actividades-ganaderas-3609083
 
 
+# Video About-the-Team
+
+En este video hemos explicado las actividades realizadas y cómo hemos trabajado en equipo durante el desarrollo de nuestro producto Hatarium. Incluye escenas de las sesiones de trabajo real del equipo, la retrospectiva del grupo y el testimonio ante cámara de cada integrante describiendo las actividades realizadas, los outcomes alcanzados y las competencias desarrolladas a lo largo del proyecto.
+
+<div align="center">
+  <img src="assets/about-the-team.png" alt="About The Team" style="max-width: 60%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+</div>
+
+**Link del video:** [About-the-Team](https://youtu.be/Z8x_SzgnmT8)
+
 # Anexos
 
-**Despliegue de la aplicación web:** [Hatarium Web App](https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-webapp/)
-
-**Repositorio de la Fake API:** [vantara-fake-api](https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-fake-api.git)
-
-**About the Team:** [about-the-team](https://youtu.be/Z8x_SzgnmT8)
+| Recurso | URL |
+| :--- | :--- |
+| Organización del proyecto | https://github.com/upc-pre-202620-1asi0729-7800-vantara |
+| Repositorio del reporte | https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-report |
+| Repositorio de la Landing Page | https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-website |
+| Repositorio del Frontend | https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-webapp |
+| Repositorio del Backend | https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-platform |
+| Repositorio de la Fake API | https://github.com/upc-pre-202620-1asi0729-7800-vantara/vantara-fake-api |
+| Landing Page desplegada | https://upc-pre-202620-1asi0729-7800-vantara.github.io/vantara-website/ |
+| Frontend desplegado | https://polite-glacier-00ccb7310.3.azurestaticapps.net/ |
+| Backend desplegado (Swagger UI) | http://13.184.100.191:8080/swagger-ui/index.html |
+| Video de exposición AV2 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202516291_upc_edu_pe/IQBkK0R63amqRoSzRlCiBVJkAZ_VCh6ik0T0QcTQLni6vGE?e=4CAM35 |
+| Video de exposición TB1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202516291_upc_edu_pe/IQACcxXUrwkJS5HT2BCiJKvsATctsQNy3EDa2LcNhqB8akE?e=vyKukt |
+| Video de exposición TB2 | *(pendiente de enlazar)* |
+| Video About-the-Product | https://youtu.be/6qorrOf7LjU |
+| Video About-the-Team | https://youtu.be/Z8x_SzgnmT8 |
