@@ -1656,7 +1656,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
 
   <tr>
     <td><strong>EP004</strong></td>
-    <td>Gestión de Alimentación y Salud Animal</td>
+    <td>Gestión de Alimentación, Salud Animal e Integración IoT</td>
     <td>Como ganadero, deseo gestionar la alimentación y monitorear la salud de mis animales para mantener un mejor control sanitario y productivo dentro de Hatarium.</td>
     <td></td>
     <td></td>
@@ -1677,7 +1677,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando existen campos vacíos o datos incorrectos.<br>
       Entonces el sistema muestra un mensaje de validación.
     </td>
-    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -1695,7 +1695,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando omite información obligatoria.<br>
       Entonces el sistema solicita completar los datos requeridos.
     </td>
-    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -1713,7 +1713,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando el ganadero realiza la consulta.<br>
       Entonces el sistema informa que no existe planificación registrada.
     </td>
-    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -1731,7 +1731,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando el ganadero realiza la consulta.<br>
       Entonces el sistema informa que no existen datos disponibles.
     </td>
-    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -1749,7 +1749,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando el ganadero consulta su información preventiva.<br>
       Entonces el sistema informa que no existen vacunas aplicadas registradas.
     </td>
-    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -1767,7 +1767,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando el ganadero consulta el calendario sanitario.<br>
       Entonces el sistema informa que no existen vacunaciones pendientes programadas.
     </td>
-    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -1785,7 +1785,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando los datos no cumplen ninguna condición de riesgo.<br>
       Entonces no registra un nuevo evento de riesgo sanitario.
     </td>
-    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -1803,7 +1803,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando su fecha todavía no corresponde al periodo definido como pendiente.<br>
       Entonces el sistema mantiene el evento como programado.
     </td>
-    <td>EP004 (Gestión de Alimentación y Salud Animal)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <!-- ======================= EP005 ======================= -->
@@ -1979,7 +1979,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
 
   <tr>
     <td><strong>EP007</strong></td>
-    <td>Atención Veterinaria Especializada e Integración IoT</td>
+    <td>Atención Veterinaria Especializada</td>
     <td>Como Médico Veterinario Especializado, deseo acceder a herramientas avanzadas para registrar visitas técnicas, diagnósticos, tratamientos, vacunaciones y monitorear constantes vitales mediante sensores IoT.</td>
     <td></td>
     <td></td>
@@ -2000,7 +2000,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando omite información obligatoria.<br>
       Entonces el sistema solicita completar los datos requeridos.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP007 (Atención Veterinaria Especializada)</td>
   </tr>
 
   <tr>
@@ -2018,7 +2018,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando omite la descripción o información obligatoria.<br>
       Entonces el sistema bloquea la operación y solicita completar los campos.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP007 (Atención Veterinaria Especializada)</td>
   </tr>
 
   <tr>
@@ -2036,7 +2036,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando omite información obligatoria de la prescripción.<br>
       Entonces el sistema solicita completar los campos requeridos.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP007 (Atención Veterinaria Especializada)</td>
   </tr>
 
   <tr>
@@ -2054,7 +2054,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando no existen lecturas recientes disponibles.<br>
       Entonces el sistema informa que no existen datos de telemetría para mostrar.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -2072,7 +2072,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando los valores se encuentran dentro de los parámetros definidos.<br>
       Entonces el sistema no genera una nueva alerta crítica.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <tr>
@@ -2090,7 +2090,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando omite información obligatoria.<br>
       Entonces el sistema solicita completar los campos requeridos.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP007 (Atención Veterinaria Especializada)</td>
   </tr>
 
   <tr>
@@ -2108,7 +2108,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando selecciona un horario que no se encuentra disponible.<br>
       Entonces el sistema solicita elegir otra fecha u horario.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP007 (Atención Veterinaria Especializada)</td>
   </tr>
 
   <tr>
@@ -2126,7 +2126,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando consulta el módulo correspondiente.<br>
       Entonces el sistema informa que no existen citas programadas.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP007 (Atención Veterinaria Especializada)</td>
   </tr>
 
   <tr>
@@ -2144,7 +2144,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando selecciona un horario no disponible.<br>
       Entonces el sistema mantiene la programación anterior y solicita seleccionar otra opción.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP007 (Atención Veterinaria Especializada)</td>
   </tr>
 
   <tr>
@@ -2162,7 +2162,7 @@ Asimismo, se recomienda utilizar siempre los términos **médico veterinario**, 
       Cuando la API evalúa el token JWT del usuario.<br>
       Entonces permite la operación únicamente si el rol corresponde a VETERINARIO.
     </td>
-    <td>EP007 (Atención Veterinaria Especializada e Integración IoT)</td>
+    <td>EP004 (Gestión de Alimentación, Salud Animal e Integración IoT)</td>
   </tr>
 
   <!-- ======================= EP008 ======================= -->
@@ -2537,7 +2537,7 @@ Cada ítem del backlog está enfocado en generar valor para el usuario final y f
 | 50 | TS007 | Implementación de Gestión de Lotes | Como developer, necesito implementar funcionalidades para la creación y administración de lotes de ganado. | 3 |
 | 51 | TS008 | Implementación de Endpoints para Alimentación y Control Sanitario | Como developer, necesito implementar endpoints sanitarios y alimentarios para registrar consumos, consultar el historial clínico y permitir la lectura del calendario de vacunas. | 5 |
 | 52 | TS009 | Implementación de Generación de Reportes y Estadísticas | Como developer, necesito implementar servicios backend para consolidar reportes productivos y estadísticas sanitarias del ganado. | 3 |
-| 53 | TS010 | API REST para Telemetría IoT y Gestión Veterinaria | Como developer, necesito exponer endpoints para ingesta simulada, detección de anomalías, reportes y gestión veterinaria. | 5 |
+| 53 | TS010 | API REST para Telemetría IoT y Salud Ganadera | Como developer, necesito exponer endpoints para ingesta simulada, detección de anomalías, reportes y gestión de salud ganadera. | 5 |
 | 54 | TS011 | Implementación de Registro de Eventos Reproductivos | Como developer, necesito implementar los servicios backend para registrar eventos reproductivos del ganado, permitiendo almacenar de manera estructurada la información asociada al ciclo reproductivo de cada animal. | 5 |
 | 55 | TS012 | Implementación de Consulta del Historial Reproductivo | Como developer, necesito implementar el servicio de consulta del historial reproductivo para recuperar los eventos registrados de cada animal de manera organizada. | 3 |
 | 56 | TS013 | Implementación de Endpoints de Notificaciones y Alertas Sanitarias | Como developer, necesito implementar los servicios backend de notificaciones para generar, consultar y cerrar las alertas sanitarias y los recordatorios de citas y vacunas. | 5 |
